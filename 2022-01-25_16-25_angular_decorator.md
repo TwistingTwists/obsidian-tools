@@ -2,7 +2,7 @@
 tags:
   - type guards
   - checking variable as undefined
-  - 
+  - typescript
 ---
 
 
