@@ -25,3 +25,8 @@ https://github.com/phoenixframework/phoenix_live_view/issues/1011
 
 https://aswinmohan.me/pagewise-js-liveview
 https://elixirforum.com/t/hooks-load-too-slowly-for-use-case-looking-for-a-sensible-alternative/49182/8
+
+
+## pdf viewer in liveview example
+
+https://github.com/knoebber/purple/blob/master/assets/js/events.js
