@@ -11,3 +11,9 @@ aka dispatch / consume
 
 * reply-to queues for statuses 
 * priority-messages (different than priority-queues) for bottlenecks 
+
+
+
+
+### [AMQP](https://www.youtube.com/watch?v=fNbdgWe5Tbs&ab_channel=GOTOConferences)
+- [ ] 
