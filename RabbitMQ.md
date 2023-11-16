@@ -14,6 +14,12 @@ aka dispatch / consume
 
 
 
-
 ### [AMQP](https://www.youtube.com/watch?v=fNbdgWe5Tbs&ab_channel=GOTOConferences)
+
+
+
+### Talks
+
+- [ ] https://www.youtube.com/watch?v=fNbdgWe5Tbs&ab_channel=GOTOConferences
+- [ ] https://www.youtube.com/playlist?list=PLDUzG2yLXrU7rM4r_Z14uW4-wWyzqyTMk
 - [ ] 

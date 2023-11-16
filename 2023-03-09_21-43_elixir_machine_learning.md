@@ -6,6 +6,10 @@ tags:
   - axon
 ---
 
+## Binary Quantization 
+- [ ] https://www.youtube.com/watch?v=4aUq5VnR_VI&ab_channel=Qdrant
+- [ ] 
+
 
 ## The Book -  Nx and Axon
 
