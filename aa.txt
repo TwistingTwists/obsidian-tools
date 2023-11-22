@@ -1,0 +1,27 @@
+HTTP/2 301 
+date: Thu, 16 Nov 2023 07:39:47 GMT
+content-type: text/html
+content-length: 0
+location: https://61bc05f9c4bc2b1888f39b6d7fa6436a.r2.cloudflarestorage.com/ex-razor-app/2023_10_23_85345723803/stream_2.m3u8
+x-cff: B
+cache-control: max-age=3600
+expires: Thu, 16 Nov 2023 08:36:49 GMT
+cf-ray: 826e10ad4f0f2379-SJC
+x-cf3: M
+cf4age: 0
+x-cf-tsc: 1700120210
+cf4ttl: 3600.000
+x-cf2: H
+server: CFS 0215
+x-cf1: 34417:fB.sin1:co:nots:cacheA.sin1-01:H
+x-cf-reqid: 618ce8b43f36e682a58834fd6e52e3d5
+
+HTTP/1.1 400 Bad Request
+Date: Thu, 16 Nov 2023 07:39:47 GMT
+Content-Type: application/xml
+Content-Length: 131
+Connection: keep-alive
+Server: cloudflare
+CF-RAY: 826e15065c35f429-BOM
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>InvalidArgument</Code><Message>Invalid Argument: Authorization</Message></Error>

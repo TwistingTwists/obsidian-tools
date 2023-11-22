@@ -3,6 +3,39 @@ tags:
   - engineer
   - interview
 ---
+### Remote.com 
+
+#### Introduce yourself
+
+
+
+#### connections between your existing experience and the role you are interviewing for.
+
+1. Tinymesh - LiveView + GenStateMachine + Broadway 
+2. Mathocrat - as a freelance client -- march 2022  - (liveview 0.15 )
+3. QuizDrill - telegram based quiz - heavy liveview usage
+
+#### connections between our values, and you.
+
+| Remote Values                      | Mine                            | Value Alignment                                          | related values                        |     |
+| ---------------------------------- | ------------------------------- | -------------------------------------------------------- | ------------------------------------- | --- |
+| Care = Kindness ++                 | communication + decision-making | Feedback = focus on improvement + appreciate achievement | responsible + accountable = ownershup |     |
+|                                    |                                 | feedback = timely + intentional + with EQ                                                       |                                       |     |
+|                                    |                                 | cont. improvement + feel seen n heard                    | trust in team                         |     |
+| Care = how you deliver the message |                                 | don't disregard their time, effort and contribution      |                                       |     |
+|                                    |                                 |                                                          |                                       |     |
+
+
+
+#### What you are looking for? 
+
+
+### 3 stage process
+#### General tips 
+1. pause after answer 
+2. stick to qusetion 
+3. show motivation 
+4. 
 ### Advise 
 
 1. do something that you don't think you can do.
@@ -22,6 +55,14 @@ who the recorded improviser was.
 
 
 ## Learnings from Project IAS 
+
+1. Small measurable progress - 10% every week. consistency.
+2. Customer feedback is important 
+3. Monitoring in production - you must know the bug before your customer does.
+4. Marketing and sales has a huge role to play in business.
+	1. even though this part of job is boring, it is a skill and can't be built overnight.
+5. 
+
 ### Senior Engineer (Manager) - Domain Knowledge
 
 * NMS project  - stakeholder approach 

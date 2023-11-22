@@ -1,9 +1,0 @@
----
-tags:
-  - distributed elixir
-  - epmd
----
-
-
-
-

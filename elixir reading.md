@@ -5,9 +5,31 @@ tags:
     - TIL
 ---
 
-## Protocols - implement pattern matching in protocols? 
-Dispatchex
+## Becoming Elixir Specialist 
 
+- [ ] Write a [compiler](#Compilers). It is just a mix Task 
+- [ ] Learn [Beam Internals](#Beam_Internals)
+- [ ] Learn [ERTS](https://blog.stenmans.org/theBeamBook/) -- [ERTS_Notes](#ERTS_Notes)
+- [ ] Erlang in Anger
+- [ ] Contribute to your favourite library 
+- [ ] Be a Mentor 
+- [ ] 
+
+> It turns out that, coupled with my natural talent, a few hours of invest-
+ment have made these “always wanted to be able to do it” abilities
+attainable. 
+
+## Compilers
+- [ ] Dispatchex - Protocols - implement pattern matching in protocols? 
+
+
+## Beam_Internals
+- [ ] What would crash the BEAM vm ?
+- [ ] 
+
+
+## ERTS_Notes
+- [ ] 
 ## Protocols - implement for a boolean value?
 https://github.com/elixir-nx/nx/blob/f90bb61138921183f3455ecfac5e8fbe14423b23/nx/lib/nx/lazy_container.ex#L80
 
