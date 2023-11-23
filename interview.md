@@ -7,7 +7,31 @@ tags:
 
 #### Introduce yourself
 
+I am a passionate software developer with more than 4 years of experience and with Elixir as primary language during 2.5 . 
 
+I have had diverse experience using Elixir across backend, frontend and even LiveBook recently for internal dashboard tooling. 
+
+During my last stint at Tinymesh, I have nurtured a team of juniors in elixir to help them gain experienced and be productive. We are more like a pro-sports team. I believe that giving feedback with care and effective communication are keys for a team to punch above their weight. 
+
+I believe working with right people / teams makes a great work place not the free perks. Some of the best people who I lookup to, in Elixir Community have been at remote.com . That inspires me to join remote.com 
+
+
+If you like, I can go on in more technical details on 
+
+I have recently started contributing back to the elixir community when I can. I would love to give back more as time permits.
+
+#### Why Remote.com ? 
+
+First, friends referred me to this who have previously worked there. 
+
+Second, I like the process from what I have gathered from the Remote Handbook and Interview Process. It is pretty detailed. 
+
+Third, remote.
+
+
+Questions: 
+2. ProjectIAS went down in covid. How to verify ?
+3. 
 
 #### connections between your existing experience and the role you are interviewing for.
 
@@ -117,6 +141,9 @@ Start with the top two or three items, and put together a concrete
 list of tasks you can start doing now to improve yourself
 
 
+### How to view a company?
+A lot of companies think of themselves like a family. We are not a family. *We are like a pro sports team*. Families mean unconditional love. Once born in to the family you are part of it forever. A great team is about pushing yourself and your teammates, caring intensively about the team. It is about performance and not seniority or how long you have been with the team. Yet unlike in a family players know they will not play for the team forever. A team can only be as good as its weakest member. That’s why a great coach will always try to have the best players on every position.
+
 ## How to showcase your work? 
 
 - [ ] 
@@ -134,7 +161,6 @@ list of tasks you can start doing now to improve yourself
 
 ### Leadership quality in past
 
-### 
 
 ### Directly from JD 
 

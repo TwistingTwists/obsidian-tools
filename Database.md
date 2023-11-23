@@ -7,7 +7,6 @@ tags:
 ### CMU DB GROUP videos on fundamentals of DB
 Intro to DB - https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf
 
-1.
 
 #### postgres performance
 | Topic                                | Link                                                                    | Done? |
@@ -38,9 +37,7 @@ RnD == execute partial path and produce partial results
 3. 
 4. [Composite Index](https://dba.stackexchange.com/questions/27481/is-a-composite-index-also-good-for-queries-on-the-first-field)
 5. 
-#### OLAP vs OLTP
-
-(video)[https://www.youtube.com/watch?v=MhE1skm0y7k]
+#### OLAP vs OLTP [Talk](https://www.youtube.com/watch?v=MhE1skm0y7k)
 
 1. OLAP - min indexes (because ad hoc queries)
 2. accelerate database queries
@@ -50,8 +47,22 @@ RnD == execute partial path and produce partial results
    1. indexed data can be queries fast
    2. each time data changes, index needs to change
 4. so for acceleration, use columnar storage engines (CSE) - they store columns separately - if you only need data from 4 columns out of 200 columns , best to use CSE. Otherwise, each row is read from disk, then filetered for 4 columns. so, if you have a lot of joins - you are doing a 'full table scan'
-5.
 
+
+
+###  [Cloudflare Postgres Usage ](https://www.youtube.com/watch?v=DvblO-f2bqQ)
+1. HAProxy + Stolon + pgbouncer + ... tech 
+2. 55 Mn req / sec 
+3. 15-20 clusters ; one cluster = 3 servers in one region = 3 * 2 (regions) = 6 postgres servers
+4. Manage DB - Questions around 
+	1. is this data source of truth? 
+	2. traffic pattern?  = read heavy / write heavy 
+	3. archival process for the data? 
+	4. connection counts
+	5. size of data and rate of growth in 3 mo / 1 yr
+6. Problems 
+	1. Connection Hungry applications
+	2. Thundering Herd
 
 ### pgvector
 https://github.com/pgvector/pgvector
@@ -67,7 +78,7 @@ A:
 
 Q: Why partition?
 A: The primary use for table partitioning is to speed up bulk data loading and archiving.
-Partitioning is never done for_ query performance_. With partitioning the performance will always be worse, the best you can hope for is no big regression, but never improvement.
+Partitioning is never done for  _query performance_. With partitioning the performance will always be worse, the best you can hope for is no big regression, but never improvement.
 
 
 ### validations
