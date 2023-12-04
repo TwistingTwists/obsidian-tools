@@ -31,8 +31,9 @@ Third, remote.
 
 Questions: 
 2. ProjectIAS went down in covid. How to verify ?
-3. 
 
+
+diversity and remote.com 
 #### connections between your existing experience and the role you are interviewing for.
 
 1. Tinymesh - LiveView + GenStateMachine + Broadway 
@@ -49,6 +50,10 @@ Questions:
 | Care = how you deliver the message |                                 | don't disregard their time, effort and contribution      |                                       |     |
 |                                    |                                 |                                                          |                                       |     |
 
+
+apply 
+call 
+and be in thr proces 
 
 
 #### What you are looking for? 
