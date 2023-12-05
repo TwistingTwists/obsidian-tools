@@ -14,6 +14,17 @@
 3. Futures
 
 ## Questions 
+
+0. What is difference between concurrency and async? Are not those two things same?
+	1. Models of concurrency - SHARED MEMORY and MESSAGE PASSING
+	2. SHARED MEMORY - 
+		1. same physical memory
+		2. same file system 
+		3. same objects shared 
+	3. MESSAGE PASSING
+		1. UNIX programs - pipe operator 
+		2. client server architecture - erlang processes / actor model 
+
 1. How is async in Rust different from async in JS ? == What is difference between Future and Promises? 
 	1. Lazy
 	2. Executor (runtime) of your choice
@@ -31,10 +42,15 @@
 	1. dealing with errors , cancellation (safely)
 	2. dealing with returned values (interaction between caller and `worker`)
 		1. ancestor vs caller vs worker -- more from youtube video of elixir
-	3. data races ()
-	4. ![[Pasted image 20231204173016.png]]
-	5. {read `->` as `has a` } async -> async is fine.  sync -> async is fine. async -> sync is fine.
-		1. async -> sync -> async (read more from Box, Pin and Suffering)
+	3. data races () -- **Heisenbugs** -- hard to test and debug
+		1. can't use `print` statements! coz print statements are slower than the actual code. If you remove print statements, you re-introduce the bug back! 
+	4. 
+	5. ![[Pasted image 20231204173016.png]]
+	6. {read `->` as `has a` } 
+		1. async -> async is fine. :: Cancellation and error propagation?  
+		2. sync -> async is fine. :: Pollster `block_on`
+		3. async -> sync is fine. :: Ok
+		4. async -> sync -> async (read more from Box, Pin and Suffering)
 6. Models of thread based concurrency? 
 	1. 50k OS threads are not really an issue on modern server hardware. While it might not be the most efficient [1], it will not perform so bad that it causes an availaiblity impact either.
 	2. task (green) within an os thread -- more concurrency
@@ -48,4 +64,14 @@
 	1. Exectuor of your choice. `tokio` 
 	2. 
 11. Box Pin and suffering 
-12. 
+
+
+
+
+### Misc Rust 
+
+1. Errors in rust 
+	1. https://www.shakacode.com/blog/thiserror-anyhow-or-how-i-handle-errors-in-rust-apps/
+	2. https://antoinerr.github.io/blog-website/2023/01/28/rust-anyhow.html
+	3. https://nick.groenen.me/posts/rust-error-handling/
+2. 
