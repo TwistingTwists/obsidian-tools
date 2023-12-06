@@ -10,6 +10,14 @@
 		- [ ] ensure that the ROOT nic card has compatible firmware with the meter NIC 
 		- [ ] ensure that the device `/dev/ttyUSB0` or `/dev/ttyACM0` or equivalent is checked. 
 			- [ ] to check which ports are available you can use `ls /dev/tty*` and check for relevant port
+	- Connecting with meters
+		- `ip-routes`
+		- `ip-ping fdaa:ipv6::of::meter::fdaa` = used to ping the link local address of the meter. as of dec 2023, you can ping either of the address for the meter - the one starting with `fd00` or the one starting with `fe80`. 
+			- alternatively, you can ping the meter via linux command line utlity called `ping fdaa:ipv6::of::meter::fdaa`. Take note that this can be only used with `fd00` (and does't work with `fd00`)
+		- `log all 3 ` = set logging level  to 3 (warn)
+	- Debugging the output
+		- there should be at least one `DIO` cast send to ensure that the Root NIC module (connected to dev laptop and acting as DCU) has initialised properly. 
+		- In some cases, if you can't detect the meters, try to relaunch the `rlwrap` command or try to disconnect the launchpad physically and re start from step 1.
 - How to run tnest-edge
 	- Basics 
 		- The application is dockerized. docker must be installed. prior to running the app, the environment variables should be set in `.envrc`and loaded in shell. `tnest-edge` will pick up relevant environment variables accordingly. make sure you export the variables like : `export ENV_VARIABLE=vale` 
@@ -18,14 +26,8 @@
 			- ` ./scripts/run-dockerized.sh mix ecto.migrate`
 			- ` ./scripts/run-dockerized.sh iex -S mix phx.server`
 			- the reason is that we need to invoke the mix and elixir installed inside docker, not the one on our local machine.
-	- Connecting with meters
-		- `ip-routes`
-		- `ip-ping fdaa:ipv6::of::meter::fdaa` = used to ping the link local address of the meter. as of dec 2023, you can ping either of the address for the meter - the one starting with `fd00` or the one starting with `fe80`. 
-			- alternatively, you can ping the meter via linux command line utlity called `ping fdaa:ipv6::of::meter::fdaa`. Take note that this can be only used with `fd00` (and does't work with `fd00`)
-		- `log all 3 ` = set logging level  to 3 (warn)
-	- Debugging the output
-		- there should be at least one `DIO` cast send to ensure that the Root NIC module (connected to dev laptop and acting as DCU) has initialised properly. 
-		- In some cases, if you can't detect the meters, try to relaunch the 
+			- if you get errors in Tnest.Command.cast , you need to stop the server and manually run ` ./scripts/run-dockerized.sh mix compile.protocols` and re run the server
+
 
 - How to setup a meter in tnest-edge
 	- Two ways: 
@@ -33,7 +35,7 @@
 			1. create a new meter using the multi step meter form. insert the correct 
 		2. `Setup Guide ` under `Actions` on meter overview page. on route: `/metering/:resource_id_of_meter`
 			1. A modal will open up which only updates the meter since the meter is already added (if meter overview page is visible , it means that meter exists in db)
-- How does the transacations/workflows work
+- How does the transactions/workflows work
 	- What is a workflow ? 
 		- Concurrency limits and further details 
 	- What is a transaction? 
@@ -50,4 +52,4 @@
 - Briefly, your understanding of all the metering configuration pages in tnest-edge/centietn
 - passwords 
 	- Laptop : 3Tinymesh! (both disk and login)
-	- Meghraj : 
+	- Meghraj : tinymesh123
