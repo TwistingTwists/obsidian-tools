@@ -35,7 +35,10 @@
 	- What is a workflow ? 
 		- Concurrency limits and further details 
 	- What is a transaction? 
-		- What is
+		- `Transaction` = contains a list of resources on which the transaction should be run. contains the results of the transaction in `results` key.
+		- `Transaction.Description`  = list of `workflows` to be run.
+		- 
+		- 
 	- What is a mutex?
 - How to run centient 
 	- runs like any elixir application. `mix deps.get ; mix ecto.crate ; mix ecto.migrate ; iex -S mix phx.server `
@@ -47,7 +50,8 @@
 		  `export REMOTE_SYNC_ADAPTER=Tnest.Integration.Centient.MQTT`
 - Briefly, your understanding of all the metering configuration pages in tnest-edge/centient
 	- Metering configuration intends to read/write metering configuration related logical names to the meter.
-	- 
+	- Each Meter configuration page is a liveview . Each liveview has `mount/3` and `handle_params/3` callbacks.  handle_params ensure that resource is loaded from DB whenever a redirect happens or page is reloaded.
+	- Communication with meter :  each meter configuration liveview runs a `Metering.transaction` inside a `Task.async` . a `handle_info` handles the result of the task and runs the callback function (if provided)
 - passwords 
 	- Laptop : 3Tinymesh! (both disk and login)
 	- Meghraj : tinymesh123
