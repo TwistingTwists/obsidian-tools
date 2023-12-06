@@ -37,10 +37,11 @@
 		- `Transaction.Description`  = list of `workflows` to be run.
 		- `TransactionManager` ensures that the list of workflows to be run are started (`maybe_schedule_tasks`) as a `workflow` and awaited on (`await`). It also ensures that the concurrency limits for number of workers are followed
 		- The workflow is then managed by `WorkflowManager` which is a genstate machine.
-		-  `WorkflowManager`  is responsible for starting , pausing the command and sending results back via callback function.
+		-  `WorkflowManager`  is responsible for starting , pausing the command and sending results back to transaction via callback function.
 		- A `workflow` runs on set of resources and has a set of commands to run.
 		- `config.exs` allows to configure number of resources (`resource_concurrency`) a command can run the command on. `WorkflowManager` ensures that a given command can only run N running instances (`workflow_concurrency`).
-	- What is a mutex?
+	- What is a mutex? (read online)
+	- The workflow uses a Mutex to ensure that a resource is locked when a command is running. This is because a resource can only communicate via one command to the tnest-edge.
 - How to run centient 
 	- runs like any elixir application. `mix deps.get ; mix ecto.crate ; mix ecto.migrate ; iex -S mix phx.server `
 - How to get tnest-edge <> centient to exchange data and be able to do requests
