@@ -76,6 +76,36 @@ https://www.youtube.com/watch?v=fTXuGRP1ee4
 10. 
 
 
+https://lunatic.solutions/blog/rust-without-the-async-hard-part/
+https://dev.to/joelnet/why-async-code-is-so-damn-confusing-and-a-how-to-make-it-easy-3441
+https://www.thecodedmessage.com/posts/async-colors/
+
+https://bitbashing.io/async-rust.html
+https://notgull.net/why-you-want-async/
+
+https://blog.logrocket.com/a-practical-guide-to-async-in-rust/
+
+https://itnext.io/async-await-what-happens-under-the-hood-eef1de0dd881
+
+https://itsallaboutthebit.com/async-simple/
+https://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/
+https://liuhaohua.com/2022/04/16/asynchronous-programming.html
+
+https://www.ncameron.org/blog/what-is-an-async-runtime/
+
+https://rust-lang.github.io/async-book/01_getting_started/03_state_of_async_rust.html
+
+https://www.tedinski.com/2018/11/13/function-coloring.html
+https://www.tedinski.com/2018/10/30/async-and-await.html
+https://itsallaboutthebit.com/async-simple/
+https://hassamuddin.com/blog/rust-mqtt/overview/
+
+https://smallcultfollowing.com/babysteps/blog/2022/06/13/async-cancellation-a-case-study-of-pub-sub-in-mini-redis/
+
+https://tokio.rs/tokio/tutorial/spawning
+
+https://build-your-own.org/blog/20230127_byor/
+
 
 ### Misc Rust 
 
