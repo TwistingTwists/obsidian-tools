@@ -1,7 +1,5 @@
 
 
-- How does the OAuth work
-	- 
 - How to run tinysix
 	- Command:`sudo rlwrap ./edge.native  -d /dev/ttyUSB0 -b 460800 -a fd00::1 -i tinysix0 -c 0 -p 0xfaad -v  RPL=INFO EDGE=INFO -m 11`
 	- Explanation: `rlwrap` is linux utility used to run the `edge.native` binary (which is tinysix program)
@@ -27,8 +25,6 @@
 			- ` ./scripts/run-dockerized.sh iex -S mix phx.server`
 			- the reason is that we need to invoke the mix and elixir installed inside docker, not the one on our local machine.
 			- if you get errors in Tnest.Command.cast , you need to stop the server and manually run ` ./scripts/run-dockerized.sh mix compile.protocols` and re run the server
-
-
 - How to setup a meter in tnest-edge
 	- Two ways: 
 		1. `Add new meter` on left sidebar on meter table page on route: `/metering`
@@ -49,7 +45,9 @@
 		- `export REMOTE_MQTT_HOST=localhost 
 		  `export REMOTE_MQTT_PORT=1883`
 		  `export REMOTE_SYNC_ADAPTER=Tnest.Integration.Centient.MQTT`
-- Briefly, your understanding of all the metering configuration pages in tnest-edge/centietn
+- Briefly, your understanding of all the metering configuration pages in tnest-edge/centient
+	- Metering configuration intends to read/write metering configuration related logical names to the meter.
+	- 
 - passwords 
 	- Laptop : 3Tinymesh! (both disk and login)
 	- Meghraj : tinymesh123
