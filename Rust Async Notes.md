@@ -31,11 +31,17 @@
 	1. Lazy
 	2. Executor (runtime) of your choice
 	3. [operation and execution can be decoupled: `say_world()` ](https://tokio.rs/tokio/tutorial/hello-tokio). Why? What's the use case? 
+	4. C# Task (promises) are  eager. C# Tasks are inherently parallel capable. How? `Task` is unit of computation that can be stolen by a thread in thread pool.
 2. [What is a runtime and why needed? ](https://docs.rs/tokio/1.34.0/tokio/runtime/index.html)
 	1. [Pollster](https://crates.io/crates/pollster) : However, many of us are _not_ building highly concurrent web applications, but end up faced with an `async` function that we can't easily call from synchronous code. If you're in this position, then `pollster` is for you: it allows you to evaluate a future in-place without spinning up a heavyweight runtime like `tokio` or `async_std`.
-3. When do you need async? 
+3. When do you need async? Language level vs library level features.
 	1. TLDR: I/O stuff. not heavy duty parallel computation. -- for **MASSIVE CONCURRENCY** . Little concurrency you can do with os threads. but not webserver / networking calls etc 
 		1. We have too many variables to fit into CPU registers, and they will be saved on **the stack**. Each thread gets a separate stack. The stack is just a memory region where the thread can put local variables or even control flow data, like information about where to return from the currently executing function. -- memory issues mostly
+	2. Async functions always return a promise, though not all functions that return a promise are async functions,[src](https://www.tedinski.com/2018/10/30/async-and-await.html) 
+	3. Async/await just lets us write code in the manner we usually would, with the stopping points annotated with `await` keywords.
+	4. So at its core, an async function is just one that has internal gaps where it might return early and then resume as events come in later.![[27a6ad34371f5a35f54c9b9b6125ab61d83a448953218402f87ef08191d44d13.png]]
+	5. all I’ve described is the ability for async functions to “block” without actually blocking the thread.
+	6. 
 4. [IntoFuture](https://doc.rust-lang.org/std/future/trait.IntoFuture.html) = any `Into` means you are `moving` ownership to something else. 
 	1. so `.await?` converts the object into `IntoFuture`
 	2. Note in example: `Ready(value)` is returned. Where does this `Ready` come from ? 
@@ -46,9 +52,7 @@
 		1. ancestor vs caller vs worker -- more from youtube video of elixir
 	3. data races () -- **Heisenbugs** -- hard to test and debug
 		1. can't use `print` statements! coz print statements are slower than the actual code. If you remove print statements, you re-introduce the bug back! 
-	4. Async functions always return a promise, though not all functions that return a promise are async functions,[src](https://www.tedinski.com/2018/10/30/async-and-await.html) 
-	5. Async/await just lets us write code in the manner we usually would, with the stopping points annotated with `await` keywords.
-	6. So at its core, an async function is just one that has internal gaps where it might return early and then resume as events come in later.![[27a6ad34371f5a35f54c9b9b6125ab61d83a448953218402f87ef08191d44d13.png]]
+	4. 
 	7. ![[Pasted image 20231204173016.png]]
 	8. {read `->` as `has a` } 
 		1. async -> async is fine. :: Cancellation and error propagation?  
