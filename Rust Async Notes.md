@@ -15,7 +15,7 @@
 
 ## Questions 
 
-0. What is difference between concurrency and async? Are not those two things same?
+0. What is difference between concurrency and async programming? Are not those two things same?
 	1. Models of concurrency - SHARED MEMORY and MESSAGE PASSING
 	2. SHARED MEMORY - 
 		1. same physical memory
@@ -24,7 +24,9 @@
 	3. MESSAGE PASSING
 		1. UNIX programs - pipe operator 
 		2. client server architecture - erlang processes / actor model 
-
+0. Why do you need concurrency at all? 
+	1. Mix compute and I/O
+	2. Applications like Nginx and Node.js are largely single-threaded (at least in terms of compute). But handle large I/O 
 1. How is async in Rust different from async in JS ? == What is difference between Future and Promises? 
 	1. Lazy
 	2. Executor (runtime) of your choice
@@ -44,13 +46,16 @@
 		1. ancestor vs caller vs worker -- more from youtube video of elixir
 	3. data races () -- **Heisenbugs** -- hard to test and debug
 		1. can't use `print` statements! coz print statements are slower than the actual code. If you remove print statements, you re-introduce the bug back! 
-	4. 
-	5. ![[Pasted image 20231204173016.png]]
-	6. {read `->` as `has a` } 
+	4. Async functions always return a promise, though not all functions that return a promise are async functions,[src](https://www.tedinski.com/2018/10/30/async-and-await.html) 
+	5. Async/await just lets us write code in the manner we usually would, with the stopping points annotated with `await` keywords.
+	6. So at its core, an async function is just one that has internal gaps where it might return early and then resume as events come in later.![[27a6ad34371f5a35f54c9b9b6125ab61d83a448953218402f87ef08191d44d13.png]]
+	7. ![[Pasted image 20231204173016.png]]
+	8. {read `->` as `has a` } 
 		1. async -> async is fine. :: Cancellation and error propagation?  
 		2. sync -> async is fine. :: Pollster `block_on`
 		3. async -> sync is fine. :: Ok
 		4. async -> sync -> async (read more from Box, Pin and Suffering)
+			1. Green threads are a leaky abstraction. Lots of system calls block. Many things like file I/O only present synchronous APIs, after all. [src](https://www.tedinski.com/2018/11/06/concurrency-models.html)
 6. Models of thread based concurrency? 
 	1. 50k OS threads are not really an issue on modern server hardware. While it might not be the most efficient [1], it will not perform so bad that it causes an availaiblity impact either.
 	2. task (green) within an os thread -- more concurrency
