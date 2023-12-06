@@ -5,6 +5,8 @@ tags:
   - nx
   - axon
 ---
+## Code Help in Machine Learning
+https://www.blog.dailydoseofds.com/p/sourcery-the-ai-pair-programmer-that
 
 ## Binary Quantization 
 - [ ] https://www.youtube.com/watch?v=4aUq5VnR_VI&ab_channel=Qdrant
