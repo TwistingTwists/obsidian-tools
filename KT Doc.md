@@ -32,15 +32,14 @@
 		2. `Setup Guide ` under `Actions` on meter overview page. on route: `/metering/:resource_id_of_meter`
 			1. A modal will open up which only updates the meter since the meter is already added (if meter overview page is visible , it means that meter exists in db)
 - How does the transactions/workflows work
-	- What is a workflow ? 
-		- Concurrency limits and further details 
 	- What is a transaction? 
 		- `Transaction` = contains a list of resources on which the transaction should be run. contains the results of the transaction in `results` key.
 		- `Transaction.Description`  = list of `workflows` to be run.
 		- `TransactionManager` ensures that the list of workflows to be run are started (`maybe_schedule_tasks`) as a `workflow` and awaited on (`await`). It also ensures that the concurrency limits for number of workers are followed
 		- The workflow is then managed by `WorkflowManager` which is a genstate machine.
 		-  `WorkflowManager`  is responsible for starting , pausing the command and sending results back via callback function.
-		- A `workflow` runs on set of resources and has a set of commands to run. `config.exs` allows to configure number of resources a command can run 
+		- A `workflow` runs on set of resources and has a set of commands to run.
+		- `config.exs` allows to configure number of resources (`resource_concurrency`) a command can run the command on. `WorkflowManager` ensures that a given command can only run N running instances (`workflow_concurrency`).
 	- What is a mutex?
 - How to run centient 
 	- runs like any elixir application. `mix deps.get ; mix ecto.crate ; mix ecto.migrate ; iex -S mix phx.server `
