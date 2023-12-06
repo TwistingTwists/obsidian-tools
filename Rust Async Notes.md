@@ -1,8 +1,11 @@
 
 ### Tokio Tutorial
+https://www.youtube.com/watch?v=KYL4FtKY8Mc&ab_channel=plabayo
 
 
-## Rust Async Book 
+## Rust Async tutorials
+https://www.youtube.com/watch?v=uD5hBVHwyDM&ab_channel=JeremyChone
+https://www.youtube.com/watch?v=fTXuGRP1ee4&ab_channel=RustLabConference
 
 
 

@@ -84,3 +84,11 @@ end
 ## Libraries to read 
 https://hexdocs.pm/envio/backends.html
 tus implementations
+
+
+### {lib} - Castle 
+
+###### hot code reload
+* appup scripts -- dev's responsibility to test it for hot code upgrade
+* relup scripts 
+* 
