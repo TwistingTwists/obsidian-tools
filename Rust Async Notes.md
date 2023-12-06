@@ -1,11 +1,10 @@
 
 ### Tokio Tutorial
-https://www.youtube.com/watch?v=KYL4FtKY8Mc&ab_channel=plabayo
+https://www.youtube.com/watch?v=KYL4FtKY8Mc
 
-
-## Rust Async tutorials
-https://www.youtube.com/watch?v=uD5hBVHwyDM&ab_channel=JeremyChone
-https://www.youtube.com/watch?v=fTXuGRP1ee4&ab_channel=RustLabConference
+### Rust Async tutorials
+https://www.youtube.com/watch?v=uD5hBVHwyDM
+https://www.youtube.com/watch?v=fTXuGRP1ee4
 
 
 
@@ -70,13 +69,11 @@ https://www.youtube.com/watch?v=fTXuGRP1ee4&ab_channel=RustLabConference
 	1. What makes it advantageous to work with actors?
 		1. Mimics the mental model of world. I and you are actors communicating via message passing
 		2. if you implement the erlang protocol / OTP requirements in rust, you could have a *rust / go / C* binary act as erlang node and cluster it with erlang application.
-8. 
-9. 
-10. Why makes *Async Rust* hard? 
+8. Why makes *Async Rust* hard? 
 	1. Exectuor of your choice. `tokio` 
 	2. 
-11. Box Pin and suffering 
-
+9. Box Pin and suffering 
+10. 
 
 
 
