@@ -96,7 +96,7 @@ The [`buffered` combinator](http://alexcrichton.com/futures-rs/futures/stream/
 		2. if you implement the erlang protocol / OTP requirements in rust, you could have a *rust / go / C* binary act as erlang node and cluster it with erlang application.
 11. Why makes *Async Rust* hard? 
 	1. Exectuor of your choice. `tokio` 
-	2. 
+	2. Synchronise the async code, how? - Arc / Mutex for shared mutable state. Locking means runtime overhead.
 12. Box Pin and suffering 
 13. 
 
