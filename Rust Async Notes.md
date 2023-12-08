@@ -65,7 +65,7 @@ https://github.com/SDPyle/groove.git  -- ash project
 		3. async -> sync is fine. :: Ok
 		4. async -> sync -> async (read more from Box, Pin and Suffering)
 			1. Green threads are a leaky abstraction. Lots of system calls block. Many things like file I/O only present synchronous APIs, after all. [src](https://www.tedinski.com/2018/11/06/concurrency-models.html)
-6. 
+6. Composing futures
 - [**Sequential composition**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.and_then): `f.and_then(|val| some_new_future(val))`. Gives you a future that executes the future `f`, takes the `val` it produces to build another future `some_new_future(val)`, and then executes that future.
     
 - [**Mapping**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.map): `f.map(|val| some_new_value(val))`. Gives you a future that executes the future `f` and yields the result of `some_new_value(val)`.
@@ -74,19 +74,31 @@ https://github.com/SDPyle/groove.git  -- ash project
     
 - [**Selecting**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.select): `f.select(g)`. Gives you a future that executes the futures `f` and `g` in parallel, and completes when _one of_ them is complete, returning its value and the other future. (Want to add a timeout to any future? Just do a `select` of that future and a timeout future!)
 
+7. the need for Streams in futures 
+	1. Let’s make things more interesting. Assume the protocol is pipelined, i.e., that the client can send additional requests on the socket before hearing back from the ones being processed. We want to actually process the requests sequentially, but there’s an opportunity for some parallelism here: we could read _and parse_ a few requests ahead, while the current request is being processed. Doing so is as easy as inserting one more combinator in the right place:
 
-1. Models of thread based concurrency? 
+```rust
+let requests = ParseStream::new(input);
+let responses = requests.map(|req| service.process(req)).buffered(32); // <--
+StreamWriter::new(responsesm, output)
+```
+
+The [`buffered` combinator](http://alexcrichton.com/futures-rs/futures/stream/trait.Stream.html#method.buffered) takes a stream of _futures_ and buffers it by some fixed amount. Buffering the stream means that it will eagerly pull out more than the requested number of items, and stash the resulting futures in a buffer for later processing. In this case, that means that we will read and parse up to 32 extra requests in parallel, while running `process` on the current one.
+
+
+
+9. Models of thread based concurrency? 
 	1. 50k OS threads are not really an issue on modern server hardware. While it might not be the most efficient [1], it will not perform so bad that it causes an availaiblity impact either.
 	2. task (green) within an os thread -- more concurrency
-2. Actor based models of concurrency - elixir / scala
+10. Actor based models of concurrency - elixir / scala
 	1. What makes it advantageous to work with actors?
 		1. Mimics the mental model of world. I and you are actors communicating via message passing
 		2. if you implement the erlang protocol / OTP requirements in rust, you could have a *rust / go / C* binary act as erlang node and cluster it with erlang application.
-3. Why makes *Async Rust* hard? 
+11. Why makes *Async Rust* hard? 
 	1. Exectuor of your choice. `tokio` 
 	2. 
-4. Box Pin and suffering 
-5. 
+12. Box Pin and suffering 
+13. 
 
 
 https://lunatic.solutions/blog/rust-without-the-async-hard-part/
