@@ -61,22 +61,32 @@ https://github.com/SDPyle/groove.git  -- ash project
 	7. ![[Pasted image 20231204173016.png]]
 	8. {read `->` as `has a` } 
 		1. async -> async is fine. :: Cancellation and error propagation?  
-		2. sync -> async is fine. :: Pollster `block_on`
+		2. sync -> async is fine. :: Pollster `block_on` or `async_fun_name().then()` in JS :: sequential composition of Futures
 		3. async -> sync is fine. :: Ok
 		4. async -> sync -> async (read more from Box, Pin and Suffering)
 			1. Green threads are a leaky abstraction. Lots of system calls block. Many things like file I/O only present synchronous APIs, after all. [src](https://www.tedinski.com/2018/11/06/concurrency-models.html)
-6. Models of thread based concurrency? 
+6. 
+- [**Sequential composition**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.and_then): `f.and_then(|val| some_new_future(val))`. Gives you a future that executes the future `f`, takes the `val` it produces to build another future `some_new_future(val)`, and then executes that future.
+    
+- [**Mapping**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.map): `f.map(|val| some_new_value(val))`. Gives you a future that executes the future `f` and yields the result of `some_new_value(val)`.
+    
+- [**Joining**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.join): `f.join(g)`. Gives you a future that executes the futures `f` and `g` in parallel, and completes when _both_ of them are complete, returning both of their values.
+    
+- [**Selecting**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.select): `f.select(g)`. Gives you a future that executes the futures `f` and `g` in parallel, and completes when _one of_ them is complete, returning its value and the other future. (Want to add a timeout to any future? Just do a `select` of that future and a timeout future!)
+
+
+1. Models of thread based concurrency? 
 	1. 50k OS threads are not really an issue on modern server hardware. While it might not be the most efficient [1], it will not perform so bad that it causes an availaiblity impact either.
 	2. task (green) within an os thread -- more concurrency
-7. Actor based models of concurrency - elixir / scala
+2. Actor based models of concurrency - elixir / scala
 	1. What makes it advantageous to work with actors?
 		1. Mimics the mental model of world. I and you are actors communicating via message passing
 		2. if you implement the erlang protocol / OTP requirements in rust, you could have a *rust / go / C* binary act as erlang node and cluster it with erlang application.
-8. Why makes *Async Rust* hard? 
+3. Why makes *Async Rust* hard? 
 	1. Exectuor of your choice. `tokio` 
 	2. 
-9. Box Pin and suffering 
-10. 
+4. Box Pin and suffering 
+5. 
 
 
 https://lunatic.solutions/blog/rust-without-the-async-hard-part/
