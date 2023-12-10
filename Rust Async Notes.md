@@ -22,7 +22,7 @@ https://github.com/SDPyle/groove.git  -- ash project
 
 0. What is difference between concurrency and async programming? Are not those two things same?
 	1. Models of concurrency - SHARED MEMORY and MESSAGE PASSING
-	2. SHARED MEMORY - 
+	2. SHARED MEMORY
 		1. same physical memory
 		2. same file system 
 		3. same objects shared 
