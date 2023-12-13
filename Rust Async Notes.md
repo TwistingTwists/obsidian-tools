@@ -16,6 +16,7 @@ https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 2. Enum
 3. Futures
 
+
 ## Questions 
 
 0. What is difference between concurrency and async programming? Are not those two things same?
@@ -96,7 +97,8 @@ The [`buffered` combinator](http://alexcrichton.com/futures-rs/futures/stream/
 	1. Exectuor of your choice. `tokio` 
 	2. Synchronise the async code, how? - Arc / Mutex for shared mutable state. Locking means runtime overhead.
 12. Box Pin and suffering 
-13. 
+13. How is lifetimes related to Async code?  Should everything be just static + send + sync? -- scoped threads ? (google)
+14. 
 
 
 https://lunatic.solutions/blog/rust-without-the-async-hard-part/
