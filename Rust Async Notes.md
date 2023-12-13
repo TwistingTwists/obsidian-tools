@@ -8,9 +8,7 @@ https://www.youtube.com/watch?v=fTXuGRP1ee4
 
 
 https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
-https://github.com/dewetblomerus/red.git --- elixir red ash project 
-https://github.com/SDPyle/groove.git  -- ash project
- https://github.com/florinpatrascu/elixir_grafana_loki_tempo.git ( -- grafana 
+
 ## Basics
 
 1. Trait 
