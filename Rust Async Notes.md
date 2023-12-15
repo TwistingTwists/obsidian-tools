@@ -6,6 +6,8 @@ https://www.youtube.com/watch?v=KYL4FtKY8Mc
 https://www.youtube.com/watch?v=uD5hBVHwyDM
 https://www.youtube.com/watch?v=fTXuGRP1ee4
 
+Write async from ground up --- https://www.youtube.com/watch?v=7pU3gOVAeVQ&ab_channel=RustNationUK
+
 
 https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 
@@ -15,6 +17,26 @@ https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 	1. 
 2. Enum
 3. Futures
+
+
+
+
+#### FUTURES 
+1. Lazy Futures - https://hegdenu.net/posts/understanding-async-await-1/
+2. Mutex in Futures - the case of blocking - https://hegdenu.net/posts/understanding-async-await-3/
+3. manually writing futures - https://hegdenu.net/posts/understanding-async-await-4/
+
+
+
+### SEND + SYNC 
+1. Send Bound Problem  -- What are send bounds ? Why do you need them ?  - https://smallcultfollowing.com/babysteps/blog/2023/02/01/async-trait-send-bounds-part-1-intro/
+2. https://smallcultfollowing.com/babysteps/blog/2023/02/13/return-type-notation-send-bounds-part-2/
+3. Send Bound Problem -- async_fn in traits -- https://broch.tech/posts/rust-async-fn-trait/
+4. whether or not to use async traits. https://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/
+5. Async Destructures -- 
+6. https://theincredibleholk.org/blog/2023/02/16/lightweight-predictable-async-send-bounds/
+7. https://theincredibleholk.org/blog/2023/02/13/inferred-async-send-bounds/
+8. https://theincredibleholk.org/blog/2022/12/19/async-fn-in-trait-object-update/
 
 
 ## Questions 
@@ -45,25 +67,33 @@ https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 	3. Async/await just lets us write code in the manner we usually would, with the stopping points annotated with `await` keywords.
 	4. So at its core, an async function is just one that has internal gaps where it might return early and then resume as events come in later.![[27a6ad34371f5a35f54c9b9b6125ab61d83a448953218402f87ef08191d44d13.png]]
 	5. all I’ve described is the ability for async functions to “block” without actually blocking the thread.
-	6. 
-4. [IntoFuture](https://doc.rust-lang.org/std/future/trait.IntoFuture.html) = any `Into` means you are `moving` ownership to something else. 
+4. [Why need async rust? ](https://without.boats/blog/why-async-rust/)
+5. [How does async rust work? ](https://bertptrs.nl/2023/04/27/how-does-async-rust-work.html)
+	1. https://developerlife.com/2022/03/12/rust-tokio/#:~:text=In%20Rust%2C%20a%20yield%20point,it%20must%20be%20marked%20async%20.
+	2. Thinking about async Rust -- https://cliffle.com/blog/async-inversion/
+	3. AsyncIterators -- https://blog.yoshuawuyts.com/async-iteration/
+6. 
+7. [IntoFuture](https://doc.rust-lang.org/std/future/trait.IntoFuture.html) = any `Into` means you are `moving` ownership to something else. 
 	1. so `.await?` converts the object into `IntoFuture`
 	2. Note in example: `Ready(value)` is returned. Where does this `Ready` come from ? 
 		1. `Future` trait.
-5. What makes concurrency hard? 
-	1. dealing with errors , cancellation (safely)
+8. What makes concurrency hard? 
+	1. dealing with errors , cancellation (safely) - https://greptime.com/blogs/2023-01-12-hidden-control-flow
+		1. https://theincredibleholk.org/blog/2023/11/14/a-mechanism-for-async-cancellation/
+		2. https://theincredibleholk.org/blog/2023/11/08/cancellation-async-state-machines/
+		3. 
 	2. dealing with returned values (interaction between caller and `worker`)
 		1. ancestor vs caller vs worker -- more from youtube video of elixir
 	3. data races () -- **Heisenbugs** -- hard to test and debug
 		1. can't use `print` statements! coz print statements are slower than the actual code. If you remove print statements, you re-introduce the bug back! 
-	7. ![[Pasted image 20231204173016.png]]
-	8. {read `->` as `has a` } 
+	4. ![[Pasted image 20231204173016.png]]
+	5. {read `->` as `has a` } 
 		1. async -> async is fine. :: Cancellation and error propagation?  
 		2. sync -> async is fine. :: Pollster `block_on` or `async_fun_name().then()` in JS :: sequential composition of Futures
 		3. async -> sync is fine. :: Ok
 		4. async -> sync -> async (read more from Box, Pin and Suffering)
 			1. Green threads are a leaky abstraction. Lots of system calls block. Many things like file I/O only present synchronous APIs, after all. [src](https://www.tedinski.com/2018/11/06/concurrency-models.html)
-6. Composing futures
+9. Composing futures
 - [**Sequential composition**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.and_then): `f.and_then(|val| some_new_future(val))`. Gives you a future that executes the future `f`, takes the `val` it produces to build another future `some_new_future(val)`, and then executes that future.
     
 - [**Mapping**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.map): `f.map(|val| some_new_value(val))`. Gives you a future that executes the future `f` and yields the result of `some_new_value(val)`.
