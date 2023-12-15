@@ -11,6 +11,10 @@ Write async from ground up --- https://www.youtube.com/watch?v=7pU3gOVAeVQ&ab_ch
 
 https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 
+
+
+rust protochakers series 
+
 ## Basics
 
 1. Trait 
@@ -38,6 +42,16 @@ https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 7. https://theincredibleholk.org/blog/2023/02/13/inferred-async-send-bounds/
 8. https://theincredibleholk.org/blog/2022/12/19/async-fn-in-trait-object-update/
 
+### Async closures 
+https://smallcultfollowing.com/babysteps/blog/2023/05/09/giving-lending-and-async-closures/
+
+## Rust  - async with care
+1. async rust is a bad language -- https://bitbashing.io/async-rust.html
+2. https://www.qovery.com/blog/common-mistakes-with-rust-async
+3. https://ibraheem.ca/posts/too-many-web-servers/#:~:text=I've%20found%20that%20one,designed%20the%20way%20it%20was
+4. https://notgull.net/why-you-want-async
+5. 
+6. https://www.scylladb.com/2022/01/12/async-rust-in-practice-performance-pitfalls-profiling/
 
 ## Questions 
 
@@ -71,17 +85,17 @@ https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 5. [How does async rust work? ](https://bertptrs.nl/2023/04/27/how-does-async-rust-work.html)
 	1. https://developerlife.com/2022/03/12/rust-tokio/#:~:text=In%20Rust%2C%20a%20yield%20point,it%20must%20be%20marked%20async%20.
 	2. Thinking about async Rust -- https://cliffle.com/blog/async-inversion/
-	3. AsyncIterators -- https://blog.yoshuawuyts.com/async-iteration/
+	3. AsyncIterators -- https://blog.yoshuawuyts.com/async-iteration/ + https://without.boats/blog/async-iterator/
 6. 
 7. [IntoFuture](https://doc.rust-lang.org/std/future/trait.IntoFuture.html) = any `Into` means you are `moving` ownership to something else. 
 	1. so `.await?` converts the object into `IntoFuture`
 	2. Note in example: `Ready(value)` is returned. Where does this `Ready` come from ? 
 		1. `Future` trait.
 8. What makes concurrency hard? 
-	1. dealing with errors , cancellation (safely) - https://greptime.com/blogs/2023-01-12-hidden-control-flow
+	1. dealing with errors, cancellation (safely) - https://greptime.com/blogs/2023-01-12-hidden-control-flow
 		1. https://theincredibleholk.org/blog/2023/11/14/a-mechanism-for-async-cancellation/
 		2. https://theincredibleholk.org/blog/2023/11/08/cancellation-async-state-machines/
-		3. 
+		3. Drop - https://sabrinajewson.org/blog/async-drop
 	2. dealing with returned values (interaction between caller and `worker`)
 		1. ancestor vs caller vs worker -- more from youtube video of elixir
 	3. data races () -- **Heisenbugs** -- hard to test and debug
