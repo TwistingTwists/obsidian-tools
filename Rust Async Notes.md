@@ -15,6 +15,9 @@ https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 
 rust protochakers series 
 
+## Mental models of rust 
+https://kerkour.com/rust-mental-models
+
 ## Basics
 
 1. Trait 
@@ -86,6 +89,8 @@ https://smallcultfollowing.com/babysteps/blog/2023/05/09/giving-lending-and-asyn
 	1. https://developerlife.com/2022/03/12/rust-tokio/#:~:text=In%20Rust%2C%20a%20yield%20point,it%20must%20be%20marked%20async%20.
 	2. Thinking about async Rust -- https://cliffle.com/blog/async-inversion/
 	3. AsyncIterators -- https://blog.yoshuawuyts.com/async-iteration/ + https://without.boats/blog/async-iterator/
+	4. Tokio under the hood --- https://kerkour.com/rust-async-await-what-is-a-runtime
+	5. 
 6. 
 7. [IntoFuture](https://doc.rust-lang.org/std/future/trait.IntoFuture.html) = any `Into` means you are `moving` ownership to something else. 
 	1. so `.await?` converts the object into `IntoFuture`
@@ -108,6 +113,7 @@ https://smallcultfollowing.com/babysteps/blog/2023/05/09/giving-lending-and-asyn
 		4. async -> sync -> async (read more from Box, Pin and Suffering)
 			1. Green threads are a leaky abstraction. Lots of system calls block. Many things like file I/O only present synchronous APIs, after all. [src](https://www.tedinski.com/2018/11/06/concurrency-models.html)
 9. Composing futures
+	1. https://kerkour.com/rust-async-combinators
 - [**Sequential composition**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.and_then): `f.and_then(|val| some_new_future(val))`. Gives you a future that executes the future `f`, takes the `val` it produces to build another future `some_new_future(val)`, and then executes that future.
     
 - [**Mapping**](http://alexcrichton.com/futures-rs/futures/trait.Future.html#method.map): `f.map(|val| some_new_value(val))`. Gives you a future that executes the future `f` and yields the result of `some_new_value(val)`.
