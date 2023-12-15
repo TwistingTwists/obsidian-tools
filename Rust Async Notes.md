@@ -56,7 +56,6 @@ https://github.com/thebracket/Ardan-1HourAsync/  -- Rust Async Video
 		1. ancestor vs caller vs worker -- more from youtube video of elixir
 	3. data races () -- **Heisenbugs** -- hard to test and debug
 		1. can't use `print` statements! coz print statements are slower than the actual code. If you remove print statements, you re-introduce the bug back! 
-	4. 
 	7. ![[Pasted image 20231204173016.png]]
 	8. {read `->` as `has a` } 
 		1. async -> async is fine. :: Cancellation and error propagation?  
