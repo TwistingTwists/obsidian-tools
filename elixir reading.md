@@ -15,9 +15,7 @@ tags:
 - [ ] Be a Mentor 
 - [ ] 
 
-> It turns out that, coupled with my natural talent, a few hours of invest-
-ment have made these “always wanted to be able to do it” abilities
-attainable. 
+> It turns out that, coupled with my natural talent, a few hours of investment have made these “always wanted to be able to do it” abilities attainable. 
 
 ## Compilers
 - [ ] Dispatchex - Protocols - implement pattern matching in protocols? 
@@ -51,7 +49,7 @@ end
 
 https://github.com/ygunayer/craftgate-elixir-client/blob/cd0b3a93782b97f45d1bdd9efa8400e6f36ae834/lib/craftgate/adapter.ex#L143
 
-### to check if :value is a key in fields passed!
+### To check if :value is a key in fields passed!
 ```elixir
  def new(fields) when is_map(fields) and :erlang.is_map_key(:value, fields) do
       struct!(__MODULE__, fields)

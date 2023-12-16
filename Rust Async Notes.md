@@ -21,17 +21,14 @@ https://kerkour.com/rust-mental-models
 ## Basics
 
 1. Trait 
-	1. 
 2. Enum
 3. Futures
-
-
 
 
 #### FUTURES 
 1. Lazy Futures - https://hegdenu.net/posts/understanding-async-await-1/
 2. Mutex in Futures - the case of blocking - https://hegdenu.net/posts/understanding-async-await-3/
-3. manually writing futures - https://hegdenu.net/posts/understanding-async-await-4/
+3. Manually writing futures - https://hegdenu.net/posts/understanding-async-await-4/
 
 ### SEND + SYNC 
 1. Send Bound Problem  -- What are send bounds ? Why do you need them ?  - https://smallcultfollowing.com/babysteps/blog/2023/02/01/async-trait-send-bounds-part-1-intro/
