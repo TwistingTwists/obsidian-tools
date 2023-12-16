@@ -33,8 +33,6 @@ https://kerkour.com/rust-mental-models
 2. Mutex in Futures - the case of blocking - https://hegdenu.net/posts/understanding-async-await-3/
 3. manually writing futures - https://hegdenu.net/posts/understanding-async-await-4/
 
-
-
 ### SEND + SYNC 
 1. Send Bound Problem  -- What are send bounds ? Why do you need them ?  - https://smallcultfollowing.com/babysteps/blog/2023/02/01/async-trait-send-bounds-part-1-intro/
 2. https://smallcultfollowing.com/babysteps/blog/2023/02/13/return-type-notation-send-bounds-part-2/
@@ -145,9 +143,7 @@ The [`buffered` combinator](http://alexcrichton.com/futures-rs/futures/stream/
 11. Why makes *Async Rust* hard? 
 	1. Exectuor of your choice. `tokio` 
 	2. Synchronise the async code, how? - Arc / Mutex for shared mutable state. Locking means runtime overhead.
-12. Box Pin and suffering 
 13. How is lifetimes related to Async code?  Should everything be just static + send + sync? -- scoped threads ? (google)
-14. 
 
 
 https://lunatic.solutions/blog/rust-without-the-async-hard-part/
