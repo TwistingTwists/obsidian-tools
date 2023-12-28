@@ -6,7 +6,7 @@ aliases:
   - 2024 plan
   - yearlong plan
 ---
-
+Content Consumption Matrix 
 
 
 ### Week 52, 2023
@@ -36,4 +36,4 @@ aliases:
 | Kaist-CP = Rust concurrent Programming           |                                                               |                                                                                                                                                                                                                  |                                                           |     |     |     |     |     |     |     |     |
 | Mini-Redis Tokio                                 |                                                               |                                                                                                                                                                                                                  |                                                           |     |     |     |     |     |     |     |     |
 | Networking stuff                                 | What is difference between CNAME , TEXT, A, AAA, AA records ? | Julia Evans - tools ? <br><br>Traceroute , dig ,                                                                                                                                                                 | protohackers elixir - build server side networking stuff. |     |     |     |     |     |     |     |     |
-| Reading Blogs                                    |  https://threadreaderapp.com/thread/1740051586104295457.html                                                              |                                                                                                                                                                                                                  |                                                           |     |     |     |     |     |     |     |     |
+| Reading Blogs                                    | [BestBLogs]( https://threadreaderapp.com/thread/1740051586104295457.html)                                                              |                                                                                                                                                                                                                  |                                                           |     |     |     |     |     |     |     |     |
