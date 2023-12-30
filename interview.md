@@ -9,7 +9,7 @@ tags:
 
 1. Project lead? 
 2. Problem Aaya / Solution 
-	1. Timely - Daily sync up to remove blockers that
+	1. Timely - Daily sync up to remove blockers that they might have had.
 	2. Gannt Chart - 
 	3. 
 
