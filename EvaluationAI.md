@@ -55,15 +55,15 @@ User uploads his scanned copy (pdf, image) -> find the text -> find similar topp
 
 
 
-### Creating Topper copies structured data 
+### Creating structured data from topper copies 
 
 - [ ] Split a pdf into 1 pdf per answer 
 	- [ ] embed the topper name, year, institute in the pdf name, topic?
 - [ ] per pdf, find - 
-	- [ ] question and answer text - tessera
-	- [ ] topic from syllabus, 
-	- [ ] 
-	- [ ] nearest PYQ of UPSC (top 3)
+	- [ ] question and answer text - tesseract + classification
+	- [ ] topic from syllabus 
+	- [ ] nearest PYQ of UPSC (top 3) -> mains
+- [ ] 
 
 
 
