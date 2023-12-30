@@ -73,7 +73,7 @@ sudo sysctl --system
 
 
 ## install containerd
-sudp apt-get update && sudo apt-get install -y containerd 
+sudo apt-get update && sudo apt-get install -y containerd 
 
 ## default config file for containerd
 
@@ -91,6 +91,23 @@ sudo systemctl status containerd
 sudo swapoff -a 
 sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
+
+
 ```
 
 
+```bash
+
+## dependencies for kubernetes cluster 
+
+sudo apt-get update && sudo apt-get install -y apt-transport-https curl  
+
+## kubernetes to repository list 
+curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes.gpg
+
+
+echo "deb [arch=aarch64 signed-by=/etc/apt/keyrings/kubernetes.gpg] http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list
+
+
+
+```
