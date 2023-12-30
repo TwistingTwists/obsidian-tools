@@ -81,7 +81,15 @@ sudo mkdir -p /etc/containerd
 sudo containerd config default | sudo tee /etc/containerd/config.toml
 
 
-sudo syste
+sudo systemctl restart containerd
+## verify that containerd is running 
+sudo systemctl status containerd
+
+
+## disable swap 
+
+sudo swapoff -a 
+sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
 ```
 
