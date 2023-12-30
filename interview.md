@@ -3,6 +3,18 @@ tags:
   - engineer
   - interview
 ---
+
+
+## Team lead? 
+
+1. Project lead? 
+2. Problem Aaya / Solution 
+	1. Timely - Daily sync up to remove blockers that
+	2. Gannt Chart - 
+	3. 
+
+
+
 ### Remote.com 
 
 #### Introduce yourself
