@@ -28,3 +28,8 @@ https://pyimagesearch.com/2020/08/24/ocr-handwriting-recognition-with-opencv-ker
 
 https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5
 https://medium.com/illuin/cleaning-up-dirty-scanned-documents-with-deep-learning-2e8e6de6cfa6
+
+
+Ayush
+- [ ] blockchain
+- [ ] 
