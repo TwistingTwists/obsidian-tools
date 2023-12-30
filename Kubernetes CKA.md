@@ -40,7 +40,10 @@ systemctl daemon-reload
 
 
 ## ssh tips 
-
+# if you become root, remember to exit root 
 
 
 ```
+
+
+### 
