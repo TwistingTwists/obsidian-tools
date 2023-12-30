@@ -17,3 +17,14 @@ https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-ct
 3. “The CTO must protect the technology team from becoming a pure execution arm for ideas without tending to its own needs and its own ideas.”
 4. 
 
+
+
+
+https://huggingface.co/docs/transformers/model_doc/layoutlm
+https://huggingface.co/docs/transformers/model_doc/markuplm
+https://pyimagesearch.com/2020/08/24/ocr-handwriting-recognition-with-opencv-keras-and-tensorflow/
+
+
+
+https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5
+https://medium.com/illuin/cleaning-up-dirty-scanned-documents-with-deep-learning-2e8e6de6cfa6
