@@ -20,6 +20,15 @@ https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-ct
 
 
 
+
+
+
+
+
+
+
+
+
 https://huggingface.co/docs/transformers/model_doc/layoutlm
 https://huggingface.co/docs/transformers/model_doc/markuplm
 https://pyimagesearch.com/2020/08/24/ocr-handwriting-recognition-with-opencv-keras-and-tensorflow/
