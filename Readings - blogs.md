@@ -19,7 +19,9 @@ https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-ct
 
 
 
-
+## Note Taking 
+https://newsletter.francofernando.com/p/retaining-knowledge
+1. 
 
 
 
