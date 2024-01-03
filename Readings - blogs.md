@@ -6,6 +6,13 @@ tags:
 
 https://instagram-engineering.com/open-sourcing-a-10x-reduction-in-apache-cassandra-tail-latency-d64f86b43589
 
+### Distirbuted systems
+https://newsletter.francofernando.com/p/replication
+
+https://careercutler.substack.com/
+https://craftbettersoftware.com/
+https://www.developing.dev/p/the-developing-dev-wrapped-2023
+
 ## CTO 
 
 https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-cto
