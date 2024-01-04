@@ -11,7 +11,7 @@ tags:
  * 
 ### Url Shortener 
 
-Problem statement: Create a short url from a long one.
+Problem statement: [Create a short url from a long one.](https://newsletter.techleadmentor.com/p/stop-parroting-youtube-solutions)
 
 P0: 
 - [ ] Creation of short URL can be delayed by 1-2 seconds.  | 

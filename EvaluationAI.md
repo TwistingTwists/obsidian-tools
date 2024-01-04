@@ -1,6 +1,6 @@
 Scope: 
 
-
+https://www.youtube.com/watch?v=YrRmN4LbCuE -- Elixir recommendation engine
 
 ## Related Data Cleaning 
 
