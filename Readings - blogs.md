@@ -71,6 +71,8 @@ https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-ct
 ## Leadership in Tech 
 https://addyosmani.com/blog/effective-teams/
 
+[Senior Engineer Resources Github](https://github.com/jordan-cutler/path-to-senior-engineer-handbook)
+
 
 ## Note Taking 
 https://newsletter.francofernando.com/p/retaining-knowledge
