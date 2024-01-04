@@ -39,6 +39,14 @@ Hotspots / scale:
 
 Keywords : critical path , availability, fast lookup, consistency
 
+
+### Staff Software Engineer / EM templates 
+https://jordancutler.notion.site/jordancutler/High-Growth-Engineer-Paid-Subscriber-Resources-5927edb323fd4d5fa0ddf86775508586#4d2872788a264f34a8b363fa8ef57b84
+
+
+https://jordancutler.notion.site/Design-Docs-Templates-15092abc81a34ff79e1bfc4ac6fa3440
+[Influence and Incentives](https://jordancutler.notion.site/jordancutler/Influence-Incentives-Buy-in-d6eb2a0855c74758aae2924d34894237)
+[Resolving Disagreements](https://jordancutler.notion.site/jordancutler/Resolving-Disagreements-4b8cb95271874a8cbf03458162eb8089)
 ### Distributed systems
 https://newsletter.francofernando.com/p/replication
 
@@ -60,6 +68,8 @@ https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-ct
 3. “The CTO must protect the technology team from becoming a pure execution arm for ideas without tending to its own needs and its own ideas.”
 4. 
 
+## Leadership in Tech 
+https://addyosmani.com/blog/effective-teams/
 
 
 ## Note Taking 
