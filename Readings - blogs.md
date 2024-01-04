@@ -4,9 +4,25 @@ tags:
 ---
  https://threadreaderapp.com/thread/1740051586104295457.html
 
-https://instagram-engineering.com/open-sourcing-a-10x-reduction-in-apache-cassandra-tail-latency-d64f86b43589
 
-### Distirbuted systems
+### System Design Funda
+
+
+### Url Shortener 
+
+Problem statement: Create a short url from a long one.
+
+P0: 
+- [ ] Creation of short URL can be delayed by 1-2 seconds. 
+- [ ] once created, url must be available Always.
+- [ ] 
+
+Failures: 
+- [ ] ok. minor - can ret
+
+Keywords : critical path , availability, fast lookup, consistency
+
+### Distributed systems
 https://newsletter.francofernando.com/p/replication
 
 https://careercutler.substack.com/
