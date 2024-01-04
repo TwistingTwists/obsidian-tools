@@ -13,6 +13,9 @@ https://careercutler.substack.com/
 https://craftbettersoftware.com/
 https://www.developing.dev/p/the-developing-dev-wrapped-2023
 
+
+https://www.developing.dev/p/from-microsoft-intern-to-meta-staff
+https://newsletter.techleadmentor.com/p/stop-parroting-youtube-solutions
 ## CTO 
 
 https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-cto
