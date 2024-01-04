@@ -7,18 +7,35 @@ tags:
 
 ### System Design Funda
 
-
+ * It is ok to pick a tech that you had experience with and call out the **pros & cons.**
+ * 
 ### Url Shortener 
 
 Problem statement: Create a short url from a long one.
 
 P0: 
-- [ ] Creation of short URL can be delayed by 1-2 seconds. 
-- [ ] once created, url must be available Always.
-- [ ] 
+- [ ] Creation of short URL can be delayed by 1-2 seconds.  | 
+- [ ] once created, url must be available Always.  | 
+- [ ] influencers => Read Heavy system
+- [ ] Noun: short URL : Properties - short , unique, fast redirection
 
-Failures: 
-- [ ] ok. minor - can ret
+
+Failures: in steps
+- [ ] ok. minor - can retry 
+- [ ] Nope. No scope for retry
+
+Failures: Core scenarios
+- [ ] What if short url does not exist? -- cache bypass 
+- [ ] Too many unique urls? => DB overloaded => how to run degraded experience?
+- [ ] Revisit URL = browser caching
+
+Hotspots / scale: 
+- [ ] Influencers => in memory cache / distributed cache.
+	- [ ] scale - sharding -- N strategies of sharding and tradeoffs 
+	- [ ] scale - data paritioning 
+	- [ ] scale - hashing - which algo? Why? 
+- [ ] popular URL - shared by celebrities 
+	- [ ] Noisy Neighbours problem -- need to keep them separate to prevent downtime of smaller customers.
 
 Keywords : critical path , availability, fast lookup, consistency
 
