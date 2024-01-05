@@ -67,3 +67,9 @@ User uploads his scanned copy (pdf, image) -> find the text -> find similar topp
 
 
 
+
+
+
+## Elixir and Evaluation AI 
+Pydantic is all you need :  https://www.youtube.com/watch?v=yj-wSRJwrrc
+https://github.com/thmsmlr/instructor_ex
