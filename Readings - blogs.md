@@ -40,6 +40,13 @@ Hotspots / scale:
 Keywords : critical path , availability, fast lookup, consistency
 
 
+## CDC in Elixir 
+
+
+| Name      | Valuie                                                                                                                    |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
+|           |                                                                                                                           |
+| Libraries | walex <br><br>https://github.com/supabase/realtime<br><br>https://github.com/eventrelay/eventrelay?tab=readme-ov-file<br> |
 ### Staff Software Engineer / EM templates 
 https://jordancutler.notion.site/jordancutler/High-Growth-Engineer-Paid-Subscriber-Resources-5927edb323fd4d5fa0ddf86775508586#4d2872788a264f34a8b363fa8ef57b84
 
