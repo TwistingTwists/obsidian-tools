@@ -72,6 +72,14 @@ end
 - [ ] rabbitmq has supervisor2 -- which restarts a child with a delay - an intrinsic mode of restart
 
 
+```elixir
+
+# https://github.com/lawik/fedex/blob/368be04b26ab068b8e66161204c42d5852a52ba9/lib/fedex/store/ets.ex
+
+Sample ets usage.
+
+```
+
 ### Networks in erlang 
 
 - [ ] It's about guarantees fred herbert
