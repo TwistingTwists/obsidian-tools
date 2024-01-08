@@ -3,6 +3,25 @@ tags:
   - engineer
   - interview
 ---
+https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
+
+ Feedback is the process of informing a person about behaviors that should be changed to improve a process.
+ ![[58aba43b6e1efcdab336dde27ae8a4ded38f46f3e4ee30bff92b6d55fc3ae00e.png]]
+
+#### Prepare 
+1. Should I give feedback? 
+
+| Roles   | _How might your role influence the feedback?_<br>    <br>    - _Are you providing feedback to a colleague?_<br>        <br>    - _As an EM, are you giving feedback to one of your team members?_<br>        <br>    - _As a developer, are you giving feedback to your EM?_ |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Context | Situation - location , observed behaviour<br><br>Events leading upto observed behaviour <br><br>- "What was going on when this behavior happened?"<br>- “Is there a clear pattern in this behavior?”<br>- "Could their background or personal life have something to do with it?"<br>- "How might my own perceptions or biases be influencing how I view the behavior?"<br><br>                                                                                                                                                                                                                                                                    |
+|         |                                                                                                                                                                                                                                                                              |
+
+
+#### Communicate
+
+| Behaviour | Focus on the exact behaviour + use direct words to explain    |
+| --------- | --- |
+| Impact          |     |
 
 
 ## Team lead? 
