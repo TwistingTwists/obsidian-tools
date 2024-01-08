@@ -76,3 +76,22 @@ User uploads his scanned copy (pdf, image) -> find the text -> find similar topp
 ## Elixir and Evaluation AI 
 Pydantic is all you need :  https://www.youtube.com/watch?v=yj-wSRJwrrc
 https://github.com/thmsmlr/instructor_ex
+https://github.com/clovaai/deep-text-recognition-benchmark?tab=readme-ov-file
+
+
+
+### Literature Review on HTR (handwritten text recognition)
+
+#### Here are a few ways you could adapt ResNet for handwriting recognition:
+
+1. **ResNet + LSTM**: Use ResNet to extract features from the image, then feed these features into an LSTM to capture the sequential nature of handwriting. This could be particularly useful if you're dealing with cursive handwriting where the order of the strokes matters.
+    
+2. **ResNet + Attention**: Use ResNet to extract features, then use an attention mechanism to weigh the importance of different parts of the image. This could help the model focus on the most important parts of the handwriting.
+    
+3. **ResNet + CTC (Connectionist Temporal Classification)**: Use ResNet to extract features, then use a CTC layer for sequence prediction. CTC is often used in tasks like speech and handwriting recognition where the alignment between the input and output is unknown.
+    
+4. **ResNet + Dense Layer**: Use ResNet to extract features, then add a dense layer (fully connected layer) at the end for classification. This is a simple and straightforward approach, but it might not work as well if the handwriting is cursive and the order of the strokes matters.
+    
+5. **ResNet + Transformer**: Use ResNet to extract features, then feed these features into a Transformer model. The Transformer model, which was originally designed for natural language processing tasks, has been shown to work well on image-based tasks as well.
+
+#### 
