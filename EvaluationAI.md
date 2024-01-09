@@ -80,7 +80,10 @@ https://github.com/clovaai/deep-text-recognition-benchmark?tab=readme-ov-file
 
 
 
-### Literature Review on HTR (handwritten text recognition)
+## Deep Learning Tutorials 
+
+- [ ] https://www.youtube.com/watch?v=N-AuM3_8IrA -- hadnwritten text using pytorch 
+## Literature Review on HTR (handwritten text recognition)
 
 #### Here are a few ways you could adapt ResNet for handwriting recognition:
 
