@@ -1,10 +1,6 @@
 
 
 
-Scope: 
-
-https://www.youtube.com/watch?v=YrRmN4LbCuE -- Elixir recommendation engine
-
 ## Related Data Cleaning 
 
 Get all the pdfs -> extract images -> clean images -> embed text in images?            |
@@ -76,6 +72,8 @@ User uploads his scanned copy (pdf, image) -> find the text -> find similar topp
 ## Elixir and Evaluation AI 
 Pydantic is all you need :  https://www.youtube.com/watch?v=yj-wSRJwrrc
 https://github.com/thmsmlr/instructor_ex
+https://www.youtube.com/watch?v=YrRmN4LbCuE -- Elixir recommendation engine
+
 https://github.com/clovaai/deep-text-recognition-benchmark?tab=readme-ov-file
 
 
