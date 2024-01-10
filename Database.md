@@ -4,6 +4,14 @@ tags:
   - database
 ---
 
+## Udemy course on postgres optimisation 
+
+- [ ] Understanding query 
+	- [ ] EXPLAIN ANALYZE - execution time. 
+- [ ] INDEXES 
+	- [ ] Index : speed up query by upto 17 times
+	- [ ] 
+
 ### CMU DB GROUP videos on fundamentals of DB
 Intro to DB - https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf
 
