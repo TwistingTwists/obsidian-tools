@@ -33,6 +33,24 @@ https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
 	3. 
 
 
+
+## Disagreements 
+
+I never liked the statement for work - "Let's agree to disagree".  
+  
+It could be an sign of failed communication.  
+  
+Maybe I dismissed someone else's perspective or didn't listen to them.  
+  
+To address this, I:  
+  
+- Ensure we understand and discuss the reasons for our disagreements.  
+- Perhaps we weigh different intuitive factors differently. Maybe we are missing data.  
+- Reflect on whether I am rushing the conversation to avoid a difficult discussion.  
+- Let go if the topic is not crucial or the consequences are minor.  
+- Try hard to never end the conversation on a sour note.
+
+
 #### Round2 @remote.com 
 
 #####################
