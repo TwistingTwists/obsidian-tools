@@ -33,6 +33,150 @@ https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
 	3. 
 
 
+#### Round2 @remote.com 
+
+#####################
+- remote.com interview 
+
+  
+
+  
+
+1. Intro 
+
+  
+
+  
+
+5 years of experience + 
+
+Broad experience highlight — hardware devices, RFC for encryption, MuonTraps (linux c groups) , frontend, background jobs, updating frontend, Tasks / supervisors / 
+
+TCP and head of line blocking - real world consequences. 
+
+  
+
+  
+
+Payroll vertical 
+
+  
+
+  
+
+Why choose backend ? Over frontend? When you have significant frontend experience.
+
+  
+
+Why Remote? 
+
+1. I respect the work that I have done in past. It pays my bills and get company business.
+2. I am looking for is performance tuning and scale. 
+
+  
+
+  
+
+Broad experience in general. Why remote then ? — scale brings me to remote
+
+  
+
+  
+
+Proud project. mathocrat — front end, backend , RFC, 
+
+  
+
+  
+
+Tiny mesh -team structure — 
+
+- Team mates - there is an organisational hierarchy but not functional one. Anyone can connect with CTO as needed.
+- CTO - Review work each week. 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+Q. Product manager + management experiences 
+
+  
+
+Q. Done something that is not necessary but not direct responsibility.  But Improvement to product + teams operate + company operate 
+
+  
+
+Q. Decisions taken ? 0–0 make a call difficult decision  
+
+- NMS design doc — stakeholders 
+- On call rotation for dry run - at night also.
+
+  
+
+  
+
+Stakeholders — 
+
+Disagree with colleagues — discover new information.
+
+- Colleagues + upper management + lower ? 
+- You can always come closer if not on the middle ground. 
+
+  
+
+  
+
+Code review — how to 
+
+1. How many. 1, 2. More 
+2. Initially, focus on finding examples. Knowledge gap + “reading more code” + reading docs
+3. Then, when we make them sit in code review -> ask them what does this code do? — active engagement in code reviews.
+
+  
+
+  
+
+  
+
+How has been your experience at remote? 
+
+- Elixir perspective. 
+
+  
+
+  
+
+  
+
+Shipping - feature flags 
+
+  
+
+payroll team + main api language. 
+
+  
+
+  
+
+Next steps: 
+
+  
+
+1. Someone recruitment team — take home challenge, unlimited time
+
+1. Make a tradeoff - either via readme.md 
+
+3. Team interview - 3 engineers and review code challenges
+#####################
+
 
 ### Remote.com 
 
