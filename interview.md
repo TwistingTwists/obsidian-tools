@@ -62,18 +62,11 @@ To address this, I:
 
 1. Intro 
 
-  
-
-  
-
 5 years of experience + 
 
 Broad experience highlight — hardware devices, RFC for encryption, MuonTraps (linux c groups) , frontend, background jobs, updating frontend, Tasks / supervisors / 
 
 TCP and head of line blocking - real world consequences. 
-
-  
-
   
 
 Payroll vertical 
