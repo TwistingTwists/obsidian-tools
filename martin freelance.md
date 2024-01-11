@@ -1,23 +1,17 @@
 
 ### Knowledge and Insights
   
-World -> (  >=1 SUCT )
+* World -> (  >=1 SUCT )
+* WH -> Tank (1 UCT + n CT)  + Pool (>=1  of any type {FP, CP, UCP} )
+* UCT -> SUCT or UCP
 
-WH -> Tank (1 UCT + n CT)  + Pool (>=1  of any type {FP, CP, UCP} )
-UCT -> SUCT or UCP
 
 
-  
+
 
 Tank::UCT = uncapped
-
 Tank::S = standalone (can exist outside a warehouse) 
-
-  
-
-Tank:SUCT => standalone uncapped tank.
-
-  
+Tank:SUCT => standalone uncapped tank
 
   
 ### Approaches for the circularity module
@@ -71,12 +65,6 @@ Scope 
   
 
 Communication channels — slow and fast. 
-
-  
-
-  
-
-  
 
 Looking at quality design and tests. Questions being asked. Decisions and tradeoffs being documented? 
 
