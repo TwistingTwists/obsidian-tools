@@ -20,11 +20,36 @@ Tank:SUCT => standalone uncapped tank.
   
 
   
-### Approaches
+### Approaches for the circularity module
+
 1. Ecto based (using Ash which enables process based  {ets based}  persistence)
+	1. advantage : 
+		1. using well known and flexible SQL to write queries and associations => can add complex rules arbitrarily 
+	2. disadvantage: 
+
+
 2. Building Graph and using graph algorithms to check circularity 
+	1. 1. advantage : 
+		1. can directly use well known algorithms to check circularity
+	2. disadvantage: 
+		1. have to think about persistence (jsonb, schemas or otherwise)
+
+
+
 3. preparing our own dsl based on constraints and rules (using Ash)
-4. using Tablex - decision table rules
+	1. advantage : 
+		1. easier to use common vocabulary to write new rules if needed.
+		2. easier to use common vocabulary to extend rules if needed.
+	2. disadvantage: 
+		1. will need some metaprogramming 
+
+	3. custom DSL can be 
+
+	5. 
+5. Coming up with operators and rules to write decision engine for circularity module
+	1. https://github.com/ympons/expreso
+	2. using Tablex - decision table rules
+	3. https://github.com/valiot/abacus
   
 
 Scope 
