@@ -43,13 +43,17 @@ Tank:SUCT => standalone uncapped tank.
 	2. disadvantage: 
 		1. will need some metaprogramming 
 
-	3. custom DSL can be 
+4. Coming up with operators and rules to write decision engine for circularity module
+	1. advantage : 
+		1. easier to use common vocabulary to write new rules if needed.
+		2. easier to use common vocabulary to extend rules if needed.
 
-	5. 
-5. Coming up with operators and rules to write decision engine for circularity module
-	1. https://github.com/ympons/expreso
-	2. using Tablex - decision table rules
-	3. https://github.com/valiot/abacus
+	2. disadvantage: 
+		1. will need extensive  metaprogramming  -- building interpreters and compilers.
+	3. Prior art
+		1. https://github.com/ympons/expreso
+		2. using Tablex - decision table rules
+		3. https://github.com/valiot/abacus
   
 
 Scope 
