@@ -3,6 +3,10 @@ tags:
   - postgres
   - database
 ---
+## ChatGPT learning 
+https://www.perplexity.ai/search/You-are-an-.bxSVNeiQ5GcBQlNY5D1Lg?s=u
+https://chat.openai.com/share/ea632812-abea-4599-abf8-3a4ffc57dac9
+
 
 ## Udemy course on postgres optimisation 
 
