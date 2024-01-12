@@ -13,7 +13,17 @@ Tank::UCT = uncapped
 Tank::S = standalone (can exist outside a warehouse) 
 Tank:SUCT => standalone uncapped tank
 
-  
+
+
+## Plan 
+
+- [ ] Create data models ( basics )- world, warehouse, pipe, pool, tank 
+- [ ] Distinguish data models with types - Feeder Node , Pool types (FP, CP, UCP), Tank ( SUCT, etc , Regular CT) with given constraints 
+- [ ] Calculated fields -- 
+- [ ] Classificiation for determinate WH 
+- [ ] Classificiation for indeterminate WH 
+- [ ] 
+
 ### Approaches for the circularity module
 
 1. Ecto based (using Ash which enables process based  {ets based}  persistence)
