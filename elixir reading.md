@@ -4,6 +4,10 @@ tags:
     - hacks
     - TIL
 ---
+## Fun reading 
+
+
+- [ ] ELixir bucket moving average -  https://lucassifoni.info/blog/tipping-buckets/
 
 ## Becoming Elixir Specialist 
 
