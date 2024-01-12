@@ -19,6 +19,7 @@ Tank:SUCT => standalone uncapped tank
 
 - [ ] Create data models ( basics )- world, warehouse, pipe, pool, tank 
 - [ ] Distinguish data models with types - Feeder Node , Pool types (FP, CP, UCP), Tank ( SUCT, etc , Regular CT) with given constraints 
+	- [ ] and test them.
 - [ ] Calculated fields -- 
 - [ ] Classificiation for determinate WH 
 - [ ] Classificiation for indeterminate WH 
