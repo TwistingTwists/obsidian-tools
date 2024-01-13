@@ -4,16 +4,16 @@ tags:
   - database
 ---
 ## ChatGPT learning 
-https://www.perplexity.ai/search/You-are-an-.bxSVNeiQ5GcBQlNY5D1Lg?s=u
-https://chat.openai.com/share/ea632812-abea-4599-abf8-3a4ffc57dac9
+- [x] https://www.perplexity.ai/search/You-are-an-.bxSVNeiQ5GcBQlNY5D1Lg?s=u
+- [x] https://chat.openai.com/share/ea632812-abea-4599-abf8-3a4ffc57dac9
 
 
 ## Udemy course on postgres optimisation 
 
 - [ ] Understanding query 
-	- [ ] EXPLAIN ANALYZE - execution time. 
+	- [x] EXPLAIN ANALYZE - execution time. 
 - [ ] INDEXES 
-	- [ ] Index : speed up query by upto 17 times
+	- [x] Index : speed up query by upto 17 times
 	- [ ] 
 
 ### CMU DB GROUP videos on fundamentals of DB
