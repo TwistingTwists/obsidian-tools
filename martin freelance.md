@@ -22,12 +22,12 @@ Going for graph approach, here are the broad steps and timeline.
 - [ ] Create data models ( basics )- world, warehouse, pipe, pool, tank = 1 day
 - [ ] API design and validations: Distinguish data models with types - Feeder Node , Pool types (FP, CP, UCP), Tank ( SUCT, etc , Regular CT) with given constraints  = 1 day
 	- [ ] Make the graph implementation flexible =  2-3 days
-	- [ ] and test them = 3-4 days iteratively testing and fixing corner cases.
+	- [ ] Test them = 3-4 days iteratively testing and fixing corner cases.
 - [ ] Test Euler Method and circularity = 3-4 days
 - [ ] Classificiation for determinate WH = 1 day (API design , questions , 1-1s if needed)
-	- [ ] testing -- 3-4 days with iteratively fixing corner cases.
+	- [ ] Testing -- 3-4 days with iteratively fixing corner cases.
 - [ ] Classificiation for indeterminate WH  = 1 day
-	- [ ] testing -- 3-4 days with iteratively fixing corner cases.
+	- [ ] Testing -- 3-4 days with iteratively fixing corner cases.
 
 Assumption is 3 hr a day.
 
