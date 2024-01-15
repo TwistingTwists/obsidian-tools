@@ -23,6 +23,8 @@ https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
 | --------- | --- |
 | Impact          |     |
 
+### OKR meetings 
+1. To make best tech company -- 3-5 year goal. What to do to aim towards this goal.
 
 ## Team lead? 
 
