@@ -7,7 +7,7 @@ tags:
 ## Fun reading 
 
 
-- [ ] ELixir bucket moving average -  https://lucassifoni.info/blog/tipping-buckets/
+- [ ] Elixir bucket moving average -  https://lucassifoni.info/blog/tipping-buckets/
 
 ## Becoming Elixir Specialist 
 

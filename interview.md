@@ -25,6 +25,7 @@ https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
 
 ### OKR meetings 
 1. To make best tech company -- 3-5 year goal. What to do to aim towards this goal.
+	1. Write tech blogs + contribute to OSS
 
 ## Team lead? 
 
