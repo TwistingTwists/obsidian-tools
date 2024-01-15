@@ -26,7 +26,8 @@ Going for graph approach, here are the broad steps and timeline.
 
 TDD - 1 test / 2 tests
 
-- [ ] momentum + getting rid of unnecessary tests + test have one reason to pass / fail 
+- [ ] Momentum + getting rid of unnecessary tests + test have one reason to pass / fail 
+- [ ] Miss out - refractoring everything as you go.
 - [ ] 
 
 
