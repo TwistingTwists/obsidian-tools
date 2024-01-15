@@ -23,7 +23,18 @@ Going for graph approach, here are the broad steps and timeline.
 - [ ] API design and validations: Distinguish data models with types - Feeder Node , Pool types (FP, CP, UCP), Tank ( SUCT, etc , Regular CT) with given constraints  = 1 day
 	- [ ] Make the graph implementation flexible =  2-3 days
 	- [ ] Test them = 3-4 days iteratively testing and fixing corner cases.
+
+TDD - 1 test / 2 tests
+
+- [ ] momentum + getting rid of unnecessary tests + test have one reason to pass / fail 
+- [ ] 
+
+
+--- Elixir idiomatically, exunit , in memory state management, 
+
+
 - [ ] Test Euler Method and circularity = 3-4 days
+
 - [ ] Classificiation for determinate WH = 1 day (API design , questions , 1-1s if needed)
 	- [ ] Testing -- 3-4 days with iteratively fixing corner cases.
 - [ ] Classificiation for indeterminate WH  = 1 day
