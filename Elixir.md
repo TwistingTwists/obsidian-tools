@@ -89,10 +89,6 @@ Sample ets usage.
 - [ ] protohackers in elixir - Youtube series 
 
 
-## Libraries to read 
-https://hexdocs.pm/envio/backends.html
-tus implementations
-
 
 ### {lib} - Castle 
 

@@ -6,8 +6,18 @@ tags:
 ---
 ## Fun reading 
 
-
 - [ ] Elixir bucket moving average -  https://lucassifoni.info/blog/tipping-buckets/
+### libraries -- in elixir 
+
+- [ ] https://github.com/mwhitworth/phoenix_better_table
+- [ ] https://github.com/am-kantox/tempus
+- [ ] https://elixirforum.com/t/qry-query-your-domain/60428
+- [ ] https://github.com/spawnfest/fluffytrain
+- [ ] https://hexdocs.pm/envio/backends.html
+
+## Streaming Blogs
+
+- [ ] https://benreinhart.com/blog/openai-streaming-elixir-phoenix/
 
 ## Becoming Elixir Specialist 
 

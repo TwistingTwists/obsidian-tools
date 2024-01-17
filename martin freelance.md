@@ -1,4 +1,4 @@
-at 
+
 ### Knowledge and Insights
   
 * World -> (  >=1 SUCT )
