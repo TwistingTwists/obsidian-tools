@@ -5,6 +5,14 @@ tags:
  https://threadreaderapp.com/thread/1740051586104295457.html
 
 
+
+## Time in software
+
+- [ ] https://www.youtube.com/watch?v=Zm95cYAtAa8
+- [ ] https://hexdocs.pm/tempus/getting-started.html
+- [ ] https://github.com/wojtekmach/calendar_interval
+- [ ] 
+
 ### System Design Funda
 
  * It is ok to pick a tech that you had experience with and call out the **pros & cons.**
