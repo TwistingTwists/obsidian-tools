@@ -7,6 +7,10 @@ tags:
 ## Fun reading 
 
 - [ ] Elixir bucket moving average -  https://lucassifoni.info/blog/tipping-buckets/
+
+## dependencies in elixir 
+
+https://gist.github.com/marcandre/fd999ff3d9e5b9137380f15bab49f417
 ### libraries -- in elixir 
 
 - [ ] https://github.com/mwhitworth/phoenix_better_table
