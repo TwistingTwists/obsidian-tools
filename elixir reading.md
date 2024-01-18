@@ -10,7 +10,7 @@ tags:
 ### libraries -- in elixir 
 
 - [ ] https://github.com/mwhitworth/phoenix_better_table
-- [ ] https://github.com/am-kantox/tempus
+- [ ] [[time]]
 - [ ] https://elixirforum.com/t/qry-query-your-domain/60428
 - [ ] https://github.com/spawnfest/fluffytrain
 - [ ] https://hexdocs.pm/envio/backends.html
