@@ -5,6 +5,10 @@ tags:
   - nx
   - axon
 ---
+### FLAME and machine learning elixir
+
+Machine
+
 ## Code Help in Machine Learning
 https://www.blog.dailydoseofds.com/p/sourcery-the-ai-pair-programmer-that
 
