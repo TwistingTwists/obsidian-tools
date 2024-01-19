@@ -4,6 +4,15 @@ tags:
     - hacks
     - TIL
 ---
+## Polymorphism in ecto 
+https://gist.github.com/tmattio/4a9ce29b208c5c35f0b48179de3db681#file-schemas-ex
+https://github.com/mathieuprog/polymorphic_embed
+https://hexdocs.pm/ecto/polymorphic-associations-with-many-to-many.html
+https://honesw.com/blog/polymorphic-associations-in-elixir
+https://hashrocket.com/blog/posts/modeling-polymorphic-associations-in-a-relational-database
+
+https://elixirforum.com/t/abstract-model-polymorphism/13236/4
+
 ## Fun reading 
 
 - [ ] Elixir bucket moving average -  https://lucassifoni.info/blog/tipping-buckets/
