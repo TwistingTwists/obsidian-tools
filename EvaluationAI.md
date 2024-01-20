@@ -78,6 +78,19 @@ https://github.com/clovaai/deep-text-recognition-benchmark?tab=readme-ov-file
 
 
 
+
+
+
+PMFIAS client 
+
+| Step | yes | no |
+| ---- | ---- | ---- |
+| Are they launching prelims test series? | How we can add value?<br><br>- Give test portal -- reminders <br>- Upload from world document or csv file directly.<br>- Resumable test <br>- Exam results publishing <br>- Multiple attempts<br>- PYQ suggested from UPSC | Mobile app bana do<br>- managing<br><br>6k per month for 400 users.<br> |
+| PYQ UPSC test series | - free? = yes<br>- next year prelims test series with us<br>- students sign up - user base / user interaction <br>- student data |  |
+|  |  |  |
+
+
+
 ## Deep Learning Tutorials 
 
 - [ ] https://www.youtube.com/watch?v=N-AuM3_8IrA -- hadnwritten text using pytorch 
