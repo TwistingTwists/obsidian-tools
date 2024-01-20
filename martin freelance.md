@@ -24,6 +24,8 @@ Going for graph approach, here are the broad steps and timeline.
 	- [ ] Make the graph implementation flexible =  2-3 days
 	- [ ] Test them = 3-4 days iteratively testing and fixing corner cases.
 
+
+
 TDD - 1 test / 2 tests
 
 - [ ] Momentum + getting rid of unnecessary tests + test have one reason to pass / fail 
