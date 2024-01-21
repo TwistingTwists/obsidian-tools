@@ -3,7 +3,7 @@ tags:
   - startup-4
 ---
 
-The theory
+### The theory
 
 Three step process like zhan zhuang. - physical, mental, Shen (willingness + steadfastness in face of difficulties - grit?)
 
@@ -12,5 +12,5 @@ Three step process like zhan zhuang. - physical, mental, Shen (willingness + ste
 > become confident - interlinking and lateral thinking
 
 
-
+* Quill.org working on structured thinking by asking students to write more.
 
