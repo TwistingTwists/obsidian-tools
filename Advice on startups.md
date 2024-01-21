@@ -2,7 +2,7 @@
 tags:
   - startups
 ---
-### [Criteria ](https://www.youtube.com/watch?v=0lJKucu6HJc&t=9s)for a startup to be successful: 
+### [Criteria ](https://www.youtube.com/watch?v=0lJKucu6HJc&t=9s)for a startup to be successful (30% mostly) : 
 
 * 80% =  people can tell the difference spot-on. Simple to explain.
 * Start in small market and market will grow exponentially
@@ -27,7 +27,11 @@ tags:
 * Sensible business model ?
 * distribution strategy ?
 * Why startups win? - over a big company.
-	* one no and one yes.
+	* one no and one yes. - <span class="reading"> Ideas that sound bad but are good. </span> 
+	* you are a startup - you need one yes. Other companies will need lots of yes to implment it. So you win by moving fast.
+* markets change => you change
+	* we are going ALL IN in this new direction.
+* 
 
 
 ## TigerStyle
