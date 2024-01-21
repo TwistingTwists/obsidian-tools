@@ -5,6 +5,23 @@ tags:
 aliases:
   - yearlong plan
 ---
+### Broad Accomplishments of 2024:
+
+1. Wife got govt job - teacher in delhi
+2. ML - EvaluationAI
+	1. Prelims test series portal 
+	2. telegram quizbot 
+	3. mains test series EvaluationAI
+3. Physical 
+	1. 200 days of Zhan Zhuang and writings
+	2. Gym and more active - more walks
+4. Programming
+	1. more stuff in rust. 
+	2. LLD / HLD / System design 
+5. Keyansh finds it fun to learn stuff. tables and pictures. - mobile apps? 
+6. 
+
+
 | Week | System Design | Basics - LEETCODE + PostgresDB | EvaluationAI | Telegram |
 | ---- | ---- | ---- | ---- | ---- |
 | 1 |  |  |  |  |
