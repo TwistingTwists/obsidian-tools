@@ -4,26 +4,7 @@ tags:
     - hacks
     - TIL
 ---
-## Design pattern in processes 
 
-### QuizSession in OTP book yellow
-
-### Patterns from Svilen Gospodinov book 
-### UniqueTask
-
-### Task.Supervisor.async_nolink 
-
-### Task.async 
-
-### Cachex - architecture - request coalescing
-
-### receive do in Task.async 
-
-### Writing a webserver 
-
-### Buffered writer
-
-### 
 
 ## Polymorphism in ecto 
 https://gist.github.com/tmattio/4a9ce29b208c5c35f0b48179de3db681#file-schemas-ex
