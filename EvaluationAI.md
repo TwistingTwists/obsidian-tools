@@ -77,11 +77,7 @@ https://www.youtube.com/watch?v=YrRmN4LbCuE -- Elixir recommendation engine
 https://github.com/clovaai/deep-text-recognition-benchmark?tab=readme-ov-file
 
 
-
-
-
-
-PMFIAS client 
+## PMFIAS client 
 
 | Step | yes | no | Tech Implementation plan  |
 | ---- | ---- | ---- | ---- |
@@ -89,6 +85,18 @@ PMFIAS client
 | PYQ UPSC test series | - free? = yes<br>- next year prelims test series with us<br>- students sign up - user base / user interaction <br>- student data<br><br><br><br>- Highlights text and text editor -- to easily makes notes from any test series and export them to pdf. <br><br> |  | * Pandoc for importing from word doc |
 |  |  |  |  |
 
+
+## { startup-4 }  Structured learning prompts for students. 
+
+
+Aim: Help remember more. By doing structured thinking. Probing thinking.
+
+Literature: 
+1. What is [[structured thinking]]?
+3. Is it proven to be effective?
+4. Can you gamify it?
+
+Keyansh - can he learn table of four? 
 
 
 ## Deep Learning Tutorials 
