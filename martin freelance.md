@@ -1,3 +1,9 @@
+2024-01-21 11:16:22
+
+* first meeting done -- feedback is more TDD.
+* second meeting done -- progress is good 
+* third meeting due 
+
 
 ### Knowledge and Insights
   

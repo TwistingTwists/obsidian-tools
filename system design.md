@@ -1,3 +1,12 @@
+---
+tags:
+  - arpit_bhayani
+  - system_design
+aliases:
+  - interview prep
+cssclasses:
+---
+
 
 ### 003 - Approach to system design
 * Components 
