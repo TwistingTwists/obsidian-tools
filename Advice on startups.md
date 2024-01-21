@@ -28,3 +28,12 @@ tags:
 * distribution strategy ?
 * Why startups win? - over a big company.
 	* one no and one yes.
+
+
+## TigerStyle
+
+* Define Goals - in order. 
+* Solver for 2nd order problems first.
+* Actively think and spend the mental energy upfront. -> so much that the implementation is dwarfed by the design.
+
+No technical debt?
