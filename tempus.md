@@ -15,4 +15,9 @@ Problem statement
 	2. Available slots
 2. What is my schedule for today?
 3. 
-   
+
+
+
+* PoS system - inventory live management
+* QR code for restaurants - live order tracking 
+
