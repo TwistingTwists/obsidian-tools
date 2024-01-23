@@ -1,9 +1,9 @@
 ---
 tags:
-  - machine learning
   - elixir
   - nx
   - axon
+  - machine_learning
 ---
 ### FLAME and machine learning elixir
 

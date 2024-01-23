@@ -2,13 +2,14 @@
 tags:
   - nlp
   - qna
-  - machine learning
   - python
+  - machine_learning
 ---
+#### Google's mediapipe 
+https://developers.google.com/mediapipe/solutions/setup_web
 
 
-
-### resources for questoin answering
+### resources for question answering
 
 https://github.com/ramsrigouthamg/Questgen.ai
 https://huggingface.co/course/chapter7/7?fw=pt

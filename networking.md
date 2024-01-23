@@ -12,6 +12,14 @@ TOC
 2. Creating a Custom Chain for Web Traffic Filtering
 3. Using the "mangle" Table for Traffic Shaping
 4. Using the "nat" Table for Port Forwarding
-5.
 
- CHAINS and rules --
+
+Tailscale blog on nat traversal
+
+
+### Understanding lifecycle of a request
+
+
+https://developer.chrome.com/docs/devtools/network/reference/?utm_source=devtools#timing-explanation
+
+
