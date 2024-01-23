@@ -92,6 +92,7 @@ https://github.com/clovaai/deep-text-recognition-benchmark?tab=readme-ov-file
 | Support Telegram bot -- FAQ support bot  | <br>Responds with pre-prepared answers. FAQ prepared by PMFIAS<br><br> |  | Tech :<br><br>- Intent classfication<br>-   |
 | meili search on video / pdf content |  |  |  |
 
+
 2024-01-23 12:38:16
 
 Agenda : 

@@ -8,6 +8,40 @@ https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
  Feedback is the process of informing a person about behaviors that should be changed to improve a process.
  ![[58aba43b6e1efcdab336dde27ae8a4ded38f46f3e4ee30bff92b6d55fc3ae00e.png]]
 
+
+
+1. Company switch -- why so frequent ?
+	1. Tech stack - Elixir
+	2. Would you be staying for longer period of time? 
+		1. 
+2. What do you bring to table? 
+3. What are your expectations? 
+	1. Salary competitive + appraisal cycles
+	2. conducive environment regarding policies 
+	3. Ask ?
+4. Team handle
+	1. Conflict of interest -- 
+		1. two people on same appraisal cycle. 
+	2. balance delivery schedule with chutti 
+5. positively impacted a program or project you worked on
+6. person you’ve worked with who’s had a great impact on you
+7. most challenging problem you have faced and how did you solve it
+8. disagreed with a team member
+
+
+I am on a learning path. I am sure that I will seek guidance will be able to navigate through it.
+
+Organisational Interest -- 
+
+| Categories  | Questions |
+| ---- | ---- |
+| Problem Solving<br> |  |
+| Working on a Team<br> |  |
+| Biggest Failures<br> |  |
+| Leadership<br> |  |
+| Personal Stress |  |
+
+
 #### Prepare 
 1. Should I give feedback? 
 
