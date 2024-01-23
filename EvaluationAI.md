@@ -100,7 +100,6 @@ PMFIAS client ---
 
 - testpress prelims courses 
 - Video Class Series + prelims test series 
-- 
 
 PmfIAS -- Content creator only. now. moving to 'experience' stage
 
@@ -109,8 +108,6 @@ PmfIAS -- Content creator only. now. moving to 'experience' stage
 1. prelims 
 2. video content 
 3. mains test series.
-
-
 
 
 2024-01-23 12:38:16
