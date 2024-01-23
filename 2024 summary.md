@@ -17,7 +17,9 @@ aliases:
 	2. Gym and more active - more walks
 4. Programming
 	1. more stuff in rust. 
-	2. LLD / HLD / System design 
+		1. PEG grammars
+	2. LLD / HLD / 
+		1. System design - arpit bhayani course. Gkcs course. Neetcode course.
 5. Keyansh finds it fun to learn stuff. tables and pictures. - mobile apps? 
 6. 
 
