@@ -32,7 +32,7 @@ https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
 I am on a learning path. I am sure that I will seek guidance will be able to navigate through it.
 
 Organisational Interest -- 
-
+https://www.themartec.com/insidelook/behavioral-interview-questions
 | Categories  | Questions |
 | ---- | ---- |
 | Problem Solving<br> |  |
