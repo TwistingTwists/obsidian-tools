@@ -23,6 +23,15 @@ Problem statement
 3. 
 
 
+## Blogs and optimisations
+- [ ] https://blog.gojek.io/elasticsearch-the-trouble-with-nested-documents/
+- [ ] 
+
+
+### Research Papers
+- [ ] https://mathily.org/dm-rw.html
+- [ ] https://naun.org/multimedia/UPress/ami/16-162.pdf
+- [ ] 
 
 * PoS system - inventory live management
 * QR code for restaurants - live order tracking 
