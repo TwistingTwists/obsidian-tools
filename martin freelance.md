@@ -1,3 +1,9 @@
+---
+tags:
+  - freelance
+---
+
+
 2024-01-21 11:16:22
 
 * first meeting done -- feedback is more TDD.

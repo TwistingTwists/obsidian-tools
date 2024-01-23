@@ -1,6 +1,12 @@
+---
+tags:
+  - system_design
+  - startups
+  - startup-5
+---
 
 
-Design Google Calendar
+### Design Google Calendar
 
 CLSA 
 * Start time + 5 min {duration} (instead of end time)
