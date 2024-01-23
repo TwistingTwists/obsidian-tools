@@ -11,12 +11,12 @@ tags:
 - [ ] https://www.youtube.com/watch?v=Zm95cYAtAa8
 - [ ] https://hexdocs.pm/tempus/getting-started.html
 - [ ] https://github.com/wojtekmach/calendar_interval
-- [ ] 
+- [ ] Tempus 
 
 ### System Design Funda
 
  * It is ok to pick a tech that you had experience with and call out the **pros & cons.**
- * 
+
 ### Url Shortener 
 
 Problem statement: [Create a short url from a long one.](https://newsletter.techleadmentor.com/p/stop-parroting-youtube-solutions)
