@@ -91,6 +91,26 @@ https://github.com/clovaai/deep-text-recognition-benchmark?tab=readme-ov-file
 | PYQ UPSC test series | - free? = yes<br>- next year prelims test series with us<br>- students sign up - user base / user interaction <br>- student data<br><br><br>: LONG TERM GOAL : <br><br>- Highlights text and text editor -- to easily makes notes from any test series and export them to pdf. <br><br> |  | * Pandoc for importing from word doc |
 | Support Telegram bot -- FAQ support bot  | <br>Responds with pre-prepared answers. FAQ prepared by PMFIAS<br><br> |  | Tech :<br><br>- Intent classfication<br>-   |
 | meili search on video / pdf content |  |  |  |
+PMFIAS client --- 
+
+1. Share and divide the company with tech ancillary 
+2. Integarte with pmfias -- for a fee.
+3. Cannot share the stake of pmfias 
+
+
+- testpress prelims courses 
+- Video Class Series + prelims test series 
+- 
+
+PmfIAS -- Content creator only. now. moving to 'experience' stage
+
+1-2 years = Prelims years
+
+1. prelims 
+2. video content 
+3. mains test series.
+
+
 
 
 2024-01-23 12:38:16
