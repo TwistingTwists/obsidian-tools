@@ -4,6 +4,9 @@ tags:
     - hacks
     - TIL
 ---
+### Component in Phoenix 
+Tabs and breadcrumsb -- https://dev.to/ndrean/breadcumbs-with-phoenix-liveview-2d40
+
 [[Design Patterns in Processes - Elixir]]
 
 ## Polymorphism in ecto 
