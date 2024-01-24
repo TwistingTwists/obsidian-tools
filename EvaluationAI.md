@@ -18,7 +18,7 @@ Get all the pdfs -> extract images -> clean images -> embed text in images?     
 Raj Rajhans - CLIP + text model in Elixir and Bumblebee. 
 
 
-### Cleaning images and embedding text? 
+### Image to text 
 
 
 

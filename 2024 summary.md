@@ -29,7 +29,7 @@ aliases:
 | 1 |  |  |  |  |
 | 2 |  | Postgres upto chapter 27 | plan =>  GPT-4 for dataset creation |  |
 | 3 | Zanzibar paper | postgres upto chapter 30<br><br>System design beginner course - Arpit bhayani started |  | Demo with client done |
-| 4 |  |  |  |  |
+| 4 | Arpit Bhayani course Beginner course <br><br>01-15 |  |  |  |
 | 5 |  |  |  |  |
 | 6 |  |  |  |  |
 | 7 |  |  |  |  |
