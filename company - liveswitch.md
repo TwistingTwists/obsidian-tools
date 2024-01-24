@@ -2,6 +2,14 @@
 tags:
   - interview
 ---
+
+### Monte interview 
+
+1. Be more direct. one liners please -- no need to justify so much.
+2. Be confident. 
+3. What are your expectations from the company? How does it align with your goal ? 
+4. 
+
 ## Behavioral Feedback 
 
 - [ ] Be direct, crisp answers.
