@@ -95,3 +95,10 @@ Sample ets usage.
 ###### hot code reload
 * appup scripts -- dev's responsibility to test it for hot code upgrade
 * relup scripts 
+
+
+### ports 
+https://www.theerlangelist.com/article/outside_elixir
+https://www.poeticoding.com/real-time-object-detection-with-phoenix-and-python/
+https://github.com/Pyrlang/Pyrlang?tab=readme-ov-file
+https://medium.com/stuart-engineering/how-we-use-python-within-elixir-486eb4d266f9
