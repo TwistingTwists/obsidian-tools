@@ -2,7 +2,7 @@
 tags:
   - explorer
   - elixir
-  - machine learning
+  - machine_learning
 ---
 
 
