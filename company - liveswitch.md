@@ -3,13 +3,15 @@ tags:
   - interview
 ---
 
-### Monte interview 
+### Monte interview - VP of People liveswitch
 
 1. Be more direct. one liners please -- no need to justify so much.
 2. Be confident. 
 3. What are your expectations from the company? How does it align with your goal ? 
-4. 
-
+4. How did you learn to code? 
+	1. CS friends 
+	2. Master and b tech project 
+ 
 ## Behavioral Feedback 
 
 - [ ] Be direct, crisp answers.
