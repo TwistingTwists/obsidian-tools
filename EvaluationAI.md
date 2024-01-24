@@ -7,20 +7,36 @@ tags:
 
 [[Advice on startups]]
 
-## Related Data Cleaning 
 
-Get all the pdfs -> extract images -> clean images -> embed text in images?            |
-																					-> Segment images and above    |  ==> vectorDb similarity search on it. 
-																					-> Embed text directly in pdf.       |
-																																			|   
+### ROADMAP 
 
+1. Data Cleaning 
+	1. Get all the pdfs -> extract images -> store related metadata in sqlite database or csv format. 
+		1. metadata - topper_name, year, topic, subject {gs , optional name }
+	2. make the process reproducible
+2. Image to text 
+	1. gpt-4 image to text and make csv
+3. {optional} find a way to segment images and store the text of the image along with segment info
+	1. question
+	2. answer
+	3. related_data
+	4. related_diagrams
+4. similarity search 
+	1. text to embeddings 
+	2. data model - embeddings, image_path, text
+5. 
+
+
+ 
 
 Raj Rajhans - CLIP + text model in Elixir and Bumblebee. 
 
 
 ### Image to text 
 
-
+https://dev.to/ndrean/an-example-of-semantic-search-with-elixir-and-bumblebee-h9n
+https://hexdocs.pm/bumblebee/examples.html
+https://www.youtube.com/watch?v=ELBQytOaQUQ&t=1s - seanmor5 doing bumblee support chat bot 
 
 ## { startup-2 } Segment image into questions and solutions
 
