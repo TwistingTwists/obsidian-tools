@@ -102,3 +102,9 @@ https://www.theerlangelist.com/article/outside_elixir
 https://www.poeticoding.com/real-time-object-detection-with-phoenix-and-python/
 https://github.com/Pyrlang/Pyrlang?tab=readme-ov-file
 https://medium.com/stuart-engineering/how-we-use-python-within-elixir-486eb4d266f9
+
+
+## efficient CI example
+
+* https://github.com/cogini/phoenix_container_example/blob/main/.github/workflows/ci.yml
+* precompiled erlang elixir -- https://beammachine.cloud/
