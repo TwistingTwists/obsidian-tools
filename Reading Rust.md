@@ -3,7 +3,9 @@ tags:
   - rust
   - blogs
 ---
+## Adding wasm support for rust project 
 
+https://github.com/tailcallhq/tailcall/pull/1039/files
 
 
 ## Lifetimes in Rust
