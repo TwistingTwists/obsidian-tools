@@ -38,6 +38,7 @@ https://dev.to/ndrean/an-example-of-semantic-search-with-elixir-and-bumblebee-h9
 https://hexdocs.pm/bumblebee/examples.html
 https://www.youtube.com/watch?v=ELBQytOaQUQ&t=1s - seanmor5 doing bumblee support chat bot 
 
+
 ## { startup-2 } Segment image into questions and solutions
 
 Aim: Given a prelims test pdf, extract all question as images and present them to the user with answers (as images). Also, give the options as telegram options to the user. 
@@ -166,3 +167,7 @@ Keyansh - can he learn table of four?
 5. **ResNet + Transformer**: Use ResNet to extract features, then feed these features into a Transformer model. The Transformer model, which was originally designed for natural language processing tasks, has been shown to work well on image-based tasks as well.
 
 #### 
+
+
+
+## { startup-4 } Micro Saas - Credit based system for 
