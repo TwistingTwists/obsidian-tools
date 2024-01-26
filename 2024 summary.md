@@ -8,27 +8,30 @@ aliases:
 ### Broad Accomplishments of 2024:
 
 1. Wife got govt job - teacher in delhi
-2. ML - EvaluationAI
+2. Content Creation 
+3. ML - EvaluationAI
 	1. Prelims test series portal 
-	2. telegram quizbot 
-	3. mains test series EvaluationAI
-3. Physical 
+	2. Telegram quizbot 
+	3. Mains test series EvaluationAI
+4. Physical 
 	1. 200 days of Zhan Zhuang and writings
 	2. Gym and more active - more walks
-4. Programming
+5. Programming
 	1. more stuff in rust. 
-		1. PEG grammars
+		1. cloudflare = foundation HTTP server
+		2. tailcall hq = contributing to open source with bounties -- start small
+		3. 
 	2. LLD / HLD / 
 		1. System design - arpit bhayani course. Gkcs course. Neetcode course.
-5. Keyansh finds it fun to learn stuff. tables and pictures. - mobile apps? 
-6. 
+6. Keyansh finds it fun to learn stuff. tables and pictures. - mobile apps? 
+7. 
 
 
-| Week | System Design | Basics - LEETCODE + PostgresDB | EvaluationAI | Telegram |
+| Week | System Design | Basics - LEETCODE + PostgresDB | EvaluationAI | BLOG |
 | ---- | ---- | ---- | ---- | ---- |
 | 1 |  |  |  |  |
 | 2 |  | Postgres upto chapter 27 | plan =>  GPT-4 for dataset creation |  |
-| 3 | Zanzibar paper | System design beginner course - Arpit bhayani started |  | Demo with client (pmfias + martin ) done |
+| 3 | Zanzibar paper | System design beginner course - Arpit bhayani started |  | tg: Demo with client (pmfias + martin ) done |
 | 4 | Arpit Bhayani course Beginner course <br><br>01-15 |  |  |  |
 | 5 |  |  |  |  |
 | 6 |  |  |  |  |
