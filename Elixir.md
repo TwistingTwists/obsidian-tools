@@ -108,3 +108,9 @@ https://medium.com/stuart-engineering/how-we-use-python-within-elixir-486eb4d266
 
 * https://github.com/cogini/phoenix_container_example/blob/main/.github/workflows/ci.yml
 * precompiled erlang elixir -- https://beammachine.cloud/
+
+
+
+## Phoenix Tracker --- test 
+
+https://hexdocs.pm/multiverses_pubsub/Multiverses.Tracker.html

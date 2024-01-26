@@ -3,6 +3,9 @@ tags:
   - rust
   - blogs
 ---
+
+
+
 ## Adding wasm support for rust project 
 
 https://github.com/tailcallhq/tailcall/pull/1039/files
@@ -33,6 +36,7 @@ https://dzfrias.dev/blog/deploy-rust-cross-platform-github-actions
 ## async runtime
 https://www.ncameron.org/blog/what-is-an-async-runtime/
 https://www.youtube.com/watch?v=XZtlD_m59sM
+https://www.youtube.com/watch?v=0HwrZp9CBD4
 
 ## futures
 https://docs.rs/futures/latest/futures/#:~:text=Futures%20are%20single%20eventual%20values,for%20asynchronous%20writing%20of%20data.

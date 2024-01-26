@@ -5,6 +5,10 @@ tags:
   - python
   - machine_learning
 ---
+## LLM Steering course 
+https://www.wandb.courses/courses/take/steering-language-models/lessons/51841451-jason-s-introduction
+
+
 #### Google's mediapipe 
 https://developers.google.com/mediapipe/solutions/setup_web
 
