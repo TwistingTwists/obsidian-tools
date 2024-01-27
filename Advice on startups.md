@@ -11,7 +11,7 @@ tags:
 ### Building specific knowledge
 
 - [ ] Can build websites fast
-- [ ] Find leverage in business and tip it over
+- [ ] 
 - [ ] 
 
 ### [Criteria ](https://www.youtube.com/watch?v=0lJKucu6HJc&t=9s)for a startup to be successful (30% mostly) : 
