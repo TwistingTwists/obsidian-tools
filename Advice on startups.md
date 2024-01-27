@@ -3,6 +3,17 @@ tags:
   - startups
 ---
 
+### Learn to sell 
+
+- [ ] Story telling - michael dicks book - [[Storyworthy]]
+- [ ] What does the customer want? 
+
+### Building specific knowledge
+
+- [ ] Can build websites fast
+- [ ] Find leverage in business and tip it over
+- [ ] 
+
 ### [Criteria ](https://www.youtube.com/watch?v=0lJKucu6HJc&t=9s)for a startup to be successful (30% mostly) : 
 
 * 80% =  people can tell the difference spot-on. Simple to explain.
