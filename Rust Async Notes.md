@@ -1,3 +1,7 @@
+---
+tags:
+  - rust
+---
 
 ### Tokio Tutorial
 https://www.youtube.com/watch?v=KYL4FtKY8Mc

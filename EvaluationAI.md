@@ -7,6 +7,10 @@ tags:
 
 [[Advice on startups]]
 
+## Pytorch 
+
+https://www.youtube.com/playlist?list=PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG
+https://www.youtube.com/playlist?list=PLQVvvaa0QuDdeMyHEYc0gxFpYwHY2Qfdh
 
 ### ROADMAP 
 

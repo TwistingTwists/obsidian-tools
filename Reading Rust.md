@@ -4,6 +4,9 @@ tags:
   - blogs
 ---
 
+## gpui2 by zed 
+
+https://github.com/zed-industries/zed/blob/main/crates/gpui/examples/hello_world.rs
 
 
 ## Adding wasm support for rust project 
