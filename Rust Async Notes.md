@@ -2,6 +2,8 @@
 tags:
   - rust
 ---
+### Rust example-futures 
+* In 500 lines. 
 
 ### Tokio Tutorial
 https://www.youtube.com/watch?v=KYL4FtKY8Mc
