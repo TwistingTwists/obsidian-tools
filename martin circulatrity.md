@@ -55,6 +55,12 @@ TDD - 1 test / 2 tests
 - [ ] Classificiation for indeterminate WH  = 1 day
 	- [ ] Testing -- 3-4 days with iteratively fixing corner cases.
 
+
+
+
+
+
+
 Assumption is 3 hr a day.
 
 ### Approaches for the circularity module
