@@ -104,7 +104,7 @@ https://github.com/Pyrlang/Pyrlang?tab=readme-ov-file
 https://medium.com/stuart-engineering/how-we-use-python-within-elixir-486eb4d266f9
 
 
-## efficient CI example
+## Efficient CI example
 
 * https://github.com/cogini/phoenix_container_example/blob/main/.github/workflows/ci.yml
 * precompiled erlang elixir -- https://beammachine.cloud/
@@ -114,3 +114,7 @@ https://medium.com/stuart-engineering/how-we-use-python-within-elixir-486eb4d266
 ## Phoenix Tracker --- test 
 
 https://hexdocs.pm/multiverses_pubsub/Multiverses.Tracker.html
+
+
+## Livebook 
+Spinner : https://gist.github.com/hugobarauna/4d329044739ee6be435e93cdb9eb22ed
