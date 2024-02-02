@@ -3,7 +3,8 @@ tags:
   - rust
   - blogs
 ---
-Rust for Rustaceans
+* Rust for Rustaceans
+
 
 ## gpui2 by zed 
 

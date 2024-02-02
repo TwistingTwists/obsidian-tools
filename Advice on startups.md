@@ -2,6 +2,10 @@
 tags:
   - startups
 ---
+### Billion Dollar Single person company
+
+- [ ] How to ? 
+- [ ] 
 
 ### Learn to sell 
 
