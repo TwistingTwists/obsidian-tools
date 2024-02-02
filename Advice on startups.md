@@ -2,6 +2,11 @@
 tags:
   - startups
 ---
+### Ideas
+
+- [ ] Rust server? 
+- [ ] 
+
 ### Billion Dollar Single person company
 
 - [ ] How to ? 
