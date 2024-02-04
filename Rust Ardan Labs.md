@@ -55,3 +55,9 @@ fn main() {
 
 ```
 `if i == 3 { break 'outer; }`: This condition checks if `i` is equal to 3. If true, it breaks out of the loop labeled `'outer`. This means it exits both the `while` loop and the `for` loop labeled `'outer`.
+
+
+## Threads
+
+* handle and join , move closure
+* 
