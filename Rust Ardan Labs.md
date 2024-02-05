@@ -6,7 +6,7 @@ tags:
 ---
 ## 1.12 serialsation 
 
->> while true and loop 
+> while true and loop 
 
 ```rust
 
@@ -57,7 +57,11 @@ fn main() {
 `if i == 3 { break 'outer; }`: This condition checks if `i` is equal to 3. If true, it breaks out of the loop labeled `'outer`. This means it exits both the `while` loop and the `for` loop labeled `'outer`.
 
 
-## Threads
+## 2. Threads 
 
-* handle and join , move closure
+* handle and join , move closure (so that the ownership of all the variables is taken by thread)
+* Scoped threads
+* Atomic and Lazy Initialisation
+* Mutex
+* RwLock 
 * 
