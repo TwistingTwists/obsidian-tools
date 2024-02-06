@@ -64,4 +64,15 @@ fn main() {
 * Atomic and Lazy Initialisation
 * Mutex
 * RwLock 
-* 
+
+
+
+Reading list 
+
+https://docs.rs/tokio-scoped/latest/tokio_scoped/
+https://greptime.com/blogs/2023-03-09-bridging-async-and-sync-rust
+https://thenewstack.io/using-rustlangs-async-tokio-runtime-for-cpu-bound-tasks/
+https://github.com/andybarron/tokio-rayon
+https://rustmagazine.org/issue-4/how-tokio-schedule-tasks/
+https://raindev.io/blog/mixing-sync-and-async-rust/
+https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sync-and-async-code
