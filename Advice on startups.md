@@ -15,6 +15,9 @@ Approaches to generating ideas:
 - [ ] 
 - [ ] 
 
+
+
+
 ### Billion Dollar Single person company
 
 - [ ] How to ? 
