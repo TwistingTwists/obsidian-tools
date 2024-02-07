@@ -2,9 +2,17 @@
 tags:
   - startups
 ---
-### Ideas
+# Sahil's Course - Minimalist Problem
 
-- [ ] Rust server? 
+Goal : doing 100% of time what you want. 
+Way to reached goal: Building a (many) profitable businesses.
+### 001 Generating Ideas
+
+Approaches to generating ideas: 
+* market first - opportunity first
+* bottom up - solve your own problem
+
+- [ ] 
 - [ ] 
 
 ### Billion Dollar Single person company
