@@ -6,6 +6,10 @@ tags:
 * Rust for Rustaceans
 
 
+## Effective rust
+https://www.lurklurk.org/effective-rust/
+
+
 ## gpui2 by zed 
 
 https://github.com/zed-industries/zed/blob/main/crates/gpui/examples/hello_world.rs
