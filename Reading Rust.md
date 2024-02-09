@@ -9,6 +9,9 @@ tags:
 ## Effective rust
 https://www.lurklurk.org/effective-rust/
 
+### Rust and python 
+
+* Mainmatter blog -- using rust and python with **pyo3**
 
 ## gpui2 by zed 
 

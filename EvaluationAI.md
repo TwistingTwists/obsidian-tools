@@ -177,3 +177,11 @@ Keyansh - can he learn table of four?
 ## { startup-4 } Micro Saas - Credit based billing system 
 
 Elixir Apps
+
+
+
+### Can You retrain llamacpp for your own work ? and let it run on mobile? 
+
+* Old customised model for your domain and your use case. 
+* Build the training data for image analysis using vision models / old models  for your use case?
+* 
