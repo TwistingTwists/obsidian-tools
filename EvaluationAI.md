@@ -8,7 +8,13 @@ tags:
 
 ##### From Wandb course (instructor): 
 - [ ] Simple RAG has limitations 
-- [ ] howto advanced rag - https://www.youtube.com/watch?v=CeDS1yvw9E4
+- [ ] howto advanced rag - 
+	- [ ] Overview - with evaullation on RAG : https://www.youtube.com/watch?v=CeDS1yvw9E4
+	- [ ] Tru and Llamaindex : https://www.youtube.com/watch?v=rrW1U7tt_Xg
+	- [ ] more llamaindex : https://www.youtube.com/watch?v=wBhY-7B2jdY
+	- [ ] evalutae the rag : https://www.youtube.com/watch?v=mEv-2Xnb_Wk
+- [ ] watch people build with MarvinAI 
+	- [ ] https://www.youtube.com/watch?v=ku3DPrR6Sl0
 
 
 
