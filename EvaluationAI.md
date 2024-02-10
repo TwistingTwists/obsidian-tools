@@ -4,6 +4,13 @@ tags:
   - startup-2
 ---
 
+### Building Advanced RAG 
+
+##### From Wandb course (instructor): 
+- [ ] Simple RAG has limitations 
+- [ ] howto advanced rag - https://www.youtube.com/watch?v=CeDS1yvw9E4
+
+
 
 [[Advice on startups]]
 
