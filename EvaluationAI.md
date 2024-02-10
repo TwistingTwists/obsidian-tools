@@ -12,6 +12,16 @@ tags:
 
 
 
+Just a question around structured output using instructor 
+
+https://youtu.be/CeDS1yvw9E4?t=745 : This shows the structured output using llamaindex. Instructor produces similar stuff by defining pydantic models. 
+
+1. does llamaindex use instructor?
+2. if not, then Is there tangible benefit by integrating instructor with llamaindex? 
+3. the integration might be trivial. Or not. If it is trivial, please point to some docs.
+4. 
+
+
 [[Advice on startups]]
 
 ## Pytorch 
