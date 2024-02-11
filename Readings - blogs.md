@@ -2,6 +2,11 @@
 tags:
   - blog
 ---
+## Sat chit ananda
+
+https://hamsikaa.substack.com/p/sat-chit-ananda
+https://www.sarvam.ai/
+
 ## No Code
 
 https://budibase.com/
