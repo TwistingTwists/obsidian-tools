@@ -3,6 +3,10 @@ tags:
   - startups
   - startup-2
 ---
+### Have a look 
+- [ ] CLIP model hugging face - https://huggingface.co/BAAI/EVA-CLIP-8B
+- [ ] LLM modulo framework - https://arxiv.org/pdf/2402.01817.pdfa
+- [ ] 
 
 ### Building Advanced RAG 
 

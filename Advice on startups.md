@@ -73,3 +73,8 @@ Approaches to generating ideas:
 * Actively think and spend the mental energy upfront. -> so much that the implementation is dwarfed by the design.
 
 No technical debt?
+
+
+
+### systems performance playlist 
+https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
