@@ -57,6 +57,31 @@ fn main() {
 `if i == 3 { break 'outer; }`: This condition checks if `i` is equal to 3. If true, it breaks out of the loop labeled `'outer`. This means it exits both the `while` loop and the `for` loop labeled `'outer`.
 
 
+```rust
+
+// you can swap runtime values by swapping references
+
+fn main() {
+    let a = 10;
+    let b = 2;
+    
+    let mut x_coord: &i32 = &a;
+    let mut y_coord: &i32 = &b;
+    
+    println!("{},{}", a, b);
+    println!("{},{}", x_coord, y_coord);
+    
+    let mut temp = x_coord;
+    // changing x_coord does not change the value it holds. (unlike C++ )
+    x_coord = y_coord;
+    y_coord = temp;
+    
+    println!("{},{}", x_coord, y_coord);
+    println!("{},{}", a, b);
+
+}
+```
+
 ## 2. Threads 
 
 * handle and join , move closure (so that the ownership of all the variables is taken by thread)
