@@ -5,6 +5,8 @@ tags:
 ### Rust example-futures 
 * In 500 lines. 
 * https://medium.com/@ning_gt/bridging-async-and-sync-rust-code-a-lesson-learned-while-working-with-tokio-6173b1efaca4
+* https://without.boats/blog/let-futures-be-futures/
+* 
 
 ### Tokio Tutorial
 https://www.youtube.com/watch?v=KYL4FtKY8Mc

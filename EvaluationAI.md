@@ -6,11 +6,17 @@ tags:
 ### Have a look 
 - [ ] CLIP model hugging face - https://huggingface.co/BAAI/EVA-CLIP-8B
 - [ ] LLM modulo framework - https://arxiv.org/pdf/2402.01817.pdfa
-- [ ] 
+- [ ] LangGraph 
+
+### LLM Course 
+Source: https://github.com/mlabonne/llm-course
+
 
 ### Building Advanced RAG 
 
+-----
 ##### From Wandb course (instructor): 
+
 - [ ] Simple RAG has limitations 
 - [ ] howto advanced rag - 
 	- [ ] Overview - with evaullation on RAG : https://www.youtube.com/watch?v=CeDS1yvw9E4
@@ -19,8 +25,6 @@ tags:
 	- [ ] evalutae the rag : https://www.youtube.com/watch?v=mEv-2Xnb_Wk
 - [ ] watch people build with MarvinAI 
 	- [ ] https://www.youtube.com/watch?v=ku3DPrR6Sl0
-
-
 
 Just a question around structured output using instructor 
 
@@ -31,6 +35,28 @@ https://youtu.be/CeDS1yvw9E4?t=745 : This shows the structured output using llam
 3. the integration might be trivial. Or not. If it is trivial, please point to some docs.
 4. 
 
+-----
+##### LangGraph and CRAG 
+
+- [ ] CRAG - https://github.com/mistralai/cookbook/blob/main/langgraph_crag_mistral.ipynb
+- [ ] LangSmith - stacktrace
+
+
+
+-----
+
+##### LLM aware 
+
+https://github.com/llmware-ai/llmware
+
+
+-----
+
+##### Embeddings 
+
+- [ ] https://supabase.com/blog/matryoshka-embeddings
+- [ ] 
+-----
 
 [[Advice on startups]]
 
@@ -124,8 +150,6 @@ User uploads his scanned copy (pdf, image) -> find the text -> find similar topp
 
 
 ## Elixir and Evaluation AI 
-Pydantic is all you need :  https://www.youtube.com/watch?v=yj-wSRJwrrc
-https://github.com/thmsmlr/instructor_ex
 https://www.youtube.com/watch?v=YrRmN4LbCuE -- Elixir recommendation engine
 
 https://github.com/clovaai/deep-text-recognition-benchmark?tab=readme-ov-file
@@ -211,4 +235,3 @@ Elixir Apps
 
 * Old customised model for your domain and your use case. 
 * Build the training data for image analysis using vision models / old models  for your use case?
-* 
