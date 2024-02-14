@@ -4,6 +4,7 @@ tags:
 ---
 ### Rust example-futures 
 * In 500 lines. 
+* https://medium.com/@ning_gt/bridging-async-and-sync-rust-code-a-lesson-learned-while-working-with-tokio-6173b1efaca4
 
 ### Tokio Tutorial
 https://www.youtube.com/watch?v=KYL4FtKY8Mc
@@ -186,4 +187,19 @@ https://build-your-own.org/blog/20230127_byor/
 	1. https://www.shakacode.com/blog/thiserror-anyhow-or-how-i-handle-errors-in-rust-apps/
 	2. https://antoinerr.github.io/blog-website/2023/01/28/rust-anyhow.html
 	3. https://nick.groenen.me/posts/rust-error-handling/
-2. 
+
+
+
+
+
+Hey folks,
+
+I am gathering feedback for a book (100 pages) on async rust.
+
+Here is the probable list of chapters. Let me know if you'd like anything else.
+
+1. What is async? 
+	1. What is blocking? 
+	2. What is a runtime? 
+	3. Rust's await
+	4. 
