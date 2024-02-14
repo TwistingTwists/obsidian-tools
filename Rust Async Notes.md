@@ -198,8 +198,31 @@ I am gathering feedback for a book (100 pages) on async rust.
 
 Here is the probable list of chapters. Let me know if you'd like anything else.
 
-1. What is async? 
-	1. What is blocking? 
-	2. What is a runtime? 
-	3. Rust's await
-	4. 
+1. Two model of concurrent programming
+	1. shared memory 
+	2. message passing
+2. What is async? 
+	2. What is blocking? 
+		1. A unit of time / work - tokio::yield_now
+	3. What is a runtime? 
+	4. Rust's await - difference with JS
+	5. Shared state concurrency - 
+		1. Lock based
+		2. Await free / lock free concurrency
+	6. Message passing via channels 
+3. Async cancellation / AsyncIterators
+4. Structured concurrency and related crates
+	1. What is structured concurrency ?
+5. 
+6.  Examples examples
+	1. Async future within async runtime
+	2. Bridge sync code with async 
+		1. Tokio Asyncifies std library 
+		2. FFI and spawn_blocking
+7. Threads and runtime (tokio)
+	1. Message passing via channels
+	2. 
+8. Pinning - what, why , how, when?
+9. Efficient data structures 
+	1. A short intro to memcpy / mmap 
+	2. zero copy 
