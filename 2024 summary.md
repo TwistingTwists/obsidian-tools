@@ -13,6 +13,7 @@ aliases:
 	1. Prelims test series portal 
 	2. Telegram quizbot 
 	3. Mains test series EvaluationAI
+	4. Llava in elixir ? 
 4. Physical 
 	1. 200 days of Zhan Zhuang and writings
 	2. Gym and more active - more walks

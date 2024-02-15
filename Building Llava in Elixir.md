@@ -3,6 +3,8 @@ tags:
   - machine_learning
   - llms
   - llava
+  - long_term
+  - plans
 ---
 ### How it started? 
 

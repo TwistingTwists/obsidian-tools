@@ -1,6 +1,8 @@
 ---
 tags:
   - rust
+  - long_term
+  - plans
 ---
 ### Rust example-futures 
 * In 500 lines. 
