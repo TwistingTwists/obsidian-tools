@@ -202,20 +202,28 @@ I am gathering feedback for a book (100 pages) on async rust.
 
 250 * 100 
 
-1. Two model of concurrent programming
-	1. shared memory 
-	2. message passing
+Preface : Who is this book for? Why should you read it ?
+
+1. The basics
+	1. Two model of concurrent programming
+		1. shared memory 
+		2. message passing
+	2. Concurrency vs parallelism
 2. What is async? 
 	2. What is blocking? 
 		1. A unit of time / work - tokio::yield_now
 	3. What is a runtime? 
-	4. Rust's await - difference with JS
+		1. runtime = executor + reactor 
+		2. types of executors in a runtime
+		3. Task , Future Trait and executor
+	4. Rust's Futures - difference with JS
+		1. Let futures be futures 
 	5. Shared state concurrency
 		1. Lock based
 		2. Await free / lock free concurrency
 	6. Message passing via channels 
 
-3. State of Async Ecosytem in Rust today
+3. State of Async Ecosystem in Rust today
 	1. async in std lib
 	2. Runtimes 
 	3. concurrency and related crates
@@ -228,27 +236,31 @@ I am gathering feedback for a book (100 pages) on async rust.
 		1. Enough to get going and build! 
 		2. Looking forward - what to expect from future versions of rust? 
 
-5. Patterns of async code 
+4. Patterns of async code 
+	1. 
 	2. Deep Dive mini redis - by Tokio team 
 	3. Async cancellation / AsyncIterators / AsyncStreams
-	4. Function Coloring 
+	4. Async in embedded context? - Thread locals ? 
+	5. Function Coloring 
 		1. calling Sync code from within async code
 			1. Especially , FFI (with c libraries which are Sync)
-	5. Building async libraries - exposing async
-	6. 
-7. 
-8.  Examples examples
+	6. Tokio Asyncifies std library ? 
+
+5.  Examples examples
 	1. Async future within async runtime
 	2. Bridge sync code with async 
-		1. Tokio Asyncifies std library 
-		2. FFI and spawn_blocking
-9. Threads and runtime (tokio)
+
+6. Threads , Parallelism and runtime (tokio)
 	1. Message passing via channels
-	2. 
-10. Pinning - what, why , how, when?
-11. Efficient data structures 
+	2. Mixing os threads and tokio workers via channels
+	3. rayon crate
+7. Pinning - what, why , how, when?
+8. Efficient data structures 
 	1. A short intro to memcpy / mmap 
 	2. zero copy 
+9. Onwards and upwards 
+	1. Next steps
+	2. more resources , sample projects , ideas ...
 
 
 
