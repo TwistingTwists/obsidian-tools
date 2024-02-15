@@ -16,6 +16,9 @@ Approaches to generating ideas:
 - [ ] 
 
 
+### Doshi twitter 
+https://coda.io/@shreyas/productalmanac
+
 
 
 ### Billion Dollar Single person company
