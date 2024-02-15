@@ -370,6 +370,7 @@ Competing books  and future competitors
 2. Present: Async Book does cover basics. However it lacks information around ecosystem, crates , and full blown examples. I aim to include that in my book Async Book is also incomplete at the moment. 
 3. Present: Async Rust by Maxwell Flitton, Caroline Morton : from Oreilly . Maxwell has written books about Rust previously. So he is well known within the community. 
 4.  [Asynchronous Programming in Rust ](https://github.com/PacktPublishing/Asynchronous-Programming-in-Rust)by [Carl Fredrik Samson](https://www.amazon.in/Carl-Fredrik-Samson/e/B0CSLRJ9ZZ/ref=dp_byline_cont_ebooks_1) : This is a very recent work and in progress now. 
+5. https://book.async.rs/ : 
 
 List the books that compete indirectly or directly and tell us how yours is different and better. Why would a reader choose your book over the others that are on the market?
 
