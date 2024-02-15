@@ -361,11 +361,15 @@ Preface : Who is this book for? Why should you read it ?
 
 ## Bio
 
-Abhishek is a passionate software developer from India. He is Elixir-ist by the day and Rustacean by the night. He has built a couple of small projects in rust and is hooked at its zero-cost abstractions , cross compilation and excellent tooling. 
-
-Write a third-person bio that tells us who you are and what you do. Tell us about your experience and relation to the topic. Have you spoken publicly or written any material on this topic already? Are you active in the community? How might a reader get in touch with you (e.g. Twitter handle, LinkedIn address, your own blog)? Imagine that this bio will be displayed next to your book on pragprog.com.
+Abhishek is a passionate software developer from India. He is Elixir-ist by the day and Rustacean by the night. He has built a couple of small projects in rust and is hooked at its zero-cost abstractions , cross compilation and excellent tooling. He has presented the topic of Async Rust at Rust Delhi (Feb 2024). He tweets about his findings on twitter at @twistin456. His code amusing can be found at https://github.com/twistingTwists. 
 
 ## Competing Books
+
+Competing books  and future competitors
+1. Future : Jon mentioned that he might be working on async book in rust. Owing to his experience, that'd be a deep dive aimed at intermediate rust programmers. Mine is a gentle overview for people who don't do rust daily.
+2. Present: Async Book does cover basics. However it lacks information around ecosystem, crates , and full blown examples. I aim to include that in my book Async Book is also incomplete at the moment. 
+3. Present: Async Rust by Maxwell Flitton, Caroline Morton : from Oreilly . Maxwell has written books about Rust previously. So he is well known within the community. 
+4.  [Asynchronous Programming in Rust ](https://github.com/PacktPublishing/Asynchronous-Programming-in-Rust)by [Carl Fredrik Samson](https://www.amazon.in/Carl-Fredrik-Samson/e/B0CSLRJ9ZZ/ref=dp_byline_cont_ebooks_1) : This is a very recent work and in progress now. 
 
 List the books that compete indirectly or directly and tell us how yours is different and better. Why would a reader choose your book over the others that are on the market?
 
