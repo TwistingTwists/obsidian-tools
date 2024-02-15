@@ -20,6 +20,10 @@ Approaches to generating ideas:
 https://coda.io/@shreyas/productalmanac
 
 
+### First time founders
+
+Weaknesses : 
+1. 
 
 ### Billion Dollar Single person company
 

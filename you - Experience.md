@@ -5,6 +5,13 @@ tags:
   - hiring
 ---
 
+
+* What is the most technical thing you have done so far ? 
+* We are worried about your tenure which does not seem ideal for the organisation. 
+
+
+
+
 https://lookahead.com.au/jobs/3632304
 | Experience                                           | Topics to know | Sources                                                       |
 |------------------------------------------------------|----------------|---------------------------------------------------------------|
