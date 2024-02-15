@@ -236,7 +236,7 @@ Preface : Who is this book for? Why should you read it ?
 		1. Enough to get going and build! 
 		2. Looking forward - what to expect from future versions of rust? 
 
-4. Patterns of async code 
+4. Patterns of async code - with examples
 	1. 
 	2. Deep Dive mini redis - by Tokio team 
 	3. Async cancellation / AsyncIterators / AsyncStreams
@@ -245,20 +245,19 @@ Preface : Who is this book for? Why should you read it ?
 		1. calling Sync code from within async code
 			1. Especially , FFI (with c libraries which are Sync)
 	6. Tokio Asyncifies std library ? 
+5. Errors, recovery and testing Async code
 
-5.  Examples examples
-	1. Async future within async runtime
-	2. Bridge sync code with async 
-
-6. Threads , Parallelism and runtime (tokio)
+8. Threads , Parallelism and runtime (tokio)
 	1. Message passing via channels
 	2. Mixing os threads and tokio workers via channels
 	3. rayon crate
-7. Pinning - what, why , how, when?
-8. Efficient data structures 
+9. Pinning - what, why , how, when?
+10. Efficient data structures 
 	1. A short intro to memcpy / mmap 
 	2. zero copy 
-9. Onwards and upwards 
+11. Observability in async Rust 
+	1. Tracing crate and order of execution
+12. Onwards and upwards 
 	1. Next steps
 	2. more resources , sample projects , ideas ...
 
@@ -277,7 +276,7 @@ Async for people whose don't do rust daily
 
 ## Author Name(s):
 
-Abhishek Tripathi
+Abhishek Tripathi. (there may be 1 more.)
 
 ## Page Count (your best estimate - allow 300 words to a page):
 
@@ -285,19 +284,84 @@ Abhishek Tripathi
 
 ## Overview
 
-The book aims to cover async parts of rust which are 'hard' to reason about. The contents of the books
+The book aims to cover async parts of rust which are 'hard' to reason about. The contents of the books refresh the take on async rust by introducing the ecosystem as a whole to enable getting-started rather easily. The audience should have some prior experience with async from JS / python other ecosystems. They should be ready to do the side-reading as and when the need arises. (for example, what is dns)
 
-* What core technologies/topics you'll be writing about, and who your audience is (especially what skills they should already have);
-* what real-world problems you'll be solving, and how you'll approach the topic (e.g. building a test application, cookbook style recipes, short exercises, anecdotes from real-life stories, etc.);
-* why you are excited about this particular topic and why we should be excited about your book.
+A good book which is a gentle introduction and ecosystem survey would go long way in boosting rust adoption.
 
-Imagine that this text is on the back of your book and you're selling your book to the reader. Telling us too much is better than telling us too little.
+I recently wrote a tiny application that uses few of above concepts. Figuring out details was a little hard and confusing given so much text one has to go through. A structured primer to async rust would be nice to consolidate all those readings for me and for ecosystem in general. 
+
+While I don't have much production experience in Rust, I am up for building small examples or a take a small project to illustrate the concepts in this book. Another idea I think that could work is taking open source libraries like iggy.rs or callysto to illustrate the concepts. I am undecided on the approach yet. 
+In an ideal scenario, my preference would be taking a real world project - like a backend service for XX use case. 
+
+
 
 ## Outline
 
-List the chapter titles and a sentence explaining what the chapter covers. It's OK if you only have a rough outline at this stage, but we need to see what the reader's journey will be in the book and get an understanding of how you intend to approach the topic.
+
+Preface : Who is this book for? Why should you read it ?
+
+1. The basics
+	1. Two model of concurrent programming
+		1. shared memory 
+		2. message passing
+	2. Concurrency vs parallelism
+2. What is async? 
+	1. What is blocking? 
+		1. A unit of time / work - tokio::yield_now
+	2. What is a runtime? 
+		1. runtime = executor + reactor 
+		2. types of executors in a runtime
+		3. Task , Future Trait and executor
+	3. Rust's Futures - difference with JS
+		1. Let futures be futures 
+	4. Shared state concurrency
+		1. Lock based
+		2. Await free / lock free concurrency
+	5. Message passing via channels 
+
+3. State of Async Ecosystem in Rust today
+	1. async in std lib
+	2. Runtimes 
+	3. concurrency and related crates
+		1. async recursion
+		2. OnceCell / RefCell / Cell / Atomics
+		3. async functions in traits 
+		4. timed futures - Tokio::select! 
+	4. structured concurrency - What why how?
+	5. Conclusion 
+		1. Enough to get going and build! 
+		2. Looking forward - what to expect from future versions of rust? 
+
+4. Patterns of async code - with examples
+	1. 
+	2. Deep Dive mini redis - by Tokio team 
+	3. Async cancellation / AsyncIterators / AsyncStreams
+	4. Async in embedded context? - Thread locals ? 
+	5. Function Coloring 
+		1. calling Sync code from within async code
+			1. Especially , FFI (with c libraries which are Sync)
+	6. Tokio Asyncifies std library ? 
+5. Errors, recovery and testing Async code
+6. Threads , Parallelism and runtime (tokio)
+	1. Message passing via channels
+	2. Mixing os threads and tokio workers via channels
+	3. rayon crate
+7. Pinning - what, why , how, when?
+8. Efficient data structures 
+	1. A short intro to memcpy / mmap 
+	2. zero copy 
+9. Observability in async Rust 
+	1. Tracing crate and order of execution
+10. Onwards and upwards 
+	1. Next steps
+	2. more resources , sample projects , ideas ...
+
+
+
 
 ## Bio
+
+Abhishek is a passionate software developer from India. He is Elixir-ist by the day and Rustacean by the night. He has built a couple of small projects in rust and is hooked at its zero-cost abstractions , cross compilation and excellent tooling. 
 
 Write a third-person bio that tells us who you are and what you do. Tell us about your experience and relation to the topic. Have you spoken publicly or written any material on this topic already? Are you active in the community? How might a reader get in touch with you (e.g. Twitter handle, LinkedIn address, your own blog)? Imagine that this bio will be displayed next to your book on pragprog.com.
 
