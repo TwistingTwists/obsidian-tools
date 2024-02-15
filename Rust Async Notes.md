@@ -200,7 +200,7 @@ Hey folks,
 
 I am gathering feedback for a book (100 pages) on async rust.
 
-Here is the probable list of chapters. Let me know if you'd like anything else.
+250 * 100 
 
 1. Two model of concurrent programming
 	1. shared memory 
@@ -210,24 +210,43 @@ Here is the probable list of chapters. Let me know if you'd like anything else.
 		1. A unit of time / work - tokio::yield_now
 	3. What is a runtime? 
 	4. Rust's await - difference with JS
-	5. Shared state concurrency - 
+	5. Shared state concurrency
 		1. Lock based
 		2. Await free / lock free concurrency
 	6. Message passing via channels 
-3. Async cancellation / AsyncIterators
-4. Structured concurrency and related crates
-	1. What is structured concurrency ?
-5. 
-6.  Examples examples
+
+3. State of Async Ecosytem in Rust today
+	1. async in std lib
+	2. Runtimes 
+	3. concurrency and related crates
+		1. async recursion
+		2. OnceCell / RefCell / Cell / Atomics
+		3. async functions in traits 
+		4. timed futures - Tokio::select! 
+	4. structured concurrency - What why how?
+	5. Conclusion 
+		1. Enough to get going and build! 
+		2. Looking forward - what to expect from future versions of rust? 
+
+5. Patterns of async code 
+	2. Deep Dive mini redis - by Tokio team 
+	3. Async cancellation / AsyncIterators / AsyncStreams
+	4. Function Coloring 
+		1. calling Sync code from within async code
+			1. Especially , FFI (with c libraries which are Sync)
+	5. Building async libraries - exposing async
+	6. 
+7. 
+8.  Examples examples
 	1. Async future within async runtime
 	2. Bridge sync code with async 
 		1. Tokio Asyncifies std library 
 		2. FFI and spawn_blocking
-7. Threads and runtime (tokio)
+9. Threads and runtime (tokio)
 	1. Message passing via channels
 	2. 
-8. Pinning - what, why , how, when?
-9. Efficient data structures 
+10. Pinning - what, why , how, when?
+11. Efficient data structures 
 	1. A short intro to memcpy / mmap 
 	2. zero copy 
 
@@ -254,7 +273,7 @@ Abhishek Tripathi
 
 ## Overview
 
-The book aims to cover async parts of rust which are 'hard' to reason about. The contents of the books are for 
+The book aims to cover async parts of rust which are 'hard' to reason about. The contents of the books
 
 * What core technologies/topics you'll be writing about, and who your audience is (especially what skills they should already have);
 * what real-world problems you'll be solving, and how you'll approach the topic (e.g. building a test application, cookbook style recipes, short exercises, anecdotes from real-life stories, etc.);
