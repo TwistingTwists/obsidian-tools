@@ -6,6 +6,7 @@ tags:
   - arpit_elixir
 persons: arpit_elixir
 ---
+https://floatui.com/components/tabs
 
 
 ### Design Google Calendar
