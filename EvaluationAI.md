@@ -6,7 +6,7 @@ tags:
 ### Have a look 
 - [ ] CLIP model hugging face - https://huggingface.co/BAAI/EVA-CLIP-8B
 - [ ] LLM modulo framework - https://arxiv.org/pdf/2402.01817.pdfa
-- [ ] LangGraph 
+- [ ] 
 
 ### LLM Course 
 Source: https://github.com/mlabonne/llm-course
