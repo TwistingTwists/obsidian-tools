@@ -224,14 +224,14 @@ Preface : Who is this book for? Why should you read it ?
 	6. Message passing via channels 
 
 3. State of Async Ecosystem in Rust today
-	1. async in std lib
-	2. Runtimes 
+	1. async in std lib 
+	2. Runtimes - tokio 
 	3. concurrency and related crates
 		1. async recursion
 		2. OnceCell / RefCell / Cell / Atomics
 		3. async functions in traits 
 		4. timed futures - Tokio::select! 
-	4. structured concurrency - What why how?
+	4. structured concurrency - What why how? - Cancellation - where Drop semantics don't work.
 	5. Conclusion 
 		1. Enough to get going and build! 
 		2. Looking forward - what to expect from future versions of rust? 
