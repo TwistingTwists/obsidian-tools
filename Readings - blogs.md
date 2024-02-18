@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=RJ_jGHeFz5E
 
 
 
+### NLP Deep learning NPTEL mitesh lectures
 https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU
 https://www.youtube.com/playlist?list=PLyqSpQzTE6M9gCgajvQbc68Hk_JKGBAYT
 https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM
