@@ -2,6 +2,17 @@
 tags:
   - blog
 ---
+## CDN TOken authentication
+
+https://natetodd.com/bunny-cdn-token-authentication-in-elixir/
+https://samrat.me/blog/til-sum-types-instructor-elixir?utm_source=elixir-merge
+https://hexdocs.pm/bumblebee/0.4.2/Bumblebee.Text.html#text_embedding/3
+
+https://www.youtube.com/watch?v=K51fj1JGQEY
+
+https://www.youtube.com/watch?v=RJ_jGHeFz5E
+
+
 ## Sat chit ananda
 
 https://hamsikaa.substack.com/p/sat-chit-ananda
