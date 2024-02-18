@@ -194,6 +194,9 @@ https://build-your-own.org/blog/20230127_byor/
 
 
 
+Other Rust books: 
+1. https://www.amazon.com/Rust-Depth-Guidebook-Comprehensive-Exploration-ebook/dp/B0CKL3G8BQ/ref=pd_sim_d_sccl_1_5/133-4171780-8763028?pd_rd_w=gnfU4&content-id=amzn1.sym.827183ca-bff0-4aff-8800-c5c403e2994f&pf_rd_p=827183ca-bff0-4aff-8800-c5c403e2994f&pf_rd_r=5DNVYNWMHFWV6J7P0T5N&pd_rd_wg=ABsRs&pd_rd_r=f6b4b738-01cc-4bf8-b3ea-8ffbc0f4fbcf&pd_rd_i=B0CKL3G8BQ&psc=1
+2. 
 
 
 Hey folks,
@@ -371,7 +374,7 @@ Competing books  and future competitors
 3. Present: Async Rust by Maxwell Flitton, Caroline Morton : from Oreilly . Maxwell has written books about Rust previously. So he is well known within the community. 
 4.  [Asynchronous Programming in Rust ](https://github.com/PacktPublishing/Asynchronous-Programming-in-Rust)by [Carl Fredrik Samson](https://www.amazon.in/Carl-Fredrik-Samson/e/B0CSLRJ9ZZ/ref=dp_byline_cont_ebooks_1) : This is a very recent work and in progress now. 
 5. https://book.async.rs/ : 
-6. Present:L 
+6. Present: [Async Mechanics in Rust ]( https://www.amazon.com/Async-mechanics-Rust-concurrency-ecosystem-ebook/dp/B0CTCTM4L4/): 
 
 List the books that compete indirectly or directly and tell us how yours is different and better. Why would a reader choose your book over the others that are on the market?
 
