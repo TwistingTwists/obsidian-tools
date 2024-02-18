@@ -8,6 +8,10 @@ tags:
 - [ ] LLM modulo framework - https://arxiv.org/pdf/2402.01817.pdfa
 - [ ] 
 
+## LangGraph 
+
+https://www.youtube.com/watch?v=hvAPnpSfSGo
+
 ### LLM Course 
 Source: https://github.com/mlabonne/llm-course
 
