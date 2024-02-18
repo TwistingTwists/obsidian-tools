@@ -12,6 +12,9 @@ tags:
 
 https://www.youtube.com/watch?v=hvAPnpSfSGo
 
+https://github.com/samwit/langchain-tutorials
+https://github.com/samwit/llm-tutorials
+
 ### LLM Course 
 Source: https://github.com/mlabonne/llm-course
 
