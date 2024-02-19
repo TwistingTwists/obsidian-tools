@@ -8,6 +8,9 @@ tags:
 - [ ] LLM modulo framework - https://arxiv.org/pdf/2402.01817.pdfa
 - [ ] 
 
+## Deno_EX - OCR in elixir 
+https://github.com/akoutmos/deno_ex
+
 ## LangGraph 
 
 https://www.youtube.com/watch?v=hvAPnpSfSGo
