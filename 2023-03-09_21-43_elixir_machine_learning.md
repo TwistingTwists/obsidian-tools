@@ -5,6 +5,11 @@ tags:
   - axon
   - machine_learning
 ---
+### Basics of machine learning real world 
+https://www.appliedaicourse.com/course/11/Applied-Machine-learning-course
+
+- [ ] https://github.com/UdiBhaskar/Quora-Question-pair-similarity
+- [ ] 
 ### FLAME and machine learning elixir
 
 Machine
