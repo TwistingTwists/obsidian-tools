@@ -12,7 +12,7 @@ Why create content?
 Who are people doing it these days? 
 
 
-
+## Reading list for developing as a programmer 
 
 https://github.com/charlax/professional-programming#principles
 
