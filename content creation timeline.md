@@ -7,7 +7,14 @@ aliases:
 Why create content? 
 
 - [ ] https://jxnl.github.io/blog/writing/2024/01/22/consulting/
+- [ ] Classy person / not fame. Gets more gigs.
 
+Who are people doing it these days? 
+
+
+
+
+https://github.com/charlax/professional-programming#principles
 
 ## How Zig parses UTF-8 ? 
 
