@@ -2,6 +2,11 @@
 tags:
   - research_papers
 ---
+### Gemma - Google 
+https://www.kaggle.com/models/google/gemma
+https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
+
+
 ### Learning to Learn Faster from Human Feedback with Language Model Predictive Control 
 
 2024-02-21 11:30:08
