@@ -29,9 +29,14 @@ TL;DR
 	1. 240,000 examples of instructions, inputs, and outputs.
 2. Generates examples via the LLM => measures the *correctness* and *diversity* of generated data
 	1. covers variety of tasks - like Question Answering, Sentiment Analysis, Arithmetic, Geometry, Event Ordering, Puzzles, etc
-	2. correctness = 56% 
-	3. incorrect = 5
+	2. correctness = 56% instructions
+	3. incorrect = 5% incomprehensible, 18% output does not match the task given , 20% incorrect output
+	4. Diversity = via BERTScore
 3. FineTune the T5-LLM model
+
+
+### Reinforced Self-Training (ReST) for Language Modeling [Source](https://arxiv.org/abs/2308.08998)
+
 
 ### Open-World Object Manipulation using Pre-trained Vision-Language Models [Source](https://arxiv.org/abs/2303.00905)
 
