@@ -9,7 +9,10 @@ tags:
 - [ ] 
 
 ## Attention is all you need 
-https://www.youtube.com/watch?v=bCz4OMemCcA
+- [ ] https://www.youtube.com/watch?v=bCz4OMemCcA
+	- [ ] Tokenizer - [Karpathy](https://www.youtube.com/watch?v=zduSFxRajkE&t=1s)
+	- [ ] [What is QKV in tokenizer?](https://2020machinelearning.medium.com/decoding-the-key-query-value-mechanism-in-transformer-models-thru-a-deep-discussion-with-claude-ai-2da5a66d4f8e)
+	- [ ] 
 
 ## Deno_EX - OCR in elixir 
 https://github.com/akoutmos/deno_ex
