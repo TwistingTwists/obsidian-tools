@@ -6,7 +6,7 @@ aliases:
 ---
 Why create personal brand? 
 * Show the values you stand for. Helps people resonate wtih you easily. Discover your values - of public life. 
-* 
+
 
 Here are some of my beliefs that are connected with the engineering industry:
 

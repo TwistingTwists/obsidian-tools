@@ -10,7 +10,10 @@ https://www.youtube.com/watch?v=Cy6sci212Tw
 https://github.com/mindreframer/ruler
 https://hexdocs.pm/judge_json/readme.html
 ash rule engine reactor
+https://www.youtube.com/watch?v=VNs2jQoMB70&t=1s
 
+---- FOSSDEM TALKS - watch 
+https://elixirforum.com/t/all-talk-videos-beam-devroom-fosdem-2024/61811
 
 ## CDN TOken authentication
 
