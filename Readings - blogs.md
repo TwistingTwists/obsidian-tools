@@ -2,6 +2,16 @@
 tags:
   - blog
 ---
+### Rule engine elixir 
+
+https://github.com/ulfurinn/wongi-engine-elixir  -- rete algorithm 
+TREE implementation in elixir -- https://github.com/ulfurinn/talltale/blob/main/lib/tailmark/doctree.ex
+https://www.youtube.com/watch?v=Cy6sci212Tw
+https://github.com/mindreframer/ruler
+https://hexdocs.pm/judge_json/readme.html
+ash rule engine reactor
+
+
 ## CDN TOken authentication
 
 https://natetodd.com/bunny-cdn-token-authentication-in-elixir/
