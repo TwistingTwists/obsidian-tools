@@ -23,7 +23,6 @@ server -> client = Presigned url -> 20 seconds
 
 
 
-
 Secure ? 
 1. Fence employee updated script -> 
 	1. git diff -> unsafe code (ask LLM ) -> 0, 1, 2, 3
