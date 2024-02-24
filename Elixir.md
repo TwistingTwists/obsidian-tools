@@ -96,7 +96,8 @@ Sample ets usage.
 * appup scripts -- dev's responsibility to test it for hot code upgrade
 * relup scripts 
 
-
+### GPU 
+https://fly.io/docs/gpus/gpu-quickstart/
 ### ports 
 https://www.theerlangelist.com/article/outside_elixir
 https://www.poeticoding.com/real-time-object-detection-with-phoenix-and-python/
