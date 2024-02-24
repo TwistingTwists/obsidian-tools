@@ -1,4 +1,17 @@
 
+
+2024-02-24 06:43:38
+
+- [ ] Sort questions by number  - insert in that order in DB
+- [ ] telemetry / observability 
+	- [ ] logs - loggerfile backend -> open observe
+	- [ ] All incoming / outgoing messages of telegram API 
+	- [ ] Error Monitoring - sentry self host?
+- [ ] 
+- [ ] 
+
+
+
 dashboard -> 4 / 5 actions
 * licensed seat vs basic seat 
 
