@@ -9,6 +9,17 @@ tags:
 https://www.youtube.com/playlist?list=PLwRJQ4m4UJjPIvv4kgBkvu_uygrV3ut_U
 
 
+
+### Best Notebooks to learn from 
+https://github.com/brevdev/notebooks
+
+
+## Self Play or Auto prompt for browser agents / other tasks 
+
+
+https://github.com/Eladlev/AutoPrompt
+
+
 ### Basics of machine learning real world 
 https://www.appliedaicourse.com/course/11/Applied-Machine-learning-course
 
