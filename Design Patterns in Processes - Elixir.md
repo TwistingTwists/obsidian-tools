@@ -15,6 +15,13 @@ tags:
 ### Processing tasks - Patterns from Svilen Gospodinov book 
 
 ### Broadway - recursive broadway 
+https://youtu.be/TcLemx0MFV0
+
+### Workflow orchestration
+
+Broadway -> Telemetry + reactor + live dashboard 
+https://hexdocs.pm/pacer/Pacer.Docs.html
+
 
 ### UniqueTask - SystemWide
 

@@ -3,6 +3,7 @@ tags:
   - ecto
   - phoenix
   - elixir
+  - blogs
 ---
 
 

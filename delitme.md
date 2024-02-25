@@ -7,9 +7,9 @@ tags:
 
 https://k8s.af/
 
-https://www.digitalocean.com/community/tutorials/how-to-automate-elixir-phoenix-deployment-with-distillery-and-edeliver-on-ubuntu-16-04
-http://blog.plataformatec.com.br/2016/06/deploying-elixir-applications-with-edeliver/
-https://medium.com/@Sohjiro/building-a-release-with-distillery-b65ba16bbb6d
+
+
+
 
 https://hexdocs.pm/distillery/guides/phoenix_walkthrough.html
 https://hashrocket.com/blog/posts/automate-your-elixir-deployments-part-1-ansible

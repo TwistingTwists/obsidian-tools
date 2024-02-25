@@ -12,7 +12,6 @@ https://www.appliedaicourse.com/course/11/Applied-Machine-learning-course
 - [ ] 
 ### FLAME and machine learning elixir
 
-Machine
 
 
 ## Code Help in Machine Learning
