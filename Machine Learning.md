@@ -20,6 +20,10 @@ https://github.com/brevdev/notebooks
 https://github.com/Eladlev/AutoPrompt
 
 
+### RLHF - framework
+
+https://docs.argilla.io/en/latest/index.html
+
 ### Basics of machine learning real world 
 https://www.appliedaicourse.com/course/11/Applied-Machine-learning-course
 
