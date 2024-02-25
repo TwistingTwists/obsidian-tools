@@ -5,6 +5,10 @@ tags:
   - axon
   - machine_learning
 ---
+### Deep Unsupervised Learning 
+https://www.youtube.com/playlist?list=PLwRJQ4m4UJjPIvv4kgBkvu_uygrV3ut_U
+
+
 ### Basics of machine learning real world 
 https://www.appliedaicourse.com/course/11/Applied-Machine-learning-course
 
