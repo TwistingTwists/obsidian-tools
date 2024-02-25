@@ -14,8 +14,7 @@ https://www.youtube.com/playlist?list=PLwRJQ4m4UJjPIvv4kgBkvu_uygrV3ut_U
 https://github.com/brevdev/notebooks
 
 
-## Self Play or Auto prompt for browser agents / other tasks 
-
+## Auto prompt for browser agents / other tasks 
 
 https://github.com/Eladlev/AutoPrompt
 
