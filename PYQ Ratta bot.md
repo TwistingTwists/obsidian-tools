@@ -4,7 +4,7 @@ kanban-plugin: basic
 
 ---
 
-## Planned
+## planned
 
 
 
@@ -18,11 +18,14 @@ kanban-plugin: basic
 
 ## Reading - Chris Voss
 
-- [ ] CH 01
 - [ ] CH 02
 
 
+***
 
+## Archive
+
+- [ ] CH 01
 
 %% kanban:settings
 ```
