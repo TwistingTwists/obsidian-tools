@@ -4,11 +4,13 @@ kanban-plugin: basic
 
 ---
 
-## planned
+## Tech
+
+- [x] feat:  save OpenAI responses to disk
+- [ ] feat: safety - process only first 3 images in pdf
 
 
-
-## in progress
+## features
 
 
 
