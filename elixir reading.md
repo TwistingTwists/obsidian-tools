@@ -7,7 +7,6 @@ tags:
 
 ## Supabase Realtime 
 
-- [ ]  
 
 
 ### Git Butler 
