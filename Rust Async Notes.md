@@ -4,6 +4,10 @@ tags:
   - long_term
   - plans
 ---
+
+### Thread local vs Arc Mutex
+timer.rs in pingora 
+
 ### Rust example-futures 
 * In 500 lines. 
 * https://medium.com/@ning_gt/bridging-async-and-sync-rust-code-a-lesson-learned-while-working-with-tokio-6173b1efaca4
