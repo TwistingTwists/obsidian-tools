@@ -2,6 +2,8 @@
 tags:
   - startups
 ---
+## 
+
 # Sahil's Course - Minimalist Problem
 
 Goal : doing 100% of time what you want. 
