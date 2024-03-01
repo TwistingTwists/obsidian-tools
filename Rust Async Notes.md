@@ -8,6 +8,8 @@ tags:
 ### Thread local vs Arc Mutex
 timer.rs in pingora 
 
+a ThreadLocal allows each thread to have its own instance of a variable, which is useful when you want to avoid synchronization overhead between threads accessing their respective copies of the variable.
+
 ### Rust example-futures 
 * In 500 lines. 
 * https://medium.com/@ning_gt/bridging-async-and-sync-rust-code-a-lesson-learned-while-working-with-tokio-6173b1efaca4
