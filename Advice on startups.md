@@ -2,6 +2,12 @@
 tags:
   - startups
 ---
+## Doing Local Inference 
+
+https://www.baseten.co/blog/llm-transformer-inference-guide/ 
+https://github.com/varunshenoy/super-json-mode
+
+
 ## Funding - pitch
 
 1. 'this is a machine' -> put money and it will work better for 'many many ' use cases
