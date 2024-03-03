@@ -6,7 +6,7 @@ aliases:
   - 2024 plan
   - weekly plan
 aim: 
-feedback:
+advice:
 ---
 
 

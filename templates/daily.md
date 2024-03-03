@@ -1,6 +1,7 @@
-## {{title}}
-
-## Tasks due
-
-## Log 
-
+---
+tags:
+  - daily
+  - log
+aim: 
+advice:
+---
