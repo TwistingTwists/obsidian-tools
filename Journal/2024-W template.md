@@ -9,6 +9,26 @@ aim:
 advice:
 ---
 
+### What is most memorable event(s) of the week? 
+
+### What learnt? 
+
+
+
+## Work 
+
+
+# Progress 
+
+## LEETCODE 
+
+## Martin Freelance 
+
+## Rust
+
+## PyqRatta
+
+## 
 
 
 |                                 | 1                                    | 2                                                      | 3   | 4   | 5   | 6   | 7   |
