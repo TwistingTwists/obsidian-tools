@@ -9,6 +9,12 @@ tags:
 
 [[structured thinking]]
 
+### Embeddings 
+- [ ] https://huggingface.co/BAAI/bge-reranker-large
+- [ ]  What are embeddings ?
+- [ ] 
+
+
 
 ## Attention is all you need 
 - [ ] https://www.youtube.com/watch?v=bCz4OMemCcA

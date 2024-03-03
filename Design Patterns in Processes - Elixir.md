@@ -40,6 +40,8 @@ https://hexdocs.pm/pacer/Pacer.Docs.html
 
 ### receive do in Task.async 
 
-### 
+### Handling exits  
+
+https://github.com/koudelka/honeydew/blob/7c0e825c70ef4b72c82d02ca95491e7365d6b2e8/lib/honeydew/worker.ex#L209
 
 
