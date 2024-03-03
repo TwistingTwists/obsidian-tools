@@ -43,7 +43,7 @@ From #rust
 ## Books 
 ---
 ```dataview 
-Table file.mtime as "modified",  durationformat(dur(date(now) - file.mday),"dd 'd' hh 'h'") as "Time Since Last Edit"
+Table category, durationformat(dur(date(now) - file.mday),"dd 'd' hh 'h'") as "Time Since Last Edit"
 From #book
 
 ```
@@ -55,6 +55,19 @@ Table file.mtime as "modified",  durationformat(dur(date(now) - file.mday),"dd '
 From #study
 
 ```
+
+
+
+
+## Elixir
+
+```dataview 
+Table tags
+From #elixir
+SORT file.mtime DESC
+```
+
+
 
 
 
@@ -80,20 +93,19 @@ From #study
 |                                                                             |                                                                                                                              |                                                                                                       |     |     |     |     |     |
 
 
-| ---<br><br>READING<br><br>---<br> |  |  |  |  |  |  |  |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Read Absinthe Book | Aim: Chapter 1,2 |  |  |  |  |  |  |
-| Testing Elixir Andrea Leopardi |  |  |  |  |  |  |  |
-| Machine Learning in Elixir | Chapter 1,2, 3 |  |  |  |  |  |  |
-| Read Chris McCord Metaprogramming Elixir |  |  |  |  |  |  |  |
-| Inside Zhan Zhuang | <span class="reading"  > Chapter 01</span> |  |  |  |  |  |  |
-| Read - Are your lights on? (DHH suggestions) |  |  |  |  |  |  |  |
-| Read - Crucial Conversations | Aim: Chapter 1,2,3 |  |  |  |  |  |  |
-| Read - How to Win Friends and influence People |  |  |  |  |  |  |  |
-| Read - Restoring Prana |  |  |  |  |  |  |  |
-| Read - Light on Yoga |  |  |  |  |  |  |  |
-| Read - Moola Bandha | Rejuvenating reading + practice (5-7 min) today. |  |  |  |  |  |  |
-| Read - Same as Ever <br><br>Morgan Housel |  |  |  |  |  |  |  |
+| ---<br><br>READING<br><br>---<br>              |                                                  |     |     |     |     |     |     |
+| ---------------------------------------------- | ------------------------------------------------ | --- | --- | --- | --- | --- | --- |
+| Read Absinthe Book                             | Aim: Chapter 1,2                                 |     |     |     |     |     |     |
+| Testing Elixir Andrea Leopardi                 |                                                  |     |     |     |     |     |     |
+| Machine Learning in Elixir                     | Chapter 1,2, 3                                   |     |     |     |     |     |     |
+| Read Chris McCord Metaprogramming Elixir       |                                                  |     |     |     |     |     |     |
+| Inside Zhan Zhuang                             | <span class="reading"  > Chapter 01</span>       |     |     |     |     |     |     |
+| Read - Crucial Conversations                   | Aim: Chapter 1,2,3                               |     |     |     |     |     |     |
+| Read - How to Win Friends and influence People |                                                  |     |     |     |     |     |     |
+| Read - Restoring Prana                         |                                                  |     |     |     |     |     |     |
+| Read - Light on Yoga                           |                                                  |     |     |     |     |     |     |
+| Read - Moola Bandha                            | Rejuvenating reading + practice (5-7 min) today. |     |     |     |     |     |     |
+| Read - Same as Ever <br><br>Morgan Housel      |                                                  |     |     |     |     |     |     |
 
 
 
