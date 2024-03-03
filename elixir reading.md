@@ -5,17 +5,14 @@ tags:
   - TIL
 ---
 
+| BeaconCMS Blogs <br><br> | * BeaconCMS visual editor video - again?<br>* Engines in Phoenix<br>*                                  |
+| ------------------------ | ------------------------------------------------------------------------------------------------------ |
+| Ecto Broadway            | [Link](https://github.com/maartenvanvliet/off_broadway_ecto/blob/main/lib/off_broadway_ecto/client.ex) |
+| Broadway                 | [pipelines](https://github.com/softwaremill/broadway-pipelines-blog/)                                  |
+| ETL Pipeline             | https://github.com/entropealabs/states_language<br><br>                                                |
+|                          |                                                                                                        |
 ### Git Butler 
 1. git log -L 15,26:path/to/file
-## Broadway
-
-https://github.com/softwaremill/broadway-pipelines-blog/
-
-## ETL pipelines 
-
-https://github.com/entropealabs/states_language
-
-
 
 ### Component in Phoenix 
 Tabs and breadcrumsb -- https://dev.to/ndrean/breadcumbs-with-phoenix-liveview-2d40

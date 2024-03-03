@@ -6,7 +6,9 @@ tags:
 ### Have a look 
 - [ ] CLIP model hugging face - https://huggingface.co/BAAI/EVA-CLIP-8B
 - [ ] LLM modulo framework - https://arxiv.org/pdf/2402.01817.pdfa
-- [ ] 
+
+[[structured thinking]]
+
 
 ## Attention is all you need 
 - [ ] https://www.youtube.com/watch?v=bCz4OMemCcA
