@@ -15,7 +15,7 @@ advice:
 
 
 
-## Work 
+## [Work ](xplor_self_review)
 
 
 # Progress 
@@ -26,14 +26,18 @@ advice:
 
 ## Rust
 
-## PyqRatta
+## [PyqRatta](pyq_ratta_planlog)
 
-## 
+## Books 
+
+## Study 
+
+
 
 
 |                                 | 1                                    | 2                                                      | 3   | 4   | 5   | 6   | 7   |
 | ------------------------------- | ------------------------------------ | ------------------------------------------------------ | --- | --- | --- | --- | --- |
-| ---<br><br>Work <br><br>---<br> | [[xplor_self_review]]                | - List of libraries to contribute back to<br><br>- JAG |     |     |     |     |     |
+| ---<br><br>Work <br><br>---<br> |                                      | - List of libraries to contribute back to<br><br>- JAG |     |     |     |     |     |
 | golden_gateway run              | <br>* what is relay in graphql ?<br> |                                                        |     |     |     |     |     |
 | LEETCODE DAILY                  | [[Leetcode - DSA]]                   |                                                        |     |     |     |     |     |
 
@@ -50,15 +54,14 @@ advice:
 | broadway                                                                                     | [Ecto Broadway](https://github.com/maartenvanvliet/off_broadway_ecto/blob/main/lib/off_broadway_ecto/client.ex)                                                                                                                                         |                                                                                                                                                                                               |                                                                                                                                                                                            |                                                                                                                                                                                                                                      |                                        |                               |     |
 
 
-| ---<br><br>10% Exploration<br><br>---<br> |  |  |  |  |  |  |  |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Kaist-CP = Rust concurrent Programming |  |  |  |  |  |  |  |
-| Mini-Redis Tokio |  |  |  |  |  |  |  |
-| Reading Blogs | <br>[What is CTO ?](https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-cto) | <br><span class="reading"> chinmay TLS termination</span> |  |  |  |  |  |
-| Misc Projects | protohackers elixir - build server side networking stuff<br><br>Telegram bot with pools - rust<br><br>Hyperswitch PR pending | Data Related <br><br>[KSQLDB](https://rmoff.net/2021/02/17/ksqldb-howto-a-mini-video-series/)<br><br> |  |  |  |  |  |
-| Basic statistics course  --  Bayesian probabilities  + classical statistics |  |  |  |  |  |  |  |
-| Rust open source | [tailcall](https://github.com/tailcallhq/tailcall/issues/945) |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
+| ---<br><br>10% Exploration<br><br>---<br>                                   |                                                                                                                              |                                                                                                       |     |     |     |     |     |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- |
+| Kaist-CP = Rust concurrent Programming                                      |                                                                                                                              |                                                                                                       |     |     |     |     |     |
+| Mini-Redis Tokio                                                            |                                                                                                                              |                                                                                                       |     |     |     |     |     |
+| Reading Blogs                                                               | <br>[What is CTO ?](https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-cto)                       | <br><span class="reading"> chinmay TLS termination</span>                                             |     |     |     |     |     |
+| Misc Projects                                                               | protohackers elixir - build server side networking stuff<br><br>Telegram bot with pools - rust<br><br>Hyperswitch PR pending | Data Related <br><br>[KSQLDB](https://rmoff.net/2021/02/17/ksqldb-howto-a-mini-video-series/)<br><br> |     |     |     |     |     |
+| Basic statistics course  --  Bayesian probabilities  + classical statistics |                                                                                                                              |                                                                                                       |     |     |     |     |     |
+|                                                                             |                                                                                                                              |                                                                                                       |     |     |     |     |     |
 
 
 | ---<br><br>READING<br><br>---<br> |  |  |  |  |  |  |  |

@@ -1,0 +1,1 @@
+/Users/abhishek/Downloads/perps/prelims_portal/pyq_ratta/planlog.md
