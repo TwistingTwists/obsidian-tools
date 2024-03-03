@@ -6,6 +6,8 @@ tags:
 ---
 
 
+https://github.com/pawel-szafran/elixir_graceful_shutdown_demo
+
 
 | BeaconCMS Blogs <br><br> | * BeaconCMS visual editor video - again?<br>* Engines in Phoenix<br>*                                  |
 | ------------------------ | ------------------------------------------------------------------------------------------------------ |
