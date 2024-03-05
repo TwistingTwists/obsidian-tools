@@ -3,6 +3,10 @@ tags:
   - startups
   - startup-2
 ---
+### Pick best model?
+
+- [ ] https://txt.cohere.com/struggling-to-pick-the-right-ai-model-lets-break-it-down/
+- [ ] 
 ### Have a look 
 - [ ] CLIP model hugging face - https://huggingface.co/BAAI/EVA-CLIP-8B
 - [ ] LLM modulo framework - https://arxiv.org/pdf/2402.01817.pdfa

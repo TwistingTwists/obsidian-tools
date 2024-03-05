@@ -9,6 +9,11 @@ tags:
 https://github.com/pawel-szafran/elixir_graceful_shutdown_demo
 
 
+Elixir And machine learning 
+- [ ] https://seanmoriarity.com/2024/02/25/implementing-natural-conversational-agents-with-elixir/
+- [ ] 
+
+
 | BeaconCMS Blogs <br><br> | * BeaconCMS visual editor video - again?<br>* Engines in Phoenix<br>*                                  |
 | ------------------------ | ------------------------------------------------------------------------------------------------------ |
 | Ecto Broadway            | [Link](https://github.com/maartenvanvliet/off_broadway_ecto/blob/main/lib/off_broadway_ecto/client.ex) |
