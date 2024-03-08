@@ -6,6 +6,13 @@ tags:
 ---
 
 
+### Garbage collection 
+- [ ] [Hibernate ](https://medium.com/coletiv-stories/genservers-memory-issues-ef42cc42e3e9)in GenServer - `{:noreply, state, :hibernate}`
+	- [ ] [Source](https://elixirforum.com/t/extremely-high-memory-usage-in-genservers/4035/33?u=twistingtwists) - `{:ok, worker} = GenServer.start_link(module, args, hibernate_after: 5_000)`
+	- [ ] 
+- [ ] https://hamidreza-s.github.io/erlang%20garbage%20collection%20memory%20layout%20soft%20realtime/2015/08/24/erlang-garbage-collection-details-and-why-it-matters.html
+- [ ] 
+
 https://github.com/pawel-szafran/elixir_graceful_shutdown_demo
 
 
