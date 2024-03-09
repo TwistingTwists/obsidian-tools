@@ -9,6 +9,9 @@ tags:
 
 Elixir task - await in order they were spawned. So a serial processing in genserver would be parallaleized to many using tasks.
 
+### Debuggin 
+rexbug + logging - circular logger - Mobius library + ring logger elixir 
+
 
 ### Garbage collection 
 - [ ] [Hibernate ](https://medium.com/coletiv-stories/genservers-memory-issues-ef42cc42e3e9)in GenServer - `{:noreply, state, :hibernate}`
