@@ -8,6 +8,12 @@ https://www.baseten.co/blog/llm-transformer-inference-guide/
 https://github.com/varunshenoy/super-json-mode
 
 
+
+### Confidence 
+1. Rigorous thinking
+2. Validation
+
+
 ## Funding - pitch
 
 1. 'this is a machine' -> put money and it will work better for 'many many ' use cases
