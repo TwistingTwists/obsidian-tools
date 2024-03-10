@@ -46,8 +46,6 @@ https://hexdocs.pm/pacer/Pacer.Docs.html
 
 https://github.com/koudelka/honeydew/blob/7c0e825c70ef4b72c82d02ca95491e7365d6b2e8/lib/honeydew/worker.ex#L209
 
-
-
 ### fast `send` across many processes 
 https://erlangforums.com/t/send-optimization-for-sending-to-many-processes/2200
 
@@ -76,3 +74,14 @@ This function is used to clean up the queue by checking for timeouts
 The FilterFun is a filtering function used with lists:filter/2 to apply this logic to each item in the queue.
 
 The qr process mentioned in the code acts as a router and queue manager, collecting messages and deciding when to send them based on queue length or timeout. This strategy is similar to the Nagle's algorithm in TCP, which also aggregates small packets to improve network efficiency.
+
+
+
+### Scalable ETS Counters 
+https://www.erlang.org/blog/scalable-ets-counters/
+
+### FastGlobal 
+
+https://github.com/discord/fastglobal
+
+
