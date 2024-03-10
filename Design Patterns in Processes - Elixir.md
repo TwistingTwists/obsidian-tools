@@ -14,6 +14,8 @@ tags:
 
 ### Processing tasks - Patterns from Svilen Gospodinov book 
 
+- In order, parallel processing using Tasks
+
 ### Broadway - recursive broadway 
 https://youtu.be/TcLemx0MFV0
 
@@ -45,3 +47,8 @@ https://hexdocs.pm/pacer/Pacer.Docs.html
 https://github.com/koudelka/honeydew/blob/7c0e825c70ef4b72c82d02ca95491e7365d6b2e8/lib/honeydew/worker.ex#L209
 
 
+
+### fast `send` across many processes 
+https://erlangforums.com/t/send-optimization-for-sending-to-many-processes/2200
+
+[manifold](https://github.com/discord/manifold)

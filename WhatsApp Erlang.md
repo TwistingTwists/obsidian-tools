@@ -9,4 +9,5 @@ CODEBEAM2024
 	- earlier -> one cluster 1200 nodes
 		- _wandist_ protocol for clustering 
 		- doesn't scale well 
+- Dispatcher => 3 types of worker (Hash, Sticky Queue and Queue )
 - 
