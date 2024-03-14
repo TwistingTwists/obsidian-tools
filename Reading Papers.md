@@ -94,7 +94,23 @@ TL;DR
 
 ### LLM Agents 
  
+#### What
 
+Agent = Large Language Model (LLM) + MOTA  
+
+M = Memory   =  Context :: Global (e.g. python ecosystem) + local (codebase) 
+
+O = Observation = How context changes? 
+
+T = thinking  = Why
+
+A = Action = Based on observation + thinking => produce a effect.
+
+   e.g Git Diff - easier for programmer to act
+
+ 
+
+#### Failing
 When you watch the transcripts of LLM agents failing to do a task, it’s often one of three things:
 
 1. The agent starts going in circles, visiting the same goals.
@@ -102,3 +118,5 @@ When you watch the transcripts of LLM agents failing to do a task, it’s often 
 2. The agent gets “lazy”, takes a high-level goal and splits it into a subgoal that’s just “actually do the work”, and when it gets to that subgoal it does it again, in an infinite recursion of procrastination.
 
 3. The goals or actions are vague and meandering, and rather than looping, the agent wanders around talking to itself, accomplishing nothing.
+
+### 
