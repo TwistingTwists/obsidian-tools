@@ -7,6 +7,7 @@ tags:
 ### Theory of Computation and Automata Theory ( Full Course )
 https://www.youtube.com/watch?v=14RLvkzbHFc
 
+##### LEC 001 
 - [ ] Regular languages 
 	- [ ] Finite Automata + Non deterministic finite automata + REGEX 
 	- [ ] Algo about regular languages
@@ -22,7 +23,7 @@ https://www.youtube.com/watch?v=14RLvkzbHFc
 	- [ ] problems appear to requiring Exponential time 
 	- [ ] NP completeness and beyond 
 
-
+##### LEC 002
 - [ ] Finite Automaton 
 	- [ ] state 
 	- [ ] inputs = events
@@ -35,8 +36,19 @@ https://www.youtube.com/watch?v=14RLvkzbHFc
 	- [ ] inputs 
 		- [ ] s = server wins a point
 		- [ ] o =  opponent wins a point
-	- [ ] transition
 
+##### LEC 003
+- [ ] Deterministic Finite Automata - graphs or tables
+	- [ ] alphabet = finite set of symbols 
+		- [ ] ASCII, UNICODE
+		- [ ] Binary (0,1)
+		- [ ] set of signals used by protocol 
+	- [ ] string = sum of alphabets
+		- [ ] epsilon = empty string
+	- [ ] language = 
+		- [ ] language defined by alphabets {0,1} is given as follows
+		- [ ] {0,1}* = {epsilon, 0, 1, 00, 01, 10, 11, 000, ....}
+		- [ ] 
 
 
 https://www.youtube.com/playlist?list=PLoCMsyE1cvdV4CkdIZRKW8lk2BBOW-fbF
