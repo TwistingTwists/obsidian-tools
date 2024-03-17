@@ -7,6 +7,16 @@ tags:
 ### Theory of Computation and Automata Theory ( Full Course )
 https://www.youtube.com/watch?v=14RLvkzbHFc
 
+- [ ] Regular languages 
+	- [ ] Finite Automata + Non deterministic finite automata + REGEX 
+	- [ ] Algo about regular languages
+	- [ ] closure property of regular languages 
+- [ ] Context free languages
+	- [ ] Context free grammars = recursive system for generating string
+	- [ ] push down automata = generalisation of finite automata 
+	- [ ] closure and decision properties
+- [ ] 
+
 
 
 https://www.youtube.com/playlist?list=PLoCMsyE1cvdV4CkdIZRKW8lk2BBOW-fbF
