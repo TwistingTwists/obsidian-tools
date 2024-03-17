@@ -15,7 +15,27 @@ https://www.youtube.com/watch?v=14RLvkzbHFc
 	- [ ] Context free grammars = recursive system for generating string
 	- [ ] push down automata = generalisation of finite automata 
 	- [ ] closure and decision properties
-- [ ] 
+		- [ ] closed under union but not intersection
+- [ ] recursive and recursively enumerable languages
+	- [ ] Turing Machines , decidability of problems
+- [ ] Intractable problems 
+	- [ ] problems appear to requiring Exponential time 
+	- [ ] NP completeness and beyond 
+
+
+- [ ] Finite Automaton 
+	- [ ] state 
+	- [ ] inputs = events
+	- [ ] transition
+- [ ] [tennis example ](https://youtu.be/ZIsJK81Vb48?list=PLEAYkSg4uSQ33jY4raAXvUT7Bm_S_EGu0&t=459)
+	- [ ] state 
+		- [ ] start = Love
+		- [ ] final = "Server Wins" or "Opponent wins"
+		- [ ] 
+	- [ ] inputs 
+		- [ ] s = server wins a point
+		- [ ] o =  opponent wins a point
+	- [ ] transition
 
 
 
