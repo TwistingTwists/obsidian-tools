@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=14RLvkzbHFc
 		- [ ] o =  opponent wins a point
 
 ##### LEC 003
-- [ ] Deterministic Finite Automata - graphs or tables
+- [ ] Deterministic Finite Automata (DFA) - graphs or tables representation
 	- [ ] alphabet = finite set of symbols 
 		- [ ] ASCII, UNICODE
 		- [ ] Binary (0,1)
@@ -48,7 +48,10 @@ https://www.youtube.com/watch?v=14RLvkzbHFc
 	- [ ] language = 
 		- [ ] language defined by alphabets {0,1} is given as follows
 		- [ ] {0,1}* = {epsilon, 0, 1, 00, 01, 10, 11, 000, ....}
-		- [ ] 
+	- [ ] Start state, final state, transition function
+	- [ ] If the language of automaton is empty?
+	- [ ] 
+
 
 
 https://www.youtube.com/playlist?list=PLoCMsyE1cvdV4CkdIZRKW8lk2BBOW-fbF
