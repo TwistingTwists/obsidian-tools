@@ -7,6 +7,11 @@ tags:
 
 ----
 
+### Overview of Detection Transformers
+
+TABLE 4: Overview of Advantages and limitations of Detection Transformers.
+
+https://arxiv.org/pdf/2306.04670.pdf
 ### Gemma - Google 
 https://www.kaggle.com/models/google/gemma
 https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
