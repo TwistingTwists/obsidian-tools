@@ -12,4 +12,6 @@ LSTM = memory short
 Transformers
 ##### Attention Mechanisms 
 * basic = Soft and hard attention 
-* 
+- 
+- [00:07:29](https://www.youtube.com/watch?v=P127jhj-8-Y&t=449#t=07:29.49) : Global Attention methods
+- 
