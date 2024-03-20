@@ -14,10 +14,12 @@ https://github.com/varunshenoy/super-json-mode
 2. Validation
 
 
+### Apps you want to build  
+1. Prelims quiz portal with reminders 
+2. 
 ## Funding - pitch
 
 1. 'this is a machine' -> put money and it will work better for 'many many ' use cases
-2.  
 
 # Sahil's Course - Minimalist Problem
 
