@@ -16,7 +16,12 @@ https://github.com/varunshenoy/super-json-mode
 
 ### Apps you want to build  
 1. Prelims quiz portal with reminders 
-2. 
+2. Spaced repetition and layout of syllabus 
+3. News Article:
+	1. generate quiz based on that. 
+	2. generate mains question / prelims question - extract mains relevant / prelims relevant stuff from it. 
+4. 
+5. 
 ## Funding - pitch
 
 1. 'this is a machine' -> put money and it will work better for 'many many ' use cases
