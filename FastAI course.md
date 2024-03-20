@@ -4,10 +4,13 @@ tags:
   - qna
   - python
   - machine_learning
+  - study
 ---
 ## LLM Steering course 
 https://www.wandb.courses/courses/take/steering-language-models/lessons/51841451-jason-s-introduction
 
+HuggingFace NLP
+https://huggingface.co/learn/nlp-course/chapter1/1
 
 #### Google's mediapipe 
 https://developers.google.com/mediapipe/solutions/setup_web
