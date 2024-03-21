@@ -9,18 +9,33 @@ aim:
 advice:
 ---
 
+### GOALS 
+
+
+UI 
+- [ ] 
+
+NU I 
+- [ ]  
+
+NI U 
+- [ ]  
+
+NUNI 
+- [ ]  
+
 ### What is most memorable event(s) of the week? 
 
 ### What learnt? 
 
 
 
-| ---<br><br>10% Exploration<br><br>---<br>                                   |                                                                                                                              |                                                                                                       |     |     |     |     |     |
-| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- |
-| Kaist-CP = Rust concurrent Programming                                      |                                                                                                                              |                                                                                                       |     |     |     |     |     |
-| Mini-Redis Tokio                                                            |                                                                                                                              |                                                                                                       |     |     |     |     |     |
-| Reading Blogs                                                               | <br>[What is CTO ?](https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-cto)                       | <br><span class="reading"> chinmay TLS termination</span>                                             |     |     |     |     |     |
-| Misc Projects                                                               | protohackers elixir - build server side networking stuff<br><br>Telegram bot with pools - rust<br><br>Hyperswitch PR pending | Data Related <br><br>[KSQLDB](https://rmoff.net/2021/02/17/ksqldb-howto-a-mini-video-series/)<br><br> |     |     |     |     |     |
+| ---<br><br>10% Exploration<br><br>---<br> |                                                                                                                              |                                                                                                       |     |     |     |     |     |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- |
+| Kaist-CP = Rust concurrent Programming    |                                                                                                                              |                                                                                                       |     |     |     |     |     |
+| Mini-Redis Tokio                          |                                                                                                                              |                                                                                                       |     |     |     |     |     |
+| Reading Blogs                             | <br>[What is CTO ?](https://web.archive.org/web/20171128214925/https://juokaz.com/blog/becoming-a-cto)                       | <br><span class="reading"> chinmay TLS termination</span>                                             |     |     |     |     |     |
+| Misc Projects                             | protohackers elixir - build server side networking stuff<br><br>Telegram bot with pools - rust<br><br>Hyperswitch PR pending | Data Related <br><br>[KSQLDB](https://rmoff.net/2021/02/17/ksqldb-howto-a-mini-video-series/)<br><br> |     |     |     |     |     |
 
 
 
