@@ -11,17 +11,16 @@ advice:
 
 ### GOALS 
 
-
-UI 
+<h6 class="h6"> UI </h6>
 - [ ] 
 
-NU I 
+<h6 class="h6"> NUI </h6>
 - [ ]  
 
-NI U 
+<h6 class="h6"> NI U </h6>
 - [ ]  
 
-NUNI 
+<h6 class="h6"> NUNI </h6>
 - [ ]  
 
 ### What is most memorable event(s) of the week? 
