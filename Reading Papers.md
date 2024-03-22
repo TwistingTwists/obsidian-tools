@@ -7,6 +7,15 @@ tags:
 
 ----
 
+## MORA 
+[Paper](https://arxiv.org/abs/2403.13248) 
+
+
+LLAMA Factory 
+[Paper](https://huggingface.co/papers/2403.13372?utm_source=digest-papers&utm_medium=email&utm_campaign=2024-03-21)
+
+https://huggingface.co/papers/2403.13043?utm_source=digest-papers&utm_medium=email&utm_campaign=2024-03-21
+
 ### Overview of Detection Transformers
 
 TABLE 4: Overview of Advantages and limitations of Detection Transformers.
