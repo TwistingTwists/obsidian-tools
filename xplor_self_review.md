@@ -3,6 +3,7 @@ tags:
   - self_review
   - work
 ---
+https://blog.dataengineer.io/p/how-to-convert-your-yearly-review
 
 
 :: Reaction and comments :: 
