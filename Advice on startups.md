@@ -36,9 +36,14 @@ Approaches to generating ideas:
 * market first - opportunity first
 * bottom up - solve your own problem
 
-- [ ] 
-- [ ] 
 
+
+Which is why the ultimate mantra of software engineering remains "Functionality is an asset, code is a liability".
+
+
+ FEDS test – for new shiny programming language.
+
+**F**it — Is it known to be a good fit for the job at hand? e.g. implementing a queue in MySQL vs implementing it on Redis. **E**ffort in maintenance & learning — Can we expect a random developer to maintain it 6 quarters from now without complete context? Can we expect the current team to pick this up to a reasonable extent of prowess in a reasonable bounded time? **D**evelopment Velocity — Does it offer us sufficient velocity speedup in the long run to account for the tradeoff of learning a new tool. e.g. We wanted to connect to Google AdManager APIs, and it had a perfectly implemented first-party library in python, so we code this service in python, no questions asked. **S**cale — Is it provably known to perform at scale? Citations from other developers, followed by internal benchmarks, followed by a barebones implementation, and then a phased rollout.
 
 ### Doshi twitter 
 https://coda.io/@shreyas/productalmanac
