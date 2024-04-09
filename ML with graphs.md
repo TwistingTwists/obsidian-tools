@@ -10,3 +10,5 @@ https://www.youtube.com/watch?v=JAB_plj2rbA&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imN
 
 [Knowledge graphs](https://learn.deeplearning.ai/courses/knowledge-graphs-rag/lesson/1/introduction)
 
+
+
