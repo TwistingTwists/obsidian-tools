@@ -7,7 +7,141 @@ tags:
 https://www.baseten.co/blog/llm-transformer-inference-guide/ 
 https://github.com/varunshenoy/super-json-mode
 
+--- 
 
+Hrishi on twitter 
+  
+
+- Questions
+	- Fav company
+	- Inspires most
+	- Fav person
+
+- What if I fail at a startup? - valuable things in money and career - knowing people (network) and knowing yourself (strength play)
+- Know more people
+- Know yourself better
+
+Listen
+
+Fresh eyes
+
+focus
+
+Cornering velocity
+
+Making difference
+
+3 things to look out when starting a new company - do these fit? - Where can I add value (contribute)?
+
+Unit economics
+
+Who your customer are?
+
+What your edge is?
+
+What DO YOU WANT?
+
+people you work with
+
+Money
+
+Work you do - love it, contributes to the world?
+
+When starting out – advantage?
+
+Your perspective - focus on that
+
+Perspective gives problems => if you solve enough of those problems then you have the startup
+
+In most cases - you create more value than you capture(for yourself via a startup ) . Always.
+
+Talk to customers -> how
+
+Be entirely OPEN with your startup ideas = this is not the edge
+
+Your ideas suck! – ideas that have not met customers / people etc = are not solidified enough -> not worth going after
+
+You are not the first person to think of that idea. Someone tried and failed. But why? Find that out.
+
+More you talk - maybe you can find it out the failure modes
+
+Ideal crystallisation - happened in you over a period of time. So even if you tell that idea to someone, don’t worry. Their mental model is not as rich.
+
+Necessities of startup - learn to keep lights on
+
+Don’t die - make payrolls
+
+Learn how VC works
+
+Venture deals - cycles, stages, market conditions
+
+In best case scenarios - VC find you. YOu don’t find VC.
+
+Before going to VC, Find the angle = 30 seconds script for ‘what the path for capturing exponential outcome is’
+
+Understand ZIRP - Zero interest rate phoenomenon
+
+Repo rate - capital flows => money can flow in to fund growth. (so you get we work, and other nonsense companies that become $bn just because money is so much !! and they capture 0.1-1% of it)
+
+Locate and charge your network
+
+Force multiplier (love dad :) )
+
+Right (person / sentence / suggestion) at right time
+
+Charge your network
+
+Talk about it. They want to help you
+
+Show progress to the world! - build in public
+
+Understand your runway
+
+Credibly tight grip on your runway
+
+Financial runway
+
+Personal relationship runway – relationships go up or down based on whether to invest time in them. So be careful there. Renewable resource!!
+
+Emotional runway - people burn out
+
+Be AI ready
+
+Being AI founder
+
+‘Edge’ hai ?
+
+RAG / – they might be eventually be commodotized - what you can build?
+
+Definitely use AI as much as you can to build daily stuff. So that your intuition keeps refining.
+
+  
+
+Being founder in AI world
+
+Commidotised AI products - use and run
+
+What value does YC give you?
+
+Founder’s union => bargaining power as founder => since VC write the terms of raising capital
+
+Network
+
+  
+
+WIN ON EXECUTION
+
+Find edge and POLISH it - polish is the promise
+
+People are buying the future value of what you can build for them. They are not *only* buying what you have
+
+How to make friends? - optimise loop
+
+Why people don’t like you?
+
+And they like you
+
+--- 
 
 ### Confidence 
 1. Rigorous thinking

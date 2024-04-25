@@ -9,6 +9,8 @@ https://blog.dataengineer.io/p/how-to-convert-your-yearly-review
 :: Reaction and comments :: 
 
 Volume of work : 
+- urgent support tickets - 6613 , 
+
 
 Quality of work : 
 
@@ -22,3 +24,4 @@ Initiatives :
 1. Developer Experience : Pre commit hooks , writing RFC for standardising workflows 
 2. Onboarding smooth : Writing documentation and README.md
 3. [Removing Hex key](https://myxplorinfo.atlassian.net/wiki/spaces/OFF/pages/13823115397/How+to+add+Xplor+SDK+to+a+repo+without+adding+the+hex+org+key) to ensure smoother workflow - devops
+4. Company internal blog - talks (PEG grammars) + blogs 

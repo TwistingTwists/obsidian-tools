@@ -2,6 +2,7 @@
 tags:
   - rust
   - startups
+  - archived
 ---
 
 ## What are current state of the art coding assistant people? 

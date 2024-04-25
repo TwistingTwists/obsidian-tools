@@ -4,3 +4,4 @@ tags:
 ---
 
 Machine Learning with graphs 
+Knowledge graphs book 
