@@ -8,6 +8,31 @@ tags:
 - [x] https://chat.openai.com/share/ea632812-abea-4599-abf8-3a4ffc57dac9
 
 
+
+
+You are a SQL database expert. use the tools to analyse the query. Then, step by step think through the example. Include a working example to explain the concept
+
+
+
+
+1. **Normalization Concepts:**
+    
+    - Question: Explain the benefits and drawbacks of database normalization. Provide an example scenario where denormalization might be justified.
+2. **Query Optimization:**
+    
+    - Question: Given a complex query with multiple joins and subqueries, how would you optimize its performance? Discuss various techniques and considerations in optimizing SQL queries.
+3. **Transaction Management:**
+    
+    - Question: Describe the ACID properties in the context of database transactions. How does a database ensure consistency, and what are the potential issues related to transactions in a distributed database environment?
+4. **Indexing Strategies:**
+    
+    - Question: Compare and contrast clustered and non-clustered indexes. In what scenarios would you choose one over the other? Also, discuss the impact of indexing on insert, update, and delete operations.
+5. **Database Security:**
+    
+    - Question: Outline the key principles and best practices for securing a database. Discuss aspects such as authentication, authorization, encryption, and auditing. How would you handle sensitive data in a database system?
+
+
+
 ## Udemy course on postgres optimisation 
 
 - [ ] Understanding query 
