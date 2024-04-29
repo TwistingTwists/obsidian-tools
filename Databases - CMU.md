@@ -24,3 +24,14 @@ Database Query Optimisations
 
 - [ ] https://clickhouse.com/blog/apache-parquet-clickhouse-local-querying-writing
 
+
+
+### Unions 
+
+UNION ALL vs LEFT JOIN 
+
+
+### Ecto Repo optmisations 
+
+- write segregations to same table. 
+- traffic shaping - disk optimisation? 
