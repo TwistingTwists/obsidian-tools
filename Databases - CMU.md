@@ -31,7 +31,11 @@ Database Query Optimisations
 UNION ALL vs LEFT JOIN 
 
 
-### Ecto Repo optmisations 
+### Ecto Repo optimisation for buffered writer 
+
+
+- so that all write queries happen at the same time. 
+	- not reducing number of queries, but *less* postgres pages are written to disk 
 
 - write segregations to same table. 
 - traffic shaping - disk optimisation? 
