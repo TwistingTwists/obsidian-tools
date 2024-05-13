@@ -19,6 +19,33 @@ tags:
 |       |     |                           |                                                                                                                                       |
 
 
+https://www.youtube.com/watch?v=w8vY2G5YFq4
+
+
+Binary Search 
+- codeforces -> Binary search : https://codeforces.com/blog/entry/110077
+- https://codeforces.com/edu/course/2/lesson/6/4
+
+
+
+two pointers, 
+sieve of erastotheneses : CP algorithms, prime numbers 
+
+
+
+CP algorithms: 
+monotonic stack, monotonic queues, (BLACK BOX - template - generic) segment trees 
+
+DP problems: (few medium practices)
+20-30 leetcode hard  + 20 codeforces  - (1500-1800 rating) 
+
+
+graphs and trees
+- dfs / bfs / - 15-20 leetcode medium / hard 
+- graph algo - bellman ford, topological sort, indreicted graph , djikstra : 30 leetcode (20 hard, 10 medium)
+
+
+
 **
 
 DSA Patterns Sheet:
