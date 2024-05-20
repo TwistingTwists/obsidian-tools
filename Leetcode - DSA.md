@@ -19,6 +19,32 @@ tags:
 |       |     |                           |                                                                                                                                       |
 
 
+DP 
+
+| Problem      | SubProblem                          | remark |
+| ------------ | ----------------------------------- | ------ |
+| 0-1 KnapSack | Subset Sum                          |        |
+|              | Equal Sum Partition                 |        |
+|              | Count of subset sum                 |        |
+|              | min subset sum off                  |        |
+|              | target sum                          |        |
+|              | num of subset with given difference |        |
+|              |                                     |        |
+
+
+
+#### 0 -1 Knapsack 
+
+Three types 
+- fractional knapsack    :  greedy algo. No DP.
+- 0/1 knapsack               : DP needed.
+- unbounded knapsack :
+
+Input : weight array, value array 
+Optimise: Max value for the bag (knapsack) or min weight for the bag 
+constraint: bag has fixed weight 
+
+
 https://www.youtube.com/watch?v=w8vY2G5YFq4
 
 
