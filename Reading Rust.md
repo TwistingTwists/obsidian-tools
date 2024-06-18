@@ -255,6 +255,9 @@ https://betterprogramming.pub/how-to-wrap-your-errors-with-enums-when-using-erro
 
 
 
+### Notes from Spoti-dl 
+https://github.com/dhruv-ahuja/spoti-dl/blob/home/Cargo.toml
+
 ## Notes from ripgrep-all
 
 1.

@@ -4,6 +4,10 @@ tags:
   - hacks
   - TIL
 ---
+### Erlang Resource 
+
+https://gist.github.com/macintux/6349828
+https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md
 
 ### parallel Order of execution 
 
