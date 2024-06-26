@@ -11,6 +11,9 @@ tags:
 	- [ ] Enable game in home feed. 
 	- [ ] create new feed - yral_feed 
 		- [ ] publish new videos from individual canister  -> post_cache
+- [ ] How to
+	- [ ] mark deprecation ? - comment? 
+	- [ ] 
 
 2024-06-26 
 
