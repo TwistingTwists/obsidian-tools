@@ -8,7 +8,7 @@ tags:
 - [x] https://chat.openai.com/share/ea632812-abea-4599-abf8-3a4ffc57dac9
 
 
-
+# Section 01
 
 You are a SQL database expert. use the tools to analyse the query. Then, step by step think through the example. Include a working example to explain the concept
 
@@ -56,6 +56,8 @@ Intro to DB - https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTq
 | explain / analyse                    | https://www.youtube.com/watch?v=nTYE5SsYaJg&ab_channel=TobinBradley     |       |
 | subqueries                           | Advanced SQL - Overview of Sub Queries                                  |       |
 
+
+# Section 02
 ### postgres performance - JOINS
 
 1. num joins for N tables =~ N! + 3^(N-1) : Too many paths for joins
@@ -66,7 +68,6 @@ Intro to DB - https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTq
 5. 
 
 RnD == execute partial path and produce partial results
-
 
 ## Good questions on query optimisations
 1. https://dba.stackexchange.com/questions/303287/postgresql-query-optimisation-with-left-join
@@ -86,7 +87,7 @@ RnD == execute partial path and produce partial results
 4. so for acceleration, use columnar storage engines (CSE) - they store columns separately - if you only need data from 4 columns out of 200 columns , best to use CSE. Otherwise, each row is read from disk, then filetered for 4 columns. so, if you have a lot of joins - you are doing a 'full table scan'
 
 
-
+# Section 03
 ###  [Cloudflare Postgres Usage ](https://www.youtube.com/watch?v=DvblO-f2bqQ)
 1. HAProxy + Stolon + pgbouncer + ... tech 
 2. 55 Mn req / sec 
@@ -101,13 +102,6 @@ RnD == execute partial path and produce partial results
 	1. Connection Hungry applications
 	2. Thundering Herd
 
-### pgvector
-https://github.com/pgvector/pgvector
-
-
-### postgres TL query language + dbdev for postgres by supabase
-
-
 ### Partition vs indexes
 Q: https://stackoverflow.com/questions/43508486/sql-server-partitioning-vs-indexes
 A:
@@ -118,10 +112,12 @@ A: The primary use for table partitioning is to speed up bulk data loading and a
 Partitioning is never done for  _query performance_. With partitioning the performance will always be worse, the best you can hope for is no big regression, but never improvement.
 
 
-### validations
+# Section 04
 
-library -
-1. https://hexdocs.pm/norm/Norm.html
-2. goal
-3. dolo
-4. parameters
+
+  
+```md
+you are an expert at SQL and relational databases.
+
+ask questions via concrete SQL use cases to check the understanding of transaction isolation and concurrent transactions. include examples in your question
+```
