@@ -8,6 +8,9 @@ tags:
 - [x] https://chat.openai.com/share/ea632812-abea-4599-abf8-3a4ffc57dac9
 
 
+Instructor-rs : gbnf parsing
+https://aistudio.google.com/app/prompts/1zAA0tc5UqeJ6mu4ewJbVuir29ESftCcZ
+
 # Section 01
 
 You are a SQL database expert. use the tools to analyse the query. Then, step by step think through the example. Include a working example to explain the concept
