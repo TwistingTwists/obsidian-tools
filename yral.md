@@ -23,4 +23,10 @@ tags:
 
 2024-06-26 
 
-- [ ]  
+
+HOT OR NOT GAME TIMER
+
+- [ ] During upgrade, timer is reset. So, re-calculate the 'next processing time' when canister is upgraded
+	- [ ] timer id keep in stable memory 
+- [ ] BTreeSet + rangemap 
+	- [ ] Sort by insertion time? 
