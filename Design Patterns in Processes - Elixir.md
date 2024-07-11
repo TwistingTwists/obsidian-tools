@@ -77,6 +77,14 @@ The qr process mentioned in the code acts as a router and queue man
 
 
 
+
+### Ecto Query Timeout 
+
+`ERROR 57014 (query_canceled) canceling statement due to user request` doing simple update `UPDATE "plays" SET "spots_pending" = $1, "updated_at" = $2 WHERE "id" = $3`
+
+I've seen this before. A query in a background job that timed out at 15 seconds raised that error. [https://hexdocs.pm/ecto/Ecto.Repo.html#module-shared-options](https://hexdocs.pm/ecto/Ecto.Repo.html#module-shared-options) has the default 15 second timeout, but you can configure that or pass a longer timeout for a particular query, like `MyApp.Repo.query("some sql", some_params, timeout: :timer.minutes(5))`
+
+
 ### Scalable ETS Counters 
 https://www.erlang.org/blog/scalable-ets-counters/
 
