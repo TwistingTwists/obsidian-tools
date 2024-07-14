@@ -32,4 +32,13 @@ Responses
 ##### Just give me the cost.
 
 - We have various options to help our clients. As of now, I don't know if I can help you. I'll have to know more about your current situation and where you want to be. Are you against having a conversation around that?
-- 
+
+
+
+Content making 
+
+##### Proof, Promise, Plan
+
+- Proof : I am XYZ. I have worked with ABC_ONE. (I Know this work.) I'll tell you how to fix your photos.
+- Promise : I am going to teach you Fix your photos. 
+- Plan : Here is what would be your takeway. from this video.
