@@ -33,22 +33,22 @@ I am on a learning path. I am sure that I will seek guidance will be able to nav
 
 Organisational Interest -- 
 https://www.themartec.com/insidelook/behavioral-interview-questions
-| Categories  | Questions |
-| ---- | ---- |
-| Problem Solving<br> |  |
-| Working on a Team<br> |  |
-| Biggest Failures<br> |  |
-| Leadership<br> |  |
-| Personal Stress |  |
+| Categories            | Questions |
+| --------------------- | --------- |
+| Problem Solving<br>   |           |
+| Working on a Team<br> |           |
+| Biggest Failures<br>  |           |
+| Leadership<br>        |           |
+| Personal Stress       |           |
 
 
 #### Prepare 
 1. Should I give feedback? 
 
-| Roles   | _How might your role influence the feedback?_<br>    <br>    - _Are you providing feedback to a colleague?_<br>        <br>    - _As an EM, are you giving feedback to one of your team members?_<br>        <br>    - _As a developer, are you giving feedback to your EM?_ |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Context | Situation - location , observed behaviour<br><br>Events leading upto observed behaviour <br><br>- "What was going on when this behavior happened?"<br>- “Is there a clear pattern in this behavior?”<br>- "Could their background or personal life have something to do with it?"<br>- "How might my own perceptions or biases be influencing how I view the behavior?"<br><br>                                                                                                                                                                                                                                                                    |
-|         |                                                                                                                                                                                                                                                                              |
+| Roles   | _How might your role influence the feedback?_<br>    <br>    - _Are you providing feedback to a colleague?_<br>        <br>    - _As an EM, are you giving feedback to one of your team members?_<br>        <br>    - _As a developer, are you giving feedback to your EM?_                                                                                                    |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Context | Situation - location , observed behaviour<br><br>Events leading upto observed behaviour <br><br>- "What was going on when this behavior happened?"<br>- “Is there a clear pattern in this behavior?”<br>- "Could their background or personal life have something to do with it?"<br>- "How might my own perceptions or biases be influencing how I view the behavior?"<br><br> |
+|         |                                                                                                                                                                                                                                                                                                                                                                                 |
 
 
 #### Communicate
@@ -126,16 +126,10 @@ Why Remote? 
   
 
 Broad experience in general. Why remote then ? — scale brings me to remote
-
-  
-
   
 
 Proud project. mathocrat — front end, backend , RFC, 
 
-  
-
-  
 
 Tiny mesh -team structure — 
 
@@ -230,7 +224,7 @@ Next steps: 
 
 #### Introduce yourself
 
-I am a passionate software developer with more than 4 years of experience and with Elixir as primary language during 2.5 . 
+I am a passionate software developer with more than 4 years of experience and with Elixir as primary language during 4 . 
 
 I have had diverse experience using Elixir across backend, frontend and even LiveBook recently for internal dashboard tooling. 
 
@@ -285,7 +279,7 @@ and be in thr proces
 ### 3 stage process
 #### General tips 
 1. pause after answer 
-2. stick to qusetion 
+2. stick to question 
 3. show motivation 
 4. 
 ### Advise 

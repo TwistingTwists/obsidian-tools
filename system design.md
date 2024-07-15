@@ -2,6 +2,7 @@
 tags:
   - arpit_bhayani
   - system_design
+  - interview
 aliases:
   - interview prep
 cssclasses:
