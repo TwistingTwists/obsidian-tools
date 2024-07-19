@@ -3,6 +3,20 @@ tags:
   - engineer
   - interview
 ---
+EM round Stord 
+
+- walk us through most impactful  project
+	- core value - learning 
+	- learnt - dif differently 
+	- genstatemachine --- 
+- user personas you have worked with?
+	- 
+
+
+tinymesh 
+mathocart 
+australia team 
+
 https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
 
  Feedback is the process of informing a person about behaviors that should be changed to improve a process.
