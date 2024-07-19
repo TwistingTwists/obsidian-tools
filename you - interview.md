@@ -4,6 +4,7 @@ tags:
   - interview
 ---
 EM round Stord 
+sean callan - EM 
 
 - walk us through most impactful  project
 	- core value - learning 
@@ -37,8 +38,37 @@ At stord - engineer own code from dev to deployment -- supporting code and deplo
 worked with PM team before? 
 - how involved in scoping?
 - requirements are not abunduntaly clear 
-- 
+- got the roadmpa -- important techincal decision 
+	- make sure ware + prioritised 
+	- understand as a smaller group and then presenting to the PM 
+- hard product / technical decision with 
+	- liveview suggested at tinymesh
+	- proactive + help people with skills (teaching elixir to js folks )
 
+
+product tech team processes 
+
+- product -- 
+
+
+WMS + billing module (billing rules) + kafka  + 
+- Luerl -- lua user validation code - robert virding
+
+
+- WMS does CDC -> kafka 
+	- external and internal event handlers 
+	- INTEGRATION with PHYSICAL =  bluetooth scanners (barcode) + printers etc 
+- OTP
+	- GenServers + 
+	- Stord github -- timeout tools for genserver 
+		- 84% saving in processes -- sub second generation of genservers saving 
+		- horde distributed nodes 
+	- genserver - stateless
+
+Phoenix Channels + postgres  + timescale DB (analytics of inventory) (inventory)
+
+> doomspork! 
+- printer guys 
 
 
 
