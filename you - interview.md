@@ -17,6 +17,32 @@ tinymesh
 mathocart 
 australia team 
 
+
+How did you know -- you were successful twith the project?
+- success metric 
+
+
+At stord - engineer own code from dev to deployment -- supporting code and deployment
+
+- troubleshooting 
+	- systemic bugs 
+	- OTP bug 
+	- 
+- postgres + rexbug + 
+	- datadog + traces + 
+- OpenTelemetry 
+
+
+
+worked with PM team before? 
+- how involved in scoping?
+- requirements are not abunduntaly clear 
+- 
+
+
+
+
+
 https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
 
  Feedback is the process of informing a person about behaviors that should be changed to improve a process.
