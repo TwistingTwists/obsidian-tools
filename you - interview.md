@@ -70,8 +70,34 @@ Phoenix Channels + postgres  + timescale DB (analytics of inventory) (inventory)
 > doomspork! 
 - printer guys 
 
+Chattanoga conf -- billing team -- conference 
 
 
+- WMS : PM overflow 
+	- Lead time -- 
+	- shipping packaging
+
+
+inventory management + order management --- 
+- schedlue folks to get the inventory distributed across 
+- seconds matter -- beacuse 500 people save 1 secon => 500 seconds per day - 1 hr 
+
+
+
+Questions from processes. 
+
+Onboarding 
+- 7 days first commit 
+- help finds ticket to help get feet wet 
+- 60+ days = contributing to velocity to project
+- 90+ days = support call - 100% a contributor 
+
+
+What interesting with stord ? 
+- winter holiday -- shipping nad packaing - purchasing goes up => business goes up
+- load testing -- pay off technical debt 
+- reduce frequency of feature releases during peak 
+- 
 
 https://chat.openai.com/g/g-Xlb3igCde-feedback-artisan
 
