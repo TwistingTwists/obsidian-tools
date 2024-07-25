@@ -2,7 +2,30 @@
 tags:
   - engineer
   - interview
+libraries:
 ---
+
+
+
+FIRST ROUND 
+
+Abhran 
+
+- developing models of their own for voice and audio ??
+- call centers - 
+	- enterprises focus ; not on SME ; not on individuals 
+	- sales team? 
+
+
+generators vs iterators 
+- efficiency -- which has less overhead -- generator vs iterator
+- use case examples of them 
+
+
+ContextManagers in python?
+- 
+
+
 EM round Stord 
 sean callan - EM 
 
