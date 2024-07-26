@@ -23,11 +23,15 @@ generators vs iterators
 
 
 ContextManagers in python?
-- 
 
+- leetcode coin changes questions 
+	- infinite coins 
+	- limited number of coins but find the nearest number - need to keep running sum 
+
+-------------------- 
 
 EM round Stord 
-sean callan - EM 
+Sean Callan - EM 
 
 - walk us through most impactful  project
 	- core value - learning 
@@ -36,19 +40,32 @@ sean callan - EM
 - user personas you have worked with?
 	- 
 
+What are different user personas you have worked with? 
+- tinymesh 
+- mathocart 
+- australia team 
 
-tinymesh 
-mathocart 
-australia team 
 
-
-How did you know -- you were successful twith the project?
-- success metric 
+How did you know -- you were successful with the project?
+- success metrics for your projects in past? 
+	- FREELANCE
+		- users don't talk about my product when I talk to them-- that's a baseline that it is not bad.
+		- they mention that 'it works' - nothing fancy. just like flipkart :p 
+	- JOB 
+		- GenStateMachine -- packet drop rate -- down. more data transfer reliably
+		- Caching in API -- request timeout
+	- Debugging issues on job?
+		- stack - 
+			- Grafana loki tempo 
+			- aws cloudwatch 
+		- examples 
+			- postgres instance timeout for query >30s query processing time -- 1 billion record scan / aggregate -- (todo recheck the time) -- pagination for those queries
+			- caching for
 
 
 At stord - engineer own code from dev to deployment -- supporting code and deployment
 
-- troubleshooting 
+- troubleshooting / debugging how?
 	- systemic bugs 
 	- OTP bug 
 	- 
@@ -61,7 +78,7 @@ At stord - engineer own code from dev to deployment -- supporting code and deplo
 worked with PM team before? 
 - how involved in scoping?
 - requirements are not abunduntaly clear 
-- got the roadmpa -- important techincal decision 
+- got the roadmpa -- important techincal` decision 
 	- make sure ware + prioritised 
 	- understand as a smaller group and then presenting to the PM 
 - hard product / technical decision with 
