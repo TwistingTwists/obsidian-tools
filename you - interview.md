@@ -85,14 +85,14 @@ Worked with PM team before?
 	- liveview suggested at tinymesh
 	- proactive + help people with skills (teaching elixir to js folks )
 
-	
-	Do you have any questions for me? 
-> 	Areas to ask question from -- product, tech, team, processes 
-	
-	- product -- 
-	- tech 
-	- team 
-	- procceses
+
+Do you have any questions for me? 
+> Areas to ask question from -- product, tech, team, processes 
+
+- product -- 
+- tech 
+- team 
+- procceses
 
 
 WMS + billing module (billing rules) + kafka  + 
