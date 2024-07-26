@@ -54,29 +54,28 @@ How did you know -- you were successful with the project?
 	- JOB 
 		- GenStateMachine -- packet drop rate -- down. more data transfer reliably
 		- Caching in API -- request timeout
-	- Debugging issues on job?
-		- stack - 
-			- Grafana loki tempo 
-			- aws cloudwatch 
-		- examples 
-			- postgres instance timeout for query >30s query processing time -- 1 billion record scan / aggregate -- (todo recheck the time) -- pagination for those queries
-			- caching for most common point queries
-		- 
+- Debugging issues on job?
+	- stack - 
+		- Grafana loki tempo 
+		- aws cloudwatch 
+	- examples 
+		- postgres instance timeout for query >30s query processing time -- 1 billion record scan / aggregate -- (todo recheck the time) -- pagination for those queries
+		- caching for most common point queries
+	- 
 
 
 At stord - engineer own code from dev to deployment -- supporting code and deployment
 
 - troubleshooting / debugging how?
 	- systemic bugs 
-	- OTP bug 
-	- 
+	- OTP bugs 
 - postgres + rexbug + 
 	- datadog + traces + 
 - OpenTelemetry 
 
 
 
-worked with PM team before? 
+Worked with PM team before? 
 - how involved in scoping?
 - requirements are not abunduntaly clear 
 - got the roadmpa -- important techincal` decision 
@@ -86,10 +85,14 @@ worked with PM team before?
 	- liveview suggested at tinymesh
 	- proactive + help people with skills (teaching elixir to js folks )
 
-
-product tech team processes 
-
-- product -- 
+	
+	Do you have any questions for me? 
+> 	Areas to ask question from -- product, tech, team, processes 
+	
+	- product -- 
+	- tech 
+	- team 
+	- procceses
 
 
 WMS + billing module (billing rules) + kafka  + 
