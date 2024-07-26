@@ -28,4 +28,6 @@ python
 - dunder methods 
 - memoization method -- @lru_cache  decorator 
 - multi threading, multi procesing , asyncio
-- 
+- custom exception handling in python 
+	- jaha raise hua hai, wahi handle kro 
+	- handle in fastapi base handler -- just raise exception in the app anywhere.
