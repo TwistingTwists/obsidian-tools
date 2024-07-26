@@ -60,7 +60,8 @@ How did you know -- you were successful with the project?
 			- aws cloudwatch 
 		- examples 
 			- postgres instance timeout for query >30s query processing time -- 1 billion record scan / aggregate -- (todo recheck the time) -- pagination for those queries
-			- caching for
+			- caching for most common point queries
+		- 
 
 
 At stord - engineer own code from dev to deployment -- supporting code and deployment
