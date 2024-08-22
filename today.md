@@ -8,3 +8,15 @@
 - [ ] wms-ui 
 - [ ] wms-backend
 - [ ] GST apply and do 
+
+
+Tannu 
+- [ ] reddit - experienced devs - 
+	- that doesn't work, why?
+	- mission / values?
+- [ ] A model like South Park commons - Need few accomplished folks there then?  Aditya Aggarwal for guidance?
+	- [ ] list of Credentials needed?
+- [ ] OURS 
+	- [ ] Mission = build tech business 
+	- [ ] values = /////
+
