@@ -42,7 +42,8 @@ don't be so excited. it is just a normal thing. you will get used to it.
 
 
 #### Examples 
-- 
+- alex becker hyros 
+- sam ovens - skool 
 
 ---
 
