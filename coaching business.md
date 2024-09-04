@@ -56,4 +56,21 @@ questions for self:
 
 - Can you hire 10 people who can work?
 - can you hire the middle leadership layer? - do you understand what leadership even means?
+
+
+
+
+
+evaluation metrics - 
+correctness , 
+hallucination 
+responsiveness 
+
+
+
+
+
+What is LLM eval techinques 
+
+objectives :
 - 
