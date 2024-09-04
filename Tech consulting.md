@@ -13,6 +13,8 @@ tags:
 
 #### Generate leads and find leads? 
 - Audience: VC, pre-seed  / seed funded companies
+	- small companies hitting scaling issues
+	- ABC KPI will be unlocked in a business.
 - message: I'll get you seed funding.
 - platform
 
@@ -54,12 +56,41 @@ Highest conversion way is (for me as a consultant VP ):
 1. my team has read blogs => come work for me! 
 2. two blogs --- that get 40k views! -- work for you 
 
-Are problems I am seeing -- are those problems I want to solve? (do I want to recruiting business?)
+Are problems I am seeing -- are those problems I want to solve? 
+- do I want to recruiting business?
+- book writing business
+- 10% of what I save your business?
 
-- Which business are a good business to be in?
+- Which business is a good business to be in?
 - Can you create a content creation agency without me being face of it?
 	- 20% margin, 4hrs every week of feedback?
-- 
+
+
+
+##### charge more 
+
+1. Accountable to outcome: 
+2. Internally believe your own rate. 
+	1. recently with 
+3. Ask better questions to get better price 
+	1. what is at-stake in your business? => loosing money because of A
+	2. What you think you can gain by deploying this solution? => get series-B
+	3. What are you willing to invest to open TAM by 20% / improve conversion of funnel ? 
+4. if you are selling a list of tasks 
+	1. You get stuck in hourly rate
+	2. Some folks want PoC => seed : extra things / effort to make you successful. I want to be a part of success.
+		1. Value prop: find team / designers + i can build PoC + i can find team build PoC + deliver results
+	3. 
+
+
+My problem:
+- Prefer hourly rate stuff because accountability.
+- I think that I can earn money. But I don't want to be help accountable
+	- PRACTICE - do what you say. Integrity has a lot of money in it. 
+
+
+#### Cautions
+- on taking too much too soon.
 
 ##### Sample blog post 
 
