@@ -10,7 +10,6 @@ tags:
 	1. setup recommended follow : each other
 4. Value I will provide to you  => Charge you accordingly
 
-
 #### Generate leads and find leads? 
 - Audience: VC, pre-seed  / seed funded companies
 	- small companies hitting scaling issues
@@ -22,8 +21,6 @@ tags:
 #### Affiliates 
 - have "head of AI" folks. I'd like to see if I can help you out.
 - linkedin search -> 2nd degree connection => to get you an intro to the people.
-
-
 
 #### blogpost 
 
@@ -91,6 +88,8 @@ My problem:
 
 #### Cautions
 - on taking too much too soon.
+- being TOOO much available
+- not being mindful of time boundaries
 
 ##### Sample blog post 
 
@@ -110,6 +109,16 @@ My problem:
 ##### Playbook for upskilling 
 
 you have to be in trenches. 
+
+
+#### asset mindset 
+
+- you are not trading time for money. 
+	- If you work 2x => get paid 2x. Do build the capital base and let it compound with time.
+
+
+### Tools 
+- motion AI -- make booking links to a lot of people -- set rules to ensure CHILLING
 - 
 
 --- 
@@ -123,6 +132,8 @@ ME:
 	- Harkirat - wide coverage for SDE-2. Does it even make sense?
 - Platform:  
 
+
+COMPOUND INTEREST => work 2x, get paid 2x => invest 1x and forget that. => 20y later, come back at it.
 
 
 - Audience:    
