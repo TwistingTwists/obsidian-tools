@@ -6,3 +6,4 @@ tags:
 
 
 https://github.com/curieo-org/search/blob/main/server/Cargo.toml
+
