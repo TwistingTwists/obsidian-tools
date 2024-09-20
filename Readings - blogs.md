@@ -2,6 +2,15 @@
 tags:
   - blog
 ---
+## Data Structures
+
+#### ZSETs
+
+
+Source: https://blog.gojek.io/protecting-indonesias-largest-digital-payments-app/
+
+
+
 ### Rule engine elixir 
 
 https://github.com/ulfurinn/wongi-engine-elixir  -- rete algorithm 
