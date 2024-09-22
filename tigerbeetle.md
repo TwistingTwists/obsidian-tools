@@ -37,3 +37,14 @@ Tigerbeetle DB
 
 
 - postgres -- 
+
+
+
+
+## BIGTABLE
+
+
+| key    | col1              | col2              |
+| ------ | ----------------- | ----------------- |
+| gaurav | val1 (t0, t1, t2) | val2 (t0, t1, t2) |
+| url2   |                   |                   |
