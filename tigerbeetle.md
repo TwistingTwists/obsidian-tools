@@ -48,3 +48,9 @@ Tigerbeetle DB
 | ------ | ----------------- | ----------------- |
 | gaurav | val1 (t0, t1, t2) | val2 (t0, t1, t2) |
 | url2   |                   |                   |
+
+
+mongo vs elastic search 
+- document versioning does not happen in mongo 
+- high write throughput -- ES
+
