@@ -19,7 +19,7 @@ Tigerbeetle DB
 - Financial transactions = D: 0.01% , disk failures
 	- postgres financial => 
 
-- DIrect I/O syscall => buffered + 
+- DIrect I/O syscall => buffered + event loop + scheduling
 ----
 
 ## Crash Recovery in DB
@@ -29,3 +29,11 @@ Tigerbeetle DB
 
 
 ## OS
+
+- buffered + event loop + scheduling
+- io_uring =  event loop 
+
+## Testing 
+
+
+- postgres -- 
