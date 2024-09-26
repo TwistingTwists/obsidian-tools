@@ -10,7 +10,7 @@ This requires an inspiring vision, strong communication skills, some degree of c
  1. inspiring vision, 
  2. strong communication skills, 
  3. some degree of charisma,  
- 4. evidence of execution ability.
+ 4. evidence of execution ability 
 
 
 
@@ -34,15 +34,16 @@ This requires an inspiring vision, strong communication skills, some degree of c
 
 
 
-| negative thoughts                     |                                     |
-| ------------------------------------- | ----------------------------------- |
-| I am not *good* enough                | SELF<br><br>insecurity              |
-| nobody understsands me                | SELF<br><br>present/future          |
-| I am a failure / i will never succeed | SELF<br><br>future                  |
-| I'll never be as successful as he is  | OTHERS <br><br>envy                 |
-| HOW UNFAIR the situation is.          | CIRCUMSTANCES<br><br>world-view     |
-|                                       | CIRCUMSTANCES<br><br>specific-to-me |
-| Entrepreneur: Will this work?         | CIRCUMSTANCES<br><br>outcomes       |
+| negative thoughts                                                                                           |                                     | leads-to / same-as    |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------- | --------------------- |
+| I am not *good* enough                                                                                      | SELF<br><br>insecurity              |                       |
+| nobody understsands me                                                                                      | SELF<br><br>present/future          |                       |
+| I am a failure / i will never succeed                                                                       | SELF<br><br>recent evidence         |                       |
+| I believe I am special -- I am unlucky!                                                                     | SELF<br><br>snowflake               |                       |
+| I'll never be as successful as he is                                                                        | OTHERS <br><br>envy                 |                       |
+| HOW UNFAIR the situation is.                                                                                | CIRCUMSTANCES<br><br>world-view     |                       |
+|                                                                                                             | CIRCUMSTANCES<br><br>specific-to-me | SELF<br><br>snowflake |
+| What did I do wrong? Will this work?<br><br>Entrepreneur: Deal falls through<br><br>Todo: Course correction | CIRCUMSTANCES<br><br>outcomes       |                       |
 
 
 
