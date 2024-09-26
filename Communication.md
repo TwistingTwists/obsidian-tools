@@ -42,10 +42,14 @@ This requires an inspiring vision, strong communication skills, some degree of c
 | I'll never be as successful as he is  | OTHERS <br><br>envy                 |
 | HOW UNFAIR the situation is.          | CIRCUMSTANCES<br><br>world-view     |
 |                                       | CIRCUMSTANCES<br><br>specific-to-me |
+| Entrepreneur: Will this work?         | CIRCUMSTANCES<br><br>outcomes       |
 
 
 
 
-| positive thoughts                     |                        |
-| ------------------------------------- | ---------------------- |
-| heart-longing conversation is missing | OTHERS<br><br>intimacy |
+| positive thoughts                                                             |                           |
+| ----------------------------------------------------------------------------- | ------------------------- |
+| heart-longing conversation is missing<br><br>Need to engage with partner more | OTHERS<br><br>intimacy    |
+| pride<br><br>(Son achieved state level in sports)                             | OTHERS<br><br>achievement |
+| gratitude (mangal Maitri)                                                     | SELF<br><br>              |
+|                                                                               |                           |
