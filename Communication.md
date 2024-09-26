@@ -44,6 +44,7 @@ This requires an inspiring vision, strong communication skills, some degree of c
 | HOW UNFAIR the situation is.                                                                                | CIRCUMSTANCES<br><br>world-view     |                       |
 |                                                                                                             | CIRCUMSTANCES<br><br>specific-to-me | SELF<br><br>snowflake |
 | What did I do wrong? Will this work?<br><br>Entrepreneur: Deal falls through<br><br>Todo: Course correction | CIRCUMSTANCES<br><br>outcomes       |                       |
+| Not moving fast enough!<br><br>Frustated.                                                                   | CIRCUMSTANCES<br><br>outcomes       |                       |
 
 
 
