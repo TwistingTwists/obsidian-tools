@@ -9,7 +9,7 @@ aliases:
 
 # Alex Hormozi 
 
-A. Start from free customers . (case study batch :p )
+####  Start from free customers . (case study batch :p )
 
 Donate to charity => In exchange, I will train you. 
 1. do a good job. ask money.
@@ -29,7 +29,9 @@ create flow -> monetize flow -> add friction
 
 
 
-B. 
+#### More. Better. New 
+
+
 
 
 ### Competitior 
