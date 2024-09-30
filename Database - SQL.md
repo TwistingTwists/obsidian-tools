@@ -124,3 +124,312 @@ you are an expert at SQL and relational databases.
 
 ask questions via concrete SQL use cases to check the understanding of transaction isolation and concurrent transactions. include examples in your question
 ```
+
+
+
+
+**## DB Storage and Retrieval 
+
+  
+
+##### Simplistic
+
+  
+
+- k1, v1
+    
+- K2, v2
+    
+- K3, v3
+    
+- K1, v11
+    
+
+  
+
+Status 
+
+- W - O(1) 
+    
+- Point query - :( 
+    
+- Range query - :( 
+    
+- Delete - O(1) -> Tombstone
+    
+- Fit in memory - yes
+    
+
+  
+
+##### Introduce hash index
+
+  
+
+Status 
+
+- W - O(1) 
+    
+- Point query - O(1) 
+    
+- Range query - :( 
+    
+- Delete - O(1) -> Tombstone
+    
+- Fit in memory - yes
+    
+
+##### Introduce Segmentation
+
+File (on-disk) -> broken in fixed size segments. 
+
+  
+
+Segments = ACTIVE (latest) + PASSIVE (immutable) 
+
+  
+
+Status 
+
+- W - O(1) 
+    
+- Point query - O(# segments) 
+    
+- Range query - :( 
+    
+- Fit in memory - No
+    
+
+  
+
+###### Each segment has its own hash index.
+
+- Good crash recovery -> Crash DURING W + rebuilding indexes after reboot
+    
+- Concurrency control - SIMPLE
+    
+
+###### Hash Index is ONE GIANT global file.
+
+Other problems to consider
+
+  
+
+- Concurrency control - R + W 
+    
+- Disk overflow => Merging + Compaction
+    
+- Crash recovery 
+    
+
+- DURING write 
+    
+- Rebuilding indexes
+    
+
+- Read amplification
+    
+- Write amplification 
+    
+
+  
+
+##### Each segment sorted by key on disk
+
+=> Sparse index in memory => Hash index for each segment on disk
+
+  
+
+DATA
+
+- ACTIVE (latest , in-memory, sorted-by-key BST)
+    
+- PASSIVE (immutable, on-disk, sorted-by-key)
+    
+
+  
+
+INDEX 
+
+- Sparse Index (in-memory)
+    
+- Hash Index for each PASSIVE segment
+    
+
+  
+
+Status 
+
+- W - O(log n) (sort in-memory during W)
+    
+- Point query - O(# segments) 
+    
+- Range query - O(# segments)
+    
+- Fit in memory - No
+    
+
+  
+  
+
+- Concurrency control - R + W => Simple
+    
+- Crash recovery 
+    
+
+- DURING write - :( 
+    
+- Rebuilding indexes - :) 
+    
+
+- Disk overflow  => Merging + Compaction
+    
+- Read amplification
+    
+- Write amplification 
+    
+
+  
+
+##### WAL for ACTIVE Segment of data
+
+  
+
+DATA
+
+- ACTIVE (latest , in-memory, sorted-by-key BST)
+    
+
+- With LOG on disk (WAL)
+    
+
+- PASSIVE (immutable, on-disk, sorted-by-key)
+    
+
+  
+
+INDEX 
+
+- Sparse Index (in-memory)
+    
+- Hash Index for each PASSIVE segment
+    
+
+  
+
+Status 
+
+- W - O(log n) (sort in-memory during W)
+    
+- Point query - O(# segments) 
+    
+- Range query - O(# segments)
+    
+- Fit in memory - No
+    
+
+  
+  
+
+- Concurrency control - R + W => Simple
+    
+- Crash recovery 
+    
+
+- DURING write - :)
+    
+- Rebuilding indexes - :) 
+    
+
+- Disk overflow  => Merging + Compaction
+    
+- Read amplification
+    
+- Write amplification 
+    
+
+  
+  
+
+##### In place updates on disk 
+
+- No need to sort on disk :) 
+    
+
+  
+
+DATA
+
+- ACTIVE (latest , in-memory, sorted-by-key BST)
+    
+
+- With LOG on disk (WAL)
+    
+
+- PASSIVE (immutable, on-disk, sorted-by-key)
+    
+
+  
+
+INDEX 
+
+- Sparse Index (in-memory)
+    
+- Hash Index for each PASSIVE segment
+    
+
+  
+
+Status 
+
+- W - O(log n) (sort in-memory during W)
+    
+- Point query - O(# segments) 
+    
+- Range query - O(# segments)
+    
+- Fit in memory - No
+    
+
+  
+  
+
+- Concurrency control - R + W => Simple
+    
+- Crash recovery 
+    
+
+- DURING write - :)
+    
+- Rebuilding indexes - :) 
+    
+
+- Disk overflow  => Merging + Compaction
+    
+- Read amplification
+    
+- Write amplification 
+    
+
+  
+  
+  
+
+### BTree vs LSM Tree 
+
+#### LSM 
+
+Write Amplification
+
+- DATA + WAL
+    
+-  Compaction - Levels (5-6)
+    
+
+  
+
+#### BTree
+
+Write Amplification 
+
+- Page Splits**
