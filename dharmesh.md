@@ -3,42 +3,27 @@ tags:
   - advice
   - startups
 ---
-
-
-**  
-
 ### Dharmesh 
 
-#### simplicity in business:
+### Simplicity in business:
 
 1. if you put a feature in, you take a feature out.
-    
-
 2. measure cost of feature = cost of implementation + cost of maintenance + other costs that get added
-    
 
 other costs = added dimensional complexity to entire org.  
 all charts / decisions in entire org centre around feature1 and feature2.
 
-  
-
 #### should you build for SMB? Yes. Because
 
 1. It is hard.
-    
-
 2. Enterprise software : sales cycle is long + revenue concentration => big corps dictate features.
-    
 
-3. Consumer startups: nobody in middle. lol . Either you are fb or you are zero.
-    
+3. Consumer startups: nobody in middle. lol . Either you are fb or you are zero.    
 
 4. B2B : incrementally build value for B. don't have to sell to customers.  
     and that customers don't dictate your feature roadmap.
-    
 
 5. reverse gravity in software: you can be led by your most paying customers and continue focussing on the value you give to them.
-    
 
   
   
@@ -199,5 +184,3 @@ That way you can keep both of them visible. A goal to walk upto is there (aspira
 #### On Success 
 
 success is making people who believed in you look brilliant.
-
-**
