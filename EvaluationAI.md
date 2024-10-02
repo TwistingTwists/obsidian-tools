@@ -267,3 +267,10 @@ Elixir Apps
 
 * Old customised model for your domain and your use case. 
 * Build the training data for image analysis using vision models / old models  for your use case?
+
+
+
+### 30 days of AI 
+
+https://docs.google.com/document/d/1GahYgJ-LEICZBJ0_-iBc_k-4_i15pQz3_dCBaRi2nmU/preview#heading=h.wfz67hmysyoo
+
