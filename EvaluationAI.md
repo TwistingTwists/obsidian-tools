@@ -271,6 +271,6 @@ Elixir Apps
 
 
 ### 30 days of AI 
-
+ 
 https://docs.google.com/document/d/1GahYgJ-LEICZBJ0_-iBc_k-4_i15pQz3_dCBaRi2nmU/preview#heading=h.wfz67hmysyoo
 
