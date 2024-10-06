@@ -22,13 +22,3 @@ Talk about libraries / specifics / projects that you have worked on: AI Space
 - Crew AI 
 
   
-  
-
-Why you may want to work with Chima? 
-
-- If it works out, women led company. / STEM etc etc - lots of public
-- Are these minds institutionalised? – YES.
--   
--   
-
- 
