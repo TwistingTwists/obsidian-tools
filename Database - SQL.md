@@ -208,7 +208,6 @@ Other problems to consider
 DATA
 
 - ACTIVE (latest , in-memory, sorted-by-key BST)
-    
 - PASSIVE (immutable, on-disk, sorted-by-key)
     
 
