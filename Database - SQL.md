@@ -127,57 +127,37 @@ ask questions via concrete SQL use cases to check the understanding of transacti
 
 
 
+## DDIA Chapter - 02  - DB Storage and Retrieval 
 
-**## DB Storage and Retrieval 
-
-  
 
 ##### Simplistic
 
-  
-
 - k1, v1
-    
 - K2, v2
-    
-- K3, v3
-    
+- K3, v3    
 - K1, v11
-    
 
-  
 
 Status 
 
 - W - O(1) 
-    
 - Point query - :( 
-    
 - Range query - :( 
-    
 - Delete - O(1) -> Tombstone
-    
 - Fit in memory - yes
-    
 
   
 
 ##### Introduce hash index
 
   
-
 Status 
 
 - W - O(1) 
-    
 - Point query - O(1) 
-    
 - Range query - :( 
-    
 - Delete - O(1) -> Tombstone
-    
 - Fit in memory - yes
-    
 
 ##### Introduce Segmentation
 
@@ -192,22 +172,14 @@ Segments = ACTIVE (latest) + PASSIVE (immutable) 
 Status 
 
 - W - O(1) 
-    
-- Point query - O(# segments) 
-    
+- Point query - O(# segments)
 - Range query - :( 
-    
-- Fit in memory - No
-    
-
-  
+- Fit in memory - No  
 
 ###### Each segment has its own hash index.
 
 - Good crash recovery -> Crash DURING W + rebuilding indexes after reboot
-    
 - Concurrency control - SIMPLE
-    
 
 ###### Hash Index is ONE GIANT global file.
 
@@ -216,21 +188,14 @@ Other problems to consider
   
 
 - Concurrency control - R + W 
-    
 - Disk overflow => Merging + Compaction
-    
 - Crash recovery 
-    
 
 - DURING write 
-    
 - Rebuilding indexes
-    
 
 - Read amplification
-    
 - Write amplification 
-    
 
   
 
