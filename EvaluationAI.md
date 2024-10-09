@@ -3,10 +3,28 @@ tags:
   - startups
   - startup-2
 ---
+#### data modelling 
+
+- User has_many submissions
+- submission has_many questions
+- question has_many pages
+
+
+Page 
+- image
+- text
+- 
+
+1. Host OCR model -> do the OCR -> Store in Storj 
+2. data modelling 
+3. ML -- Read embeddings and re-ranking
+
+
 ### Pick best model?
 
 - [ ] https://txt.cohere.com/struggling-to-pick-the-right-ai-model-lets-break-it-down/
-- [ ] 
+
+
 ### Have a look 
 - [ ] CLIP model hugging face - https://huggingface.co/BAAI/EVA-CLIP-8B
 - [ ] LLM modulo framework - https://arxiv.org/pdf/2402.01817.pdfa
@@ -16,15 +34,12 @@ tags:
 ### Embeddings 
 - [ ] https://huggingface.co/BAAI/bge-reranker-large
 - [ ]  What are embeddings ?
-- [ ] 
-
 
 
 ## Attention is all you need 
 - [ ] https://www.youtube.com/watch?v=bCz4OMemCcA
 	- [ ] Tokenizer - [Karpathy](https://www.youtube.com/watch?v=zduSFxRajkE&t=1s)
 	- [ ] [What is QKV in tokenizer?](https://2020machinelearning.medium.com/decoding-the-key-query-value-mechanism-in-transformer-models-thru-a-deep-discussion-with-claude-ai-2da5a66d4f8e)
-	- [ ] 
 
 ## Deno_EX - OCR in elixir 
 https://github.com/akoutmos/deno_ex
@@ -65,15 +80,13 @@ https://youtu.be/CeDS1yvw9E4?t=745 : This shows the structured output using llam
 1. does llamaindex use instructor?
 2. if not, then Is there tangible benefit by integrating instructor with llamaindex? 
 3. the integration might be trivial. Or not. If it is trivial, please point to some docs.
-4. 
+
 
 -----
 ##### LangGraph and CRAG 
 
 - [ ] CRAG - https://github.com/mistralai/cookbook/blob/main/langgraph_crag_mistral.ipynb
 - [ ] LangSmith - stacktrace
-
-
 
 -----
 
@@ -87,7 +100,7 @@ https://github.com/llmware-ai/llmware
 ##### Embeddings 
 
 - [ ] https://supabase.com/blog/matryoshka-embeddings
-- [ ] 
+
 -----
 
 [[Advice on startups]]
@@ -117,9 +130,7 @@ https://www.youtube.com/playlist?list=PLQVvvaa0QuDdeMyHEYc0gxFpYwHY2Qfdh
 
 
  
-
-Raj Rajhans - CLIP + text model in Elixir and Bumblebee. 
-
+ 
 
 ### Image to text 
 
