@@ -7,12 +7,15 @@ tags:
 
 - User has_many submissions
 - submission has_many questions
-- question has_many pages
+- question 
 
 
-Page 
-- image
-- text
+Question
+- page_nums [1,2,3]
+- has_many text
+
+page
+- page_ 
 - 
 
 1. Host OCR model -> do the OCR -> Store in Storj 
