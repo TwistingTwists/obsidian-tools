@@ -3,6 +3,7 @@ tags:
   - startups
   - startup-2
 ---
+
 #### data modelling 
 
 - User has_many submissions
