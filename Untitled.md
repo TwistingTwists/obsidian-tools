@@ -12,3 +12,10 @@ second column name change
 
 
 https://neon.tech/blog/architecture-decisions-in-neon
+
+
+
+Pavex : 
+https://www.youtube.com/watch?v=cMea6IMRk2s
+
+
