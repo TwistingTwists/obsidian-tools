@@ -3,17 +3,43 @@ tags:
   - startups
   - startup-2
 ---
+#### Hypothesis 
+
+If the AI models can reason, even with the data as contaminated as GSM8k => create PYQ data + high quality other data
+
+Other data creation: Sources
+- websites that have put humans for creating quizzes
+- news articles / magazine articles => based RAG
+
+The Interaction / iteration from the model is the key. How does your UX help you iterate faster.
 
 #### data modelling 
 
 - User has_many submissions
 - submission has_many questions
-- question 
-
 
 Question
-- page_nums [1,2,3]
-- has_many text
+%% - page_nums [1,2,3] %%
+- has_many Page
+- has_many topics
+- belongs_to submission
+
+A question, which has many topics (topic_1) is said to be highly interlinked
+Topic 
+- topic_0 jsonb - gs
+- topic_1 jsonb - heading
+- topic_2 jsonb - subheading
+- topic_3 jsonb
+
+
+Page
+- page_num int
+- text_blob
+- structure jsonb
+- introduction
+- data_points
+- headings
+
 
 page
 - page_ 
@@ -22,6 +48,27 @@ page
 1. Host OCR model -> do the OCR -> Store in Storj 
 2. data modelling 
 3. ML -- Read embeddings and re-ranking
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Pick best model?
@@ -160,6 +207,13 @@ Aim: Given a prelims test pdf, extract all question as images and present them t
 #### User Flow : 
 
 User uploads a pdf -> find all the question images. correct answers. answer images. (with OCRs? or searchable text embedding corresponding to each image)
+
+## ML readings 
+
+
+| Paper                                               | Key takeway                                                  | remark |
+| --------------------------------------------------- | ------------------------------------------------------------ | ------ |
+| [o1 analysis](https://www.arxiv.org/abs/2409.19924) | I can learn how to eval and reason about memory design here! |        |
 
 
 
