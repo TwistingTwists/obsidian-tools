@@ -29,7 +29,7 @@ Topic
 - topic_0 jsonb - gs
 - topic_1 jsonb - heading
 - topic_2 jsonb - subheading
-- topic_3 jsonb
+- topic_3 jsonb - 
 
 
 Page
@@ -40,11 +40,7 @@ Page
 - data_points
 - headings
 
-
-page
-- page_ 
-- 
-
+ 
 1. Host OCR model -> do the OCR -> Store in Storj 
 2. data modelling 
 3. ML -- Read embeddings and re-ranking
