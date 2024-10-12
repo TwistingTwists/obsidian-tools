@@ -120,10 +120,6 @@ https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sy
 	- `pub fn strlen_dyn(s: Box<dyn Hei>)` - pointer indirection for object on heap
 
 
-Goals for October 
-- Evals Framework in Elixir 
-- Kafka in Rust 
-- DDIA - Replication + Sharding + GFS 
 
 - [ ] setup tmux system for personal work 
 	- [ ] ragas
