@@ -120,13 +120,3 @@ https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sy
 	- `pub fn strlen_dyn(s: Box<dyn Hei>)` - pointer indirection for object on heap
 
 
-
-- [ ] setup tmux system for personal work 
-	- [ ] ragas
-	- [ ] kafka codecrafters
-	- [ ] blogging - tasting_curries
-- [ ] setup tmux for professional work 
-	- [ ] ardan labs course rust 
-	- [ ] jonhoo videos rust 
-	- [ ] 
-- [ ] 

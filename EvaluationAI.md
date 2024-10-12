@@ -78,10 +78,6 @@ Page
 
 [[structured thinking]]
 
-### Embeddings 
-- [ ] https://huggingface.co/BAAI/bge-reranker-large
-- [ ]  What are embeddings ?
-
 
 ## Attention is all you need 
 - [ ] https://www.youtube.com/watch?v=bCz4OMemCcA
@@ -106,29 +102,6 @@ Source: https://github.com/mlabonne/llm-course
 https://github.com/lucidrains/vit-pytorch#vision-transformer---pytorch
 
 
-### Building Advanced RAG 
-
------
-##### From Wandb course (instructor): 
-
-- [ ] Simple RAG has limitations 
-- [ ] howto advanced rag - 
-	- [ ] Overview - with evaullation on RAG : https://www.youtube.com/watch?v=CeDS1yvw9E4
-	- [ ] Tru and Llamaindex : https://www.youtube.com/watch?v=rrW1U7tt_Xg
-	- [ ] more llamaindex : https://www.youtube.com/watch?v=wBhY-7B2jdY
-	- [ ] evalutae the rag : https://www.youtube.com/watch?v=mEv-2Xnb_Wk
-- [ ] watch people build with MarvinAI 
-	- [ ] https://www.youtube.com/watch?v=ku3DPrR6Sl0
-
-Just a question around structured output using instructor 
-
-https://youtu.be/CeDS1yvw9E4?t=745 : This shows the structured output using llamaindex. Instructor produces similar stuff by defining pydantic models. 
-
-1. does llamaindex use instructor?
-2. if not, then Is there tangible benefit by integrating instructor with llamaindex? 
-3. the integration might be trivial. Or not. If it is trivial, please point to some docs.
-
-
 -----
 ##### LangGraph and CRAG 
 
@@ -141,12 +114,6 @@ https://youtu.be/CeDS1yvw9E4?t=745 : This shows the structured output using llam
 
 https://github.com/llmware-ai/llmware
 
-
------
-
-##### Embeddings 
-
-- [ ] https://supabase.com/blog/matryoshka-embeddings
 
 -----
 
@@ -203,14 +170,6 @@ Aim: Given a prelims test pdf, extract all question as images and present them t
 #### User Flow : 
 
 User uploads a pdf -> find all the question images. correct answers. answer images. (with OCRs? or searchable text embedding corresponding to each image)
-
-## ML readings 
-
-
-| Paper                                               | Key takeway                                                  | remark |
-| --------------------------------------------------- | ------------------------------------------------------------ | ------ |
-| [o1 analysis](https://www.arxiv.org/abs/2409.19924) | I can learn how to eval and reason about memory design here! |        |
-
 
 
 ## { startup-3 } Similarity search with topper copies.
