@@ -114,4 +114,8 @@ https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sy
 	- Other costs
 		- Compile time generation for each type
 		- Runtime - can't put ONE function in instruction cache of CPU. Because many 'versions' - monomorphized exist! 
-- Dispatch 
+- Dispatch - Static vs Dynamic 
+	- `pub fn strlen(s: impl Hei)` - static dispatch => get monomorphized to `strlen_str(s: &str)` if `impl Hei for &str `  exists
+	- `pub fn strlen_dyn(s: &dyn Hei)` - pointer indirection on stack.
+	- `pub fn strlen_dyn(s: Box<dyn Hei>)` - pointer indirection for object on heap
+	- 
