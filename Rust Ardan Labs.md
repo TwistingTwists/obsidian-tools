@@ -101,3 +101,16 @@ https://github.com/andybarron/tokio-rayon
 https://rustmagazine.org/issue-4/how-tokio-schedule-tasks/
 https://raindev.io/blog/mixing-sync-and-async-rust/
 https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sync-and-async-code
+
+
+
+
+### Crust of Rust - Dispatch
+
+- Monomorphisation (over Generics) 
+	- giving away rust library as binary?
+		- not ideal because monomorphization . Hence if a user has a New Type , he can't use the given binary. Rust has to include the lib user's impl in final code.
+	- Other costs
+		- Compile time generation for each type
+		- Runtime - can't put ONE function in instruction cache of CPU. Because many 'versions' - monomorphized exist! 
+	- 
