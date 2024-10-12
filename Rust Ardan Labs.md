@@ -110,7 +110,8 @@ https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sy
 - Monomorphisation (over Generics) 
 	- giving away rust library as binary?
 		- not ideal because monomorphization . Hence if a user has a New Type , he can't use the given binary. Rust has to include the lib user's impl in final code.
+		- So, if you want to give away dynamic library as cdylib => cannot have generics :\ 
 	- Other costs
 		- Compile time generation for each type
 		- Runtime - can't put ONE function in instruction cache of CPU. Because many 'versions' - monomorphized exist! 
-	- 
+- Dispatch 
