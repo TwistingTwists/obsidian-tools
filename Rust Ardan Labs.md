@@ -118,4 +118,19 @@ https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sy
 	- `pub fn strlen(s: impl Hei)` - static dispatch => get monomorphized to `strlen_str(s: &str)` if `impl Hei for &str `  exists
 	- `pub fn strlen_dyn(s: &dyn Hei)` - pointer indirection on stack.
 	- `pub fn strlen_dyn(s: Box<dyn Hei>)` - pointer indirection for object on heap
-	- 
+
+
+Goals for October 
+- Evals Framework in Elixir 
+- Kafka in Rust 
+- DDIA - Replication + Sharding + GFS 
+
+- [ ] setup tmux system for personal work 
+	- [ ] ragas
+	- [ ] kafka codecrafters
+	- [ ] blogging - tasting_curries
+- [ ] setup tmux for professional work 
+	- [ ] ardan labs course rust 
+	- [ ] jonhoo videos rust 
+	- [ ] 
+- [ ] 
