@@ -400,13 +400,16 @@ Write Amplification 
 
 ### DDIA  - Indexes 
 
+- non-clustered index 
 - What are the current indexs on the database? 
 	- `select relname, relkind from pg_class where relkind = 'i'; `
 		- `'i'` for index 
-- 
-- non-clustered index 
+- Visualising B+Tree index = video 009 UDEMY postgres
+	- HUGE B+Tree index are stored in levels. 
 - Complex Index (compound index? )
 - B-Tree index 
+- GiST Index 
+	- 
 - GIN - Arrays / JSON data 
 - GeoHashIndex 
 - 
