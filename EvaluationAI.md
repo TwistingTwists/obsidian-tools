@@ -59,6 +59,14 @@ Page
 
 
 
+# Version 02 
+####  TTS 
+
+> New SOTA for TTS matching eleven Labs TTS = F5-TTS
+
+
+
+
 
 
 
