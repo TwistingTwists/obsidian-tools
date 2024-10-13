@@ -397,3 +397,16 @@ Write Amplification
 Write Amplification 
 
 - Page Splits**
+
+### DDIA  - Indexes 
+
+- What are the current indexs on the database? 
+	- `select relname, relkind from pg_class where relkind = 'i'; `
+		- `'i'` for index 
+- 
+- non-clustered index 
+- Complex Index (compound index? )
+- B-Tree index 
+- GIN - Arrays / JSON data 
+- GeoHashIndex 
+- 
