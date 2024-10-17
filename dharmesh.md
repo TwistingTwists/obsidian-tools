@@ -48,21 +48,14 @@ Solution: we integrate. (we need to build things ourselves) but INTEGRATION is t
 hashtags for dharmesh
 
 1. fyi: found this X awesome. just thought I'd share. No response expected.
-    
-
 2. suggestion: I'd consider this if I were you. No pressure to do this. No response expected
-    
 
 3. recommendation: I've done some soul searching, diggin. I will do this if I were in your position. you don't have to do this. If you decide not to do this, please give a response.
-    
 
 4. plea: I've thought about this sooo much. Almost in soul searching way. Please do this.
-    
 
 1. plea : rarely use. Is this a deal you  are willing to die on?
-    
 2. using plea is using your 'founder' card. should you waste it on this problem?
-    
 
   
 
