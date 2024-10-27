@@ -103,6 +103,7 @@ https://raindev.io/blog/mixing-sync-and-async-rust/
 https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sync-and-async-code
 
 
+### Crust of Rust - Pointers
 
 
 ### Crust of Rust - Dispatch
