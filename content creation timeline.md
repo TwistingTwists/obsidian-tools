@@ -29,9 +29,7 @@ Why create content?
 
 - [ ] https://jxnl.github.io/blog/writing/2024/01/22/consulting/
 - [ ] Classy person / not fame. Gets more gigs.
-
-Who are people doing it these days? 
-
+- [ ] zig - Write for the Hype! 
 
 ## Reading list for developing as a programmer 
 
