@@ -35,4 +35,4 @@ Concurrent Specs for way02 - foundations
 	- what IS FIFO queue
 		- FIFO means strict temporal order
 		- concurrent means ambiguous temporal order
-	- 
+- Lineariazability 
