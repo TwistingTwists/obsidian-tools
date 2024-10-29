@@ -36,3 +36,15 @@ Concurrent Specs for way02 - foundations
 		- FIFO means strict temporal order
 		- concurrent means ambiguous temporal order
 - Lineariazability 
+
+
+
+
+
+
+Distributed Consensus 
+
+[Heidi Howard ](https://www.youtube.com/watch?v=KTHOwgpMIiU)
+- unreliable, async, non-Byzantine system 
+- system = server (storing value) + clients (R/W value)
+- 
