@@ -108,6 +108,10 @@ https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sy
 - Basic types of interior mutability via 
 Cell, RefCell,  Mutex (under sync module)
 	- Box does not provide interior mutability => if you have ref to a `Box<T>` you cannot modify the value inside 
+	- can't get a pointer into the `Cell`. Modification / getting the value is possible with `Cell` api. But not the pointer to inside value.
+	- `Cell` doesn't impl `Sync` => can't give away ref to Cell (`Sync`) across threads
+		- Single threaded env => only one pointer to Cell is in action => Can  mutate value inside. Since, no one has pointer to the value inside `Cell`
+	- `Cell` = impl only for small `Copy` types
 	- 
 
 
