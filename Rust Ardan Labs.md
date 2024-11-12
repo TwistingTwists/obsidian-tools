@@ -112,7 +112,7 @@ Cell, RefCell,  Mutex (under sync module)
 	- `Cell` doesn't impl `Sync` => can't give away ref to Cell (`Sync`) across threads
 		- Single threaded env => only one pointer to Cell is in action => Can  mutate value inside. Since, no one has pointer to the value inside `Cell`
 	- `Cell` = impl only for small `Copy` types
-	- 
+		- Cell is implemented via `UnsafeCell` which gives out the raw pointer to the value inside. `UnsafeCell` is the primitive by which the interior mutability is implemented.
 
 
 ### Crust of Rust - Dispatch
