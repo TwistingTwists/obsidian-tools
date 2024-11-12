@@ -105,11 +105,16 @@ https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sy
 
 ### Crust of Rust - Pointers
 
+- Basic types of interior mutability via 
+Cell, RefCell,  Mutex (under sync module)
+	- Box does not provide interior mutability => if you have ref to a `Box<T>` you cannot modify the value inside 
+	- 
+
 
 ### Crust of Rust - Dispatch
 
 - Monomorphisation (over Generics) 
-	- giving away rust library as binary?
+	- giving away rust library as binary? (problem if you have 'generic Traits' in the library)
 		- not ideal because monomorphization . Hence if a user has a New Type , he can't use the given binary. Rust has to include the lib user's impl in final code.
 		- So, if you want to give away dynamic library as cdylib => cannot have generics :\ 
 	- Other costs
@@ -121,3 +126,10 @@ https://docs.rs/tokio/latest/tokio/sync/mpsc/index.html#communicating-between-sy
 	- `pub fn strlen_dyn(s: Box<dyn Hei>)` - pointer indirection for object on heap
 
 
+
+
+| topic         | layman                                                              |
+| ------------- | ------------------------------------------------------------------- |
+| lifetimes     | pointer to the value and the value itself should not go out of sync |
+| smart pointer | - where the data is: stack vs heap<br>-                             |
+|               |                                                                     |
