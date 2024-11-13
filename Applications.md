@@ -23,9 +23,35 @@ Industries to familiarize yourself in:
 1. logisitcs - warehousing - 
 2. robotics / etc data streaming
 3. ad / marketing
-4. 
+4. LLM
+
 
 UpSkilling 
 - Kubernetes familiarity
 - data infra = golang / tech + landscape (blogs)
-- 
+- LLM 
+	- evals setup
+	- prompt arrangement / setup / Cursor opensource react style context window management library?
+
+
+
+
+Eigen 
+
+- What other AI tools have you experimented with?
+
+instructor - python , ragas for evaulation, vapi.ai / play for voicebots , sileroVAD for speaker detection, inVideo editor
+
+- What education or consumer-facing products have you worked on?
+mathocrat.com = it is an LMS (learning management system) that helps educators deliver on-demand paid courses to student. Think of Udemy for educators.
+
+
+- Bonus: Describe how you've used OpenAIs or Anthropic's developer products.
+
+A. instructor = for structured output generation
+B. embeddings =  `text-embedding-3-large` for generating embeddings for text
+C. Vision API = OCR for handwritten text, table detection (table-transformer too!), 
+D. Whisper API = for live transcriptions and long form transcriptions from pre-recorded audio files
+E. AI agents = GPT-4o as the main 'brains' for data extraction and formatting workflow. Data extraction via GPT-4o and Claude Haiku as the secondary agent for data formatting tasks (low intelligence).
+F. ragas = for creating evaluation harness
+G. prompt caching with Antrhopic 
