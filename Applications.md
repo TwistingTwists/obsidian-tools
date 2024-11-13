@@ -7,10 +7,12 @@ https://estuary.dev/
 
 
 
-What are Branded Companies you want to go to?
+What are `Branded` Companies you want to go to?
 1. victoria metrics 
 2. Metabase - [Backend Role](https://jobs.lever.co/metabase/85f454d8-e795-4978-8a2b-4b8bfa7d7c37?lever-origin=applied&lever-source%5B%5D=HackerNews) 
-3. 
+3. influxDB
+4. arroyo / datafusion / wasmer.io
+5. paradeDB?
 
 Not tier 1, but super interesting 
 ##### foxglove
