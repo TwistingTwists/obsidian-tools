@@ -62,3 +62,11 @@ data cleaning = given a report of all new startups of a related domain, present 
  E. ragas = for creating evaluation harness
  F. prompt caching with Antrhopic = Improving latency and costs in repeated prompts related to a document question answering
  G. AI agent based workflows = GPT-4o as the main 'brains' for data extraction and formatting workflow. Data extraction via GPT-4o and Claude Haiku as the secondary agent for data formatting tasks (low intelligence).
+
+
+
+
+data 
+
+- Streaming / batch = ingestion + querying (db / linux syscall)
+- Data engineering = Advanced in ETL and Postgres SQL, data orchestration with dbt/Dagster
