@@ -43,8 +43,18 @@ e.g. I will bring in a salesperson and he will be able to sell for me.
 
 ##### Marketing challenge
 
-- challenge around awareness for the product
+- AWARENESS - challenge around awareness for the product
 	- " Had they heard about me, they would have bought me! '' - clear POV 
-- 
+- BRAND - At some point in growth of company - people are looking for a _brand_! - marketing
 
-#####
+##### Understanding marketing
+
+- CMO podcasts - Chief Marketing Officer? - What do they even do?
+
+##### Lifecycle 
+
+- growth of company - where the heat is 
+	- intial - product kitchen - what to make
+	- engg - make it work
+	- sales - please sell it 
+	- market - more pipeline to sales
