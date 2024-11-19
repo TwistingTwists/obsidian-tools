@@ -85,7 +85,14 @@ product folks vs marketing folks
 - product communication maybe slightly fuzzy.
 - marketing has to be crystal clear - black and white.
 	- message + amplify = CLEAR SIGNAL
-- 
+
+Bubble
+- messaging = for the audience. Not for you - you are inside the bubble.
+- daily reminder pls
+
+Ramp up in marketing, how?
+- what are the companies really doing well? what are the brands I love? and what do I love about them?
+- go find out what did the team do? Who were the people involved?
 
 TRUST 
 - how to build?
