@@ -58,3 +58,24 @@ e.g. I will bring in a salesperson and he will be able to sell for me.
 	- engg - make it work
 	- sales - please sell it 
 	- market - more pipeline to sales
+
+B2B: build features for one client => increased complexity DIMENSION. 
+- add one and remove one feature. Fight against entropy
+- add according to customer needs, not customer wants
+
+Marketing - What syncs with the community / audience + problem space
+- (right blogs - funny, interesting) 
+- live in the space as a customer
+- GOAL - right people should hear right thing about my company - ASAP
+
+CMO role 
+- deep connection with core team + trust 
+	- represent the core team to the world
+		- easy to break the trust, hard to build trust
+- Diverse job 
+	- audience + role = performance marketing + events + design team
+
+
+TRUST 
+- how to build?
+
