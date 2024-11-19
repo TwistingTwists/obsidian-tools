@@ -73,3 +73,10 @@ data
 
 - Streaming / batch = ingestion + querying (db / linux syscall)
 - Data engineering = Advanced in ETL and Postgres SQL, data orchestration with dbt/Dagster
+
+#### Shopify 
+
+- Who are other people in India?
+	- https://www.shopify.com/careers/software-engineers_a72d7608-dea6-4d80-870a-33e9077a578b?
+	- Remote Global - What does it take to be shopify?
+- 
