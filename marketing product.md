@@ -75,6 +75,17 @@ CMO role
 - Diverse job 
 	- audience + role = performance marketing + events + design team
 
+Person
+ - it is ok to fail -- pretty sure I will fail at something
+	 - and still attempting it
+ - got in from mom - push yourself in new ways (face friction) + courage to try
+	 - and it is ok to fail
+
+product folks vs marketing folks
+- product communication maybe slightly fuzzy.
+- marketing has to be crystal clear - black and white.
+	- message + amplify = CLEAR SIGNAL
+- 
 
 TRUST 
 - how to build?
