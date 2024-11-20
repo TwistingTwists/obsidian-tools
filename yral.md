@@ -10,6 +10,7 @@ myapp -> nginx (server) IPv4 -> provab
 
 myapp -> GCP SWP (secure web proxy) IPv6 -> provab
 
+
 SWP : envoy(server)
 server = VM (compute Engine)
 
@@ -17,7 +18,7 @@ Network = certbot = Certificate Manager (TLS)
 
 network services = envoy / nginx
 
-network security = cloud armor (x-api-key = "asdfasdfds") [header, IAM roles, website name , rate limit]
+network security = cloud armor (x-api-key = "asdfasdfds") (header, IAM roles, website name , rate limit)
 
 Global / regional
 
@@ -33,13 +34,14 @@ Global / regional
 
 TLS belongs to admin (why? - admin can literally SEEEEEE the traffic)
 
-  
+
 
 > "You can use external load balancer backend services as targets."
 
   
   
   
+----
 
 ERROR 1:
 
@@ -48,3 +50,5 @@ Failed to create estatedao-provab-proxy: resource.network: provided network proj
   
 
 https://www.perplexity.ai/search/operation-type-insert-failed-w-XMxhcZMBS..e8K55PLgopw
+
+----
