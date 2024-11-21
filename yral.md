@@ -52,3 +52,10 @@ Failed to create estatedao-provab-proxy: resource.network: provided network proj
 https://www.perplexity.ai/search/operation-type-insert-failed-w-XMxhcZMBS..e8K55PLgopw
 
 ----
+
+
+
+----
+2024-11-21 09:32:59
+
+- NOWPAYMENT_API_KEY  - Pr make
