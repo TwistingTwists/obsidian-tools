@@ -10,3 +10,9 @@ https://colab.research.google.com/drive/1dsFtG_4GDRHfJ0-7CIouNkqny471xHnD?usp=sh
 
 https://www.eyelevel.ai/post/optimizing-rag-with-llm-routing
 https://www.eyelevel.ai/post/agentic-rag
+
+
+#### Contextual embeddings
+
+https://pub.aimind.so/unlocking-the-power-of-contextual-document-embeddings-enhancing-search-relevance-01abfa814c76
+https://arxiv.org/pdf/2410.02525
