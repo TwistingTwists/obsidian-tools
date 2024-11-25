@@ -3,3 +3,12 @@
 
 System Design papers latest - https://dblp.org/db/conf/nsdi/nsdi2024.html
 
+
+
+
+1. Nowpayments - api testing
+2. Saving data on backend - ICP  => deployment (SNS proposals)
+3. IPv4 -- SWP =>  Moving to Provab Test API 
+4. book room -- PROVAB test API 
+
+
