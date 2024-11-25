@@ -3,8 +3,8 @@
 
 ### People who make linkerd
 
-
 https://jobs.ashbyhq.com/buoyant/5d582e5c-d5c0-407f-9b74-95bda07e507d
+
 
 ### 10 week go onboarding programme by GetStream 
 https://stream-wiki.notion.site/Stream-Go-10-Week-Backend-Eng-Onboarding-625363c8c3684753b7f2b7d829bcd67a
