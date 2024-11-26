@@ -20,3 +20,4 @@ tags:
 - automation and building them for small and medium sized businesses
 
 
+- How do people earn money making bluesky apps?
