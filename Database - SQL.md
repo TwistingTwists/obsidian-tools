@@ -412,4 +412,18 @@ Write Amplification 
 	- 
 - GIN - Arrays / JSON data 
 - GeoHashIndex 
-- 
+
+
+
+
+#### Rust Databases - SlateDB learnings
+
+###### Testing using cargo test 
+ 
+
+| Issue                                         | solution                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Testing Rust                                  | What proved to be super useful for Flink was not having per test timeouts, but instead having a tooling around maven that first does a full thread dump and then kills the suite from outside. Without thread dumps you have very little to no context to start from in case something gets stuck. Not sure how realistic is to get a thread dump for timed out tests in rust though. Maybe something along the lines of [https://docs.rs/rstack-self/0.3.0/rstack_self/](https://docs.rs/rstack-self/0.3.0/rstack_self/ "https://docs.rs/rstack-self/0.3.0/rstack_self/") could help |
+| abort a test if it runs longer than x seconds | cargo nextest                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| async rust doesn't have backtraces            | databend uses this crate to wrap stack traces for async [https://github.com/tokio-rs/async-backtrace](https://github.com/tokio-rs/async-backtrace "https://github.com/tokio-rs/async-backtrace") (it's a pain to manually wrap EVERY async function to wrap this stack though..)<br><br><br>one of my colleagues built [https://github.com/petrosagg/tasktrace](https://github.com/petrosagg/tasktrace "https://github.com/petrosagg/tasktrace") to address that                                                                                                                      |
+
