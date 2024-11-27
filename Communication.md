@@ -3,6 +3,10 @@ tags:
   - communication
 ---
 
+#### Giving updates
+
+- A is done. 2 is partially done. Narrowed down. Figuring out X
+
 ### Sales 
 
 This requires an inspiring vision, strong communication skills, some degree of charisma, and evidence of execution ability.
