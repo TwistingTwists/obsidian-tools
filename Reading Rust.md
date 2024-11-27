@@ -3,7 +3,13 @@ tags:
   - rust
   - blogs
 ---
-* Rust for Rustaceans
+
+
+### Rust 
+
+ONNX Runtime in Rust
+
+
 
 
 ## Hot or Not interview  - 2024-04-26
