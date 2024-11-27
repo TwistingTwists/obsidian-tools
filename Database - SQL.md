@@ -418,6 +418,8 @@ Write Amplification 
 
 #### Rust Databases - SlateDB learnings
 
+
+2024-11-27
 ###### Testing using cargo test 
  
 
@@ -427,3 +429,11 @@ Write Amplification 
 | abort a test if it runs longer than x seconds | cargo nextest                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | async rust doesn't have backtraces            | databend uses this crate to wrap stack traces for async [https://github.com/tokio-rs/async-backtrace](https://github.com/tokio-rs/async-backtrace "https://github.com/tokio-rs/async-backtrace") (it's a pain to manually wrap EVERY async function to wrap this stack though..)<br><br><br>one of my colleagues built [https://github.com/petrosagg/tasktrace](https://github.com/petrosagg/tasktrace "https://github.com/petrosagg/tasktrace") to address that                                                                                                                      |
 
+2024-11-28
+
+- PR on AWS https://github.com/apache/arrow-rs/pull/6802/files - aws new S3 api - put if does not exist type. 
+- 
+
+|     |     |     |
+| --- | --- | --- |
+|     |     |     |
