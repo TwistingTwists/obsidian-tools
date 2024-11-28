@@ -26,7 +26,7 @@ gcloud projects describe $PROJECT_ID
 export PROJECT_ID=abhishek-tripathi-experiments
 export PROJECT_NUMBER='460421532578'
 
-gcloud projects add-iam-policy-binding $PROJECT_ID     --member=serviceAccount:$PROJECT_NUMBER-compute@developer.gserviceaccount.com     --role=roles/cloudbuild.builds.builder
+gcloud projects add-iam-policy-binding abhishek-tripathi-experiments \    --member=serviceAccount:460421532578-compute@developer.gserviceaccount.com \    --role=roles/cloudbuild.builds.builder
 ```
 
 ### Step 3 
