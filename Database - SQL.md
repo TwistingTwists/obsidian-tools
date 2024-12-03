@@ -416,7 +416,7 @@ Write Amplification 
 
 
 
-#### Rust Databases - SlateDB learnings
+## Rust Databases - SlateDB learnings
 
 
 2024-11-27
@@ -433,6 +433,9 @@ Write Amplification 
 
 - PR on AWS https://github.com/apache/arrow-rs/pull/6802/files - aws new S3 api - put if does not exist type. 
 - 
+
+2024-11-30 02:37:26
+
 
 |     |     |     |
 | --- | --- | --- |

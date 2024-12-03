@@ -71,3 +71,14 @@ https://github.com/evadne/emporium/blob/master/apps/emporium_inference_resnet/li
 
 ## other people's experiment with axon and elixir
 https://github.com/marcinkoziej/ai_learning/blob/main/rnn/last_names.livemd
+
+
+## Practical Machine Learning  - Transformer Tips
+
+
+| TOpic       | tip                                                                                                                                                                                                                                                                                                                     |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fine tuning | Lora fine-tuning is known to be more suited for influencing the structure of the responses, it's quite ineffective at imparting new knowledge/reasoning. This applies to open source fine-tuning as well as closed source fine-tuning (openai saves an adaptor for every fine-tune, without updating the model weights) |
+| fine tuning | For adding new knowledge you need pre training plus the RLHF etc on top of it.                                                                                                                                                                                                                                          |
+|             |                                                                                                                                                                                                                                                                                                                         |
+
