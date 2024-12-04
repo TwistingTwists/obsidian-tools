@@ -130,7 +130,26 @@ Cell, RefCell,  Mutex (under sync module)
 	- `pub fn strlen_dyn(s: Box<dyn Hei>)` - pointer indirection for object on heap
 
 
+### Crust of Rust - Tokio 
 
+- LocalSet 
+	- What 
+	- When do you need it? - Run not Send Futures on tokio
+	- You can have description of the task / future as `Send` but have the execution not `Send`
+
+- Tokio Mutex vs Sync Mutex
+	- tokio lock guard is dropped when other future is called? - NO
+		- lock_guard is dropped => lock is released. So, lock_guard should NOT be released when the task is put to sleep and other is running
+	- spawn_blocking - happens on a separate thread
+	- no task priorities in tokio :\ 
+	- no NUMA aware scheduler in Tokio 
+		- on high core machines, work stealing across CPU cores might be super costly. NUMA awareness
+- tokio console
+
+- Resources in Tokio 
+	- they don't contain any futures. They are leaf future-compatible stuff
+	- so, in most cases, when a future is Pending => Leaf future (future-compatible resouce) is pending.
+	- 
 
 | topic         | layman                                                              |
 | ------------- | ------------------------------------------------------------------- |
