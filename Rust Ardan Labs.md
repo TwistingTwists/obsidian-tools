@@ -149,7 +149,13 @@ Cell, RefCell,  Mutex (under sync module)
 - Resources in Tokio 
 	- they don't contain any futures. They are leaf future-compatible stuff
 	- so, in most cases, when a future is Pending => Leaf future (future-compatible resouce) is pending.
-	- 
+	- `task::Context`  in tokio - has `waker.wake()`
+		- when task is pending (most likely due to a resource) => moved to "non-runnable" queue
+		- __somene__ calls `wake` to tell tokio to put the task in "runnable" queue
+			- someone = IO event loop
+		- scheduler = chooses what to pick up next from "runnable" queue => calls `poll`
+		- IO event loop = lookin for events (has any event happened for all the tasks for which I have `waker` for)
+		- 
 
 | topic         | layman                                                              |
 | ------------- | ------------------------------------------------------------------- |
