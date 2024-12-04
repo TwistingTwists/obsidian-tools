@@ -5,6 +5,10 @@ tags:
   - axon
   - machine_learning
 ---
+### Insights on Embeddings RAG in real world
+https://news.ycombinator.com/item?id=42177909
+
+
 ### Deep Unsupervised Learning 
 https://www.youtube.com/playlist?list=PLwRJQ4m4UJjPIvv4kgBkvu_uygrV3ut_U
 
