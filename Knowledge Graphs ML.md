@@ -2,7 +2,7 @@
 tags:
   - study
 ---
-
+a
 Machine Learning with graphs 
 Knowledge graphs book 
 
