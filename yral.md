@@ -67,11 +67,11 @@ https://www.perplexity.ai/search/operation-type-insert-failed-w-XMxhcZMBS..e8K55
   - [x] check if the data is being saved in backend
   
   - [x] make check_payment_status  api call 
-  - [ ] implement book room api call 
+  - [x] implement book room api call 
   - [ ] book_room call please
 
 
-- [ ]  payments handler
+- [x]  payments handler
 
 
 - [ ]  BACKEND
