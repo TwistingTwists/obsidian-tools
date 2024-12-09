@@ -87,3 +87,6 @@ https://www.perplexity.ai/search/operation-type-insert-failed-w-XMxhcZMBS..e8K55
 
 
  - [ ] save in block_room_id: in backend 
+ - [ ]       in updated-payment details       "requested_payment_amount": 0.0,
+ - [ ] 
+
