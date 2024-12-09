@@ -69,9 +69,10 @@ https://www.perplexity.ai/search/operation-type-insert-failed-w-XMxhcZMBS..e8K55
   - [x] make check_payment_status  api call 
   - [x] implement book room api call 
   - [ ] book_room backend call
+	  - [x] setup serverFN to make backend call 
 	  - [ ] book_room - BE - make request
-	  - [ ] book_room make api call 
-	  - [ ] set signals
+	  - [ ] set signals for Sucess variant
+	  - [ ] book_room test api call 
 
 
 - [x]  payments handler
