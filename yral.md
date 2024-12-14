@@ -82,9 +82,3 @@ https://www.perplexity.ai/search/operation-type-insert-failed-w-XMxhcZMBS..e8K55
   - [ ]  guard - admin / controller 
   - [ ]  [optional]   add_admin / add_controller
   - [ ]  book_room_response - save data 
-
-
-
-- [ ] binance iamge  remove
-- [ ] radio button to circle
-- [ ] loading icon on the block room 
