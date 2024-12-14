@@ -16,6 +16,14 @@ tags:
 	- [ ] better understand codebase and document?
 
 
+
+tokio::sync::watch 
+- https://www.perplexity.ai/page/checklist-for-understanding-to-U9vxW5lLRDCw9D7TapMuxQ
+- https://aistudio.google.com/prompts/1qjJIIEXdWnUxGy_dvdD7KjG1JbAWh-5W
+
+
+
+
 ## ChatGPT learning 
 - [x] https://www.perplexity.ai/search/You-are-an-.bxSVNeiQ5GcBQlNY5D1Lg?s=u
 - [x] https://chat.openai.com/share/ea632812-abea-4599-abf8-3a4ffc57dac9
