@@ -3,6 +3,15 @@ tags:
   - work
 ---
 
+2024-12-18 12:59:57
+
+- [ ] fly egress IP 
+- [ ] deploy UI changes 
+- [ ] Study sns canister deployment 
+	- [ ] write and deploy 
+	- [ ] add the guards  - admin etc 
+- [ ] Oban review
+
 
 
 
