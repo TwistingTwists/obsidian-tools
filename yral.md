@@ -3,6 +3,10 @@ tags:
   - work
 ---
 
+2024-12-19 09:50:11
+- [ ] fly ips allocate-v6 --private
+- [ ] 
+
 2024-12-18 12:59:57
 
 - [ ] fly egress IP 
