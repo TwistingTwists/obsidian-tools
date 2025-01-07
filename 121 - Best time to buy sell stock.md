@@ -37,18 +37,6 @@ You are given an array `prices` where `prices[i]` represents the price of a give
 - **Explanation:** Buy on day 1 (price = 2) and sell on day 2 (price = 6).
 - **Expected Output:** `4`
 
-#### **5. Single Day**
-
-- **Input:** `[5]`
-- **Explanation:** Cannot perform any transaction.
-- **Expected Output:** `0`
-
-#### **6. Two Days**
-
-- **Input:** `[2, 4]`
-- **Explanation:** Buy on day 0 (price = 2) and sell on day 1 (price = 4).
-- **Expected Output:** `2`
-
 #### **7. Same Prices Every Day**
 
 - **Input:** `[5, 5, 5, 5]`
@@ -62,6 +50,8 @@ You are given an array `prices` where `prices[i]` represents the price of a give
 - **Expected Output:** `595`
 
 #### **9. Buy Later for Maximum Profit**
+
+<span class="reading"  >  ** </span>
 
 - **Input:** `[3, 3, 5, 0, 0, 3, 1, 4]`
 - **Explanation:** Buy on day 3 or 4 (price = 0) and sell on day 5 or 7 (price = 3 or 4).
