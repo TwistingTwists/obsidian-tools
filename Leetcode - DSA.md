@@ -8,6 +8,7 @@ tags:
 	1. Overlapping sub problem 
 	2. optimal substructure 
 
+
 | Type  | No. | Problem                               | Notes                                                                                                                                 |
 | ----- | --- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | DP    | 70  | Climbing stairs                       | make the tree and see ; similar to fibonacci                                                                                          |
@@ -15,8 +16,15 @@ tags:
 | Array | 15  | 3sum                                  | sort array -> loop over it and use two pointers (L, R) to see if the values sum upto 0 -> increment L until it doesn't repeat itself. |
 | Array | 167 | Two Sum II                            | L, R pointers and keep checking the condition to adjust L and R                                                                       |
 | Array | 11  | container with most water             |                                                                                                                                       |
-| DP    | 198 | [[House Robbery]]                     |                                                                                                                                       |
+| DP    | 198 | [[House Robber]]                      |                                                                                                                                       |
 |       |     | [[121 - Best time to buy sell stock]] |                                                                                                                                       |
+
+
+| algorithm | focus                                                          |
+| --------- | -------------------------------------------------------------- |
+| Kadane    | finding a maximum sum subarray (buy stocks + max sum subarray) |
+|           |                                                                |
+
 
 
 DP 

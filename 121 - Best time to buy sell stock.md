@@ -149,3 +149,22 @@ def maxProfit(prices):
     return max_profit
 ```
 
+
+
+--- 
+
+ **Variations** of the "Best Time to Buy Stocks" problem, including their descriptions, examples, expected outputs, and approaches.
+
+| **#** | **Variation**                                                                        | **Description**                                                               | **Example Input**                                        | **Expected Output** | **Approach**                                                                                        |
+| ----- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | -------------------------------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
+| 1     | **Single Transaction**                                                               | Buy once and sell once to maximize profit.                                    | Prices: `[7, 1, 5, 3, 6, 4]`                             | `5`                 | Track the minimum price and calculate maximum profit by iterating through prices.                   |
+| 2     | **Multiple Transactions Allowed (Unlimited)**                                        | Execute as many buy-sell transactions as possible for maximum profit.         | Prices: `[7, 1, 5, 3, 6, 4]`                             | `7`                 | Sum all positive differences between consecutive increasing prices.                                 |
+| 3     | <span class="reading"> **Limited Number of Transactions (`k` Transactions)** </span> | Perform at most `k` buy-sell transactions to maximize profit.                 | `k=2`, Prices: `[3, 2, 6, 5, 0, 3]`                      | `7`                 | Use dynamic programming to track profits with up to `k` transactions.                               |
+| 4     | **With Transaction Fees**                                                            | Maximize profit accounting for a fixed transaction fee per trade.             | Prices: `[1, 3, 2, 8, 4, 9]`, Fee: `2`                   | `8`                 | Adjust profit calculations by subtracting fees during sell operations using DP.                     |
+| 5     | **With Cooldown Period**                                                             | Introduce a cooldown period after each sell before the next buy.              | Prices: `[1, 2, 3, 0, 2]`                                | `3`                 | Utilize state variables to manage holding, not holding, and cooldown states.                        |
+| 6     | **Short Selling Allowed**                                                            | Allow selling stocks not owned (short selling) to maximize profit.            | Prices: `[3, 2, 6, 5, 0, 3]`                             | Varies              | Incorporate strategies for both long and short positions, increasing algorithm complexity.          |
+| 7     | **Fractional Shares Allowed**                                                        | Permit buying/selling fractional shares for flexibility in transactions.      | Prices: `[1.5, 3.0, 2.0, 4.5]`                           | `3.0`               | Optimize transactions considering fractional units, similar to single transaction logic.            |
+| 8     | **Portfolio of Multiple Stocks**                                                     | Trade multiple different stocks to maximize total profit.                     | Stock1: `[1, 2, 3]`, Stock2: `[2, 1, 4]`                 | `4`                 | Handle each stock independently or use portfolio optimization techniques for interdependent assets. |
+
+
+---
