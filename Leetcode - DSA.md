@@ -8,10 +8,15 @@ tags:
 	1. Overlapping sub problem 
 	2. optimal substructure 
 
+Steps to master DSA: By Harish?
 
 - [ ] solve 20 easy - array + strings + language basics + binary search 
 - [ ] 20-30 medium on leetcode - for DP practice - 2D and 3D 
 - [ ] Binary search on answer
+
+DP mental model : 
+1. recurrence relation
+2. DP solution to a problem exists =>  graph with DAG
 
 | Type  | No. | Problem                               | Notes                                                                                                                                 |
 | ----- | --- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
