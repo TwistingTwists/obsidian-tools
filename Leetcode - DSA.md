@@ -9,6 +9,10 @@ tags:
 	2. optimal substructure 
 
 
+- [ ] solve 20 easy - array + strings + language basics + binary search 
+- [ ] 20-30 medium on leetcode - for DP practice - 2D and 3D 
+- [ ] Binary search on answer
+
 | Type  | No. | Problem                               | Notes                                                                                                                                 |
 | ----- | --- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | DP    | 70  | Climbing stairs                       | make the tree and see ; similar to fibonacci                                                                                          |
