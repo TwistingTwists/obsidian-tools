@@ -1,7 +1,42 @@
 ---
 tags:
   - work
+  - yral
 ---
+
+
+  
+
+Debugging failed canister upgrade
+
+- [x] Root is not the controller for estate_backend
+- [ ] canister post_upgrade hook is failing between `99bdc3d1229046ab0bc8d9bbbf8513e4ec8ac713` and `v0.2.2`
+	- [x] tested locally by upgrading from [[99bdc3d1229046ab0bc8d9bbbf8513e4ec8ac713 to v0.2.2]] to v0.2.2 : upgrade is successful 
+	- [ ] test if the data is retained between upgrades?
+- [ ] canister_status shows this
+	- Why is memory allocation 0 ? Is that stable memory?
+
+```md
+Status: Running
+Controllers: abhsa-pyaaa-aaaaq-aac3q-cai znxnh-f2v3a-dwwtd-jhyr2-tzdg7-xrm43-xf6xc-q4nfk-arhfb-54k5n-zae
+Memory allocation: 0
+Compute allocation: 0
+Freezing threshold: 2_592_000
+Idle cycles burned per day: 20_810_872
+Memory Size: Nat(2036445)
+Balance: 2_595_210_175_927 Cycles
+Reserved: 0 Cycles
+Reserved cycles limit: 5_000_000_000_000 Cycles
+Wasm memory limit: 3_221_225_472 Bytes
+Module hash: 0xb3fb8822e07a932e6f06e65002577b846bd5d6aea405156780e84344e4e8df4c
+Number of queries: 0
+Instructions spent in queries: 0
+Total query request payload size (bytes): 0
+Total query response payload size (bytes): 0
+Log visibility: public
+```
+
+ 
 
 2024-12-19 09:50:11
 - [ ] fly ips allocate-v6 --private
