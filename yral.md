@@ -10,9 +10,9 @@ tags:
 Debugging failed canister upgrade
 
 - [x] Root is not the controller for estate_backend
-- [ ] canister post_upgrade hook is failing between `99bdc3d1229046ab0bc8d9bbbf8513e4ec8ac713` and `v0.2.2`
+- [x] canister post_upgrade hook is failing between `99bdc3d1229046ab0bc8d9bbbf8513e4ec8ac713` and `v0.2.2`
 	- [x] tested locally by upgrading from [[99bdc3d1229046ab0bc8d9bbbf8513e4ec8ac713 to v0.2.2]] to v0.2.2 : upgrade is successful 
-	- [ ] test if the data is retained between upgrades?
+	- [x] test if the data is retained between upgrades?
 - [ ] canister_status shows this
 	- Why is memory allocation 0 ? Is that stable memory?
 
