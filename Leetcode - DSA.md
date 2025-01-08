@@ -8,7 +8,7 @@ tags:
 	1. Overlapping sub problem 
 	2. optimal substructure 
 
-Steps to master DSA: By Harish?
+Steps to master DSA: By [Harish](https://www.youtube.com/@Harisamsharma)?
 
 - [ ] solve 20 easy - array + strings + language basics + binary search 
 - [ ] 20-30 medium on leetcode - for DP practice - 2D and 3D 
@@ -17,6 +17,7 @@ Steps to master DSA: By Harish?
 DP mental model : 
 1. recurrence relation
 2. DP solution to a problem exists =>  graph with DAG
+https://www.youtube.com/watch?v=EgG3jsGoPvQ&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=4
 
 | Type  | No. | Problem                               | Notes                                                                                                                                 |
 | ----- | --- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
