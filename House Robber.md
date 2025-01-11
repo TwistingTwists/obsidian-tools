@@ -7,9 +7,8 @@ You have an array of integers, where each integer represents the amount of money
 
 Here are some input examples for the House Robber problem on LeetCode, formatted in a Markdown table:
 
-|                        |                                                                   |
-| ---------------------- | ----------------------------------------------------------------- |
 | Input                  | Explanation                                                       |
+| ---------------------- | ----------------------------------------------------------------- |
 | [1, 2, 3, 1]           | Rob house 1 (1) and house 3 (3) for a total of 4.                 |
 | [2, 7, 9, 3, 1]        | Rob house 1 (2), house 3 (9), and house 5 (1) for a total of 12.  |
 | [5, 5, 10, 40, 50, 35] | 80                                                                |
@@ -54,3 +53,33 @@ def rob(nums):
 | **Knapsack Problem**                         | Given weights and values of n items, determine the maximum value you can obtain by picking items such that their total weight does not exceed a given capacity.                                     | Use dynamic programming where dp[i][w] represents the maximum value achievable using the first i items with weight limit w. <br/>Transition: dp[i][w] = max(dp[i-1][w], dp[i-1][w-weights[i]] + values[i])                                                    |
 | **Climbing Stairs**                          | You are climbing a staircase with n steps, and you can either take 1 step or 2 steps. Find the total number of distinct ways to reach the top.                                                      | Identical to Fibonacci: dp[i] = dp[i-1] + dp[i-2]                                                                                                                                                                                                             |
 | **Burst Balloons**                           | You are given n balloons, each with a value. Popping a balloon earns you nums[i-1]*nums[i]*nums[i+1] points, and you remove it from the array. Maximize the points.                                 | Use DP to calculate maximum points for subarrays of balloons.                                                                                                                                                                                                 |
+
+Alternate 1D array solution to House Robber:
+
+```python
+def rob(nums):
+	if len(nums) == 0:
+		return 0
+	if len(nums) == 1:
+		return nums[0]
+	n = len(nums)
+	
+	dp = [0 for _ in range(n)]
+	
+	dp[0] = nums[0]
+	# comes from recurrence relation
+	dp[1] = max(nums[0],nums[1])
+
+	for i in range(2,n):
+		dp[i] = max(dp[i-1], dp[i-2] + nums[i])
+	# last dp has the answer 
+	return dp[-1]
+```
+
+Recursive solution:
+
+```python
+def rob(nums, prev1, prev2, max_sum):
+	max()
+
+```
