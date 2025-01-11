@@ -41,3 +41,12 @@ Schutze and Manning's book
 | https://www.coursera.org/learn/text-retrieval/home/module/1                                                                              | coursera course                                                                                                                                                                                                                                                                                             | course     |
 | https://www.youtube.com/watch?v=K_Dh0Sxujuc&list=PLoROMvodv4rOwvldxftJTmoR3kRcWkJBp&index=1                                              | course NLU stanford                                                                                                                                                                                                                                                                                         | course     |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                             |            |
+
+
+
+
+preferable courses
+https://www.youtube.com/playlist?list=PLaZQkZp6WhWwoDuD6pQCmgVyDbUWl_ZUi
+
+https://www.youtube.com/playlist?list=PL0ZVw5-GryEkGAQT7lX7oIHqyDPeUyOMQ
+https://www.youtube.com/playlist?list=PLg38siQiGwWHdLUMo_UIPlYTh5cxTWRSB
