@@ -4,95 +4,24 @@
 
 You are given an array `prices` where `prices[i]` represents the price of a given stock on the **i-th** day. You are permitted to complete **at most one** transaction (i.e., buy one and sell one share of the stock). Your goal is to design an algorithm to find the maximum profit you can achieve from this transaction. If no profit can be achieved, return `0`.
 
-**Example:**
 
+| **Example**                                                            | **Input**                            | **Explanation**                                                                                 | **Expected Output** |
+| ---------------------------------------------------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------------- | ------------------- |
+| **1. Simple Increasing Prices**                                        | `[1, 2, 3, 4, 5]`                    | Buy on day 0 (price = 1) and sell on day 4 (price = 5).                                         | `4`                 |
+| **2. Prices Fluctuating**                                              | `[7, 1, 5, 3, 6, 4]`                 | Buy on day 1 (price = 1) and sell on day 4 (price = 6).                                         | `5`                 |
+| **3. Prices Decreasing**                                               | `[7, 6, 4, 3, 1]`                    | No profitable transactions possible.                                                            | `0`                 |
+| **4. Multiple Peaks and Troughs**                                      | `[3, 2, 6, 5, 0, 3]`                 | Buy on day 1 (price = 2) and sell on day 2 (price = 6).                                         | `4`                 |
+| **7. Same Prices Every Day**                                           | `[5, 5, 5, 5]`                       | No profit can be made as prices do not change.                                                  | `0`                 |
+| **8. Large Prices with Early Peak**                                    | `[100, 180, 260, 310, 40, 535, 695]` | Buy on day 0 (price = 100) and sell on day 6 (price = 695).                                     | `595`               |
+| <br><span class="reading" > **9. Buy Later for Maximum Profit**</span> | `[3, 3, 5, 0, 0, 3, 1, 4]`           | Buy on day 3 or 4 (price = 0) and sell on day 5 or 7 (price = 3 or 4).                          | `4`                 |
+| **10. Early High Price with Later Low and High**                       | `[10, 1, 2, 3, 4]`                   | Buy on day 1 (price = 1) and sell on day 4 (price = 4).                                         | `3`                 |
+| **11. Peak at the End**                                                | `[1, 2, 3, 4, 5, 10]`                | Buy on day 0 (price = 1) and sell on day 5 (price = 10).                                        | `9`                 |
+| **12. Multiple Equal Maximums**                                        | `[2, 4, 1, 7, 5, 7]`                 | Buy on day 2 (price = 1) and sell on day 3 or day 5 (price = 7).                                | `6`                 |
+| **13. Immediate Profit Opportunity**                                   | `[1, 4, 2, 5, 3, 6]`                 | Buy on day 0 (price = 1) and sell on day 5 (price = 6).                                         | `5`                 |
+| **14. No Transaction Needed**                                          | `[]`                                 | No days available to perform transactions.                                                      | `0`                 |
+| **15. Negative Prices (Edge Case)**                                    | `[-1, -2, -3, -4, -5]`               | Even with negative prices, the best profit is `0` as buying and selling would result in a loss. | `0`                 |
 
-
-`Input: prices = [7,1,5,3,6,4] Output: 5 Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.`
-
-
-## Example Inputs and Expected Outputs
-
-#### **1. Simple Increasing Prices**
-
-- **Input:** `[1, 2, 3, 4, 5]`
-- **Explanation:** Buy on day 0 (price = 1) and sell on day 4 (price = 5).
-- **Expected Output:** `4`
-
-#### **2. Prices Fluctuating**
-
-- **Input:** `[7, 1, 5, 3, 6, 4]`
-- **Explanation:** Buy on day 1 (price = 1) and sell on day 4 (price = 6).
-- **Expected Output:** `5`
-
-#### **3. Prices Decreasing**
-
-- **Input:** `[7, 6, 4, 3, 1]`
-- **Explanation:** No profitable transactions possible.
-- **Expected Output:** `0`
-
-#### **4. Multiple Peaks and Troughs**
-
-- **Input:** `[3, 2, 6, 5, 0, 3]`
-- **Explanation:** Buy on day 1 (price = 2) and sell on day 2 (price = 6).
-- **Expected Output:** `4`
-
-#### **7. Same Prices Every Day**
-
-- **Input:** `[5, 5, 5, 5]`
-- **Explanation:** No profit can be made as prices do not change.
-- **Expected Output:** `0`
-
-#### **8. Large Prices with Early Peak**
-
-- **Input:** `[100, 180, 260, 310, 40, 535, 695]`
-- **Explanation:** Buy on day 0 (price = 100) and sell on day 6 (price = 695).
-- **Expected Output:** `595`
-
-#### **9. Buy Later for Maximum Profit**
-
-<span class="reading"  >  ** </span>
-
-- **Input:** `[3, 3, 5, 0, 0, 3, 1, 4]`
-- **Explanation:** Buy on day 3 or 4 (price = 0) and sell on day 5 or 7 (price = 3 or 4).
-- **Expected Output:** `4`
-
-#### **10. Early High Price with Later Low and High**
-
-- **Input:** `[10, 1, 2, 3, 4]`
-- **Explanation:** Buy on day 1 (price = 1) and sell on day 4 (price = 4).
-- **Expected Output:** `3`
-
-#### **11. Peak at the End**
-
-- **Input:** `[1, 2, 3, 4, 5, 10]`
-- **Explanation:** Buy on day 0 (price = 1) and sell on day 5 (price = 10).
-- **Expected Output:** `9`
-
-#### **12. Multiple Equal Maximums**
-
-- **Input:** `[2, 4, 1, 7, 5, 7]`
-- **Explanation:** Buy on day 2 (price = 1) and sell on day 3 or day 5 (price = 7).
-- **Expected Output:** `6`
-
-#### **13. Immediate Profit Opportunity**
-
-- **Input:** `[1, 4, 2, 5, 3, 6]`
-- **Explanation:** Buy on day 0 (price = 1) and sell on day 5 (price = 6).
-- **Expected Output:** `5`
-
-#### **14. No Transaction Needed**
-
-- **Input:** `[]` (Empty array)
-- **Explanation:** No days available to perform transactions.
-- **Expected Output:** `0`
-
-#### **15. Negative Prices (Edge Case)**
-
-- **Input:** `[-1, -2, -3, -4, -5]`
-- **Explanation:** Even with negative prices, the best profit is `0` as buying and selling would result in a loss.
-- **Expected Output:** `0`
-- 
+---
 
 ## Solution Approaches
 

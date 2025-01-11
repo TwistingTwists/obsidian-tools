@@ -76,24 +76,23 @@ def rob(nums):
 	return dp[-1]
 ```
 
-Recursive solution:
+Recursive solution: 
 
 ```python
-def rob(nums,max_sum=0):
-	if len(nums) == 1:
-		return max(nums[0], max_sum)
-	
-	return max(rob(nums[1:], max_sum), rob(nums[2:]))
+def rob_recursive(nums):
+    def helper(i):
+        # Base cases
+        if i < 0:  # No houses left to rob
+            return 0
+        if i == 0:  # Only one house
+            return nums[0]
+        
+        # Recursive relation:
+        # Either skip the current house or rob it
+        return max(helper(i - 1), nums[i] + helper(i - 2))
+    
+    # Start solving from the last house
+    return helper(len(nums) - 1)
 
-```
-
-
-
-
-
-```python
-def rob(nums,prev2,prev1,max_sum=0):
-	 prev2 = 
-	return max(rob(nums, prev1 + nums[i])
 
 ```
