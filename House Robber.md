@@ -79,7 +79,21 @@ def rob(nums):
 Recursive solution:
 
 ```python
-def rob(nums, prev1, prev2, max_sum):
-	max()
+def rob(nums,max_sum=0):
+	if len(nums) == 1:
+		return max(nums[0], max_sum)
+	
+	return max(rob(nums[1:], max_sum), rob(nums[2:]))
+
+```
+
+
+
+
+
+```python
+def rob(nums,prev2,prev1,max_sum=0):
+	 prev2 = 
+	return max(rob(nums, prev1 + nums[i])
 
 ```
