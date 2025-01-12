@@ -2,7 +2,15 @@
 tags:
   - interview
 ---
-o
+
+Array problems 
+
+
+|                           |     |
+| ------------------------- | --- |
+| [[Encode Decode Strings]] |     |
+
+
 ##### DP 
 1. Two properties 
 	1. Overlapping sub problem 
