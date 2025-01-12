@@ -50,3 +50,10 @@ https://www.youtube.com/playlist?list=PLaZQkZp6WhWwoDuD6pQCmgVyDbUWl_ZUi
 
 https://www.youtube.com/playlist?list=PL0ZVw5-GryEkGAQT7lX7oIHqyDPeUyOMQ
 https://www.youtube.com/playlist?list=PLg38siQiGwWHdLUMo_UIPlYTh5cxTWRSB
+
+
+
+| blgos                                                       | toopic                                                     |
+| ----------------------------------------------------------- | ---------------------------------------------------------- |
+| https://naklecha.notion.site/a-reinforcement-learning-guide | reinforcement learning from scratch using chess as example |
+|                                                             |                                                            |
