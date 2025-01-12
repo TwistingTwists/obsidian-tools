@@ -10,6 +10,7 @@ Array problems
 | -------------------------------- | -------------- |
 | [[Encode Decode Strings]]        | array / String |
 | [[Product of array except self]] | prefix sum     |
+|                                  |                |
 
 
 ##### DP 
