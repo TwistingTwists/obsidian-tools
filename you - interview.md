@@ -5,9 +5,16 @@ tags:
 libraries:
 ---
 
-> Delivering value MIGHT also be from copying. Software is moslty copy paste.
+### Notes from taro 
+https://www.youtube.com/watch?v=PJPFLHw8lKI
 
-In new context, when you are new, find COPY 
+| topic                                                                                                                      | advice                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| <br><br>Code review <br>                                                                                                   | Delivering value MIGHT also be from copying. Software is moslty copy paste.<br><br>In new context, when you are new, find COPY |
+| - tutorial book etc are guardrails - be creative. explore different ways ---- ask questions -- teach them to people        | Be at comfort with discomfort of your code not compiling in first go. That is the only way to go far.                          |
+| reading code is harder than writing code <br><br>Reading code is debugging code<br><br>FIXER - go in codebase and fix that | Making change in a new system where you don't have context                                                                     |
+|                                                                                                                            |                                                                                                                                |
+
 
 
 FIRST ROUND 
