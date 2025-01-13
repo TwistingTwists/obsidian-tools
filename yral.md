@@ -5,6 +5,13 @@ tags:
 ---
 
 
+Writing things down in organised way 
+- know the toolkit 
+
+Debuggint this week 
+1. yral latency issues in proxy
+2. failed canister upgrades
+
   
 
 Debugging failed canister upgrade
