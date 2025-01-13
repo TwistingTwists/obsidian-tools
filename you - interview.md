@@ -5,6 +5,9 @@ tags:
 libraries:
 ---
 
+> Delivering value MIGHT also be from copying. Software is moslty copy paste.
+
+In new context, when you are new, find COPY 
 
 
 FIRST ROUND 
