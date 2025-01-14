@@ -29,6 +29,20 @@ https://www.youtube.com/watch?v=PJPFLHw8lKI
 
 
 
+### Notes on Supabase
+
+ [How we hire](https://supabase.com/blog/who-we-hire) document at supabse
+
+|                                                                                                                     | evidence                                                                                                                                      | example of schelp                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| people who take work off your plate rather than piling it on                                                        |                                                                                                                                               |                                                                                                                                                              |
+| effective in async work                                                                                             |                                                                                                                                               |                                                                                                                                                              |
+| [schelping](https://www.paulgraham.com/schlep.html)                                                                 | - just dive in                                                                                                                                | Though the idea of fixing payments was right there in plain sight, they never saw it, because their unconscious mind shrank from the complications involved. |
+| the founders grow with the problems.<br><br>List down the hardest problems you have solved in last year / last 6 mo |                                                                                                                                               |                                                                                                                                                              |
+| Solving Schelps                                                                                                     | Instead of asking "what problem should I solve?" ask "what problem do I wish someone else would solve for me?"                                | e.g. Stripe                                                                                                                                                  |
+| Why prefer Founders?                                                                                                | Something we especially value are team members who take on responsibility without asking and without being asked. Founders do this regularly. |                                                                                                                                                              |
+
+
 FIRST ROUND 
 
 Abhran 
