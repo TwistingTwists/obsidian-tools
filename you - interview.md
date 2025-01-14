@@ -46,6 +46,22 @@ https://www.youtube.com/watch?v=PJPFLHw8lKI
 |                                                                                                                     |                                                                                                                                                                                  |                                                                                                                                                              |
 
 
+#### Skills for Auth 
+
+Supabase role 
+
+- Strong knowledge of web technology fundamentals (cookies, sessions, JWT, HTTP, browser APIs)
+    
+- Good knowledge of and deep interest in authentication security (passwords, protocols such as OAuth, OIDC or SAML, cryptography fundamentals such as hash functions, signatures and ciphers)
+    
+- Experience working with multiple web frameworks like Next.js (or other SSR alternative in the JavaScript space) and traditional web frameworks like Ruby on Rails, Django, Laravel or equivalent (in any language)
+    
+- Strong knowledge of Go and TypeScript (languages used daily) and Postgres
+    
+- Good technical writing skills (RFC process is an important part of making changes to the Auth product)
+
+
+
 FIRST ROUND 
 
 Abhran 
