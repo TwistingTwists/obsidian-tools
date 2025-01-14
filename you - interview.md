@@ -22,10 +22,10 @@ https://www.youtube.com/watch?v=PJPFLHw8lKI
 |                                                                  |
 
 
-|                |                                                                                                                                                                        |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GET interview  | - Your unfair advantage , What are you looking for?<br>- Resume = highlight reel of your professional accomplishment <br>- <br><br>Get 10 interviews on the calendar?? |
-| pass interview | - LEETCODE<br>- sys design                                                                                                                                             |
+|                |                                                                                                                                                                                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| GET interview  | - Your unfair advantage , What are you looking for?<br>- Resume = highlight reel of your professional accomplishment <br>- <br><br>Why UPSC, Why NOW, Why such a long break?<br><br>Why Google, Why now, Why <br><br><br>Get 10 interviews on the calendar?? |
+| pass interview | - LEETCODE<br>- sys design                                                                                                                                                                                                                                   |
 
 
 
