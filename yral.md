@@ -4,18 +4,14 @@ tags:
   - yral
 ---
 
-
-
--> if I have a dapp, I can create a new SNS and hand over the dapp to the newly created SNS. This process is followed 
-
-Can one SNS have many canisters? - Yes. 
-
-
+ 
 For estatedao, the old dapp canister is - wbdy5-yyaaa-aaaap-abysq-cai  - which hosts the current version of [estate frontend app](https://wbdy5-yyaaa-aaaap-abysq-cai.icp0.io/)
 Should I deploy the new estatebackend code to this? 
-I have created a new canister - ed6lv-7aaaa-aaaai-aq4pa-cai` . The controller of this new canister is SNS-Root (estatedao ) and the principal (whose identity is embedded in github actions). 
+I have created a new canister - `ed6lv-7aaaa-aaaai-aq4pa-cai` . The controller of this new canister is SNS-Root (estatedao ) and the principal (whose identity is embedded in github actions). 
 
-How 
+I know that  if I have a dapp, I can create a new SNS and hand over the dapp to the newly created SNS. this process is clearly laid out by ICP docs.
+
+What if I have a dapp (`ed6lv-7aaaa-aaaai-aq4pa-cai` - estate_backend) and want to add it to the existing SNS (estate-dao) ?
 
 
 
