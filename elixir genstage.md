@@ -8,3 +8,9 @@ tags:
 - [ ] https://github.com/electricshaman/squitter/blob/c0bb97dcbddd35ef443a78324805ab9cfbdc01ab/squitter/lib/squitter/decoder_stage.ex#L4
 - [ ] https://github.com/pma/wabbit/blob/26cf5d2df7e1bf361f25944bd5fa441d2a6baf30/lib/wabbit/gen_stage.ex#L4
 - [ ] https://github.com/netronixgroup/flowex/blob/6e6b9a9e120f49e298c8ee8bd1a55b787f2949bd/lib/flowex/pipes/stage.ex#L4
+
+
+
+BROADWAY elixir 
+
+https://github.com/UrbanOS-Public/smartcitiesdata/blob/master/apps/reaper/lib/reaper/scheduler/supervisor.ex
