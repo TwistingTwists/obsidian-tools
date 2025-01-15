@@ -14,6 +14,24 @@ difference between current and average   = log(current / avg)
 
 For index, book value is slow moving (5 yr ish) ,but price is volatile
 
+---
+
+PE ratio = price / earnings
+PEG ratio =
+(earnings is volatile number)
+
+
+Techincals = regression to the mean and mean exists
+stock is expected to RISE. The moving average has to rise. this increasing price has to be adjusted to something.
+
+Book value = more stable indicator (book value) in PE ratio
+
+
+---
+
+
+
+
 
 Array problems 
 
