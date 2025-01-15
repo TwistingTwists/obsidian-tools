@@ -5,6 +5,10 @@ tags:
 libraries:
 ---
 
+## System design 
+https://github.com/shashank88/system_design?tab=readme-ov-file#designques
+
+
 ### Notes from taro 
 https://www.youtube.com/watch?v=PJPFLHw8lKI
 
@@ -16,10 +20,10 @@ https://www.youtube.com/watch?v=PJPFLHw8lKI
 | NETWORKING                                                                                                                 | Give more than you take with aim to HELP others SUCCEED.<br><br><br><br>engage with people to provide value to people and get help<br>Cultivate relationships |
 
 
-| beliefs                                        | instead, todo   |
-| ---------------------------------------------- | ------------- |
-| negative politics + dark coporate place :p l               s  s  |
-|                                                                  |
+| beliefs                                                         | instead, todo |
+| --------------------------------------------------------------- | ------------- |
+| negative politics + dark coporate place :p l               s  s |               |
+|                                                                 |               |
 
 
 |                |                                                                                                                                                                                                                                                              |
