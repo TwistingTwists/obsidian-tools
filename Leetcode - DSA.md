@@ -3,6 +3,18 @@ tags:
   - interview
 ---
 
+
+DH = average of 10 years 
+
+PB ratio = indicator of book value
+
+long term of PB ratio does not change a lot 
+Long term PB ratio (moving average) =  PB ratio will converge to that 
+difference between current and average   = log(current / avg)
+
+For index, book value is slow moving (5 yr ish) ,but price is volatile
+
+
 Array problems 
 
 
