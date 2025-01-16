@@ -598,9 +598,12 @@ DAILY ADVENTURES/RESPONSIBILITIES
 Examples:
 1. Code reviews - what to focus on?
 2. Create culture? - start by saying right things. lead by example.
-3.
 
 
+
+
+
+https://aistudio.google.com/prompts/1aN4vtjb4R3R6GLnJWwGINk1bvkOr530E
 
 
 
@@ -676,6 +679,7 @@ Examples:
 
 
 ---
+
 | Category                | Scenario                                | Radical Candor                                                                                         | How It Shows Empathy?                                    | Alternate Statement or Course of Action                         | Follow-Ups                                                  |
 |-------------------------|-----------------------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------|
 | **Performance Issues**  | Team member submits late work           | "I see the work is late, and I know you're capable of managing deadlines. Is there anything blocking you?" | Acknowledges their potential and offers support          | "This delay is unacceptable. Fix it."                       | Discuss their workload or obstacles to improve next time.  |
