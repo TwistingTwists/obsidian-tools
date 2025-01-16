@@ -16,6 +16,9 @@ https://huggingface.co/learn/nlp-course/chapter1/1
 https://developers.google.com/mediapipe/solutions/setup_web
 
 
+### Fine tuning model for function calling
+https://parlance-labs.com/education/fine_tuning/pawel.html
+
 ### resources for question answering
 
 https://github.com/ramsrigouthamg/Questgen.ai
