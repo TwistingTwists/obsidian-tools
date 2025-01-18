@@ -58,6 +58,10 @@ graph templates : https://leetcode.com/discuss/study-guide/655708/Graph-For-Begi
 
 
 
+Binary Tree Zigzag LOT
+N-ary Tree Zigzag LOT with constraints (longest path)
+
+
 - TRAVERSAL  - in-order, pre-order, post-order, level order 
 - serialisation / deserialisation 
 - **Tree Construction and Reconstruction**
