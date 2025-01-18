@@ -56,6 +56,17 @@ tree pattern : https://leetcode.com/discuss/study-guide/1337373/tree-question-pa
 
 graph templates : https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions 
 
+
+two types 
+
+
+|          | query          | udpate     |
+| -------- | -------------- | ---------- |
+| sub-tree | Pre compute    | Euler Tour |
+| path     | Binary Lifting | HLD        |
+|          |                |            |
+
+
 -----
 
 DYNAMIC PROGRAMMING 
