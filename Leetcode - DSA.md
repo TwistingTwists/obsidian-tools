@@ -73,7 +73,41 @@ graph templates : https://leetcode.com/discuss/study-guide/655708/Graph-For-Begi
 | **Sub-tree** | - [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)  <br>    _Enumerate all full binary trees that satisfy certain path conditions._<br><br>- [Sum of Nodes with Even Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)  <br>- [Number of Nodes in the Subtree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)  <br>- [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)  <br>- [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)  <br>- [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)<br><br>- 337. House Robber III  <br>- 208. Implement Trie  <br>- 543. Diameter of Binary Tree<br><br>                                                                                                                                                               | - 814. Prune Binary Tree  <br>- [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)  <br>- [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)           |
 | **Path**     | <br>- [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)  <br>- [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)  <br>- [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)  <br>- [Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)  <br><br><br>- [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)  <br>- 1654. Minimum Jumps to Reach Home  <br>- 124. Binary Tree Maximum Path Sum<br><br><br>- [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)  <br>- [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)  <br>- [Path Sum III](https://leetcode.com/problems/path-sum-iii/)  <br>- Binary Tree Maximum Path Sum<br>- Longest Univalue Path | - 124. Binary Tree Maximum Path Sum<br>- [Path Sum III](https://leetcode.com/problems/path-sum-iii/)  <br>- [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)<br><br>- 1245. Tree Diameter |
 |              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                              |
-|              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                              |
+
+
+Tree Modifications:
+
+1. Convert Binary Tree to Doubly Linked List (in-order traversal)
+2. Flatten Binary Tree to Linked List (preorder)
+3. Add One Row to Tree at Given Depth
+4. Merge Two Binary Trees (node values add up)
+5. Transform to Sum Tree (each node = sum of left and right subtree)
+
+BST Problems:
+
+1. Convert Sorted Array to Balanced BST
+2. Trim BST (remove nodes outside range [low, high])
+3. Recover BST (exactly two nodes swapped)
+4. BST Iterator (next() and hasNext() with O(h) space)
+5. Convert BST to Greater Tree (each node = sum of all greater nodes)
+
+Advanced Data Structures:
+
+1. Range Sum Query - Mutable (Segment Tree)
+2. Count of Range Sum (Fenwick Tree)
+3. Count of Smaller Numbers After Self (Segment/Fenwick)
+4. Range XOR Queries (Segment Tree)
+5. Maximum Sum Queries (2D Segment Tree)
+
+Combined Algorithm:
+
+1. Serialize and Deserialize N-ary Tree
+2. Longest Path With Different Adjacent Characters (Tree + DP)
+3. Sum of Distances in Tree (Tree + Graph)
+4. Number of Ways to Reorder Array to Get Same BST
+5. Longest ZigZag Path in Binary Tree (Tree + DP)
+
+
 
 
 |          | query                                                        | udpate     |
