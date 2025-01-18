@@ -4,9 +4,14 @@ tags:
   - interview
 libraries:
 ---
+-----
 
 ## System design 
 https://github.com/shashank88/system_design?tab=readme-ov-file#designques
+
+scalable sys design blogs -- https://github.com/binhnguyennus/awesome-scalability?tab=readme-ov-file#architecture
+
+------
 
 
 What happens when you type google.com in the browser
