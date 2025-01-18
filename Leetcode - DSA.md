@@ -56,10 +56,15 @@ tree pattern : https://leetcode.com/discuss/study-guide/1337373/tree-question-pa
 
 graph templates : https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions 
 
+**Longest Path:**
 
+- **Longest Root-to-Leaf Path:** The path from the root node down to the farthest leaf node. Its length is often referred to as the **height** or **maximum depth** of the tree.
+- **Diameter of Binary Tree:** The length of the _longest path between any two nodes_ in the tree. This path may or may not pass through the root.
 
-Binary Tree Zigzag LOT
-N-ary Tree Zigzag LOT with constraints (longest path)
+| pattern | variations                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Zigzag  | LOT = level order traversal <br><br>- Binary Tree Zigzag LOT<br>- N-ary Tree Zigzag LOT with constraints <br>- longest path in Binary (N-ary) Tree with LOT<br>- path sum      in Binary (N-ary) Tree with LOT<br>- convert tree to zigzag tree<br>- distance in zigzag binary tree<br>- Zigzag with missing nodes (Handle zigzag traversal in trees that may not be complete, requiring dynamic adjustment of traversal paths )<br> |
+|         |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 - TRAVERSAL  - in-order, pre-order, post-order, level order 
