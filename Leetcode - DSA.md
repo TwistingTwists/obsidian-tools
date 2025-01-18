@@ -64,7 +64,12 @@ two types
 | -------- | -------------- | ---------- |
 | sub-tree | Pre compute    | Euler Tour |
 | path     | Binary Lifting | HLD        |
-|          |                |            |
+
+
+|          | query                                                        | udpate     |
+| -------- | ------------------------------------------------------------ | ---------- |
+| sub-tree | Pre compute                                                  | Euler Tour |
+| path     | - LCA of BST = recursion<br>- Kth ancestory = Binary Lifting | HLD        |
 
 
 -----
