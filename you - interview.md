@@ -9,6 +9,9 @@ libraries:
 https://github.com/shashank88/system_design?tab=readme-ov-file#designques
 
 
+What happens when you type google.com in the browser
+https://github.com/alex/what-happens-when
+
 ### Notes from taro 
 https://www.youtube.com/watch?v=PJPFLHw8lKI
 

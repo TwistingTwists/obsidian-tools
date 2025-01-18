@@ -27,10 +27,47 @@ stock is expected to RISE. The moving average has to rise. this increasing price
 Book value = more stable indicator (book value) in PE ratio
 
 
+
+------
+
+HEAP 
+
+patterns: https://leetcode.com/discuss/general-discussion/1127238/master-heap-by-solving-23-questions-in-4-patterns-category
+
+
+----
+
+BINARY search
+
+patterns: https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+
 ---
 
+TWO POINTERS 
+
+patterns: https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problems-in-100-days
 
 
+----
+TREES 
+
+LIST : https://leetcode.com/problem-list/9ak7i9wv/
+tree pattern : https://leetcode.com/discuss/study-guide/1337373/tree-question-pattern-2021-placement
+
+graph templates : https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions 
+
+-----
+
+DYNAMIC PROGRAMMING 
+
+[https://leetcode.com/list/55ac4kuc](https://leetcode.com/list/55ac4kuc) - (Min - max path to target)  
+[https://leetcode.com/list/55ajm50i](https://leetcode.com/list/55ajm50i) - (distinct ways)  
+[https://leetcode.com/list/55aj8s16](https://leetcode.com/list/55aj8s16) - (merging intervals)  
+[https://leetcode.com/list/55afh7m7](https://leetcode.com/list/55afh7m7) - (DP on strings)  
+[https://leetcode.com/list/55af7bu7](https://leetcode.com/list/55af7bu7) - (decision making)
+
+
+----
 
 
 Array problems 
