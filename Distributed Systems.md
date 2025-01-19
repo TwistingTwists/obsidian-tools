@@ -3,6 +3,10 @@ tags:
   - study
 due: 2024-05-31
 ---
+Distributed systems courses here -- MIT dist sys course
+https://github.com/prakhar1989/awesome-courses?tab=readme-ov-file#programming-languages--compilers
+
+
 https://pdos.csail.mit.edu/6.824/schedule.html
 
 
