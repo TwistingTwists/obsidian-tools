@@ -3,10 +3,9 @@
 - Roadmap -- compilation issues on rust??
 	- BIG goals?
 	- Developer docs --- HOW to guides are less.
-		- if a company is using your product , what would be the most jaw dropping example of your product TODAY ?
-		- 
+		- if a company is using your product , what would be the most jaw dropping example of your product TODAY 
 	- kapa.ai --- for generating relevant answers from docs
-	- testing suite -- boundary studio -- sqlite database for all trials -- test suite stuff????
+	- testing suite -- boundary studio -- sqlite database for all trials -- test suite for evals stuff 
 - Two way binding :
 	- proc-macro <-> baml file 
 	- clients 
