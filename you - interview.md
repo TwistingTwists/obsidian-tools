@@ -609,6 +609,11 @@ Examples:
 
 
 
+#### Scenario
+
+- How will you deploy customer application on-prem?? 
+- 
+
 
 
 https://aistudio.google.com/prompts/1aN4vtjb4R3R6GLnJWwGINk1bvkOr530E
