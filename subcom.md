@@ -16,3 +16,8 @@ WANT
 
 - [ ] Rustdesk compile
 - [ ] 
+
+
+
+objective
+
