@@ -13,6 +13,11 @@ Other data creation: Sources
 
 The Interaction / iteration from the model is the key. How does your UX help you iterate faster.
 
+
+### Using LLM - pitfalls and strategies
+https://jxnl.co/writing/2025/01/22/10-foot-guns-in-fine-tuning-and-few-shots/#common-foot-guns-in-ai-experimentation
+
+
 #### data modelling 
 
 - User has_many submissions
