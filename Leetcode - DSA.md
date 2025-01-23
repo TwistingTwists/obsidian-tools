@@ -2,30 +2,7 @@
 tags:
   - interview
 ---
-
-
-DH = average of 10 years 
-
-PB ratio = indicator of book value
-
-long term of PB ratio does not change a lot 
-Long term PB ratio (moving average) =  PB ratio will converge to that 
-difference between current and average   = log(current / avg)
-
-For index, book value is slow moving (5 yr ish) ,but price is volatile
-
----
-
-PE ratio = price / earnings
-PEG ratio =
-(earnings is volatile number)
-
-
-Techincals = regression to the mean and mean exists
-stock is expected to RISE. The moving average has to rise. this increasing price has to be adjusted to something.
-
-Book value = more stable indicator (book value) in PE ratio
-
+pattern master list --- https://algo.monster/problems/stats
 
 
 ------
