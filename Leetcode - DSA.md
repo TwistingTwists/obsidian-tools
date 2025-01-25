@@ -4,6 +4,9 @@ tags:
 ---
 pattern master list --- https://algo.monster/problems/stats
 
+binary patterns - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+
+tree patterns - https://leetcode.com/discuss/study-guide/1337373/tree-question-pattern-2021-placement
 
 ------
 
