@@ -6,6 +6,8 @@ tags:
 #### Hypothesis 
 
 If the AI models can reason, even with the data as contaminated as GSM8k => create PYQ data + high quality other data
+-> curator is one library - see how bespoke labs made their own model - 7B for claim-check 
+
 
 Other data creation: Sources
 - websites that have put humans for creating quizzes
