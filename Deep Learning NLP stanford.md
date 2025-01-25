@@ -3,6 +3,20 @@ tags:
   - study
 due: 2024-04-30
 ---
+
+## Reinforcement Learning
+
+Video - 001 
+
+| **Return Function**                                           | **Value Function**                                                           |
+| ------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Random variable (path-dependent).                             | Expectation over all paths.                                                  |
+| Example: Actual profit/loss for a specific investor.          | Example: Average profit for all investors starting in the same market state. |
+| Varies with randomness (e.g., a student’s unique study path). | Fixed for a given state (e.g., the "average" student’s outcome).             |
+
+
+
+
 ## Pytorch based deep learning 
 
 https://www.youtube.com/watch?v=Z_ikDlimN6A
