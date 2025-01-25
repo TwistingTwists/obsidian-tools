@@ -21,4 +21,7 @@ cssclasses:
 
 
 
-
+| company   | topic                         | other advice                                                | DSA                                                                                                                                                                                                  |
+| --------- | ----------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| atlassian | scalable image upload service | prepfully - schedule one interview with Pre Atlassian Folks | -There was a array question where 2 array of students height is there and i have to arrange both the array so the difference is minimum between the height of 2 students on same index in the array. |
+|           |                               |                                                             |                                                                                                                                                                                                      |
