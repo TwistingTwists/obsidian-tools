@@ -100,16 +100,24 @@ impl Solution {
 
         let mut queue = VecDeque::new();
         queue.push_back(root);
-
+        
+        let mut is_direction_l_to_r = true;
+        
         while !queue.is_empty(){
-            let mut level = Vec::new();
+            let mut level = VecDeque::new();
             let level_size = queue.len();
+            
     
             for _ in 0..level_size{
     
                 if let Some(Some(node)) = queue.pop_front() {
                     let n = node.borrow();
-                    level.push(n.val);
+                    
+                    if is_direction_l_to_r{ 
+                        level.push_back(n.val);
+                    } else {
+                        level.push_front(n.val);
+                    }
     
                     if  n.left.clone().is_some() {
                         queue.push_back(n.left.clone())    ;
@@ -120,11 +128,13 @@ impl Solution {
                     }
                 }
             }
-            results.push(level);
+            results.push(level.into_iter().collect());
+            is_direction_l_to_r = !is_direction_l_to_r
         };
         results
     }
 }
+
 
 ```
 
