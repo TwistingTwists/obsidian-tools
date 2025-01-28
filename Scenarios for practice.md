@@ -7,7 +7,7 @@ tags:
 Tech lead -> no authority + lead too! => depends on Tech lead to justify the situation
 - tech excellence - product , domain , mentorship 
 - impact and effort estimation -- for completion 
-	- effort ( and dependency) + infra + 
+	- effort ( and dependency) + infra 
 - cross team collab -- foster connections (QA, infra)
 	- show importance, ask ahead of time, follow ups 
 - managing up 
@@ -59,8 +59,17 @@ manage down
 	- new tech / rewrite / refactor?
 	- traninig juniors / new-hires
 
-manage up?
-- 
+
+
+| scenario                   |     |     |
+| -------------------------- | --- | --- |
+| brilliant jerk             |     |     |
+| non communicator           |     |     |
+| non-respectful team player |     |     |
+| under motivated            |     |     |
+| bad vibes guy (no guy!)    |     |     |
+
+latest time for first recall 
 
 
 | **Principle (Carnegie Inspired)**            | **Question (Tech Team Lead Focus)**                                                                                                           | **Reflection Prompt**                                                                                                                                                                                                                                                               |     |
