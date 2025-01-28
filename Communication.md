@@ -63,42 +63,10 @@ This requires an inspiring vision, strong communication skills, some degree of c
 |                                                                               |                           |
 
 
-*How to Win Friends and Influence People* 
+[[How to Win Friends and Influence People]]
 
-**Core Principles from *How to Win Friends and Influence People* (One bullet per chapter):**
-
-*   **Chapter 1: Don't criticize, condemn, or complain.** Focus on understanding others, not judging them.
-*   **Chapter 2: Give honest and sincere appreciation.** Make people feel valued and important.
-*   **Chapter 3: Arouse in the other person an eager want.**  Understand their desires and align your interactions with them.
-*   **Chapter 4: Become genuinely interested in other people.** Show authentic curiosity and engagement.
-*   **Chapter 5: Smile.** Simple act of positivity with great impact.
-*   **Chapter 6: Remember that a person's name is to that person the sweetest and most important sound in any language.** Use names often for connections.
-*   **Chapter 7: Be a good listener. Encourage others to talk about themselves.** Show active listening and allow them to share.
-*   **Chapter 8: Talk in terms of the other person's interests.** Focus conversations on their passions and concerns.
-*   **Chapter 9: Make the other person feel important and do it sincerely.**  Authentically acknowledge their worth.
-*   **Chapter 10: The only way to get the best of an argument is to avoid it.** Avoid confrontation by finding common ground.
-*   **Chapter 11: Show respect for the other person's opinions. Never say "You're wrong."** Handle disagreements with care and tact.
-*   **Chapter 12: If you are wrong, admit it quickly and emphatically.**  Be humble and acknowledge errors openly.
-*   **Chapter 13: Begin in a friendly way.** Start interactions with positivity and warmth.
-*   **Chapter 14: Get the other person saying "yes, yes" immediately.** Use agreement to build rapport.
-*   **Chapter 15: Let the other person do a great deal of the talking.** Allow them to express themselves.
-*   **Chapter 16: Let the other person feel that the idea is his or hers.** Allow for personal investment in your shared ideas.
-*   **Chapter 17: Try honestly to see things from the other person's point of view.** Develop understanding and empathy.
-*   **Chapter 18: Be sympathetic with the other person's ideas and desires.** Validate their feelings and thoughts.
-*   **Chapter 19: Appeal to the nobler motives.** Encourage positive intent in people.
-*   **Chapter 20: Dramatize your ideas.**  Use storytelling and visualization to inspire.
-*   **Chapter 21: Throw down a challenge.**  Inspire healthy competition and personal growth.
-*   **Chapter 22: Begin with praise and honest appreciation.** Start with positive recognition.
-*   **Chapter 23: Call attention to people's mistakes indirectly.**  Handle corrections with care and kindness.
-*   **Chapter 24: Talk about your own mistakes before criticizing the other person.** Demonstrate your own vulnerability.
-*   **Chapter 25: Ask questions instead of giving direct orders.**  Encourage ownership and thinking.
-*   **Chapter 26: Let the other person save face.** Respect their dignity during feedback.
-*   **Chapter 27: Give the other person a fine reputation to live up to.** Encourage positive self-perception.
-*   **Chapter 28: Use encouragement. Make the fault seem easy to correct.** Approach challenges with optimism.
-*   **Chapter 29: Make the other person happy about doing the thing you suggest.** Focus on motivation.
 
 **5 Ways to Answer "the above question" using these principles:**
-(Note: Since "the above question" is unspecified, I'll frame these answers broadly applicable to situations where you're aiming to win friends and influence people)
 
 1.  **Focus on Understanding, Not Judging (Chapters 1 & 17):** Instead of jumping to conclusions or criticizing, I would ask questions to understand their perspective and motivations. This approach helps me develop empathy and ensures that I'm not making assumptions. By focusing on their challenges, rather than their actions I can better tailor my interactions with them. 
 
@@ -116,10 +84,30 @@ This requires an inspiring vision, strong communication skills, some degree of c
 Chapter 4 - genuine interest 
 
 
-|                             |                                                                                                                             |                                                                                                                                                                                                                                                                    |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| start here                  | open ended questions about their WHY<br><br>People love to share the reasons behind their passions, decisions, and beliefs. | - _"What inspired you to get into this field?"_<br>- _"What sparked your interest in X?"_<br>- _"Was there a moment that made you realize this was important to you?"_                                                                                             |
-| want them to share more?    | be vulnerable first                                                                                                         | Sharing a small, personal story of your own can encourage them to reciprocate. For example:<br><br>- _"I’ve always admired people who stay informed about politics. Honestly, I sometimes feel overwhelmed by it all. How did you become so passionate about it?"_ |
-| they should feel understood | Ask for theiy WHY's to their WHAT's?                                                                                        | By asking **what drew them to X**, you’re helping them ***reflect*** on their values and motivations, which makes them feel truly understood.                                                                                                                      |
-|                             | focus on turning points <br><br>People’s personal stories often revolve around pivotal moments in their lives               | - - _"What’s the most defining moment that shaped how you see this issue?"_<br>    - _"Was there a challenge or experience that really pushed you to take this seriously?"_                                                                                        |
-|                             |                                                                                                                             |                                                                                                                                                                                                                                                                    |
+|                             |                                                                                                                                                   |                                                                                                                                                                                                                                                                    |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| start here                  | open ended questions about their WHY<br><br>People love to share the reasons behind their passions, decisions, and beliefs.                       | - _"What inspired you to get into this field?"_<br>- _"What sparked your interest in X?"_<br>- _"Was there a moment that made you realize this was important to you?"_                                                                                             |
+| want them to share more?    | be vulnerable first                                                                                                                               | Sharing a small, personal story of your own can encourage them to reciprocate. For example:<br><br>- _"I’ve always admired people who stay informed about politics. Honestly, I sometimes feel overwhelmed by it all. How did you become so passionate about it?"_ |
+| they should feel understood | Ask for theiy WHY's to their WHAT's?                                                                                                              | By asking **what drew them to X**, you’re helping them ***reflect*** on their values and motivations, which makes them feel truly understood.                                                                                                                      |
+|                             | focus on turning points <br><br>People’s personal stories often revolve around pivotal moments in their lives                                     | - - _"What’s the most defining moment that shaped how you see this issue?"_<br>    - _"Was there a challenge or experience that really pushed you to take this seriously?"_                                                                                        |
+|                             | EMPATHY - be present in their shoes (share imagination )<br><br>- _“What was the hardest part for you?”_<br>- _“What helped you get through it?”_ |                                                                                                                                                                                                                                                                    |
+| share support               | Offer understanding and encouragement <br><br>instead of jumping straight to solutions (unless they ask for advice).                              | - - _“I don’t have the answers, but I want to support you however I can.”_                                                                                                                                                                                         |
+| Don't judge                 | - judgement => curiosity                                                                                                                          | - - _“What made you feel that way?”_<br>    - _“Can you help me understand why this was important to you?”_                                                                                                                                                        |
+|                             | - Suspend Advice-Giving                                                                                                                           | - - Instead of _“You should just do this…”_ try, _“That sounds tough. What have you considered so far?”_                                                                                                                                                           |
+
+---
+Don't judge
+
+- negative words to positive : 
+	- Risky  --> bold , strange --> interesting, big step! 
+- validate feelings with words
+
+| **Scenario**                                                | **Judgmental Response (Avoid)**                                  | **Non-Judgmental Response (Practice)**                                |
+| ----------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **A friend shares they’re switching careers late in life.** | _"Aren’t you too old to start over? That’s risky."_              | _"That’s a bold move. What inspired you to make this change?"_        |
+| **Someone admits they’re struggling emotionally.**          | _"It’s not that big of a deal. You’ll get over it."_             | _"That sounds really tough. How are you feeling about it right now?"_ |
+| **A coworker talks about an unconventional hobby.**         | _"Why would you spend your time on that? It seems strange."_     | _"That’s so interesting! What got you into that hobby?"_              |
+| **A friend says they’re moving to another country.**        | _"Why would you want to leave everything behind? That’s crazy."_ | _"Wow, that’s a big step. What excites you most about moving?"_       |
+| **A family member reveals they’ve made a mistake.**         | _"How could you let that happen? You should’ve known better."_   | _"We all make mistakes. What do you think you’ve learned from it?"_   |
+
+By replacing judgmental responses with open-ended, curious, and empathetic ones, you create space for understanding and meaningful dialogue.
