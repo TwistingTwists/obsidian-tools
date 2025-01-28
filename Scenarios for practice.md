@@ -69,7 +69,7 @@ manage down
 | under motivated            |     |     |
 | bad vibes guy (no guy!)    |     |     |
 
-latest time for first recall 
+Latest time for first recall !
 
 
 | **Principle (Carnegie Inspired)**            | **Question (Tech Team Lead Focus)**                                                                                                           | **Reflection Prompt**                                                                                                                                                                                                                                                               |     |
