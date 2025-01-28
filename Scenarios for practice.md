@@ -28,11 +28,11 @@ tags:
 ### Team Lead 
 
 manage down 
-
 - CULTURE 
 	- build consensus?
 	- ownership of what they do
 	- kindness / empathy
+	- Think big / build small 
 - INDIVIDUALS
 	- performance down of a teammate 
 	- motivation alignment
@@ -43,6 +43,7 @@ manage down
 	- people feel valued?
 - CHALLENGES
 	- new tech / rewrite / refactor?
+	- traninig juniors / new-hires
 
 manage up?
 - 
@@ -94,4 +95,5 @@ manage up?
 | **Humility & Vulnerability**             | How readily do I acknowledge my own mistakes and share my own learning experiences with the team to foster a culture of openness?                                      | * **Actionable Insight:** Do I take responsibility for errors? Do I model vulnerability and learning from mistakes? Do I create a safe space for them to admit their errors too? * **Application:** Share a mistake from your own work regularly during team meetings, and what you learned from it.                                                                                                                                              |
 | **Influence & Collaboration**            | How do I frame new concepts, technologies, or approaches in a way that excites the team and encourages adoption and collaboration?                                     | * **Actionable Insight:** Do I focus on the benefit to the team or just the organization? Do I highlight the value and impact they can generate? How do I engage them in conversations before implementation?*  **Application:** When introducing change, use storytelling and analogies, focus on the problem being solved, and emphasize the positive impacts on their daily workflow.                                                          |
 | **Inspiring Purpose & Vision**           | How do I connect the team's work to a larger purpose and inspire a shared vision that motivates them to excel?                                                         | * **Actionable Insight:**  Do I communicate the "why" behind projects? Do I connect the work to the organization's broader purpose?  Do I share the team's impact and successes to keep them focused? * **Application:** Hold a vision-setting session with the team, and revisit it regularly to keep everyone focused and aligned.                                                                                                              |
+
 
