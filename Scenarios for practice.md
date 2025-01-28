@@ -3,6 +3,20 @@ tags:
   - communication
   - practice
 ---
+
+Tech lead -> no authority + lead too! => depends on Tech lead to justify the situation
+- tech excellence - product , domain , mentorship 
+- impact and effort estimation -- for completion 
+	- effort ( and dependency) + infra + 
+- cross team collab -- foster connections (QA, infra)
+	- show importance, ask ahead of time, follow ups 
+- managing up 
+	- Balance PM vs EM 
+	- PM - data backed decision - ask critical questions  + data
+	- planning quarter - list manage and approve
+	- EM - ask for resource allocation
+
+
 ### Mentoring juniors 
 
 | **Principle**  | **Question**                                                                                             | **Reflection Prompt**                                                                                                 |
