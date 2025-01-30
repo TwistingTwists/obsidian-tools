@@ -18,6 +18,7 @@ class Solution:
                 return
             
             find_swap_pair(root.left)
+            # check None condition
             if last_processed:
                 if last_processed.val > root.val:
                     if not swapped:
@@ -29,5 +30,6 @@ class Solution:
             find_swap_pair(root.right)
         
         find_swap_pair(root)
+        # catch - swap the `.val` not the nodes themselves
         swapped[0].val, swapped[1].val = swapped[1].val, swapped[0].val
 ```
