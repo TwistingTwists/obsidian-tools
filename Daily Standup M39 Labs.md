@@ -12,7 +12,7 @@ tags:
 ### 01-pdf-to-text
 
 - [ ] What if you could write a python script for each specific pdf? 
-- [ ] use docling on two column layout pdfs
+- [x] use docling on two column layout pdfs  - meh. too slow.
 - [ ] use surya on two column layout pdfs -- with markers already present in the pdf (from surya?)
 
 - [ ] extract using existing baml pipeline
