@@ -13,11 +13,9 @@ tags:
 
 - [ ] What if you could write a python script for each specific pdf? 
 - [x] use docling on two column layout pdfs  - meh. too slow.
-- [ ] use surya on two column layout pdfs -- with markers already present in the pdf (from surya?)
-
-- [ ] extract using existing baml pipeline
-
-- [ ] run for SFG_2022 as well 
+- [x] use surya on two column layout pdfs -- with markers already present in the pdf (from surya?)
+- [x] extract using existing baml pipeline
+- [x] run for SFG_2022 as well 
 - [ ] automation
 	- [ ] scripts to startup tmux +  json_concurrent_writer + boostrap_meilisearch + 
 - [ ] CHECKOUT
