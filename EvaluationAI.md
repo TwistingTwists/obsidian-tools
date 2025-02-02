@@ -3,6 +3,8 @@ tags:
   - startups
   - startup-2
 ---
+
+
 #### Hypothesis 
 
 If the AI models can reason, even with the data as contaminated as GSM8k => create PYQ data + high quality other data
