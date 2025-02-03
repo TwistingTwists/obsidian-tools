@@ -29,6 +29,7 @@ Aim: converts the unstructured data to structured
 
 
 2025-02-03 09:33:08
+
 W05 
 
 - Ingestion 
@@ -37,4 +38,8 @@ W05
 	- Two column layout paper - vision + vajiram
 - Agent 
 	- Streaming completion + Jsonish
-	- 
+	- define use cases 
+		- report generation - STORM paper stanford
+		- PRD = polish it 
+		- Coder = use PRD and code
+- 
