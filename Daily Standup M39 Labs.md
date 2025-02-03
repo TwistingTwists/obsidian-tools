@@ -48,5 +48,11 @@ W05
  - [ ] Research Approaches 
 
 
+- [ ] try out report-generator from langchain-AI  https://github.com/langchain-ai/report_maistro.git
+	- [ ] demo is cool. video is nice
+	- [ ] Play with it
+		- [ ] can you build langgraph using Adjacency list notation? much easier to read. Give the API
+	- 
+
 
 [[BoxStream in Rust]]
