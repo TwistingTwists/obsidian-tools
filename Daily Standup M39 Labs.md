@@ -42,4 +42,11 @@ W05
 		- report generation - STORM paper stanford
 		- PRD = polish it 
 		- Coder = use PRD and code
-- 
+
+
+ Streaming completion 
+ - [ ] Research Approaches 
+
+
+
+[[BoxStream in Rust]]
