@@ -52,6 +52,8 @@ W05
 	- [ ] demo is cool. video is nice
 	- [ ] Play with it
 		- [ ] can you build langgraph using Adjacency list notation? much easier to read. Give the API
+			- [ ] NO. too complex. don't want to debug. (it would be cool. But to what end????)
+		- [ ] What do you want? -- Agent which can refine my PRDs.
 	- 
 
 
