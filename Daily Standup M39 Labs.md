@@ -5,6 +5,9 @@ tags:
 ---
 2025-02-02 10:35:26
 
+### Data ingestion pipeline
+Aim: converts the unstructured data to structured
+
 - [x] find the errors in  the data scraping
 	- [x] staetment-I 
 	- [x] tweak prompt
@@ -20,4 +23,18 @@ tags:
 	- [ ] scripts to startup tmux +  json_concurrent_writer + boostrap_meilisearch + 
 - [ ] CHECKOUT
 	- [ ] https://www.eidolonai.com/docs/quickstart
-	- [ ] 
+
+
+
+
+
+2025-02-03 09:33:08
+W05 
+
+- Ingestion 
+	- DSSSB 
+	- SFG all 
+	- Two column layout paper - vision + vajiram
+- Agent 
+	- Streaming completion + Jsonish
+	- 
