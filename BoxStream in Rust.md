@@ -152,3 +152,53 @@ impl<T> Stream for Streaming<T> {
     }
 }
 ```
+
+# tokio::pin 
+
+```rust
+use std::pin::Pin;
+use futures::future::Future;
+use futures::stream::{self, Stream, StreamExt};
+
+/// An async function that returns a computed value.
+async fn compute_value() -> i32 {
+    // Simulate some async work.
+    1 + 2
+}
+
+/// An async stream that yields several numbers.
+fn number_stream() -> impl Stream<Item = i32> {
+    // Create a stream that yields numbers 0..5.
+    stream::iter(0..5)
+}
+
+#[tokio::main]
+async fn main() {
+    // --- Example 1: Using tokio::pin! (stack pinning) for a Future ---
+    // Create a future that computes a value.
+    let mut fut = compute_value();
+    // Use tokio::pin! to pin `fut` on the stack.
+    tokio::pin!(fut);
+    // Now `fut` is a `Pin<&mut _>` and we can await it.
+    let result = fut.await;
+    println!("Stack-pinned future result: {}", result);
+
+    // --- Example 2: Using Box::pin (heap pinning) for a Future ---
+    // Box::pin allocates the future on the heap and pins it.
+    let heap_fut: Pin<Box<dyn Future<Output = i32>>> = Box::pin(compute_value());
+    let result_heap = heap_fut.await;
+    println!("Heap-pinned future result: {}", result_heap);
+
+    // --- Example 3: Using Box::pin to pin a Stream ---
+    // Create a stream that yields numbers.
+    let my_stream = number_stream();
+    // Box::pin pins the stream on the heap, making its type easier to hide behind a trait object.
+    let mut pinned_stream: Pin<Box<dyn Stream<Item = i32> + Send>> = Box::pin(my_stream);
+
+    println!("Stream outputs:");
+    while let Some(val) = pinned_stream.next().await {
+        println!("  {}", val);
+    }
+}
+
+```
