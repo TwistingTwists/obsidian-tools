@@ -58,3 +58,9 @@ W05
 
 
 [[BoxStream in Rust]]
+
+
+# AI Influencer
+
+- [ ] Name : from google trends 
+- [ ] 
