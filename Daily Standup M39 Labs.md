@@ -91,4 +91,7 @@ Hypothesis:
 ## Linux - STT for typing - purely local
 - [ ] SETUP 
 	- [ ] uv to setup locally - GLOBAL INSTALLS ? 
-	- [ ] should I use dockerfile?
+	- [x] should I use dockerfile? - installed via uv and python
+- [ ] [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT?tab=readme-ov-file)
+	- [ ] a single script. Tiny model is shit.
+	- [ ] medium.en model = 1.5G
