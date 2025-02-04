@@ -89,4 +89,6 @@ Hypothesis:
 
 
 ## Linux - STT for typing - purely local
-- [ ] 
+- [ ] SETUP 
+	- [ ] uv to setup locally - GLOBAL INSTALLS ? 
+	- [ ] should I use dockerfile?
