@@ -2,6 +2,12 @@
 tags:
   - startups
 ---
+
+# Advice on writing Hypothesis 
+2025-02-04 02:07:49
+**Hypothesis:** _If we offer [solution] to [target market] that addresses [specific problem], then [desired outcome, e.g., increased efficiency, reduced costs, improved experience] will occur, leading to [measurable benefit, e.g., user growth, revenue increase]._
+
+
 ## Doing Local Inference 
 
 https://www.baseten.co/blog/llm-transformer-inference-guide/ 

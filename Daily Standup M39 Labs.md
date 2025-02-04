@@ -62,9 +62,27 @@ W05
 
 # AI Influencer
 
+Hypothesis: 
+
+2025-02-04 02:05:05
+#### Financials
+- [ ] 6mo of work - and you can generate 2k / mo reliably! 
+- [ ] 1y => $10k / mo
+#### Industry 
+- [ ] Insta pages / influencers
+- [ ] 
+
+#### Krishna, the doer. 
+
+- [ ] Money, ethically.
+
+
+
 - [ ] Generate an Influencer 
 	- [ ] Name : from google trends 
 	- [ ] Figure 
 - [ ] Research methods
 	- [ ] Flux models which can be trained to yield your own 'variant' of the model
-	- [ ] 
+	- [ ] [Kling](https://replicate.com/kwaivgi/kling-v1.6-standard?prediction=bmhg7fpw71rmc0cmt03vkx2pm8) Can 5s video reliably good! 
+	- [ ] [Flux Pro Ultra](https://replicate.com/black-forest-labs/flux-1.1-pro-ultra?prediction=wfy9pfkw7xrme0cmt099zj0410) can generate a new image from base image. Do faces match? - nope.
+	- [ ] [Stable Diffusion Utlra](https://replicate.com/stability-ai/stable-diffusion-3.5-large) not tried this one yet.
