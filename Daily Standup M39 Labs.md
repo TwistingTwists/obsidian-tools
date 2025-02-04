@@ -95,3 +95,4 @@ Hypothesis:
 - [ ] [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT?tab=readme-ov-file)
 	- [ ] a single script. Tiny model is shit.
 	- [ ] medium.en model = 1.5G
+ 
