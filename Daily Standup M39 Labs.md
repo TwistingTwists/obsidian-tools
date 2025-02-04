@@ -88,11 +88,13 @@ Hypothesis:
 	- [ ] [Stable Diffusion Utlra](https://replicate.com/stability-ai/stable-diffusion-3.5-large) not tried this one yet.
 
 
-## Linux - STT for typing - purely local
-- [ ] SETUP 
+2025-02-04 06:33:51
+## Linux - STT for typing 
+
+- [x] SETUP 
 	- [ ] uv to setup locally - GLOBAL INSTALLS ? 
 	- [x] should I use dockerfile? - installed via uv and python
-- [ ] [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT?tab=readme-ov-file)
+- [x] [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT?tab=readme-ov-file)
 	- [ ] a single script. Tiny model is shit.
 	- [ ] medium.en model = 1.5G
- 
+- [x] [groq-whisper](git@github.com-456:tripathi456/groq-whisper.git ) is way too good!  -- use a custom version of this one. 
