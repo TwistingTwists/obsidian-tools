@@ -62,5 +62,9 @@ W05
 
 # AI Influencer
 
-- [ ] Name : from google trends 
-- [ ] 
+- [ ] Generate an Influencer 
+	- [ ] Name : from google trends 
+	- [ ] Figure 
+- [ ] Research methods
+	- [ ] Flux models which can be trained to yield your own 'variant' of the model
+	- [ ] 
