@@ -5,38 +5,18 @@ tags:
 ---
 2025-02-02 10:35:26
 
-### Data ingestion pipeline
-Aim: converts the unstructured data to structured
-
-- [x] find the errors in  the data scraping
-	- [x] staetment-I 
-	- [x] tweak prompt
-
-### 01-pdf-to-text
-
-- [ ] What if you could write a python script for each specific pdf? 
-- [x] use docling on two column layout pdfs  - meh. too slow.
-- [x] use surya on two column layout pdfs -- with markers already present in the pdf (from surya?)
-- [x] extract using existing baml pipeline
-- [x] run for SFG_2022 as well 
-- [ ] automation
-	- [ ] scripts to startup tmux +  json_concurrent_writer + boostrap_meilisearch + 
-- [ ] CHECKOUT
-	- [ ] https://www.eidolonai.com/docs/quickstart
-
-
 
 
 
 2025-02-03 09:33:08
 
-W05 
+# W05 
 
 - Ingestion 
 	- DSSSB 
 	- SFG all 
 	- Two column layout paper - vision + vajiram
-- Agent 
+- Agent
 	- Streaming completion + Jsonish
 	- define use cases 
 		- report generation - STORM paper stanford
@@ -49,10 +29,10 @@ W05
 
 
 - [ ] try out report-generator from langchain-AI  https://github.com/langchain-ai/report_maistro.git
-	- [ ] demo is cool. video is nice
+	- [x] demo is cool. video is nice
 	- [ ] Play with it
-		- [ ] can you build langgraph using Adjacency list notation? much easier to read. Give the API
-			- [ ] NO. too complex. don't want to debug. (it would be cool. But to what end????)
+		- [x] can you build langgraph using Adjacency list notation? much easier to read. Give the API
+			- [x] NO. too complex. don't want to debug. (it would be cool. But to what end????)
 		- [ ] What do you want? -- Agent which can refine my PRDs.
 	- 
 
@@ -60,7 +40,7 @@ W05
 [[BoxStream in Rust]]
 
 
-# AI Influencer
+## AI Influencer
 
 Hypothesis: 
 
@@ -98,3 +78,32 @@ Hypothesis:
 	- [ ] a single script. Tiny model is shit.
 	- [ ] medium.en model = 1.5G
 - [x] [groq-whisper](git@github.com-456:tripathi456/groq-whisper.git ) is way too good!  -- use a custom version of this one. 
+
+
+
+
+## Agent Framework
+
+2025-02-05 07:28:29
+
+[[List of Agents I want]]
+
+
+## Data ingestion pipeline
+Aim: converts the unstructured data to structured
+
+- [x] find the errors in  the data scraping
+	- [x] staetment-I 
+	- [x] tweak prompt
+
+### 01-pdf-to-text
+
+- [ ] What if you could write a python script for each specific pdf? 
+- [x] use docling on two column layout pdfs  - meh. too slow.
+- [x] use surya on two column layout pdfs -- with markers already present in the pdf (from surya?)
+- [x] extract using existing baml pipeline
+- [x] run for SFG_2022 as well 
+- [ ] automation
+	- [ ] scripts to startup tmux +  json_concurrent_writer + boostrap_meilisearch + 
+- [ ] CHECKOUT
+	- [ ] https://www.eidolonai.com/docs/quickstart
