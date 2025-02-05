@@ -107,3 +107,22 @@ Aim: converts the unstructured data to structured
 	- [ ] scripts to startup tmux +  json_concurrent_writer + boostrap_meilisearch + 
 - [ ] CHECKOUT
 	- [ ] https://www.eidolonai.com/docs/quickstart
+# Papers to Read
+
+- Illya top 30 
+- STORM - Stanford paper
+
+# Plan for gaining knowledge on information retrieval
+
+- Prob course - assignments
+- IR course - assignments (from books)
+- NLU
+- RL course - assignments
+
+
+
+
+## Optimising Cursor flow 
+
+- What do you want to build?? 
+- LLMs) into recommender systems has garnered interest among both practitioners and researchers. Despite this inter
