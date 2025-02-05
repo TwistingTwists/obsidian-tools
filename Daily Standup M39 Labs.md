@@ -124,11 +124,12 @@ Aim: converts the unstructured data to structured
 
 ## Optimising Cursor flow 
 
-- 
 - LLMs) into recommender systems has garnered interest among both practitioners and researchers. Despite this inter
 
 - [ ] What do you want to build??  - PRD - breakdown for developer
 - [ ] set of instructions for cursor agent to go and do 
+	- [ ] devin cursorrules
+	- [ ] 
 - [ ] optimising cursorrules - include parts of your codebase
 - [ ] 
 
@@ -136,4 +137,7 @@ Aim: converts the unstructured data to structured
 ## Build apps 
 
 - [ ] superwhisper - linux native / windows native binary with react popupfrontend
-- [ ] 
+- [ ] flutter app for showing content 
+
+
+If you want to do set of definitive things and want lots of tools behind MCP server, [repo](https://github.com/kleneway/awesome-cursor-mpc-server/blob/main/src/tools/architect.ts)
