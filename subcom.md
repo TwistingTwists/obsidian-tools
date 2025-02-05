@@ -16,3 +16,8 @@ WANT
 
 - [ ] Rustdesk compile
 - [ ] 
+
+
+- What kind of data - timeseries database - victoria metrics?? 
+	- onetime data / 
+- gokul - for impmenetation details 
