@@ -124,5 +124,16 @@ Aim: converts the unstructured data to structured
 
 ## Optimising Cursor flow 
 
-- What do you want to build?? 
+- 
 - LLMs) into recommender systems has garnered interest among both practitioners and researchers. Despite this inter
+
+- [ ] What do you want to build??  - PRD - breakdown for developer
+- [ ] set of instructions for cursor agent to go and do 
+- [ ] optimising cursorrules - include parts of your codebase
+- [ ] 
+
+
+## Build apps 
+
+- [ ] superwhisper - linux native / windows native binary with react popupfrontend
+- [ ] 
