@@ -119,7 +119,7 @@ Aim: converts the unstructured data to structured
 
 - [ ] What do you want to build??  - PRD - breakdown for developer
 - [ ] set of instructions for cursor agent to go and do 
-	- [ ] devin cursorrules
+	- [ ] [devin cursorrules](https://github.com/grapeot/devin.cursorrules?tab=readme-ov-file)
 	- [ ] 
 - [ ] optimising cursorrules - include parts of your codebase
 - [ ] 
