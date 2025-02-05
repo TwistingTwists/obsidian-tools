@@ -57,3 +57,14 @@ https://www.youtube.com/playlist?list=PLg38siQiGwWHdLUMo_UIPlYTh5cxTWRSB
 | ----------------------------------------------------------- | ---------------------------------------------------------- |
 | https://naklecha.notion.site/a-reinforcement-learning-guide | reinforcement learning from scratch using chess as example |
 |                                                             |                                                            |
+
+
+# Plan for gaining knowledge on information retrieval
+
+- Prob course - assignments
+- IR course - assignments (from books)
+- NLU
+- RL course - assignments
+
+## Papers 
+- [Combining Inverted Indices and Structured Search for Ad-hoc Object Retrieval](https://exascale.info/assets/pdf/fp401-tonon.pdf)  

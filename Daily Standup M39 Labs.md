@@ -3,8 +3,8 @@ tags:
   - startups
   - startup-2
 ---
-2025-02-02 10:35:26
 
+[[information retrieval STANFORD]]
 
 
 
@@ -112,15 +112,6 @@ Aim: converts the unstructured data to structured
 - Illya top 30 
 - STORM - Stanford paper
 
-# Plan for gaining knowledge on information retrieval
-
-- Prob course - assignments
-- IR course - assignments (from books)
-- NLU
-- RL course - assignments
-
-
-
 
 ## Optimising Cursor flow 
 
@@ -137,7 +128,11 @@ Aim: converts the unstructured data to structured
 ## Build apps 
 
 - [ ] superwhisper - linux native / windows native binary with react popupfrontend
-- [ ] flutter app for showing content 
+- [ ] flutter app for showing content from pdf (and taking screenshot and combining it form 'questions' you have read)
+- [ ] 
 
 
 If you want to do set of definitive things and want lots of tools behind MCP server, [repo](https://github.com/kleneway/awesome-cursor-mpc-server/blob/main/src/tools/architect.ts)
+
+
+#
