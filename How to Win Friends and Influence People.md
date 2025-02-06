@@ -5,7 +5,7 @@ tags:
 
 
 *   **Chapter 1: Don't criticize, condemn, or complain.** Focus on understanding others, not judging them.
-*   **Chapter 2: Give honest and sincere appreciation.** Make people feel valued and important.
+*   **[[Chapter 2 - Give honest and sincere appreciation]].** Make people feel valued and important.
 *   **[[Chapter 3 - Arouse in the other person an eager want.]]**  Understand their desires and align your interactions with them.
 *   **[[Chapter 4 - Become genuinely interested in other people.]]** Show authentic curiosity and engagement.
 *   **Chapter 5: Smile.** Simple act of positivity with great impact.
