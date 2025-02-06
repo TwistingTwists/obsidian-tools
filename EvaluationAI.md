@@ -315,3 +315,18 @@ Elixir Apps
  
 https://docs.google.com/document/d/1GahYgJ-LEICZBJ0_-iBc_k-4_i15pQz3_dCBaRi2nmU/preview#heading=h.wfz67hmysyoo
 
+
+
+## {startup - 5 } PYQ reviser
+
+WHAT : 
+
+on telegram, I want to condut to solve previous year questions(PYQ) using the telegram poll feature.
+
+
+In typescript, make a telegram bot which can
+
+send questions as poll type, and choices (A, B, C, D) only. and conduct quiz at certain times during the day. use telegraf framework 
+
+WHY: 
+doing PYQ and  REvision of PYQ is key to cracking prelims exams. Enable the doing and revision as a scheduled activity to drive user engagement.
