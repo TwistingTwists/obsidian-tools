@@ -68,3 +68,5 @@ https://www.youtube.com/playlist?list=PLg38siQiGwWHdLUMo_UIPlYTh5cxTWRSB
 
 ## Papers 
 - [Combining Inverted Indices and Structured Search for Ad-hoc Object Retrieval](https://exascale.info/assets/pdf/fp401-tonon.pdf)  
+
+
