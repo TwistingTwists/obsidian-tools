@@ -2,6 +2,8 @@
 tags:
   - startups
 ---
+##  Make what people want 
+
 
 # Advice on writing Hypothesis 
 2025-02-04 02:07:49
