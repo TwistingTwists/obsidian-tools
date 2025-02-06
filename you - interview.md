@@ -5,6 +5,11 @@ tags:
 libraries:
 ---
 -----
+## Top level links to other files 
+
+[[interview story]]
+
+---
 
 ## System design 
 https://github.com/shashank88/system_design?tab=readme-ov-file#designques

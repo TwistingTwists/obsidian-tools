@@ -29,4 +29,4 @@ Don't judge
 | **A friend says they’re moving to another country.**        | _"Why would you want to leave everything behind? That’s crazy."_ | _"Wow, that’s a big step. What excites you most about moving?"_       |
 | **A family member reveals they’ve made a mistake.**         | _"How could you let that happen? You should’ve known better."_   | _"We all make mistakes. What do you think you’ve learned from it?"_   |
 
-By replacing judgmental responses with open-ended, curious, and empathetic ones, you create space for understanding and meaningful dialogue.
+By replacing judgmental responses with ***open-ended, curious, and empathetic*** ones, you create space for understanding and meaningful dialogue.
