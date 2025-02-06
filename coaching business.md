@@ -5,7 +5,7 @@ tags:
 ---
 - digital course business -- plateau stuff 
 - other business - scales better
-
+ 
 #### GOAL 
 - if you want 500M building exit => not the education business 
 	- education business BIG (> 10M / yr) are verrrry less. 
