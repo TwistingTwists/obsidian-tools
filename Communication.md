@@ -4,6 +4,20 @@ tags:
 ---
 [[How to Win Friends and Influence People]]
 
+----
+
+2025-02-08 09:33:20
+
+How to maintain dignity at all times
+
+How to improve empathetic communication
+
+Aspects of Clear Communication
+
+
+----
+
+
 
 #### Giving updates
 
