@@ -1,6 +1,7 @@
 ---
 tags:
   - communication
+  - revisit-often
 ---
 [[How to Win Friends and Influence People]]
 
@@ -17,6 +18,23 @@ Aspects of Clear Communication
 
 ----
 
+### Be Open, Be Honest, Be Curious
+
+- Are they good listeners?
+- How do they express themselves?
+- What drives their curiosity?
+- Do they like to learn new things?
+- How do they handle failure?
+- Do they share stories and ideas freely?
+
+
+---
+
+### Religious rules of SQLite
+
+- Dharayeti iti dharma
+
+----
 
 
 #### Giving updates
