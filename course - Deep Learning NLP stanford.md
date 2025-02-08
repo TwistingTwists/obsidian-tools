@@ -1,7 +1,9 @@
 ---
 tags:
   - study
+  - revisit-often
 due: 2024-04-30
+topic: NLP, pytorch, RL
 ---
 
 ## Reinforcement Learning
@@ -28,3 +30,10 @@ https://isip.piconepress.com/courses/temple/ece_4822/resources/books/Deep-Learni
 
 From [Paper](https://arxiv.org/pdf/2305.12219.pdf) : natural language inference (NLI), the broader concept of “downward monotonicity” specifies entailment relations when certain parts of expressions are made more specific (e.g., “All cats like tuna” entails “All small cats like tuna”)
 
+
+## NanoGPT - in 3 minutes
+https://github.com/KellerJordan/modded-nanogpt
+
+Learning Objective: 
+- All the different keywords mentioned??
+- be able to run this, 

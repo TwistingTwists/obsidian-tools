@@ -4,7 +4,7 @@ tags:
   - startup-2
 ---
 
-[[information retrieval STANFORD]]
+[[course - information retrieval STANFORD]]
 
 
 
