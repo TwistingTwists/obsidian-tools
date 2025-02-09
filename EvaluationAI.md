@@ -337,3 +337,10 @@ doing PYQ and  REvision of PYQ is key to cracking prelims exams. Enable the doin
 General knowledge - 
 
 ADVICE: THINK 10x
+
+
+
+### { startup - 7 } The missing detail  in Neural Networks 
+
+- vidya - not yours, flows through ether into you.
+- creativity - is a spark. 
