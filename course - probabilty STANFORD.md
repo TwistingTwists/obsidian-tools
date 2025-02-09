@@ -13,3 +13,7 @@ tags:
 
 
 
+
+Problem Sets 
+https://web.stanford.edu/class/archive/cs/cs109/cs109.1212/psets/pset5.html
+https://web.stanford.edu/class/archive/cs/cs109/cs109.1214/
