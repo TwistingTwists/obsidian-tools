@@ -343,4 +343,4 @@ ADVICE: THINK 10x
 ### { startup - 7 } The missing detail  in Neural Networks 
 
 - vidya - not yours, flows through ether into you.
-- creativity - is a spark. 
+- creativity - is a spark. a flow state. Usually has a rhythm.
