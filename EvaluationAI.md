@@ -5,6 +5,7 @@ tags:
 ---
 
 
+
 #### Hypothesis 
 
 If the AI models can reason, even with the data as contaminated as GSM8k => create PYQ data + high quality other data
@@ -319,7 +320,7 @@ https://docs.google.com/document/d/1GahYgJ-LEICZBJ0_-iBc_k-4_i15pQz3_dCBaRi2nmU/
 
 ## {startup - 5 } PYQ reviser
 
-WHAT : 
+WHAT :
 
 on telegram, I want to condut to solve previous year questions(PYQ) using the telegram poll feature.
 
@@ -330,3 +331,9 @@ send questions as poll type, and choices (A, B, C, D) only. and conduct quiz at 
 
 WHY: 
 doing PYQ and  REvision of PYQ is key to cracking prelims exams. Enable the doing and revision as a scheduled activity to drive user engagement.
+
+## { startup - 6 } Dataset curation for solving MCQ - Information Retrieval
+
+General knowledge - 
+
+ADVICE: THINK 10x
