@@ -346,4 +346,4 @@ ADVICE: THINK 10x
 - vidya - not yours, flows through ether into you.
 - creativity - is a spark. a flow state. Usually has a rhythm.
 
-### { project - 8 } Multi-Head attention implementation
+### { project - 8 } [[Multi-Head attention implementation]]
