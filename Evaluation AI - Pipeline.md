@@ -28,6 +28,7 @@ Flow
 			- {}
 
 
+----
 
 ### PIPELINE 
 
@@ -36,6 +37,19 @@ Flow
 	- demand of the question -- 
 	- Intro - data, historical, definition, context (ack the issue in the question, )
 	- conclusion - 
+
+---
+
+2025-02-20 08:51:50
+
+Steps for free credits:
+
+1. signup for google account startup program
+	1. get private email  from Namecheap
+	2. set dns records at cloudflare (since CF manages DNS)
+	3. wait for this to be setup. <<< 
+	4. signup on gcp
+2. 
 
 ---
 
@@ -48,4 +62,3 @@ Flow
 - models - all mini LM v62
 - onnxruntime
 	- dll, so, dylib
-- 
