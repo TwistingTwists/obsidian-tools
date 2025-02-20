@@ -18,7 +18,7 @@ Flow
 - Mains questions UPSC + test series (related questions) => Topic mapping 
 - each topic has set of factoids = {type, content}
 	- {article, 60}
-	- {judgement, Secular was }
+	- {judgement,  }
 
 
 
@@ -28,6 +28,11 @@ Flow
 			- {}
 
 
+
+### PIPELINE 
+
+
+---
 
 
 ##### sidecar
