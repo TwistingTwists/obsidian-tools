@@ -38,6 +38,9 @@ Flow
 	- Intro - data, historical, definition, context (ack the issue in the question, )
 	- conclusion - 
 
+Gemini has Grounding Search. It is good. [example](https://aistudio.google.com/prompts/1LuUItFkpkCqh9Y5CjLlE70b04pRPIfZw)
+
+
 ---
 
 2025-02-20 08:51:50
