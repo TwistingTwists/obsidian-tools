@@ -12,7 +12,7 @@ Flow
 
 - Scrape questions -> tag topic -> 
 	- Find other questions similar to given question 
-	- find all questions on the given topic (or closely related topics)
+	- Find all questions on the given topic (or closely related topics)
 
 
 - Mains questions UPSC + test series (related questions) => Topic mapping 
@@ -26,4 +26,16 @@ Flow
 	- feedback bullet
 		- {current_state_of_world, action_to_improve_current_state_of_world} 
 			- {}
-	- 
+
+
+
+
+##### sidecar
+
+- webserver
+- qdrant
+	- exe, linux, mac
+- models - all mini LM v62
+- onnxruntime
+	- dll, so, dylib
+- 
