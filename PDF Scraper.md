@@ -31,6 +31,11 @@ Flow
 
 ### PIPELINE 
 
+- Image in -> OCR -> text
+- analysis
+	- demand of the question -- 
+	- Intro - data, historical, definition, context (ack the issue in the question, )
+	- conclusion - 
 
 ---
 
