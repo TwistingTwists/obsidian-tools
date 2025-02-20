@@ -22,7 +22,8 @@ Flow
 
 
 
-- student uploads a copy => OCR to get the text => from the text, analyse the copy - find feedback points => on each feedback point =
-	- feedback bullet = {type, content}
-		- {data, }
+- student uploads a copy => OCR to get the text => from the text, analyse the copy - find feedback bullet
+	- feedback bullet
+		- {current_state_of_world, action_to_improve_current_state_of_world} 
+			- {}
 	- 
