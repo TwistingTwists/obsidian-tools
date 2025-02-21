@@ -28,6 +28,10 @@ Flow
 	- 
 
 
+Process
+- Image preprocessing pipeline ([chatgpt_link](https://chatgpt.com/share/67b81046-e730-8010-bea2-b2d00c87708f))
+
+
 ----
 
 ### PIPELINE 
