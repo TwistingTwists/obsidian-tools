@@ -21,17 +21,18 @@ Flow
 	- {judgement,  }
 
 
-
+2025-02-21 07:10:23
 - student uploads a copy => OCR to get the text => from the text, analyse the copy - find feedback bullet
 	- feedback bullet
-		- {current_state_of_world, action_to_improve_current_state_of_world} 
-			- {}
+		- {current_state_of_world, action_to_improve_current_state_of_world}, here state_of_world means the current context
+	- 
 
 
 ----
 
 ### PIPELINE 
 
+2025-02-21 07:10:05
 - Image in -> OCR -> text
 - analysis
 	- demand of the question -- 
