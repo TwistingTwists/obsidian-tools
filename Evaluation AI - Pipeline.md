@@ -47,6 +47,10 @@ Gemini has Grounding Search. It is good. [example](https://aistudio.google.com/p
 
 OCR preprocessing steps - https://chatgpt.com/share/67b81046-e730-8010-bea2-b2d00c87708f
 
+Document layout analysis : 
+- try sycamore AI - [pip install sycamore-ai](https://sycamore.readthedocs.io/en/stable/)
+- 
+
 
 ---
 
