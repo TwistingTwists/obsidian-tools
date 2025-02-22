@@ -49,6 +49,7 @@ OCR preprocessing steps - https://chatgpt.com/share/67b81046-e730-8010-bea2-b2d0
 
 Document layout analysis : 
 - try sycamore AI - [pip install sycamore-ai](https://sycamore.readthedocs.io/en/stable/)
+- [write your own layoutParser ](/home/abhishek/Downloads/experi2/machine_learning/rec_pyq/ai-scraping/deterministic-pdf-scraping-mcq/scratchpad_me.md)
 - 
 
 
