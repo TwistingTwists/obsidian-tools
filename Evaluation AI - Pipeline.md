@@ -45,6 +45,8 @@ Process
 
 Gemini has Grounding Search. It is good. [example](https://aistudio.google.com/prompts/1LuUItFkpkCqh9Y5CjLlE70b04pRPIfZw)
 
+OCR preprocessing steps - https://chatgpt.com/share/67b81046-e730-8010-bea2-b2d00c87708f
+
 
 ---
 
