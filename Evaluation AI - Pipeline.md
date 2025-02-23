@@ -60,9 +60,15 @@ Process
 
 ### Steps for Cargo rust flutter app
 
+Socials 
+
 - review of whoop app -- I am rank 9 / 10k users who use whoop. 
 - if I do this, then my sleep goes for toss. I have data to show.
-- 
+
+
+Basic code plan 
+- https://chatgpt.com/share/67bb5036-4268-8010-b022-05a0c1fb9ecb
+- https://chatgpt.com/share/67bb5056-296c-8010-a4fa-01abd1d626f2
 
 ### PIPELINE for mains questions database
 
