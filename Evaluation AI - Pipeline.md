@@ -36,6 +36,10 @@ Process
 
 ### Steps for Cargo rust flutter app - WebGL?
 
+- review of whoop app -- I am rank 9 / 10k users who use whoop. 
+- if I do this, then my sleep goes for toss.
+- 
+
 ### PIPELINE for mains questions database
 
 
