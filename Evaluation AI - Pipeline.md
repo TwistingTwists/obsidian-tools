@@ -6,6 +6,30 @@
 - [ ] insert in sqlite
 - [ ] tag questions as per topic / source / theme 
 
+2025-02-23 07:56:02
+- [ ] setup experiments repo for evaluationAI
+	- [ ] image preprocessing experiments
+		- [ ] to cleanup image before doing OCR (contrast up+ binarization)
+		- [ ]  crop in a bounding box for OCR
+	- [ ] OCR based grouping workflow (which pages form part of one question)
+		- [ ] printed questions at top
+			- [ ] also has text in margin - crop in a bounding box for OCR
+		- [ ] handwritten questions at top
+		- [ ] NO questions, only answers
+	- [ ] DATABASE for all variations of input question - pdf scraping for mains questions - put in sqlitedb
+		- [ ] from initial database of UPSC PYQ + scraped from test series - second order thinking, first order thinking etc questions generate. (with reasoning traces to be stored in sqlite so that samples can be used for dataset generation)
+		- [ ] topic tagging - nested topics (maintain hierarchy during tagging) + multiple topics
+	- [ ] ingesting unstructured sources
+		- [ ] ArticleProvider (web search for latest data on internet) 
+			- [ ] perplexity - on a given topic, it gives me lots of references I can click and follow
+			- [ ] gemini - with grounding search 
+			- [ ] deep research OpenAI
+		- [ ] DataSet provider
+			- [ ] SunyaIAS pdfs?
+			- [ ] vision ca magazines
+			- [ ] forumias mains test series
+			- [ ] forumias topper copies
+		- [ ] 
 
 
 Flow 
@@ -34,10 +58,10 @@ Process
 
 ----
 
-### Steps for Cargo rust flutter app - WebGL?
+### Steps for Cargo rust flutter app
 
 - review of whoop app -- I am rank 9 / 10k users who use whoop. 
-- if I do this, then my sleep goes for toss.
+- if I do this, then my sleep goes for toss. I have data to show.
 - 
 
 ### PIPELINE for mains questions database
@@ -56,6 +80,10 @@ Process
 Gemini has Grounding Search. It is good. [example](https://aistudio.google.com/prompts/1LuUItFkpkCqh9Y5CjLlE70b04pRPIfZw)
 
 OCR preprocessing steps - https://chatgpt.com/share/67b81046-e730-8010-bea2-b2d00c87708f
+
+Grouping pages into questions workflow 
+- https://chatgpt.com/share/67bab51d-22d8-8010-9b38-1b8e70609052
+
 
 Document layout analysis : 
 - try sycamore AI - [pip install sycamore-ai](https://sycamore.readthedocs.io/en/stable/)
