@@ -9,9 +9,18 @@
 2025-02-23 07:56:02
 - [ ] setup experiments repo for evaluationAI
 	- [ ] image preprocessing experiments
-		- [ ] to cleanup image before doing OCR (contrast up+ binarization)
+		- [x] to cleanup image before doing OCR (contrast up+ binarization)
+			- [ ] need better approach than this. next step: try restormer, and 
+			- pre-Process
+				- Image preprocessing pipeline ([chatgpt_link](https://chatgpt.com/share/67b81046-e730-8010-bea2-b2d00c87708f)) -
+				- papers and  other models https://www.one-tab.com/page/wEArOK3xTDSBBwLVqGL30w
+					- https://github.com/swz30/Restormer?tab=readme-ov-file has 30-60 MB models for various image cleaning tasks. Maybe look at these for  preprocessing
 		- [ ]  crop in a bounding box for OCR
-	- [ ] OCR based grouping workflow (which pages form part of one question)
+	- [ ] OCR
+		- [x] instructor library is shit. Baml is much better. using Qwen 7B for OCR
+		- [x] b01_ocr.py file -- extracts text 
+		- [ ] next step: pdf -> images -> extract text -> group text into a single question -> track metadata like page_number
+	- [ ] ~~OCR based grouping workflow (which pages form part of one question)
 		- [ ] printed questions at top
 			- [ ] also has text in margin - crop in a bounding box for OCR
 		- [ ] handwritten questions at top
@@ -51,14 +60,6 @@ Flow
 		- {current_state_of_world, action_to_improve_current_state_of_world}, here state_of_world means the current context
 	- 
 
-
-pre-Process
-- Image preprocessing pipeline ([chatgpt_link](https://chatgpt.com/share/67b81046-e730-8010-bea2-b2d00c87708f)) -
-- papers and  other models https://www.one-tab.com/page/wEArOK3xTDSBBwLVqGL30w
-	- https://github.com/swz30/Restormer?tab=readme-ov-file has 30-60 MB models for various image cleaning tasks. Maybe look at these for  preprocessing.
-
-OCR 
-- instructor library is shit. Baml is much better. 
 
 ----
 
