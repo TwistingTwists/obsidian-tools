@@ -52,10 +52,14 @@ Flow
 	- 
 
 
-Process
+pre-Process
 - Image preprocessing pipeline ([chatgpt_link](https://chatgpt.com/share/67b81046-e730-8010-bea2-b2d00c87708f)) -
 - papers and  other models https://www.one-tab.com/page/wEArOK3xTDSBBwLVqGL30w
 	- https://github.com/swz30/Restormer?tab=readme-ov-file has 30-60 MB models for various image cleaning tasks. Maybe look at these for  preprocessing.
+
+OCR 
+- instructor library is shit. Baml is much better. 
+
 ----
 
 ### Steps for Cargo rust flutter app
