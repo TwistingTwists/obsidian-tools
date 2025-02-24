@@ -19,7 +19,8 @@
 	- [ ] OCR
 		- [x] instructor library is shit. Baml is much better. using Qwen 7B for OCR
 		- [x] b01_ocr.py file -- extracts text 
-		- [ ] next step: pdf -> images -> extract text -> group text into a single question -> track metadata like page_number
+		- [x] pdf -> images -> extract text -> group text into a single question -> track metadata like page_number
+		- [ ] next step: clean each question text (contains junk words/ keywords etc etc ) -> page grouping algorithm
 	- [ ] ~~OCR based grouping workflow (which pages form part of one question)
 		- [ ] printed questions at top
 			- [ ] also has text in margin - crop in a bounding box for OCR
