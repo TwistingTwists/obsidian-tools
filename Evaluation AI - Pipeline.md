@@ -73,6 +73,11 @@ Flow
 2025-02-25 10:10:06
 https://claude.ai/share/e590885a-a71c-4512-bf1b-95d8d9799068
 
+##### (todo) PRELIMS QUESTIONS de-duplication: 
+`/home/abhishek/Downloads/experi2/machine_learning/rec_pyq/ai-scraping/prod-data/combined.csv`
+this is the csv
+
+do the faiss / qdrant etc to find duplicates , review and remove them.
 
 ### Steps for Cargo rust flutter app - syllabus
 
