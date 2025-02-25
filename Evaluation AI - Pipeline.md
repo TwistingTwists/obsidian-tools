@@ -99,6 +99,14 @@ v1 release:
 	- [ ] caching quetions / user response etc - using riverpod, local sqlite as cache ??
 
 
+
+
+
+### Steps for mobile app - pdfviewer with ripgrep-all search 
+
+
+
+
 ### Steps for Cargo rust flutter app - syllabus
 
 Basic code plan 
