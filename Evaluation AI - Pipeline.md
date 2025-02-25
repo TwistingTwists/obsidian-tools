@@ -79,6 +79,11 @@ this is the csv
 
 do the faiss / qdrant etc to find duplicates , review and remove them.
 
+
+- [x] SFG 2025 scraped data has been put into supabase `prelims_questions`
+	- [ ] may have duplicates
+- [ ] serve this from mobile app
+
 ### Steps for Cargo rust flutter app - syllabus
 
 Basic code plan 
@@ -86,7 +91,11 @@ Basic code plan
 - https://chatgpt.com/share/67bb5056-296c-8010-a4fa-01abd1d626f2
 - https://chatgpt.com/share/67bd4b5a-6b40-8010-a4fb-a8ff1328a9b2
 
+#### Mains questions - database
+- questions from diamond could be put in supabase as starters ? (folder: ingest_meili)
 
+- [x] topic_tags have been put in supabase as nested recursive table (folder: ingest_meili)
+- [ ] 
 
 
 
