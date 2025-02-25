@@ -79,10 +79,25 @@ this is the csv
 
 do the faiss / qdrant etc to find duplicates , review and remove them.
 
+v1 release:
+
+- [ ] improvements must have 
+	- [ ] formatting for quetsions as markdown - update db 
+	- [ ] button on question list page - text is not visible
+		- [ ] introduce rapid mode -- you click on the choice and the right / wrong is evaluated instantly. No need for submit button anymore
+	- [ ] filter by topic, 
+		- [ ] list of all topics from supabase
+	- [ ] store user responses in supabase (phase 2 and phase 3)
+
 
 - [x] SFG 2025 scraped data has been put into supabase `prelims_questions`
 	- [ ] may have duplicates
-- [ ] serve this from mobile app
+- [x] serve this from mobile app - paginated 10 questions at a time
+- [ ] add PYQs of upsc exam
+- [ ] filter by wrong attempts
+- [ ] improvement nice to have 
+	- [ ] caching quetions / user response etc - using riverpod, local sqlite as cache ??
+
 
 ### Steps for Cargo rust flutter app - syllabus
 
