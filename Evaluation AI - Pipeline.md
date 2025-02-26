@@ -135,7 +135,12 @@ Socials
 ### PIPELINE for analysis
 
 2025-02-21 07:10:05
-- Image in -> OCR -> text
+- Image input 
+	- [x]  OCR 
+	- [ ] clean text of OCR
+	- [ ] text continuity analysis
+	- [ ] extract question, extract answer (text - question)
+	- [ ] 
 - analysis
 	- demand of the question -- 
 	- Intro - data, historical, definition, context (ack the issue in the question, )
