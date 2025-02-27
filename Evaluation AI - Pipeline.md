@@ -78,6 +78,7 @@ https://claude.ai/share/e590885a-a71c-4512-bf1b-95d8d9799068
 this is the csv
 
 do the faiss / qdrant etc to find duplicates , review and remove them.
+- [ ] found[ the blog](https://minimaxir.com/2025/02/embeddings-parquet/) - embeddings in parquet store => fast dot product to find similarity
 
 v1 release:
 
