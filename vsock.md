@@ -1,3 +1,8 @@
+---
+tags:
+  - ai-generated
+---
+
 In the Linux kernel, **vsock** (short for _virtual socket_) refers to a socket address family (`AF_VSOCK`) that provides communication channels (sockets) specifically designed for **host–guest and guest–guest communications in virtualized environments**. Rather than using IP addresses for transport (like TCP/UDP sockets), vsock uses **context IDs (CIDs)** to identify endpoints. Here’s a quick rundown of what vsock is and why it’s useful:
 
 1. **Purpose**

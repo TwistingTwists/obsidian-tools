@@ -4,10 +4,10 @@ tags:
   - projects
 ---
 
-| concept   | category |
-| --------- | -------- |
-| [[vsock]] | linux    |
-|           |          |
+| concept                            | category |
+| ---------------------------------- | -------- |
+| [[vsock]]                          | linux    |
+| [[socket_stream and socket_dgram]] |          |
 
 
 | concerns (what if)        | why | possible way forward |
