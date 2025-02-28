@@ -38,3 +38,9 @@ Here's a neat markdown table summarizing each chapter from Ryan Holiday's _The O
 | 31. Something Bigger Than Yourself   | Find purpose beyond personal gain to fuel motivation and resilience.           |     |
 | 32. Meditate on Your Mortality       | Reflect on life's impermanence to prioritize meaningful actions.               |     |
 | 33. Prepare to Start Again           | Embrace each day as a new opportunity to apply learned lessons and persist.    |     |
+
+
+|            |                                |                          |
+| ---------- | ------------------------------ | ------------------------ |
+| innovation | plant lots of seeds (projects) | 1-2 will become oak tree |
+|            |                                |                          |
