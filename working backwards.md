@@ -20,7 +20,17 @@ tags:
 
 Four principles
 
-| principle                                            |     |
-| ---------------------------------------------------- | --- |
-| eagerness to invent (coupled with handling failures) |     |
-| customer obsession (not competitor obsession)        |     |
+| eagerness to invent (coupled with handling failures) | customer obsession (not competitor obsession) | willingness to think long term (than most folks) | professional pride in operational excellence |
+| ---------------------------------------------------- | --------------------------------------------- | ------------------------------------------------ | -------------------------------------------- |
+| work hard, have fun, make history                    | desired customer experience -> work backwards | come up with ideas, take risks                   |                                              |
+|                                                      |                                               |                                                  |                                              |
+|                                                      |                                               |                                                  |                                              |
+|                                                      |                                               |                                                  |                                              |
+|                                                      |                                               |                                                  |                                              |
+|                                                      |                                               |                                                  |                                              |
+
+
+| event                                               | learning                        |
+| --------------------------------------------------- | ------------------------------- |
+| play a sport in public you have never played before | with humor, optimisim and laugh |
+
