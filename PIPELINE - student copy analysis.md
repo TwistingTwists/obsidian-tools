@@ -1,4 +1,6 @@
 
+Be passionate about the territory, not the map
+
 
 ## PROBLEM statement
 
@@ -35,13 +37,10 @@ Document layout analysis :
 ------
 ###  What do toppers do? (that you are not doing)
 
-Hence, your answer look different. Answer reveal the process. there is only onen process. not two, not three. just one.
-here is what you should do to achieve the answer the topper wrote. Here is the internal outcome (list of articles of CoI, list of diagrams etc) you should have handy.
-
+Hence, your answer look different. Answer reveal the process. There is only onen process. Not two, not three. Just one.
+Here is what you should do to achieve the answer the topper wrote. Here is the internal outcome (list of articles of CoI, list of diagrams etc) you should have handy.
 
 ----
-
-
 
 ### generic elements of analysis of UPSC answer 
 
@@ -51,16 +50,30 @@ here is what you should do to achieve the answer the topper wrote. Here is the i
 	- body - 
 	- conclusion / way forward
 - keyword density (from the topic to which question belongs)
-- 
+
+#### Database  of topper copies 
+
+Abhyaas copies 
+- Topper marks with marksheet +  1 month before marksheet
+
+Achieve is : your method which is mixture of 2-3 toppers you like. keep updating these people (recent ones).
+aim: what is being rewarded in previous UPSC cycle
+
 
 ### GS specific feedback elements 
 
-| paper | evaluation criteria       | metric for criteria |
-| ----- | ------------------------- | ------------------- |
-| gs2   | it need articles from CoI | >= 2 needed         |
-| gs2   |                           |                     |
-| gs4   |                           |                     |
+| paper | evaluation criteria                                                                                      | metric for criteria |
+| ----- | -------------------------------------------------------------------------------------------------------- | ------------------- |
+| gs2   | it need articles from CoI                                                                                | >= 2 needed         |
+| gs2   | how many dimensions covered<br><br>how have you justified (examples) each one in the context of question |                     |
+|       |                                                                                                          |                     |
 
+example 
+1. Discuss the contribution of civil society groups for women’s effective and meaningful participation and representation in state legislatures in India. _15_
+	1. Dimension
+		1. participant - role of CS  - dimensions
+		2. representation - role of CS
+	2. 
 
 
 ------
