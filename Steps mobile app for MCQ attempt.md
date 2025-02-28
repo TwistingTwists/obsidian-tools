@@ -3,11 +3,13 @@
 https://claude.ai/share/e590885a-a71c-4512-bf1b-95d8d9799068
 
 ##### (todo) PRELIMS QUESTIONS de-duplication: 
-`/home/abhishek/Downloads/experi2/machine_learning/rec_pyq/ai-scraping/prod-data/combined.csv`
-this is the csv
 
-do the faiss / qdrant etc to find duplicates , review and remove them.
-- [ ] found[ the blog](https://minimaxir.com/2025/02/embeddings-parquet/) - embeddings in parquet store => fast dot product to find similarity
+|             |                                                                                                                                                                                                                              |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| learn       | <br>https://machinelearningmastery.com/distance-measures-for-machine-learning/<br>https://www.youtube.com/watch?v=e9U0QAFbfLI                                                                                                |
+| data-source | `/home/abhishek/Downloads/experi2/machine_learning/rec_pyq/ai-scraping/prod-data/combined.csv`<br>this is the csv                                                                                                            |
+| blogs       | do the faiss / qdrant etc to find duplicates , review and remove them.<br>- [ ] found[ the blog](https://minimaxir.com/2025/02/embeddings-parquet/) - embeddings in parquet store => fast dot product to find similarity<br> |
+
 
 v1 release:
 
