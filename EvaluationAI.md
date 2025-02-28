@@ -4,6 +4,15 @@ tags:
   - startup-2
 ---
 
+[[Steps for free cloud credits]]
+
+
+Socials 
+
+- review of whoop app -- I am rank 9 / 10k users who use whoop. 
+- if I do this, then my sleep goes for toss. I have data to show.
+
+ 
 
 
 #### Hypothesis 
