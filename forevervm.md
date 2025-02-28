@@ -8,6 +8,7 @@ tags:
 | ---------------------------------- | -------- |
 | [[vsock]]                          | linux    |
 | [[socket_stream and socket_dgram]] |          |
+| [[Unix sockets + ring buffer]]     |          |
 
 
 | concerns (what if)        | why | possible way forward |
