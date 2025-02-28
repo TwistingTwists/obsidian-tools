@@ -1,7 +1,4 @@
 
-2023-12-28 
-
-1. From mathocrat 
-	1. more money? Jo b theek lage aapko. 
-	2. making mathocrat more resilient - caching + subscription ending 
-2. Having good health and meditation no matter what - 45 min daily * 2
+2025-02-28 10:20:32
+An aspiration is a deep, long-term ambition or hope for the future. It’s often tied to your values and the person you want to become.
+A want is a desire or wish for something in the present or near future. Wants are often shorter-term or related to comfort, pleasure, or immediate needs (unlike survival needs).

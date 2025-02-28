@@ -1,4 +1,9 @@
+---
+tags:
+  - revisit-often
+---
 2024-01-13 23:16
+
 
 
 * 2024-01-14 12:12:32 
@@ -19,3 +24,6 @@
 	* during meditation - submit the practice to Patanjali. as a service, as a request to make it successful
 
 2025-02-28 10:07:27
+
+[[obstacle is the way]]
+[[working backwards]]
