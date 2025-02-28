@@ -12,3 +12,8 @@ tags:
 
 
 https://aiengineering.academy/Agents/MCP/
+
+### MicroLMs 
+
+I have one and only one task - take a markdown document and give me reformatting instructions in output.
+so, ideally the model should be able to output the tokens for formatting 
