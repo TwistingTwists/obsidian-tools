@@ -67,7 +67,6 @@ Flow
 ----
 
 
-
 ### Steps mobile app for MCQ attempt
 
 2025-02-25 10:10:06
@@ -97,7 +96,7 @@ v1 release:
 - [ ] add PYQs of upsc exam
 - [ ] filter by wrong attempts
 - [ ] improvement nice to have 
-	- [ ] caching quetions / user response etc - using riverpod, local sqlite as cache ??
+	- [ ] caching questions / user response etc - using riverpod, local sqlite as cache ??
 
 
 
