@@ -10,3 +10,4 @@ the fundamental work is - alignment.
 
 [[obstacle is the way]]
 [[working backwards]]
+[[productize]]

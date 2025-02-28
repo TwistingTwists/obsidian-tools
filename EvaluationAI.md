@@ -78,13 +78,6 @@ Page
 
 
 
-
-
-
-
-
-
-
 ### Pick best model?
 
 - [ ] https://txt.cohere.com/struggling-to-pick-the-right-ai-model-lets-break-it-down/
