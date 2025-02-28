@@ -1,4 +1,79 @@
 
+
+
+
+
+in the jsonish folder, add support for json-patch. 
+
+use this crate https://crates.io/crates/json-patch
+
+here are the docs
+```
+Create and patch document using JSON Patch:
+
+#[macro_use]
+use json_patch::{Patch, patch};
+use serde_json::{from_value, json};
+
+let mut doc = json!([
+    { "name": "Andrew" },
+    { "name": "Maxim" }
+]);
+
+let p: Patch = from_value(json!([
+  { "op": "test", "path": "/0/name", "value": "Andrew" },
+  { "op": "add", "path": "/0/happy", "value": true }
+])).unwrap();
+
+patch(&mut doc, &p).unwrap();
+assert_eq!(doc, json!([
+  { "name": "Andrew", "happy": true },
+  { "name": "Maxim" }
+]));
+Create and patch document using JSON Merge Patch:
+
+#[macro_use]
+use json_patch::merge;
+use serde_json::json;
+
+let mut doc = json!({
+  "title": "Goodbye!",
+  "author" : {
+    "givenName" : "John",
+    "familyName" : "Doe"
+  },
+  "tags":[ "example", "sample" ],
+  "content": "This will be unchanged"
+});
+
+let patch = json!({
+  "title": "Hello!",
+  "phoneNumber": "+01-123-456-7890",
+  "author": {
+    "familyName": null
+  },
+  "tags": [ "example" ]
+});
+
+merge(&mut doc, &patch);
+assert_eq!(doc, json!({
+  "title": "Hello!",
+  "author" : {
+    "givenName" : "John"
+  },
+  "tags": [ "example" ],
+  "content": "This will be unchanged",
+  "phoneNumber": "+01-123-456-7890"
+}));
+```
+
+so, idea
+
+
+
+
+
+
 ---
 DH = average of 10 years 
 
