@@ -6,6 +6,7 @@ A want is a desire or wish for something in the present or near future. Wants ar
 the fundamental work is - alignment.
 
 [[reflections - Aspirations and wants]]
+[[reflections - evolving beliefs]]
 
 [[obstacle is the way]]
 [[working backwards]]

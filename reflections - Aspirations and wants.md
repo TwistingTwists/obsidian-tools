@@ -3,7 +3,6 @@ tags:
   - reflections
 ---
 
-
 ### Reflective Exercise: Aspirations and Wants
 
 #### Step 1: List Your Aspirations (Long-term, deep desires)
