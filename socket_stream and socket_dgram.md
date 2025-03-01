@@ -516,3 +516,217 @@ int n = recvfrom(sockfd, buffer, sizeof(buffer), 0,
     
 
 Choosing between `SOCK_STREAM` and `SOCK_DGRAM` depends on your application’s requirements for reliability, ordering, overhead, and how you want to handle data boundaries.
+
+
+-------
+
+Unix domain sockets (**AF_UNIX**) and virtio sockets (**AF_VSOCK**) both provide socket-based IPC (inter-process communication) but target different environments and use cases. Below is an overview of each, along with examples and typical scenarios where they are used.
+
+---
+
+## 1. AF_UNIX (Unix Domain Sockets)
+
+### Overview
+
+- **Purpose**: Provides inter-process communication (IPC) between processes running on the _same_ host operating system.
+- **Addressing**: Uses a file system path (e.g., `/tmp/mysocket`) or an abstract namespace on some systems (e.g., Linux abstract socket addresses that start with `\0`).
+- **Performance**: Generally faster than TCP/IP loopback (`127.0.0.1`) because it bypasses most of the network stack.
+- **Security**: Access control can be managed via file permissions on the socket path. This makes AF_UNIX good for secure local IPC.
+- **Typical Use Cases**:
+    - Local daemon or service communication (e.g., systemd, Docker daemon, X11, Wayland).
+    - Local sockets for language runtimes (e.g., Python’s `multiprocessing` can use Unix domain sockets under the hood).
+    - Local microservices that run on the same machine and need high performance IPC.
+
+### Example: AF_UNIX Echo Server (C)
+
+```c
+#include <sys/socket.h>
+#include <sys/un.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+#define SOCKET_PATH "/tmp/af_unix_example.sock"
+#define BUFFER_SIZE  128
+
+int main(void) {
+    int server_fd, client_fd;
+    struct sockaddr_un addr;
+    char buffer[BUFFER_SIZE];
+
+    // 1. Create socket
+    if ((server_fd = socket(AF_UNIX, SOCK_STREAM, 0)) == -1) {
+        perror("socket");
+        exit(EXIT_FAILURE);
+    }
+
+    // 2. Bind socket to a file system path
+    memset(&addr, 0, sizeof(addr));
+    addr.sun_family = AF_UNIX;
+    strncpy(addr.sun_path, SOCKET_PATH, sizeof(addr.sun_path) - 1);
+    unlink(SOCKET_PATH);  // Remove if it already exists
+
+    if (bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) == -1) {
+        perror("bind");
+        close(server_fd);
+        exit(EXIT_FAILURE);
+    }
+
+    // 3. Listen for connections
+    if (listen(server_fd, 5) == -1) {
+        perror("listen");
+        close(server_fd);
+        exit(EXIT_FAILURE);
+    }
+
+    printf("AF_UNIX server listening on %s\n", SOCKET_PATH);
+
+    // 4. Accept and echo
+    while (1) {
+        if ((client_fd = accept(server_fd, NULL, NULL)) == -1) {
+            perror("accept");
+            continue;
+        }
+        ssize_t num_read;
+        while ((num_read = read(client_fd, buffer, BUFFER_SIZE)) > 0) {
+            write(client_fd, buffer, num_read);
+        }
+        close(client_fd);
+    }
+
+    close(server_fd);
+    return 0;
+}
+```
+
+**Key points**:
+
+- We bind to a path in the file system (`/tmp/af_unix_example.sock`).
+- Only processes on the same machine can communicate through this socket.
+
+---
+
+## 2. AF_VSOCK (Virtio Sockets)
+
+### Overview
+
+- **Purpose**: Provides communication _between virtual machines (VMs)_ and/or between a VM and the host, using a hypervisor-based mechanism (such as Virtio on KVM/QEMU, VMWare’s vsock interface, etc.).
+- **Addressing**: Identified by a “Context ID” (CID) and a port number instead of an IP address or file path:
+    - `CID`: Identifies which VM (or the host).
+        - For example, the host might have a fixed CID (e.g., `2`) and guest VMs have other unique CIDs.
+    - `Port`: Similar to a TCP/UDP port, e.g., 1234.
+- **No File Path**: Unlike AF_UNIX, there is no file path or filesystem object. Instead, you bind to a specific CID and port pair.
+- **No Traditional IP Networking**: Communication does not go through the standard IP stack. This means no IP addresses or typical network routing is required.
+- **Typical Use Cases**:
+    - Host ↔ Guest communication for management or control plane tasks (e.g., hypervisor services, agent daemons inside VMs).
+    - Communication between containers (inside a VM) and the host when normal network bridging is undesirable or not possible.
+    - Secure, low-overhead data exchange without exposing services via IP networking.
+
+### Example: AF_VSOCK Echo Server (C)
+
+Suppose you want to create a server inside a _guest VM_ that listens on port 1234. (The same logic can apply to the host by using the appropriate CID.)
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/socket.h>
+#include <linux/vm_sockets.h>
+
+#define PORT 1234
+#define BUFFER_SIZE 128
+
+int main(void) {
+    int server_fd, client_fd;
+    struct sockaddr_vm sa_vm;
+    char buffer[BUFFER_SIZE];
+
+    // 1. Create VSOCK socket
+    if ((server_fd = socket(AF_VSOCK, SOCK_STREAM, 0)) < 0) {
+        perror("socket");
+        exit(EXIT_FAILURE);
+    }
+
+    // 2. Bind to CID_ANY (wildcard) and a specific port
+    memset(&sa_vm, 0, sizeof(sa_vm));
+    sa_vm.svm_family = AF_VSOCK;
+    sa_vm.svm_cid = VMADDR_CID_ANY; // Use any available CID (this is a server in the VM).
+    sa_vm.svm_port = PORT;
+
+    if (bind(server_fd, (struct sockaddr *)&sa_vm, sizeof(sa_vm)) < 0) {
+        perror("bind");
+        close(server_fd);
+        exit(EXIT_FAILURE);
+    }
+
+    // 3. Listen
+    if (listen(server_fd, 5) < 0) {
+        perror("listen");
+        close(server_fd);
+        exit(EXIT_FAILURE);
+    }
+
+    printf("AF_VSOCK server listening on port %d (CID_ANY)\n", PORT);
+
+    // 4. Accept and echo
+    while (1) {
+        client_fd = accept(server_fd, NULL, NULL);
+        if (client_fd < 0) {
+            perror("accept");
+            continue;
+        }
+
+        ssize_t num_read;
+        while ((num_read = read(client_fd, buffer, BUFFER_SIZE)) > 0) {
+            write(client_fd, buffer, num_read);
+        }
+        close(client_fd);
+    }
+
+    close(server_fd);
+    return 0;
+}
+```
+
+**Key points**:
+
+- We use `AF_VSOCK` in the `socket()` call.
+- We bind to `VMADDR_CID_ANY` (server) with a chosen `port` to listen for connections.
+- The client (e.g., from the host or another VM) would connect by specifying the server’s CID and port.
+
+---
+
+## Comparison Summary
+
+|Aspect|**AF_UNIX**|**AF_VSOCK**|
+|---|---|---|
+|**IPC Scope**|Same host only|Between VMs or VM ↔ Host|
+|**Addressing**|File system path (e.g., `/tmp/sock`)|(CID, port) pair|
+|**Performance**|Very fast local IPC|Fast, bypasses most network layers, but virtualized|
+|**Security**|Controlled via file permissions|Controlled via hypervisor-level isolation|
+|**Networking Stack**|Bypasses IP networking, local only|No IP, but uses hypervisor-provided vsock transport|
+|**Use Cases**|Daemons, local microservices, etc.|Host-guest or inter-VM communication, agent daemons|
+
+### Typical Use Cases in More Detail
+
+1. **AF_UNIX**:
+    
+    - **Local Daemons**: systemd uses AF_UNIX for launching and managing services. Docker uses a Unix socket (`/var/run/docker.sock`) for local CLI to Docker daemon communication.
+    - **X11 / Wayland**: Graphical servers (X11 or Wayland) often listen on Unix domain sockets for local display connections.
+    - **Local Microservices**: A microservice architecture on a single server might use Unix domain sockets for performance or permission-based security.
+2. **AF_VSOCK**:
+    
+    - **Guest Agent Communication**: Many virtualized environments (KVM, QEMU, VMware) use vsock for hypervisor <-> guest communication (e.g., to send events, commands, or gather stats).
+    - **Containers in a VM**: Instead of exposing a container port via NAT or bridging, a container can talk to the host or a side VM via vsock. This can simplify security and networking.
+    - **Minimal Overhead**: vsock doesn’t rely on typical IP bridging or NAT; it’s direct inside the hypervisor, which can be simpler and sometimes more performant or secure than setting up a separate network bridge.
+
+---
+
+## Conclusion
+
+- **AF_UNIX** is your go-to for _local_ inter-process communication on a single Unix-like system. It’s fast and simple, using file system paths for addressing.
+- **AF_VSOCK** is ideal for _virtualized environments_, enabling direct communication between a host and its guest VMs (or among multiple VMs) without needing traditional IP-based networking.
+
+Choose **AF_UNIX** when your processes live on the same machine and you want high-performance local IPC with easy file-permission-based security. Choose **AF_VSOCK** when you need a straightforward channel between a hypervisor (host) and guest VMs (or between guests) where IP-based networking might be overkill or not desired.
