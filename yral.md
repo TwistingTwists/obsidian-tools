@@ -14,7 +14,7 @@ tags:
 | <input type="checkbox" checked id="e63174"> | test on staging (with EEP)                                                | testing     | staging |
 | <input type="checkbox" unchecked id="a91d82"> | finish server side booking -                                              | feature     |         |
 | <input type="checkbox" unchecked id="1a9cbb"> | do email integration using pipeline method??                              | feature     |         |
-| <input type="checkbox" unchecked id="7efb2e"> | update gh-actions - checkout@v4                                           | maintenance |         |
+| <input type="checkbox" checked id="7efb2e"> | update gh-actions - checkout@v4                                           | maintenance |         |
 
 
 
