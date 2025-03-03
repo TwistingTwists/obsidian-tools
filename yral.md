@@ -7,7 +7,7 @@ tags:
 
 |                                               |                                                                           |             |         |
 | --------------------------------------------- | ------------------------------------------------------------------------- | ----------- | ------- |
-| <input type="checkbox" unchecked id="781c19"> | deploy nofeebooking with estate-egress-proxy (EEP) (current nginx config) | deploy      | NFB     |
+| <input type="checkbox" checked id="781c19"> | deploy nofeebooking with estate-egress-proxy (EEP) (current nginx config) | deploy      | NFB     |
 | <input type="checkbox" unchecked id="7110f0"> | deploy EEP with axum                                                      | deploy      | EEP     |
 | <input type="checkbox" unchecked id="03570a"> | test on nofeebooking (with EEP)                                           | testing     | EEP     |
 | <input type="checkbox" unchecked id="6d3826"> | test nofeebooking app locally                                             | testing     | NFB     |
