@@ -10,8 +10,8 @@ tags:
 | <input type="checkbox" checked id="781c19"> | deploy nofeebooking with estate-egress-proxy (EEP) (current nginx config) | deploy      | NFB     |
 | <input type="checkbox" unchecked id="7110f0"> | deploy EEP with axum                                                      | deploy      | EEP     |
 | <input type="checkbox" unchecked id="03570a"> | test on nofeebooking (with EEP)                                           | testing     | EEP     |
-| <input type="checkbox" unchecked id="6d3826"> | test nofeebooking app locally                                             | testing     | NFB     |
-| <input type="checkbox" unchecked id="e63174"> | test on staging (with EEP)                                                | testing     | staging |
+| <input type="checkbox" checked id="6d3826"> | test nofeebooking app locally                                             | testing     | NFB     |
+| <input type="checkbox" checked id="e63174"> | test on staging (with EEP)                                                | testing     | staging |
 | <input type="checkbox" unchecked id="a91d82"> | finish server side booking -                                              | feature     |         |
 | <input type="checkbox" unchecked id="1a9cbb"> | do email integration using pipeline method??                              | feature     |         |
 | <input type="checkbox" unchecked id="7efb2e"> | update gh-actions - checkout@v4                                           | maintenance |         |
