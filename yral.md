@@ -11,16 +11,16 @@ tags:
  
  
 
-|                                               |                                                                           |             |     |
-| --------------------------------------------- | ------------------------------------------------------------------------- | ----------- | --- |
-| <input type="checkbox" unchecked id="781c19"> | deploy nofeebooking with estate-egress-proxy (EEP) (current nginx config) |             |     |
-| <input type="checkbox" unchecked id="7110f0"> | deploy EEP with axum                                                      |             |     |
-|                                               | test on nofeebooking (with EEP)                                           | testing     | EEP |
-|                                               | test nofeebooking app locally                                             | testing     | NFB |
-|                                               | test on staging (with EEP)                                                |             |     |
-|                                               | finish server side booking -                                              | feature     |     |
-|                                               | do email integration using pipeline method??                              | feature     |     |
-|                                               | update gh-actions - checkout@v4                                           | maintenance |     |
+|                                               |                                                                           |             |         |
+| --------------------------------------------- | ------------------------------------------------------------------------- | ----------- | ------- |
+| <input type="checkbox" unchecked id="781c19"> | deploy nofeebooking with estate-egress-proxy (EEP) (current nginx config) | deploy      | NFB     |
+| <input type="checkbox" unchecked id="7110f0"> | deploy EEP with axum                                                      | deploy      | EEP     |
+|                                               | test on nofeebooking (with EEP)                                           | testing     | EEP     |
+|                                               | test nofeebooking app locally                                             | testing     | NFB     |
+|                                               | test on staging (with EEP)                                                | testing     | staging |
+|                                               | finish server side booking -                                              | feature     |         |
+|                                               | do email integration using pipeline method??                              | feature     |         |
+|                                               | update gh-actions - checkout@v4                                           | maintenance |         |
 
 
 
