@@ -6,7 +6,7 @@ tags:
 
 | **Checklist**                               | **Objective**                                     | **Projects with Breakdown**                                                     |
 | ------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------- |
-|                                             | **To get into a distributed systems role**        | - PubSub system in Rust                                                         |
+| <input type="checkbox" checked id="7d8cec"> | **To get into a distributed systems role**        | - PubSub system in Rust                                                         |
 |                                             |                                                   | - Fly Dist Sys Challenges                                                       |
 |                                             |                                                   | - Build Git                                                                     |
 |                                             |                                                   | - Lox Interpreter                                                               |
