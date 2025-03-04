@@ -14,19 +14,21 @@
 | OPD - physician, diagnostic, consult (star health) -- voucher                                           | 2          |                                             |
 
 
-| company                | hdfc ergo                  | niva bupa |
-| ---------------------- | -------------------------- | --------- |
-| premium                | 23840                      | 14623     |
-| coverage               | 10L                        |           |
-| restoration            | 24h restoration, unlimited |           |
-| najafgarh cashless     |                            |           |
-| dwarka cashless        |                            |           |
-| dwarka with cash       |                            |           |
-| NJF with cash          |                            |           |
-| room category          | no limit<br>               |           |
-| pre                    | 60d                        |           |
-| post                   | 180d                       |           |
-| ambulance              | 10L                        |           |
-| at_home_hospitalisatin | 10L                        |           |
+| company                                                                         | hdfc ergo                  | niva bupa | icici                                                    |
+| ------------------------------------------------------------------------------- | -------------------------- | --------- | -------------------------------------------------------- |
+| premium                                                                         | 23840                      | 14623     | 12,729                                                   |
+| coverage                                                                        | 10L                        |           |                                                          |
+| restoration                                                                     | 24h restoration, unlimited |           | 45d                                                      |
+| najafgarh cashless                                                              |                            |           |                                                          |
+| dwarka cashless                                                                 |                            |           |                                                          |
+| dwarka with cash                                                                |                            |           |                                                          |
+| NJF with cash                                                                   |                            |           |                                                          |
+| number of hospitals                                                             |                            |           |                                                          |
+| room category                                                                   | no limit<br>               |           | single private ac <br><br>NOT_COVERED: <br>suite, deluxe |
+| pre                                                                             | 60d                        |           | 90d                                                      |
+| post                                                                            | 180d                       |           | 180d                                                     |
+| during_hostpitalization - critical_illness <br>(paralyze, cancer, heart attack) |                            |           | 90d                                                      |
+| ambulance                                                                       | 10L                        |           | 10L                                                      |
+| at_home_hospitalisatin                                                          | 10L                        |           |                                                          |
 
 
