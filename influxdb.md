@@ -4,7 +4,7 @@ tags:
   - database
   - projects
 ---
-day - 01 
+day - 01 2025-03-04 06:46:27
 
 Crash Handlers in Rust for Linux systems 
 ```rust
