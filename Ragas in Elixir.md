@@ -7,8 +7,16 @@ tags:
 ### Retrieval 
 2025-03-06 06:36:23
 Source: Glean talk (manav rathod)
-- finetuned embedding model - during retrieval , embedding is core.
-- 
+
+| step id |                           |                                                                                                                                                                                                                                                                                                                                                       |
+| ------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DSK     | domain specific keywords  | MLM of embedding model (smaller embedding model )                                                                                                                                                                                                                                                                                                     |
+| IN_1    | insight                   | even after above DSK, improve perf on search related tasks, <br><br>For search around document:<br>- title-body pairs<br>- anchor data (PageRank over documents => related documents link to each other)<br>                                                                                                                                          |
+| QTL     | query types list          | - **Factoid questions**: Seeking specific pieces of information<br><br>- **Enumeration queries**: Requesting lists of items (e.g., "What are all the projects in the finance department?")<br><br>- **Inventory queries**: Looking for assets like meetings, presentations, etc.<br><br>- **Navigational queries**: Trying to find specific documents |
+| SDG     | synthetic data generation | give LLM document -> generate QA pairs                                                                                                                                                                                                                                                                                                                |
+|         | general improvements      | 1. Generate data - via SDG<br>2. query types - measure perf - QTL                                                                                                                                                                                                                                                                                     |
+|         |                           |                                                                                                                                                                                                                                                                                                                                                       |
+
 
 ### Late interactions 
 2025-03-06 06:37:17
