@@ -1,5 +1,18 @@
+---
+tags:
+  - machine_learning
+---
 
 
+### Retrieval 
+2025-03-06 06:36:23
+Source: Glean talk (manav rathod)
+- finetuned embedding model - during retrieval , embedding is core.
+- 
+
+### Late interactions 
+2025-03-06 06:37:17
+- 
 
 ### Systematically improving RAG 
 
