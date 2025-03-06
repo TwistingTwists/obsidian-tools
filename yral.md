@@ -16,7 +16,7 @@ tags:
 | <input type="checkbox" unchecked id="1a9cbb"> | do email integration using pipeline method??                              | feature     |         |
 | <input type="checkbox" checked id="7efb2e">   | update gh-actions - checkout@v4                                           | maintenance |         |
 |                                               | estate-fe - prod logs - connect with proxy??                              |             |         |
-|                                               | proxy - expose 8001                                                       |             |         |
+| <input type="checkbox" checked id="fc7480"> | Deploy via fly deploy using local Dockerfile                              |             |         |
 |                                               | proxy - expose on 80 + adjust const.rs                                    |             |         |
 |                                               |                                                                           |             |         |
 
