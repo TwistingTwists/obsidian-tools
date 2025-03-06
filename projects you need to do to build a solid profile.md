@@ -27,3 +27,5 @@ tags:
 |                                             | **ML Distributed Training**                       | - TinyGrad Contributions                                                                                                                                                                                                                                                               |
 |                                             |                                                   |                                                                                                                                                                                                                                                                                        |
 
+
+[[long term bets]]
