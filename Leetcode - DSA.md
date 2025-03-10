@@ -2,11 +2,6 @@
 tags:
   - interview
 ---
-## to work on 
-
-Internal Implementation of HashMaps
-Auth - Jwt + SAML + SSO + OIDC?
-
 
 ----
 
