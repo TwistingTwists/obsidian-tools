@@ -72,3 +72,45 @@ def max_height_of_tree(root):
 
 ```
 
+
+----
+
+### 1161 - max level sum 
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def maxLevelSum(self, root: Optional[TreeNode]) -> int:
+        if not root:
+            return 0
+
+        maxLevel = 1 # <<<<<<<<<<<<<<<<<<<<<< the first level is the default one
+        mls  = root.val  # <<<<<<<<<<<<<<<<<<<<<< so, the sum takes the first value
+
+        level_so_far  = 0 
+        queue = deque([root])
+        while len(queue) >0:
+            level_so_far += 1
+            level_size = len(queue)
+            level_sum = 0
+
+            for _ in range(level_size):
+                node = queue.popleft()
+                # if node.val < 0:
+                level_sum += node.val
+
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            if level_sum > mls :
+                maxLevel = level_so_far
+                mls = level_sum
+        return maxLevel
+
+```
