@@ -32,6 +32,8 @@ tags:
 
 [[long term bets]]
 
+Practising LLD 
+- [[LLD]]
  
 ### Experience needed ( JDs )
 
