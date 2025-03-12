@@ -13,7 +13,7 @@ Imagine you need to design a system to manage a **parking lot**. The system shou
 - Real-time availability display.
 
 
-Clarifications;
+### Clarifications
 
 Queries:
 - which slots are empty 
@@ -22,16 +22,22 @@ Queries:
 
 Relationships:
 - floor has_many slots
-- slot =  type, floor_id, status (VACANT, OCCUPIED),  
+- slot =  type, floor_id, status (VACANT, OCCUPIED),  ticket_id
 - price has_many pricing_factors
 - pricing_factors - name_fkey, unit_price, unit, description
 	- pricing_factors - type, floor, unit_price, unit, description
 
-- vehicle can occupy spot 
-- vehicle = number_plate, in, out
+- vehicle has_one spot 
+- vehicle = number_plate, in, out, spot_id
 - ticket has_one vehicle
 - payment is made for a ticket
 - payments - amount, ticket_id
+
+Core questions:
+- un/park vehicle
+- issue ticket for vehicle
+- find empty slot by type , floor, price
+
 
 OOP style
 
@@ -47,9 +53,38 @@ Functional Style (Rust)
 
 type Floor = u8;
 
-struct Parking {
-spots: BTreeMap<Floor,
+enum VehicleType {
+Car, Bike, Truck
 }
 
+struct Vehicle {
+	number_plate: String,
+	vehicle_type: VehicleType,
+	ticket_id: uuid
+}
 
+struct Ticket {
+	id: uuid, 
+	price: u64
+}
+
+enum SlotTypes{
+	Car, Bike, Handicapped
+}
+
+enum SlotStatus{
+	Vacant, Occupied
+}
+
+struct Slot {
+	floor_id: Floor, 
+	slot_type: SlotTypes,
+	status: SlotStatus
+}
+
+struct DisplayBoard{
+	slots: BTreeMap<Floor, Slot>
+	
+
+}
 ```
