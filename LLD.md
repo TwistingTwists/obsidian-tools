@@ -71,11 +71,11 @@ struct Ticket {
 
 }
 
-enum SlotTypes{
+enum SlotTypes {
 	Car, Bike, Handicapped
 }
 
-enum SlotStatus{
+enum SlotStatus {
 	Vacant, Occupied
 }
 
@@ -86,27 +86,87 @@ struct Slot {
 	status: SlotStatus
 }
 
-enum PricingUnits{
+enum PricingUnits {
 	Minutely, 
 	Hourly, 
 	Daily,
 	Weekly
 }
 
+enum PossiblePricingDrivingFactors {
+	Slot(Slot),
+	Vehicle(Vehicle)
+}
 
-struct PricingFactors{
+struct PricingFactors {
 	// pricing_factors - name_fkey (from Slots Table), unit_price, unit, description
 	name_fkey: String,
-	name_table: String,
-	// name_table: PossiblePricingDrivingFactors
+	// name_table: String,
+	name_table: PossiblePricingDrivingFactors
 	unit_price: f32,
 	unit: PricingUnits,
 	
 }
 
-struct DisplayBoard{
+struct DisplayBoard {
 	slots: BTreeMap<Floor, Slot>
 	
 
 }
+
+struct Payments {
+	ticket_id: uuid, 
+	amount: f32,
+	
+}
+
+// ------ 
+
+enum SlotFilters{
+	SlotType(SlotTypes),
+	SlotStatus(SlotStatus)
+}
+
+enum SlotFilterExpr{
+	All, 
+	Filter(SlotFilter),
+	And(Box<SlotFilterExpr>,Box<SlotFilterExpr>),
+	Or(Box<SlotFilterExpr>,Box<SlotFilterExpr>)
+}
+
+impl SlotFilterExpr{
+	pub matches(&self,slot: &Slot) -> bool {
+		match self {
+		All -> true,
+		Filter(slot_filter) -> {
+			match slot_filter {
+				SlotType(slot_type) -> slot_type == slot.slot_type ,
+				SlotStatus(slot_status) -> slot_status == slot.status
+			}
+		}
+		}
+	
+	}
+	
+	pub and(&self, slot_filter_expr: &SlotFilterExpr) -> SlotFilterExpr{
+		
+	}
+}
+
+
+struct Parking{}
+
+impl Parking{
+
+	fn park(vehicle: Vehicle) -> Ticket {
+	}
+
+	fn unpark(ticket: Ticket) -> Vehicle {
+	}
+
+	fn available_slots(filter_by: SlotFilterExpr) -> DisplayBoard {
+	
+	}
+}
+
 ```
