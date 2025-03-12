@@ -27,7 +27,7 @@ Relationships:
 - pricing_factors - name_fkey, unit_price, unit, description
 	- pricing_factors - type, floor, unit_price, unit, description
 
-- vehicle has_one spot 
+- vehicle has_one slot 
 - vehicle = number_plate, in, out, spot_id
 - ticket has_one vehicle
 - payment is made for a ticket
@@ -65,7 +65,10 @@ struct Vehicle {
 
 struct Ticket {
 	id: uuid, 
-	price: u64
+	price: u64,
+	vehicle_number_plate: String,
+	slot_id: String
+
 }
 
 enum SlotTypes{
@@ -77,9 +80,28 @@ enum SlotStatus{
 }
 
 struct Slot {
+	id: String
 	floor_id: Floor, 
 	slot_type: SlotTypes,
 	status: SlotStatus
+}
+
+enum PricingUnits{
+	Minutely, 
+	Hourly, 
+	Daily,
+	Weekly
+}
+
+
+struct PricingFactors{
+	// pricing_factors - name_fkey (from Slots Table), unit_price, unit, description
+	name_fkey: String,
+	name_table: String,
+	// name_table: PossiblePricingDrivingFactors
+	unit_price: f32,
+	unit: PricingUnits,
+	
 }
 
 struct DisplayBoard{
