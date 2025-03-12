@@ -15,10 +15,23 @@ Imagine you need to design a system to manage a **parking lot**. The system shou
 
 Clarifications;
 
-Queries
+Queries:
 - which slots are empty 
 	- filter_by type, filter_by floor, sort_by price
-- Payment - price for that slot (slot_type + floor + hour)
+- Payment - price for that slot (slot_type + floor + _hour of the day_) *  duration
+
+Relationships:
+- floor has_many slots
+- slot =  type, floor_id, status (VACANT, OCCUPIED),  
+- price has_many pricing_factors
+- pricing_factors - name_fkey, unit_price, unit, description
+	- pricing_factors - type, floor, unit_price, unit, description
+
+- vehicle can occupy spot 
+- vehicle = number_plate, in, out
+- ticket has_one vehicle
+- payment is made for a ticket
+- payments - amount, ticket_id
 
 OOP style
 
