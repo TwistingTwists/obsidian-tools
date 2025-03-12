@@ -110,8 +110,6 @@ struct PricingFactors {
 
 struct DisplayBoard {
 	slots: BTreeMap<Floor, Slot>
-	
-
 }
 
 struct Payments {
@@ -143,16 +141,22 @@ impl SlotFilterExpr{
 				SlotType(slot_type) -> slot_type == slot.slot_type ,
 				SlotStatus(slot_status) -> slot_status == slot.status
 			}
-		}
-		}
-	
+		},
+		And(filter_1, filter_2) -> filter_1.matches(&slot) && filter_2.matches(&slot),
+		Or(filter_1, filter_2) -> filter_1.matches(&slot) || filter_2.matches(&slot)
+		}	
 	}
 	
-	pub and(&self, slot_filter_expr: &SlotFilterExpr) -> SlotFilterExpr{
-		
+	pub and( self, other_filter_expr: SlotFilterExpr) -> SlotFilterExpr{
+		SlotFilterExpr::And(Box::new(self), Box::new(other_filter_expr))
 	}
+	
+	pub or( self, other_filter_expr: SlotFilterExpr) -> SlotFilterExpr{
+		SlotFilterExpr::Or(Box::new(self), Box::new(other_filter_expr))
+	} 
 }
 
+// ------ 
 
 struct Parking{}
 
@@ -169,4 +173,26 @@ impl Parking{
 	}
 }
 
+
+// ------- 
+// TRAITS 
+
+trait SlotFinder {
+	pub fn find_vacant_slot(filter_expr: SlotFilterExpr) -> DisplayBoard {
+		let default_filter = SlotFilterExpr::Filter(SlotType(Vacant))
+	}
+}
+```
+
+
+
+Alternate way to implement `SortFilter`
+
+```rust
+enum SlotFilterExpr {
+    All,
+    Filter(SlotFilter),
+    And(Vec<SlotFilterExpr>),
+    Or(Vec<SlotFilterExpr>),
+}
 ```
