@@ -18,3 +18,18 @@ https://github.com/aphyr/distsys-class?tab=readme-ov-file
 
 - SeaweedFS - https://github.com/legout/sbox-s3/blob/main/conf/rclone/rclone.conf
 - https://medium.com/@ahsifer/seaweedfs-25640728775c
+
+
+
+----
+
+#### Percolator 
+
+
+|                                                                      |     |
+| -------------------------------------------------------------------- | --- |
+| https://www.youtube.com/watch?v=UkL1qYif6hE                          |     |
+| https://courses.cs.vt.edu/cs5204/fall11-butt/lectures/perculator.pdf |     |
+| https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Peng.pdf |     |
+| https://tikv.org/deep-dive/distributed-transaction/percolator/       |     |
+
