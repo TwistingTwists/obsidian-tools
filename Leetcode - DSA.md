@@ -394,3 +394,7 @@ Dynamic Programming
 12. [https://leetcode.com/problems/minimum-cost-for-tickets/?envType=list&envId=55ac4kuc](https://leetcode.com/problems/minimum-cost-for-tickets/?envType=list&envId=55ac4kuc)  
 13. [https://leetcode.com/problems/last-stone-weight-ii/?envType=list&envId=55ac4kuc](https://leetcode.com/problems/last-stone-weight-ii/?envType=list&envId=55ac4kuc)  
 14. [https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/?envType=list&envId=55ac4kuc](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/?envType=list&envId=55ac4kuc)
+
+
+---- 
+[[Priority Queue]]
