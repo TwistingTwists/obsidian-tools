@@ -26,4 +26,21 @@ WHo we are. What we are looking for do?
 - taking action - is hard - right team / right people is hard . so we have connections --- is the SKILL SET. raising capital is skill set. investors see and they want
 - WANT to raise 30m usd. 
 	- get proof of concept + delivery guarantee
-- 
+
+
+
+- team player -- 
+	- communication -- timely. committing -- to the decision.
+	- ego is good. and making money.
+
+
+
+Next Steps: 
+- make a brief made -- specifics of what am I thinking
+	- 
+- two ways about money
+	- as employee - make software and be done.
+	- LONG TERM -- killer team -- continue building team out -- 
+
+
+- financially ---  
