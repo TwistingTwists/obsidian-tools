@@ -76,3 +76,8 @@ https://www.youtube.com/playlist?list=PLg38siQiGwWHdLUMo_UIPlYTh5cxTWRSB
 | ----- | ------------ |
 |       |              |
 
+##### ColBERT and Ragatouille 
+https://www.youtube.com/watch?v=XRPP5LHHk0o
+https://vishalbakshi.github.io/blog/posts/2025-03-12-RAGatouille-ColBERT-Indexing-Deep-Dive/
+https://github.com/jina-ai/late-chunking
+https://github.com/lancedb/vectordb-recipes/blob/main/examples/Advanced_RAG_Late_Chunking/Late_Chunking_(Chunked_Pooling).ipynb
