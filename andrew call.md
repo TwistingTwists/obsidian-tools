@@ -43,4 +43,4 @@ Next Steps:
 	- LONG TERM -- killer team -- continue building team out -- 
 
 
-- financially ---  
+- Financially ---  
