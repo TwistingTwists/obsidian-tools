@@ -13,6 +13,7 @@ tags:
 | --- | -------------------------------------------------------------------------------------------------------------------------------- | --- |
 |     | https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying |     |
 |     | https://youtu.be/RFmajOeUKnE?t=946<br><br>Sirupsen turbopuffer video                                                             |     |
+|     | https://neon.tech/blog/paxos                                                                                                     |     |
 |     | https://blog.mbrt.dev/posts/transactional-object-storage/                                                                        |     |
 |     | https://medium.com/innovationendeavors/s3-as-the-universal-infrastructure-backend-a104a8cc6991                                   |     |
 |     | https://avi.im/blag/2024/s3-log/                                                                                                 |     |
