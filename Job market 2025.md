@@ -63,9 +63,10 @@ tags:
 ### Applications  
 
 
-|                                                                                                                                     |                             |                                               |
-| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------------------------------------------- |
-| [LINK](https://jobs.ashbyhq.com/sentilink/887c3188-9c56-413b-b2f9-1be905174932?locationId=52552c09-406e-4ae8-b119-31e43d926e63<br>) | SentiLink                   | <input type="checkbox" unchecked id="98f944"> |
-| [LINK](https://www.databricks.com/company/careers/engineering/senior-software-engineer---search-7841782002)                         | [[Databricks - SWE search]] | <input type="checkbox" unchecked id="62e216"> |
-| [LINK](https://www.databricks.com/company/careers/engineering/senior-software-engineer---data-platform-7601580002)                  | databricks - data platform  | <input type="checkbox" unchecked id="663f29"> |
+|                                                                                                                                     |                               |                                               |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | --------------------------------------------- |
+| [LINK](https://jobs.ashbyhq.com/sentilink/887c3188-9c56-413b-b2f9-1be905174932?locationId=52552c09-406e-4ae8-b119-31e43d926e63<br>) | SentiLink                     | <input type="checkbox" unchecked id="98f944"> |
+| [LINK](https://www.databricks.com/company/careers/engineering/senior-software-engineer---search-7841782002)                         | [[Databricks - SWE search]]   | <input type="checkbox" unchecked id="62e216"> |
+| [LINK](https://www.databricks.com/company/careers/engineering/senior-software-engineer---data-platform-7601580002)                  | databricks - data platform    | <input type="checkbox" unchecked id="663f29"> |
+| LINK                                                                                                                                | [[databrick - swe - backend]] |                                               |
 
