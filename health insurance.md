@@ -75,10 +75,18 @@ libraries:
 	- hdfc ergo (addon) - unlimited  
 	- aditya - unlimited (also carry over the left over in previous claim)
 		- Extra 10L available throughout policy
-- mandatory add on 
-	- care - mandatory add on - 
+ 
 
 - HOSPITALIZATION
 	- 10-jan : 10L gone
 	- 12-jan : 10L again
-	- 
+
+
+network hospitals (cashless) + non-network hospitals (NOT cashless)
+
+
+|                       | hdfc                             | birla                                        | care                                   |
+| --------------------- | -------------------------------- | -------------------------------------------- | -------------------------------------- |
+| annual health checkup | > 1yr <br><br>5000 reimbursement | > 30 d                                       | >30d <br><br>after add on <br>cashless |
+| restoration           |                                  | additional +10L  available throughout policy |                                        |
+|                       |                                  |                                              |                                        |
