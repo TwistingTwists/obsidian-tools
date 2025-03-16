@@ -56,8 +56,29 @@ libraries:
 #### Recommendation
 
 
-|                           |                                                             |
-| ------------------------- | ----------------------------------------------------------- |
-| aditya birla (newwwwww)   |                                                             |
-| claim settlement ratio () | - From ANNUAL_REPORT  - Where does the data come from?<br>- |
-| amount settlement ratio   | - From ANNUAL_REPORT - <br><br>96% - hdfc ergo              |
+|                         |                                             |
+| ----------------------- | ------------------------------------------- |
+| aditya birla (newwwwww) |                                             |
+| claim settlement ratio  | - From ANNUAL_REPORT <br>-                  |
+| amount settlement ratio | - From ANNUAL_REPORT<br><br>96% - hdfc ergo |
+| secure benefit          |                                             |
+|                         |                                             |
+### HDFC ergo + care + aditya birla
+
+- Room rent capping / copayment  / consumables covered
+- Bonus is not taken back even if you make a claim
+- care + hdfc  (deafult bonus) => 50% each year upto 100% 
+- care addon (bonus) - 100% each year upto 500% 
+- care addon - consumable 
+- restoration
+	- care - unlimited - 
+	- hdfc ergo (addon) - unlimited  
+	- aditya - unlimited (also carry over the left over in previous claim)
+		- Extra 10L available throughout policy
+- mandatory add on 
+	- care - mandatory add on - 
+
+- HOSPITALIZATION
+	- 10-jan : 10L gone
+	- 12-jan : 10L again
+	- 
