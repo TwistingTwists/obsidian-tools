@@ -1,4 +1,10 @@
+---
+tags: 
+libraries:
+---
 
+
+- if change pincode, update health insurance policy insurer.
 
 |                                                                                                         |            |                                             |
 | ------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------- |
@@ -32,3 +38,26 @@
 | at_home_hospitalisatin                                                          | 10L                        |           |                                                          |
 
 
+### Common waiting periods
+
+|     |                                          |
+| --- | ---------------------------------------- |
+| 30d | accident                                 |
+| 2y  | specific illness<br>slow growing disease |
+| 3y  | pre-existing disease                     |
+
+
+
+|                                         |                                                           |
+| --------------------------------------- | --------------------------------------------------------- |
+| loading charge - premium by the company | 10-40% <br><br>medical condition / BMI / lifestyle habits |
+| standard exclusion (NEVER COVERED)      | substance abuse, suicide etc.                             |
+
+#### Recommendation
+
+
+|                           |                                                             |
+| ------------------------- | ----------------------------------------------------------- |
+| aditya birla (newwwwww)   |                                                             |
+| claim settlement ratio () | - From ANNUAL_REPORT  - Where does the data come from?<br>- |
+| amount settlement ratio   | - From ANNUAL_REPORT - <br><br>96% - hdfc ergo              |
