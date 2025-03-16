@@ -58,3 +58,14 @@ tags:
 | databricks - # <br><br>[Senior Software Engineer - Data Platform](https://www.databricks.com/company/careers/engineering/senior-software-engineer---data-platform-7647369002) | - 6+ years of industry experience <br>- 4+ years of experience providing technical leadership on large projects similar to the ones described above - ETL frameworks, metrics stores, infrastructure management, data security.<br>- Experience building, shipping and operating reliable multi-geo data pipelines at scale.<br>- Experience working with and operating workflow or orchestration frameworks, including open source tools like Airflow and DBT or commercial enterprise tools.<br>- Experience with large-scale messaging systems like Kafka or RabbitMQ or commercial systems.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 
+
+
+### Applications  
+
+
+|                                                                                                                                     |                             |                                               |
+| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------------------------------------------- |
+| [LINK](https://jobs.ashbyhq.com/sentilink/887c3188-9c56-413b-b2f9-1be905174932?locationId=52552c09-406e-4ae8-b119-31e43d926e63<br>) | SentiLink                   | <input type="checkbox" unchecked id="98f944"> |
+| [LINK](https://www.databricks.com/company/careers/engineering/senior-software-engineer---search-7841782002)                         | [[Databricks - SWE search]] | <input type="checkbox" unchecked id="62e216"> |
+| [LINK](https://www.databricks.com/company/careers/engineering/senior-software-engineer---data-platform-7601580002)                  | databricks - data platform  | <input type="checkbox" unchecked id="663f29"> |
+
