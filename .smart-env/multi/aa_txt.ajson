@@ -1,2 +1,3 @@
 
 "smart_sources:aa.txt": {"path":"aa.txt","last_embed":{"hash":null},"embeddings":{"TaylorAI/bge-micro-v2":{"last_embed":{"hash":"daee1a0bd6d8b5170ea88a2c07d264210ca8ab2539959913cc5fd294c5701284"}}},"last_read":{"hash":"daee1a0bd6d8b5170ea88a2c07d264210ca8ab2539959913cc5fd294c5701284","at":1742188634363},"class_name":"SmartSource"},
+"smart_sources:aa.txt": {"path":"aa.txt","last_embed":{"hash":null},"embeddings":{"TaylorAI/bge-micro-v2":{"last_embed":{"hash":"daee1a0bd6d8b5170ea88a2c07d264210ca8ab2539959913cc5fd294c5701284"}}},"last_read":{"hash":"daee1a0bd6d8b5170ea88a2c07d264210ca8ab2539959913cc5fd294c5701284","at":1742188634363},"class_name":"SmartSource"},
