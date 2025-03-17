@@ -19,6 +19,12 @@ Aspects of Clear Communication
 
 ----
 
+### Aspects of Clear Communication
+
+- WHAT is happening (reality). What are your preferences.
+	- during interview, if you are struggling to get to one answer, "I am considering two approaches A and B. I am leaning towards A because ... " -- helps to widen the scope + ack your thought process during the same.
+- 
+
 ### Be Open, Be Honest, Be Curious
 
 - Are they good listeners?

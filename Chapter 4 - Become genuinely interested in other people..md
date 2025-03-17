@@ -30,3 +30,5 @@ Don't judge
 | **A family member reveals they’ve made a mistake.**         | _"How could you let that happen? You should’ve known better."_   | _"We all make mistakes. What do you think you’ve learned from it?"_   |
 
 By replacing judgmental responses with ***open-ended, curious, and empathetic*** ones, you create space for understanding and meaningful dialogue.
+
+
