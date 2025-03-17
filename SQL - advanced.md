@@ -2,6 +2,16 @@
 tags:
   - reading
 ---
+
+
+| source                                           |     |
+| ------------------------------------------------ | --- |
+| https://www.crunchydata.com/developers/tutorials |     |
+| https://www.windowfunctions.com/                 |     |
+| https://use-the-index-luke.com/                  |     |
+| https://pgexercises.com/                         |     |
+
+
 Let’s explore window functions in SQL by building examples of increasing complexity. I’ll use a simple dataset and gradually introduce the nuances of window function syntax—PARTITION BY, ORDER BY, frame specifications (ROWS, RANGE, GROUPS), and exclusions. Each example will highlight a specific feature or variation. We'll assume a table called sales with the following structure and data:
 
 sql
