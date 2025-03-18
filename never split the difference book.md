@@ -48,4 +48,12 @@ tags:
 		- adjectives
 		- positives -- flip side is negative (yin-yang)
 			- e.g. if someone values integrity => betrayal is negative
-	- 
+
+
+EMPATHY  - describing and demonstrating and understanding of 
+	- needs, interests and perspective of your counterpart without necessarily agreeing with it. 
+	- it is not about liking / sympathy in any way.
+- 
+
+[Lex Friedman - chris voss](https://www.youtube.com/watch?v=8EguLJgkc54)
+- 
