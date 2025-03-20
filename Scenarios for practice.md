@@ -4,17 +4,23 @@ tags:
   - practice
 ---
 
+#flashcards/communications/managers
+
+Responsbilities of Tech Lead
+?
 Tech lead -> no authority + lead too! => depends on Tech lead to justify the situation
-- tech excellence - product , domain , mentorship 
-- impact and effort estimation -- for completion 
-	- effort ( and dependency) + infra 
+- tech excellence - product , domain , mentorship
+- impact and effort estimation -- for completion
+	- effort ( and dependency) + infra
 - cross team collab -- foster connections (QA, infra)
-	- show importance, ask ahead of time, follow ups 
-- managing up 
-	- Balance PM vs EM 
+	- show importance, ask ahead of time, follow ups
+- managing up
+	- Balance PM vs EM
 	- PM - data backed decision - ask critical questions  + data
 	- planning quarter - list manage and approve
 	- EM - ask for resource allocation
+<!--SR:!2025-03-23,3,250-->
+
 
 
 ### Mentoring juniors 
