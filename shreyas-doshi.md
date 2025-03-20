@@ -8,17 +8,22 @@ Source = https://www.productalmanac.com/
 
 Why is it hard?
 ?
-1) an inability to be present 
-2) the fear of being wrong 
-3) a desire for validation 
-4) a feeling of superiority 
-5) a lack of curiosity 
+1) an inability to be present
+2) the fear of being wrong
+3) a desire for validation
+4) a feeling of superiority
+5) a lack of curiosity
 6)  the urge to impress
 "Communication would be vastly improved if everyone who wrote and spoke were content to be understood without needing to be admired."
+<!--SR:!2025-03-23,3,252-->
 
 
-One trick to get good at listening is to ==pay intense attention to the spaces between utterances==. Next Step is to ==once they are done talking, take a few seconds or minutes to collect your thoughts (I usually just ask “may I take a minute to reflect on what you’ve said?”) 5) get comfortable with the silence that ensues==. First step after contemplation should be ==start your response by summarizing what you heard==. make sure that ==focus on the most salient point you want to make==. and at last, ==when you’re done, ask “what do you think?” or “do tell me if I am wrong” or similar (remember, your tone & the surrounding context matters==
-<!--SR:!2000-01-01,1,250!2025-03-23,3,250!2000-01-01,1,250!2025-03-24,4,270!2000-01-01,1,250-->
+FIRST TRICK to get good at listening is to ==pay intense attention to the spaces between utterances==.
+NEXT STEP IS ==once they are done talking, take a few seconds or minutes to collect your thoughts (I usually just ask “may I take a minute to reflect on what you’ve said?”) 5) get comfortable with the silence that ensues==.
+AFTER CONTEMPLATION YOU SHOULD ==start your response by summarizing what you heard==.
+MAKE SURE that ==focus on the most salient point you want to make==.
+AT LAST, ==when you’re done, ask “what do you think?” or “do tell me if I am wrong” or similar (remember, your tone & the surrounding context matters==
+<!--SR:!2025-03-23,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 
 
