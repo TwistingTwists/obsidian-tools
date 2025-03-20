@@ -21,3 +21,17 @@ Network: $0.01 / GB / month
 
 ---
 
+
+Sequential SSD read (8 KiB)  ---
+ Sequential SSD write, -fsync (8KiB) ---
+ Random SSD Read (8 KiB)
+ Random HDD Read (8 KiB)  
+ ?
+ 1μs
+ 10 μs
+ 100 μs
+ 10 ms 
+<!--SR:!2025-03-23,3,250-->
+
+
+---
