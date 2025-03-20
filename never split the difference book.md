@@ -42,4 +42,4 @@ EMPATHY  - describing and demonstrating and understanding of
 - 
 
 [Lex Friedman - chris voss](https://www.youtube.com/watch?v=8EguLJgkc54)
-- 
+
