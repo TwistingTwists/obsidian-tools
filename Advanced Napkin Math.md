@@ -1,7 +1,4 @@
----
-tags:
-  - spaced_rep
----
+
 
 #flashcards/system_design/napkin_math
 
@@ -23,3 +20,4 @@ Network: $0.01 / GB / month
 <!--SR:!2025-03-23,3,250-->
 
 ---
+
