@@ -4,6 +4,7 @@
 
 
 Cloud Computing costs are:
+
 CPU:  --  / core / month
 Memory:   --  / GB / month
 SSD:--    / GB / month
@@ -42,3 +43,4 @@ Sequential SSD read (8 KiB)  --- 1μs
 <!--SR:!2025-03-21,1,230-->
 
 ---
+
