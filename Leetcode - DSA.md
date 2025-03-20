@@ -4,7 +4,7 @@ tags:
 ---
 
 ----
-
+I love you ...❤️
 
 pattern master list --- https://algo.monster/problems/stats
 
