@@ -2,7 +2,7 @@
 tags:
   - interview
 ---
-## Consumer Health & Lag
+# Consumer Health & Lag
 
 Consumer Lag → Measures the difference between produced and consumed messages.
 
@@ -182,7 +182,7 @@ max.poll.records=500
 - Grafana/Prometheus with `jmx_exporter` is **essential** for proactive monitoring.  
 
 
-# Optimizing Kafka Consumer Performance
+## Optimizing Kafka Consumer Performance
 
 | **Optimization Area** | **Key Considerations** | **Best Practices** |
 |----------------------|----------------------|----------------------|
@@ -191,5 +191,7 @@ max.poll.records=500
 | **Parallel Processing** | - Single-threaded consumers might **process messages too slowly**. | - Use **multi-threading** inside consumers: <br> Example: Python ThreadPoolExecutor for parallel processing. |
 | **Poll Interval (`max.poll.interval.ms`)** | - If a consumer takes **longer than this interval**, it is removed. <br> - Low values cause **rebalance storms**. | - Set **max.poll.interval.ms** to **2× processing time** per batch. <br> Example: If processing time is **40s**, set: <br> `max.poll.interval.ms=80000` |
 | **Partition Assignment Strategy** | - Default `RangeAssignor` can cause **uneven partition distribution**. <br> - Frequent rebalancing slows down consumers. | - Use `CooperativeStickyAssignor` to reduce rebalances: <br> `partition.assignment.strategy=org.apache.kafka.clients.consumer.CooperativeStickyAssignor` |
+
+
 
 
