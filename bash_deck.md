@@ -11,7 +11,7 @@ sed '/^\s*[a-zA-Z].*:\s.*/p;d'
 ```
 ?
  This command filters the lines that match a specific pattern. The pattern looks for lines that start with zero or more spaces, followed by one or more alphabetic characters, followed by a colon and a space. The p;d at the end of the command tells sed to print the matching lines and delete all others.
-<!--SR:!2025-03-21,1,230-->
+<!--SR:!2025-03-23,2,230-->
 
 ---
 
@@ -37,7 +37,7 @@ sudo mount -o loop /media/crucial_ssd/android_dev.img /mnt/android_dev
 sudo chown $USER:$USER /mnt/android_dev
 
 ```
-<!--SR:!2025-03-21,1,228-->
+<!--SR:!2025-03-24,3,248-->
 
 
 

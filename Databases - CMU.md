@@ -31,6 +31,42 @@ Database Query Optimisations
 UNION ALL vs LEFT JOIN 
 
 
+
+---
+
+
+### Cassandra + Leaderless
+
+##### Strongly consistent read
+
+R + W > N
+
+=> ONE overlap Node among R/W
+
+→ Quorums
+
+
+###### Recovery
+
+- anti Entropy (Sync from peers)
+
+- Read repair = Only if reading ~ all keys frequently
+
+
+
+##### Scaling R/W
+
+- W + R > N → W = N - 1, R = 1
+
+- read scaled
+
+
+Sloppy Quorum => Strongly consistent read? (☹) ✗
+
+
+--- 
+
+
 ### Ecto Repo optimisation for buffered writer 
 
 

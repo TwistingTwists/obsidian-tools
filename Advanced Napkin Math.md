@@ -18,7 +18,8 @@ SSD: $0.1 / GB / month
 Disk: $0.01 / GB / month
 Cloud-storage (S3): $0.02 / GB / month
 Network: $0.01 / GB / month
-<!--SR:!2025-03-23,3,250-->
+<!--SR:!2025-03-24,3,250-->
+
 
 ---
 
@@ -40,7 +41,7 @@ Sequential SSD read (8 KiB)  --- 1μs
  Random SSD Read (8 KiB) --  100 μs
  Random HDD Read (8 KiB)  --  10 ms
  TCP echo server (localhost) -- 15  μs
-<!--SR:!2025-03-21,1,230-->
+<!--SR:!2025-03-24,3,250-->
 
 ---
 

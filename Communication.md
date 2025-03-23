@@ -117,3 +117,19 @@ This requires an inspiring vision, strong communication skills, some degree of c
 4.  **Focusing on Their Needs and Motivations (Chapters 3, 8 & 19):** I would try to understand what motivates them, and tailor my approach to align with their needs and desires. By focusing my interactions on their interests, I can more effectively communicate and collaborate, because I am appealing to them from their perspective.
 
 5.  **Positive Framing and Constructive Approach (Chapters 13, 22, 23 & 28):** When dealing with disagreements, I would start with a friendly approach, highlighting their strengths. If correction is needed, I would do so indirectly, focusing on making them feel that their errors are easily corrected. By focusing on positive aspects, I am encouraging a good outcome.
+
+--- 
+
+Feeling heard is important. She has chores to do. And doesn't want to do them. "Man utar gaya hai"
+
+Sharing difficulties of her mental model and life. 
+
+So
+### Emotion-Based Motivation
+Why, small-step, vision
+
+Future Visioning – “Imagine how good it’ll feel once this is done.”
+
+Self-Compassion Talk – “You don’t have to feel like doing it, you just have to take the first step.”
+
+Identify Her Why – “What’s one reason this matters to you?” Bringing it back to her personal reasons can create motivation.

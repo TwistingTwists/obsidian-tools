@@ -23,7 +23,7 @@ NEXT STEP IS ==once they are done talking, take a few seconds or minutes to coll
 AFTER CONTEMPLATION YOU SHOULD ==start your response by summarizing what you heard==.
 MAKE SURE that ==focus on the most salient point you want to make==.
 AT LAST, ==when you’re done, ask “what do you think?” or “do tell me if I am wrong” or similar (remember, your tone & the surrounding context matters==
-<!--SR:!2025-03-23,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
+<!--SR:!2025-03-23,3,250!2025-03-24,3,250!2025-03-24,3,250!2025-03-24,3,250!2025-03-24,3,250-->
 
 
 
