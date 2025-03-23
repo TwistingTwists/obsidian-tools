@@ -195,3 +195,43 @@ max.poll.records=500
 
 
 
+### **Setting Up Monitoring for Kafka Consumer Lag in Production**
+
+Consumer lag is a critical metric in Kafka that indicates how many messages are pending consumption. If lag grows too large, it means consumers aren’t keeping up with producers, which can cause **delays in processing, data loss risks, or system bottlenecks**.
+
+To effectively monitor consumer lag, you need to track key metrics and use the right tools.
+
+---
+
+## **1️⃣ Key Metrics to Monitor for Consumer Lag**
+
+### **a) Consumer Lag (`kafka_consumer_group_lag`)**
+
+- **Formula:** 
+						`Lag = Latest Offset − Consumer Offset`
+						
+- **Meaning:** Measures how many messages are waiting to be processed by the consumer.
+- **Alerting Thresholds:**
+    - **🚨 Critical:** If lag continuously increases or remains above a threshold for a long period.
+    - **⚠️ Warning:** If lag is unusually high but stabilizing.
+
+### **b) `records-lag-max`**
+
+- **Meaning:** The maximum lag across all partitions for a consumer group.
+- **Why It Matters:** Helps identify which partition is experiencing the worst lag.
+
+### **c) `records-lag` (Per-Partition Lag)**
+
+- **Why It Matters:** Identifies specific partitions with high lag.
+
+### **d) `consumer-fetch-rate` (`kafka_consumer_fetch_manager_metrics_records_consumed_rate`)**
+
+- **Meaning:** Measures how fast the consumer is processing messages.
+- **Alerting Thresholds:** Drops in this rate suggest slow consumers.
+
+### **e) `poll-idle-ratio` (`kafka_consumer_fetch_manager_metrics_fetcher_idle_percent`)**
+
+- **Meaning:** The percentage of time the consumer is idle instead of processing messages.
+- **Why It Matters:** A high value (>80%) indicates inefficient polling.
+
+---

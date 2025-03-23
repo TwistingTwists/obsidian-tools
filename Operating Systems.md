@@ -8,3 +8,6 @@ covered from OSTEP book - video lectures
 
 ---- 
 [[Investigation on Linux memory]]]
+
+
+- Solid understanding of basic systems operations (disk, network, operating systems, etc)
