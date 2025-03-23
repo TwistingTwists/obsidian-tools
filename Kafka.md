@@ -2,7 +2,7 @@
 tags:
   - interview
 ---
-### Consumer Health & Lag
+## Consumer Health & Lag
 
 Consumer Lag → Measures the difference between produced and consumed messages.
 
