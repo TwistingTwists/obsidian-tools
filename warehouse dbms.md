@@ -9,6 +9,15 @@ DBMS
 
 
 
+resources 
+https://iimm.org/wp-content/uploads/2019/12/Logistics-and-Warehousing-Management.pdf
+
+https://assets.ctfassets.net/hfb264dqso7g/4ieoxqNmjvWwOOBbL2e6rk/3f3518336e7766dd720e5c417324235e/Warehouse-Management-PDF.pdf
+https://www.warehouse-science.com/book/editions/wh-sci-0.98.1.pdf
+https://adityabonavasius.wordpress.com/wp-content/uploads/2014/03/michael_ten_hompel_thorsten_schmidt_warehouse_mbookfi-org.pdf
+https://www.mtapsprogram.org/wp-content/uploads/2024/01/DOH_WOM-Manual.pdf
+https://www.egyankosh.ac.in/bitstream/123456789/84227/1/Unit-1.pdf
+https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/003-Inventory-Control-and-Management-Donald-Waters-Edisi-2-2003.pdf
 
 
 ---
