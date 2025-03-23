@@ -17,6 +17,16 @@ How to improve empathetic communication
 
 Aspects of Clear Communication
 
+---
+
+You will take 10000 decisions a year. They should compound. 
+
+100 decisions a month, 3 a day. Min. 
+
+They MUST compound. 
+
+Every decision has a time and space to play out.  
+
 
 ----
 
