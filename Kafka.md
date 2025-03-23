@@ -32,9 +32,13 @@ Failed Fetch Requests → Identifies consumers struggling to pull data.
 - `max.poll.interval.ms` is too small, causing unnecessary rebalances.  
 - Solution: Fine-tune `max.poll.records` and `max.poll.interval.ms`.  
 
-✅ **Partition Imbalance:**  
+✅ **Partition Imbalance :**  
 - If a few consumers handle **too many partitions**, they will fall behind.  
 - Solution: Use a **better partition assignment strategy** like `RangeAssignor`, `RoundRobinAssignor`, or `CooperativeStickyAssignor`.  
+
+✅ **<< Data skew in partitions >> :**  
+- If the partition key does not distribute data uniformly, some partitions can have more data than others.
+ 
 
 ✅ **Network Latency or Broker Overload:**  
 - Consumers might be **facing delays** due to **network congestion** or **slow broker response**.  
