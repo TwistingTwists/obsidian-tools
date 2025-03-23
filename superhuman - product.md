@@ -6,6 +6,8 @@ tags:
 
 [Source](https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra?publication_id=10845&post_id=158951319&isFreemail=true&r=1h6su3&triedRedirect=true)
 
+https://www.youtube.com/watch?v=0igjSRZyX-w
+
 ## Superhuman's secret to success: Ignoring most customer feedback, manually onboarding every new user, obsessing over every detail, and positioning around a single attribute: speed | Rahul Vohra (CEO)
 
 **Rahul Vohra** is the founder and CEO of Superhuman. Prior to Superhuman, Rahul founded Rapportive, the first Gmail plug-in to scale to millions of users, which he sold to LinkedIn in 2012. He is also a prominent angel investor, and his fund has invested $50 million in over 120 companies, including Placer, Supabase, Mercury, Zip, ClassDojo, and Writer.
