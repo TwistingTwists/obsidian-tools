@@ -33,8 +33,6 @@ tags:
 	- links to resources - runbook / past incident reports / monitoring dashboards
 - Post-incident verification
 	- which things to monitor - api error rate down? / logs etc 
- 
-### Tip: 
 
 
 ### Hygiene: 
@@ -131,6 +129,23 @@ Skipping **verification steps**:
 Not **embedding references**:  
 > *“Mitigation: Applied ‘High CPU Load’ runbook (Confluence link).  
 > Key steps: Scaled worker nodes from 5 → 10, cleared stuck queues (see CLI command log).”*  
+
+### **6. Bad vs. Good Impact Statement**  
+**Bad:**  
+> *“There was a major outage. Users couldn’t use the app. We fixed it quickly.”*  
+
+**Mistakes:**  
+- Vague (“major,” “quickly”).  
+- No scope, metrics, or user symptoms.  
+- Zero actionable data.  
+
+**Good:**  
+> **Impact Breakdown:**  
+> - **Scope:** Users in US region on Android devices (v12+).  
+> - **Severity:** 90% of login attempts failed (15:00–16:30 UTC).  
+> - **User Symptoms:** “Invalid credentials” errors despite correct passwords.  
+> - **Business Impact:** 50k failed logins, 10% drop in active hourly users.  
+> - **Root Cause:** OAuth token validation timeout (30s → 5s in config).  
 
 ---
 
