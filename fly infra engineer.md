@@ -11,10 +11,10 @@ tags:
 
 - Route customer complaints 
 	- (e.g., “Payment delays? Check Redis cache metrics”).
+- Monitor system performance to prevent issues.
 - Troubleshoot technical issues by analyzing logs and metrics.
 - Document solutions and update the knowledge base.
 - Escalate complex problems to engineering teams.
-- Monitor system performance to prevent issues.
 - Provide training and support documentation to customers.
 
 ### What does the support engineer need?
@@ -32,11 +32,13 @@ tags:
 	- mitigation = Are there workarounds? Should they restart a service?
 	- links to resources - runbook / past incident reports / monitoring dashboards
  
-Tip: 
-
+### Tip: 
 Quantify: **numbers**, **timeframes**, and **percentages**
 
 
 
-Hygiene: 
+### Hygiene: 
 - Scannable message
+
+
+### 
