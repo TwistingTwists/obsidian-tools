@@ -7,7 +7,7 @@ tags:
 
 - OS event loop - in rust?? epoll to listen fd 
 - writing multi threaded - redis
-- connection pool 
+- [[connection pool ]]
 - state machine for managing resumable FOTA uploads
 - pubsub in rust - event_bus_tokio  
 - (todo) wal implementation
