@@ -2,6 +2,14 @@
 tags:
   - interview
 ---
+1. Summary  
+2. Timeline (14:00–15:30 UTC)  
+3. Impact (Customers, Metrics)  
+4. Root Cause (Technical breakdown)  
+5. Resolution Steps  
+6. Next Steps (Prevention, Support Actions)  
+7. Appendix (Logs, Graphs, Commands)  
+
 
 ### Basics
 
