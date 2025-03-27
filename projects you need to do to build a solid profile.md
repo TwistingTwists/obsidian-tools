@@ -31,4 +31,6 @@ tags:
 
 Practising LLD 
 - [[LLD]]
- 
+
+Improve writing - start from what do users want.
+Fly proxy - corrosion?
