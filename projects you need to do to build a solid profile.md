@@ -33,4 +33,8 @@ Practising LLD
 - [[LLD]]
 
 Improve writing - start from what do users want.
-Fly proxy - corrosion?
+
+
+https://github.com/valyentdev/ravel
+https://github.com/fjall-rs/fjall
+https://github.com/wilsonzlin/queued/blob/master/queued/src/endpoint/mod.rs
