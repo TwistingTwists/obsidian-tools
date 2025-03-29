@@ -3,6 +3,38 @@ tags:
   - startups
 ---
 
+----
+
+#### Gaurav's customer product
+
+
+BRAND usualy works with contract basis for the tool. but not 'mid players' -- free tool which does 5% payout.
+
+
+
+Affiliate -- sales data. poore india mei kya khareed rahe hai. - get a sense of what sells. --- analytics tool for the brand. <<<< 
+
+
+
+Maximise the payout. 
+identify factors. and optmise them
+
+
+
+Url - ip location track 
+- south delhi? / north delhi?
+- WHICH ares to target?
+
+
+Analytics 
+- time of day, order amout
+
+
+---> 1L usd to 10k usd per month
+
+----
+
+
 
   Source: Lenny's podcast - Wiz
 
