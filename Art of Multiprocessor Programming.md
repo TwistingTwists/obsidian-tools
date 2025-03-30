@@ -14,8 +14,8 @@ due: 2024-11-10
 
 ###### 001 - Design Concurrent Queue
 
-way01 
-- circular buffer 
+way01 - Sequential Specification
+- concurrency via locks on circular buffer 
 - lock -- single shared lock for all values
 - pointer to head and tail 
 
