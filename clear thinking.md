@@ -9,4 +9,6 @@ What should week by week / hour by hour my life should look like?
 - dream week 
 - obstacle
 
-pen
+pen-paper - draw your vision out. draw it out -- with lines, graphs , words, freeform
+
+
