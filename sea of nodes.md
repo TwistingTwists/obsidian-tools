@@ -52,3 +52,5 @@ https://v8.dev/blog/leaving-the-sea-of-nodes?
 
 
 # Basics again - making a Compiler with JIT
+
+todo
