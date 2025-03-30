@@ -8,6 +8,8 @@ aliases:
 cssclasses:
 ---
 
+> Computer architecture isn’t telling a machine what to do. It’s establishing the possibility that it can be told anything at all.
+
 
 ### 003 - Approach to system design
 * Components 
