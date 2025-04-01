@@ -3,6 +3,13 @@ tags:
   - study
 due: 2024-05-31
 ---
+Here is the plan: 
+
+1. revise DDIA 
+2. do the MIT course - wtih assignment in golang
+3. read kafka docs - very detailed docs - the concepts that are mentioned - you can read them from internet and boosk 
+
+
 Distributed systems courses here -- MIT dist sys course
 https://github.com/prakhar1989/awesome-courses?tab=readme-ov-file#programming-languages--compilers
 

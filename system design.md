@@ -7,6 +7,11 @@ aliases:
   - interview prep
 cssclasses:
 ---
+https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#system-design-topics-start-here
+> just finish above for interview purpose. 
+
+
+
 
 > Computer architecture isn’t telling a machine what to do. It’s establishing the possibility that it can be told anything at all.
 
