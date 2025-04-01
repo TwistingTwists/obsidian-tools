@@ -12,7 +12,7 @@ https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#system-de
 
 
 
-Series from hellointerview
+## Series from hellointerview
 
 
 | topic                    | done? |
@@ -20,6 +20,9 @@ Series from hellointerview
 | url shortener + pastebin |       |
 |                          |       |
 |                          |       |
+
+[[DDIA Questions]]
+
 
 
 

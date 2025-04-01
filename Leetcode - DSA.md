@@ -13,6 +13,14 @@ binary patterns - https://leetcode.com/discuss/study-guide/786126/Python-Powerfu
 tree patterns - https://leetcode.com/discuss/study-guide/1337373/tree-question-pattern-2021-placement
 
 
+---
+https://www.interviewbit.com/coding-interview-questions/ | 300+ Must Do Coding Questions from Interviews | InterviewBit | Interviewbit
+https://www.interviewbit.com/courses/programming/arrays/ | Arrays - InterviewBit
+https://www.interviewbit.com/practice/ | Coding Practice | Coding Challenges - InterviewBit
+https://www.interviewbit.com/courses/system-design/ | System-design - Interviewbit
+https://www.interviewbit.com/courses/system-design/storage-scalability/ | Storage Scalability - InterviewBit
+
+
 ------
 
 HEAP 
