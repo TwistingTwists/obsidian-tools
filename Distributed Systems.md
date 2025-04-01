@@ -5,9 +5,18 @@ due: 2024-05-31
 ---
 Here is the plan: 
 
-1. revise DDIA 
-2. do the MIT course - wtih assignment in golang
-3. read kafka docs - very detailed docs - the concepts that are mentioned - you can read them from internet and boosk 
+1. Revise DDIA 
+2. Do the MIT course - with assignment in golang
+3. Read kafka docs - very detailed docs - the concepts that are mentioned - you can read them from internet and book
+
+
+
+| topic              | source                                                                                                               | completion                                    |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| consistency models | [Consistency Models 101](https://xzhu0027.gitbook.io/blog/misc/index/consistency-models-in-distributed-system ) <br> | <input type="checkbox" unchecked id="0a7eee"> |
+|                    | [https://jepsen.io/consistency](https://jepsen.io/consistency "https://jepsen.io/consistency")                       | <input type="checkbox" unchecked id="91b99a"> |
+|                    |                                                                                                                      |                                               |
+
 
 
 Distributed systems courses here -- MIT dist sys course

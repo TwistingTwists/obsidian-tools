@@ -13,9 +13,7 @@
 
 
 Revise DB stuff quickly 
-[https://xzhu0027.gitbook.io/blog/misc/index/consistency-models-in-distributed-system](https://xzhu0027.gitbook.io/blog/misc/index/consistency-models-in-distributed-system "https://xzhu0027.gitbook.io/blog/misc/index/consistency-models-in-distributed-system") 
 
-[https://jepsen.io/consistency](https://jepsen.io/consistency "https://jepsen.io/consistency")
 
  https://github.com/aphyr/distsys-class#an-introduction-to-distributed-systems 
   [https://martinfowler.com/articles/patterns-of-distributed-systems/](https://martinfowler.com/articles/patterns-of-distributed-systems/ "https://martinfowler.com/articles/patterns-of-distributed-systems/") [https://github.com/systemdesignfightclub/SDFC/tree/main](https://github.com/systemdesignfightclub/SDFC/tree/main "https://github.com/systemdesignfightclub/SDFC/tree/main")
