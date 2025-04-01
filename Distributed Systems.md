@@ -11,11 +11,11 @@ Here is the plan:
 
 
 
-| topic              | source                                                                                                               | completion                                    |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| consistency models | [Consistency Models 101](https://xzhu0027.gitbook.io/blog/misc/index/consistency-models-in-distributed-system ) <br> | <input type="checkbox" unchecked id="0a7eee"> |
-|                    | [https://jepsen.io/consistency](https://jepsen.io/consistency "https://jepsen.io/consistency")                       | <input type="checkbox" unchecked id="91b99a"> |
-|                    |                                                                                                                      |                                               |
+| topic              | source                                                                                                                                                                                   | completion                                    |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| consistency models | [Consistency Models 101](https://xzhu0027.gitbook.io/blog/misc/index/consistency-models-in-distributed-system ) , http://www.bailis.org/blog/linearizability-versus-serializability/<br> | <input type="checkbox" checked id="0a7eee">   |
+|                    | [https://jepsen.io/consistency](https://jepsen.io/consistency "https://jepsen.io/consistency")                                                                                           | <input type="checkbox" unchecked id="91b99a"> |
+|                    |                                                                                                                                                                                          |                                               |
 
 
 
