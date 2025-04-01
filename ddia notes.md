@@ -29,7 +29,12 @@ Martin also explains some of the book contents his [distributed system course](
         - Less convenient for simple one-off queries.
         - [http://www.learndatalogtoday.org](http://www.learndatalogtoday.org/).
 - [Column oriented storage and bitmap](https://danlebrero.com/2021/09/01/designing-data-intensive-applications-summary/#columnstorage).
+
 - Base64 encoding increases data size by 33%.
+> [!note]- calculation
+> A byte (8 bits) can represent **256 values** (0 to 255). Base64 works with **6-bit groups** instead of 8-bit groups. A 6-bit group can represent **64 values** (hence "Base64"). 
+> For every **3 bytes of input**, you get **4 bytes of output**.
+  
 - RPC/location transparency: there is no point to make a remote service look too much like a local object, because it is a fundamentally different thing.
 - Two operations are concurrent if neither “happens-before” the other.
 - Replication:
