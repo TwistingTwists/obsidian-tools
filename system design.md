@@ -12,6 +12,17 @@ https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#system-de
 
 
 
+Series from hellointerview
+
+
+| topic                    | done? |
+| ------------------------ | ----- |
+| url shortener + pastebin |       |
+|                          |       |
+|                          |       |
+
+
+
 
 > Computer architecture isn’t telling a machine what to do. It’s establishing the possibility that it can be told anything at all.
 

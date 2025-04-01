@@ -11,11 +11,19 @@ Here is the plan:
 
 
 
-| topic              | source                                                                                                                                                                                   | completion                                    |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| consistency models | [Consistency Models 101](https://xzhu0027.gitbook.io/blog/misc/index/consistency-models-in-distributed-system ) , http://www.bailis.org/blog/linearizability-versus-serializability/<br> | <input type="checkbox" checked id="0a7eee">   |
-|                    | [https://jepsen.io/consistency](https://jepsen.io/consistency "https://jepsen.io/consistency")                                                                                           | <input type="checkbox" unchecked id="91b99a"> |
-|                    |                                                                                                                                                                                          |                                               |
+| topic                                 | source                                                                                                                                                                                   | completion                                    |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| consistency models                    | [Consistency Models 101](https://xzhu0027.gitbook.io/blog/misc/index/consistency-models-in-distributed-system ) , http://www.bailis.org/blog/linearizability-versus-serializability/<br> | <input type="checkbox" checked id="0a7eee">   |
+|                                       | [https://jepsen.io/consistency](https://jepsen.io/consistency "https://jepsen.io/consistency")                                                                                           | <input type="checkbox" unchecked id="91b99a"> |
+|                                       | Read your writes                                                                                                                                                                         |                                               |
+| S3Tables                              | https://aws.amazon.com/blogs/aws/new-amazon-s3-tables-storage-optimized-for-analytics-workloads/<br><br>                                                                                 |                                               |
+|                                       | https://www.allthingsdistributed.com/2025/03/in-s3-simplicity-is-table-stakes.html                                                                                                       |                                               |
+| Copy on write                         | https://arpitbhayani.me/blogs/copy-on-write                                                                                                                                              |                                               |
+|                                       |                                                                                                                                                                                          |                                               |
+| hyperloglog                           |                                                                                                                                                                                          |                                               |
+| basics of networking (hellointerview) |                                                                                                                                                                                          |                                               |
+|                                       |                                                                                                                                                                                          |                                               |
+
 
 
 
