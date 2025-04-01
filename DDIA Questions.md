@@ -112,4 +112,324 @@ Here’s a curated list of 15 questions (with follow-ups) inspired by *Designing
 
 --- 
 
-Each question ties back to DDIA concepts while incorporating real-world challenges from the knowledge base (e.g., network unreliability , data consistency , service boundaries ). Let me know if you’d like to dive deeper into any!
+
+
+Here’s a structured list of **15 questions** (with follow-ups) covering key topics from *Designing Data-Intensive Applications* and testing deep understanding of distributed systems:
+
+---
+
+### **1. Data Models**  
+**Q:** Compare the relational and document data models. What are their trade-offs for modeling hierarchical data?  
+- **Follow-up 1:** How does schema flexibility in document databases impact long-term application maintenance?  
+- **Follow-up 2:** Why are many-to-many relationships harder to represent in document models, and how do relational databases handle them better?  
+
+---
+
+### **2. Storage Engines**  
+**Q:** Contrast LSM-trees and B-trees in terms of write/read performance and storage efficiency.  
+- **Follow-up 1:** Why are LSM-trees better for write-heavy workloads, and what are the downsides of compaction?  
+- **Follow-up 2:** How do B-trees handle on-disk fragmentation, and why might they struggle with high write throughput?  
+
+---
+
+### **3. Encoding & Evolution**  
+**Q:** How does Avro handle schema evolution compared to Protobuf/Thrift?  
+- **Follow-up 1:** Why does Avro require a schema registry, and how does it enable backward/forward compatibility?  
+- **Follow-up 2:** What are the trade-offs between dynamic typing (Avro) and static code generation (Protobuf)?  
+
+---
+
+### **4. Replication**  
+**Q:** Compare leader-based and multi-leader replication. When would you choose one over the other?  
+- **Follow-up 1:** How do conflict resolution strategies differ in multi-leader setups (e.g., last-write-wins vs CRDTs)?  
+- **Follow-up 2:** What are the challenges of read-after-write consistency in leaderless replication (e.g., Dynamo-style)?  
+
+---
+
+### **5. Partitioning**  
+**Q:** Explain strategies for partitioning data (key-range, hash-based) and rebalancing partitions.  
+- **Follow-up 1:** How does consistent hashing minimize data movement during rebalancing?  
+- **Follow-up 2:** How would you handle "hot keys" skewing load in a partitioned system?  
+
+---
+
+### **6. Transactions**  
+**Q:** What do ACID guarantees provide, and how do isolation levels (e.g., read committed, serializable) differ?  
+- **Follow-up 1:** Why is serializability hard to achieve in distributed systems, and what are alternatives (e.g., SSI)?  
+- **Follow-up 2:** How do optimistic vs. pessimistic concurrency control trade off performance and correctness?  
+
+---
+
+### **7. Distributed Challenges**  
+**Q:** Why are partial failures and unbounded network delays fundamental challenges in distributed systems?  
+- **Follow-up 1:** How do systems detect node failures (e.g., heartbeats vs. gossip protocols)?  
+- **Follow-up 2:** Why can’t you rely solely on synchronized clocks for ordering events?  
+
+---
+
+### **8. Consistency**  
+**Q:** Compare linearizability and eventual consistency. When is each appropriate?  
+- **Follow-up 1:** How do quorum reads/writes enforce strong consistency in Dynamo-style systems?  
+- **Follow-up 2:** Can you achieve linearizability without a consensus algorithm (e.g., using 2PC)?  
+
+---
+
+### **9. Consensus Algorithms**  
+**Q:** How does Raft simplify consensus compared to Paxos?  
+- **Follow-up 1:** How does Raft handle leader election and log replication during network partitions?  
+- **Follow-up 2:** What are the challenges of dynamic membership changes in consensus protocols?  
+
+---
+
+### **10. Batch Processing**  
+**Q:** Explain the MapReduce paradigm. How do modern frameworks (e.g., Spark) improve on it?  
+- **Follow-up 1:** How does batch processing achieve fault tolerance through immutable inputs and retries?  
+- **Follow-up 2:** Why is incremental processing (e.g., microbatching) a hybrid approach between batch and streaming?  
+
+---
+
+### **11. Stream Processing**  
+**Q:** What distinguishes event streams (e.g., Kafka) from traditional messaging systems?  
+- **Follow-up 1:** How do you handle event time vs. processing time in stream joins/windowing?  
+- **Follow-up 2:** What techniques enable exactly-once processing in streams (e.g., idempotence, transactional commits)?  
+
+---
+
+### **12. Fault Tolerance**  
+**Q:** How do replication and redundancy mitigate faults in distributed systems?  
+- **Follow-up 1:** What are the trade-offs between synchronous and asynchronous replication?  
+- **Follow-up 2:** How do systems handle correlated failures (e.g., zone outages)?  
+
+---
+
+### **13. Derived Data**  
+**Q:** Compare ETL pipelines and stream processors for maintaining derived data systems.  
+- **Follow-up 1:** How do you ensure eventual consistency between primary and derived stores?  
+- **Follow-up 2:** What challenges arise from late-arriving data in stream processing?  
+
+---
+
+### **14. Time & Ordering**  
+**Q:** Why are clocks and time critical in distributed systems, and how can they fail?  
+- **Follow-up 1:** How do logical clocks (e.g., Lamport clocks) provide ordering without physical time?  
+- **Follow-up 2:** What is clock skew, and how does it impact systems like Spanner’s TrueTime?  
+
+---
+
+### **15. CAP Theorem**  
+**Q:** Explain the CAP theorem’s trade-offs. Can a system be both CA during normal operation?  
+- **Follow-up 1:** In practice, how do systems like Cassandra (AP) and etcd (CP) align with CAP?  
+- **Follow-up 2:** Why is the “CA” combination only possible in a failure-free network?  
+
+---
+
+Below is a curated list of 15 challenging questions inspired by the topics in _Designing Data-Intensive Applications_ by Martin Kleppmann, along with two follow-up questions for each. These questions are designed to test and deepen your understanding of distributed systems as covered in the book.
+
+1. **Data Models and Query Languages:**
+    
+    - What are the trade-offs between using a relational versus a document data model in a distributed system?
+        
+        - How do schema evolution and query optimization challenges differ between these models?
+            
+        - In what scenarios might one model be preferred over the other in a high-scale environment?
+            
+2. **Storage and Retrieval:**
+    
+    - How do storage engines differ in terms of their architecture and performance for write-heavy versus read-heavy workloads?
+        
+        - What are the key design considerations when choosing between log-structured merge-trees and B-trees?
+            
+        - How do these differences impact latency and throughput in distributed environments?
+            
+3. **Encoding and Evolution:**
+    
+    - What challenges arise from changing data schemas in a live distributed system?
+        
+        - How can techniques like backward and forward compatibility help mitigate these challenges?
+            
+        - What role do data serialization formats (e.g., Avro, Protocol Buffers) play in this process?
+            
+4. **Replication:**
+    
+    - What are the main strategies for replication in distributed systems, and how do they affect consistency and availability?
+        
+        - How does leader-based replication differ from leaderless replication in terms of failure handling?
+            
+        - What impact do network partitions have on replication strategies?
+            
+5. **Partitioning (Sharding):**
+    
+    - How does partitioning improve scalability in distributed systems, and what are its potential pitfalls?
+        
+        - What are the differences between range-based and hash-based partitioning?
+            
+        - How can rebalancing or repartitioning be performed with minimal disruption?
+            
+6. **Consistency Models:**
+    
+    - How do various consistency models (strong, eventual, causal) influence system design in distributed environments?
+        
+        - What are the trade-offs between consistency and latency in global-scale systems?
+            
+        - How can one decide which consistency model is appropriate for a given application?
+            
+7. **Distributed Transactions:**
+    
+    - What mechanisms are used to ensure atomicity and consistency in distributed transactions?
+        
+        - How does the two-phase commit protocol work, and what are its limitations?
+            
+        - What alternatives exist for managing distributed transactions in modern systems?
+            
+8. **Fault Tolerance and Resilience:**
+    
+    - How does designing for fault tolerance influence the architecture of a distributed system?
+        
+        - What are the key strategies to ensure system resilience in the face of node failures?
+            
+        - How do concepts like redundancy and graceful degradation fit into this design?
+            
+9. **Leader Election and Coordination:**
+    
+    - Why is leader election critical in distributed systems, and what are some common algorithms used for it?
+        
+        - How does the Raft consensus algorithm simplify the implementation of leader election?
+            
+        - What are the challenges of maintaining consistency during leadership changes?
+            
+10. **Consensus Algorithms:**
+    
+    - How do consensus algorithms (e.g., Paxos, Raft) enable reliability in distributed systems?
+        
+        - What are the major differences between Paxos and Raft in terms of understandability and implementation complexity?
+            
+        - In what scenarios might one algorithm be favored over the other?
+            
+11. **Batch Processing vs. Stream Processing:**
+    
+    - What are the primary differences between batch processing and stream processing paradigms?
+        
+        - How does the choice between these paradigms affect data latency and system throughput?
+            
+        - What design considerations should be taken into account when building a hybrid system?
+            
+12. **Event Sourcing and CQRS:**
+    
+    - How do event sourcing and CQRS architectures help manage complex state in distributed systems?
+        
+        - What are the challenges associated with maintaining an event log over time?
+            
+        - How does the separation of read and write models impact system performance?
+            
+13. **System Observability:**
+    
+    - What strategies are critical for achieving high observability in a distributed system?
+        
+        - How can metrics, logs, and tracing be integrated to monitor system health effectively?
+            
+        - What role does observability play in diagnosing performance bottlenecks?
+            
+14. **Security in Distributed Systems:**
+    
+    - What are the main security challenges when designing a distributed system, particularly in data-intensive applications?
+        
+        - How do encryption and authentication mechanisms contribute to securing inter-node communications?
+            
+        - What best practices should be followed to ensure data integrity across distributed components?
+            
+15. **Scaling and Performance Optimization:**
+    
+    - What architectural considerations are crucial when designing a system to scale horizontally?
+        
+        - How do caching strategies and load balancing contribute to overall system performance?
+            
+        - What are common pitfalls when scaling distributed systems, and how can they be mitigated?
+            
+As a former Google Distinguished Fellow and expert in distributed systems, I’ve prepared a list of 15 questions inspired by *Designing Data-Intensive Applications* by Martin Kleppmann. These questions are divided into topic-specific areas from the book and broader questions testing your overall understanding of distributed systems. Each question comes with two follow-up questions to dive deeper into your knowledge. Let’s see how you fare!
+
+---
+
+### Topic-Wise Questions from *Designing Data-Intensive Applications*
+
+#### **1. Reliability in Distributed Systems**
+- **Question:** What are the key characteristics that make a system reliable?  
+  - *Follow-up 1:* How do you ensure fault tolerance in a distributed system?  
+  - *Follow-up 2:* What is the difference between fault tolerance and high availability?
+
+#### **2. Scalability**
+- **Question:** How do you define scalability in the context of distributed systems?  
+  - *Follow-up 1:* What are some common strategies for scaling a system horizontally?  
+  - *Follow-up 2:* How does vertical scaling differ from horizontal scaling?
+
+#### **3. Maintainability**
+- **Question:** What practices can be adopted to make a distributed system more maintainable?  
+  - *Follow-up 1:* How does modularity contribute to maintainability?  
+  - *Follow-up 2:* What role does documentation play in this context?
+
+#### **4. Data Models**
+- **Question:** What are the differences between relational and non-relational databases?  
+  - *Follow-up 1:* When would you choose a document-oriented database over a relational one?  
+  - *Follow-up 2:* What are the implications for query performance?
+
+#### **5. Query Languages**
+- **Question:** How does SQL differ from other query languages like MongoDB's query language?  
+  - *Follow-up 1:* What are the advantages of using a declarative query language?  
+  - *Follow-up 2:* How do imperative query languages compare in terms of performance?
+
+#### **6. Replication**
+- **Question:** What are the different replication strategies in distributed systems?  
+  - *Follow-up 1:* How does leader-based replication work?  
+  - *Follow-up 2:* What are the trade-offs between synchronous and asynchronous replication?
+
+#### **7. Partitioning**
+- **Question:** What is data partitioning, and why is it necessary in distributed systems?  
+  - *Follow-up 1:* How do you handle hot spots in a partitioned database?  
+  - *Follow-up 2:* What is the impact of partitioning on query performance?
+
+#### **8. Transactions**
+- **Question:** What is a distributed transaction, and what challenges does it present?  
+  - *Follow-up 1:* How does the two-phase commit protocol work?  
+  - *Follow-up 2:* What are the alternatives to two-phase commit?
+
+#### **9. Consistency Models**
+- **Question:** What is eventual consistency, and how does it differ from strong consistency?  
+  - *Follow-up 1:* In what scenarios would you prefer eventual consistency over strong consistency?  
+  - *Follow-up 2:* How do you handle conflicts in an eventually consistent system?
+
+#### **10. Batch and Stream Processing**
+- **Question:** What is the difference between batch processing and stream processing?  
+  - *Follow-up 1:* How does Apache Kafka facilitate stream processing?  
+  - *Follow-up 2:* What are the challenges in ensuring exactly-once semantics in stream processing?
+
+---
+
+### Questions Testing Overall Understanding of Distributed Systems
+
+#### **11. Handling Failures**
+- **Question:** How do you design a distributed system to handle failures gracefully?  
+  - *Follow-up 1:* What is the CAP theorem, and how does it influence system design?  
+  - *Follow-up 2:* Can you give an example of a system that prioritizes availability over consistency?
+
+#### **12. Consensus Algorithms**
+- **Question:** What are the key considerations when choosing a consensus algorithm for a distributed system?  
+  - *Follow-up 1:* How does Raft compare to Paxos in terms of understandability and implementation?  
+  - *Follow-up 2:* What are the use cases for each?
+
+#### **13. Data Integrity**
+- **Question:** How do you ensure data integrity in a distributed system?  
+  - *Follow-up 1:* What is the role of checksums and hashes in maintaining data integrity?  
+  - *Follow-up 2:* How do you handle data corruption in a replicated system?
+
+#### **14. Security in Distributed Systems**
+- **Question:** What are the security challenges in distributed systems?  
+  - *Follow-up 1:* How do you implement authentication and authorization in a distributed environment?  
+  - *Follow-up 2:* What measures can be taken to prevent denial-of-service attacks?
+
+#### **15. Monitoring and Debugging**
+- **Question:** How do you monitor and debug a distributed system?  
+  - *Follow-up 1:* What tools and techniques are commonly used for distributed tracing?  
+  - *Follow-up 2:* How do you handle performance bottlenecks in a distributed system?
+
+---
+
+These 15 questions span the core concepts from *Designing Data-Intensive Applications*—reliability, scalability, data models, replication, partitioning, transactions, consistency, and processing paradigms—while also challenging your broader grasp of distributed systems design and operation. The follow-ups will test your ability to apply these concepts practically. Ready to tackle them? Let me know how you’d like to proceed!
