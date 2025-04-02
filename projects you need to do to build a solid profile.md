@@ -38,3 +38,12 @@ Improve writing - start from what do users want.
 https://github.com/valyentdev/ravel
 https://github.com/fjall-rs/fjall
 https://github.com/wilsonzlin/queued/blob/master/queued/src/endpoint/mod.rs
+
+
+---
+
+Payment Infra at scale
+> American express - [1](https://www.scylladb.com/tech-talk/route-it-like-its-hot-scaling-payments-routing-at-american-express/?utm_source=substack&utm_medium=email), [2](https://www.youtube.com/watch?v=5q0BBfiF-Ic&t=124s), 
+
+indexing infra at scale
+recommendation system at scale
