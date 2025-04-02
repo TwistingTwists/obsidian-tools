@@ -41,6 +41,10 @@ AI
 - kafka 
 	- implementing a queue mechanism to buffer the requests to overloaded kafka queue
 	- Detecting consumer lag , and rate of consumer lag in datadog 
+- elixir
+	- PRs in Ash recently 
+	- instructor
+	- 
 - Rust 
 	- 
 - session management at L4 layer - GenStateMachine - directly on top of TCP socket (gen_tcp)
