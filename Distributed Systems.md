@@ -26,8 +26,10 @@ Here is the plan:
 | special topics link                                | https://ilyasergey.net/CS6213/week-01-intro.html                                                                                                                                         |                                               |
 | basics of dist-sys                                 | https://muratbuffalo.blogspot.com/2023/10/hints-for-distributed-systems-design.html                                                                                                      |                                               |
 | list of deep dive questions on distributed systems | https://www.perplexity.ai/search/give-me-list-of-blogs-to-under-AmFweIhUReueCgqTcn_Z1A?1=r                                                                                               |                                               |
+| sequin deep dive                                   | https://blog.sequinstream.com/streaming-changes-from-postgres-the-architecture-behind-sequin/                                                                                            |                                               |
 |                                                    |                                                                                                                                                                                          |                                               |
 
+q
 
 
 
