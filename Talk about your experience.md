@@ -35,3 +35,14 @@ AI
 
 
 
+
+### most impactful projects?
+
+- kafka 
+	- implementing a queue mechanism to buffer the requests to overloaded kafka queue
+	- Detecting consumer lag , and rate of consumer lag in datadog 
+- Rust 
+	- 
+- session management at L4 layer - GenStateMachine - directly on top of TCP socket (gen_tcp)
+	- resumable data transfer on RF
+- 
