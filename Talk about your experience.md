@@ -47,11 +47,11 @@ AI
 - Angular - libary to render form component based on nested json 
 
 - [[graphql query optimisation]]
-- AWS Lambda for video encoding pipeline 
+- [[AWS Lambda for video encoding pipeline ]]
 
 
 - kafka 
-	- implementing a queue mechanism to buffer the requests to overloaded kafka queue
+	- implementing a [[queue mechanism to buffer the requests]] to overloaded kafka queue
 	- Detecting consumer lag , and rate of consumer lag in datadog 
 
 - elixir
