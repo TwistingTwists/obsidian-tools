@@ -46,8 +46,8 @@ AI
 
 - Angular - libary to render form component based on nested json 
 
-- graphql api caching
-	- Cachex + redis
+- [[graphql query optimisation]]
+- AWS Lambda for video encoding pipeline 
 
 
 - kafka 
@@ -63,4 +63,6 @@ AI
 	- cli - project manager cli -- 
 - Session management at L4 layer - GenStateMachine - directly on top of TCP socket (gen_tcp)
 	- resumable data transfer on RF
+
+
 
