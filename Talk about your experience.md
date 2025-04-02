@@ -38,15 +38,29 @@ AI
 
 ### most impactful projects?
 
+- mathocrat
+	- ffmpeg - trancode to 3 formats - display via CDN 
+		- HLS streaming  + ABR streaming
+		- Recoverable player 
+		- 
+
+
+- graphql api caching
+	- Cachex + redis
+
+
 - kafka 
 	- implementing a queue mechanism to buffer the requests to overloaded kafka queue
 	- Detecting consumer lag , and rate of consumer lag in datadog 
+
 - elixir
 	- PRs in Ash recently 
-	- instructor
-	- 
+	- Instructor
 - Rust 
-	- 
-- session management at L4 layer - GenStateMachine - directly on top of TCP socket (gen_tcp)
+	- Tauri, 
+	- leptos (WASM) = Box / Callable use krke - wasm_bindgen - extensible modal component
+	- cli - project manager cli -- 
+	- Onnx models host in wasm 
+- Session management at L4 layer - GenStateMachine - directly on top of TCP socket (gen_tcp)
 	- resumable data transfer on RF
 - 
