@@ -41,9 +41,10 @@ AI
 - mathocrat
 	- ffmpeg - trancode to 3 formats - display via CDN 
 		- HLS streaming  + ABR streaming
-		- Recoverable player 
-		- 
+	- Resumable uploads
+	- live_svelte integration for carousel component
 
+- Angular - libary to render form component based on nested json 
 
 - graphql api caching
 	- Cachex + redis
@@ -60,7 +61,6 @@ AI
 	- Tauri, 
 	- leptos (WASM) = Box / Callable use krke - wasm_bindgen - extensible modal component
 	- cli - project manager cli -- 
-	- Onnx models host in wasm 
 - Session management at L4 layer - GenStateMachine - directly on top of TCP socket (gen_tcp)
 	- resumable data transfer on RF
-- 
+
