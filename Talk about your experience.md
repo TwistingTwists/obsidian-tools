@@ -3,6 +3,21 @@ tags:
   - interview
 ---
 
+
+| year | topic            | tech                | good                                                                                                                     | not so good                                                            | keywords                                 |
+| ---- | ---------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ---------------------------------------- |
+| 2017 | UPSC             |                     |                                                                                                                          |                                                                        |                                          |
+| 2019 | project ias      | node + react        |                                                                                                                          |                                                                        |                                          |
+| 2020 | plants n you     | python workflows    | got me started - fastapi + pandas + airflow for bg jobs                                                                  | ops heavy business<br><br>(end to end visibility in system is limited) |                                          |
+| 2021 | pumpumpum        | angular +           | dashboard + nested forms from json - component libraries                                                                 | ops heavy business                                                     |                                          |
+|      | mathocrat        | liveview full stack | end-to-end                                                                                                               |                                                                        |                                          |
+| 2022 | Tinymesh         |                     |                                                                                                                          | Tech -                                                                 | IoT, elixir, gen_state_machine, liveview |
+| 2023 | tinymesh         |                     |                                                                                                                          |                                                                        |                                          |
+| 2024 | freelance + yral |                     |                                                                                                                          |                                                                        |                                          |
+| 2025 | yral             |                     | <br>- frontend components => rust wasm (futures) + js interface (promises)<br><br>- rust axum reverse proxy + tonic grpc |                                                                        | wasm, grpc,                              |
+|      |                  |                     |                                                                                                                          |                                                                        |                                          |
+
+
 ### Projects 
 
 - OS event loop - in rust?? epoll to listen fd 
