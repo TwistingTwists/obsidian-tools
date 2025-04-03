@@ -22,3 +22,4 @@ I have made my efforts into it. My life's best work is ahead of me. But I know i
 --- RED FLAG --- 
 
 You have been changing orgs frequently. Why? What's different this time?
+if you work here -- you will ONLY work here. Nothing else. is that super super clear?
