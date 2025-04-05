@@ -29,11 +29,12 @@ Here is the plan:
 | sequin deep dive                                   | https://blog.sequinstream.com/streaming-changes-from-postgres-the-architecture-behind-sequin/                                                                                            |                                               |
 |                                                    |                                                                                                                                                                                          |                                               |
 
-q
 
+Question Deep Research -- [Perplexity Master List](https://www.perplexity.ai/search/give-me-list-of-blogs-to-under-AmFweIhUReueCgqTcn_Z1A?1=r)
 
+Distributed Index -- https://www.perplexity.ai/search/q8-implement-a-distributed-b-t-UVBZyDr4ROmgnWP5Hey3GQ
 
-
+---
 
 
 
@@ -58,7 +59,6 @@ https://github.com/aphyr/distsys-class?tab=readme-ov-file
 ----
 
 #### Percolator 
-
 
 |                                                                      |     |
 | -------------------------------------------------------------------- | --- |
