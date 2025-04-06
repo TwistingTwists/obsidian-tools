@@ -13,6 +13,10 @@ binary patterns - https://leetcode.com/discuss/study-guide/786126/Python-Powerfu
 tree patterns - https://leetcode.com/discuss/study-guide/1337373/tree-question-pattern-2021-placement
 
 
+
+https://www.educative.io/courses/grokking-coding-interview
+
+
 ---
 https://www.interviewbit.com/coding-interview-questions/ | 300+ Must Do Coding Questions from Interviews | InterviewBit | Interviewbit
 https://www.interviewbit.com/courses/programming/arrays/ | Arrays - InterviewBit

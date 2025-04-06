@@ -3,6 +3,8 @@ tags:
   - interview
   - lld
 ---
+https://www.educative.io/courses/grokking-the-low-level-design-interview-using-ood-principles
+
 ### **Question 1: Design a Parking Lot System**
 
 Imagine you need to design a system to manage a **parking lot**. The system should handle the following requirements:
