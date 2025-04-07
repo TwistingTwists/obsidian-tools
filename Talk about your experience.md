@@ -25,7 +25,12 @@ tags:
 - OS event loop - in rust?? epoll to listen fd 
 - writing multi threaded - redis
 - [[connection pool ]]
-- state machine for managing resumable FOTA uploads
+
+ <details>
+  <summary>state machine for managing resumable FOTA uploads</summary>
+  <p>17 minutes to 7 minutes</p>
+</details>
+
 - pubsub in rust - event_bus_tokio  
 - (todo) wal implementation
 - (todo) Distributed logs backed by S3tables
@@ -33,7 +38,7 @@ tags:
 - dns_query_caching
 - linux peripheral devices
 
-[[TCP window scaling algorithm]] but for probing keep-alive of the server.
+- [[TCP window scaling algorithm]] but for probing keep-alive of the server.
 
 
 DBMS 
