@@ -33,6 +33,8 @@ tags:
 - dns_query_caching
 - linux peripheral devices
 
+[[TCP window scaling algorithm]] but for probing keep-alive of the server.
+
 
 DBMS 
 - (todo) partioning / sharding / query patterns / replication / 
