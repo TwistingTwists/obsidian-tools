@@ -14,9 +14,12 @@ patterns: https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointe
 
 sliding window pattern is a good candidate for any problem that involves searching for a continuous subsequence
 
-| problem | sheet                   |
-| ------- | ----------------------- |
-| 611     | [[valid num triangles]] |
+| problem |     | sheet                   | concept                                             |
+| ------- | --- | ----------------------- | --------------------------------------------------- |
+| 611     |     | [[valid num triangles]] | sort + two pointers help in skipping the entire i-1 |
+| 283     | e   | move zeroes             | one pointer for zero, one for non-zero position     |
+| 75      | m   | sort colors             | sorting with limited number of elements in array    |
+|         |     |                         |                                                     |
 
 
 ----

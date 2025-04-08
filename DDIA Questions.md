@@ -518,3 +518,12 @@ To further explore these concepts, let's consider a few more questions:
 3. How do these concurrency control mechanisms interact with other database features, such as indexing or partitioning? Are there any specific considerations or optimizations that need to be made when using these features in conjunction with concurrency control?
 
 Let's continue to dive deeper into these topics and explore the intricacies of concurrency control in databases.
+
+
+----
+
+https://chat.deepseek.com/a/chat/s/e3400796-c104-4ba3-b803-48fa64065eeb
+https://claude.ai/chat/d6390689-edfd-49e3-a9c1-004eee225bb8
+https://www.perplexity.ai/search/you-are-expert-in-distribute-d-lLowLdOsR0aFWe_GrWaJPw
+https://www.perplexity.ai/search/q8-implement-a-distributed-b-t-UVBZyDr4ROmgnWP5Hey3GQ
+https://www.perplexity.ai/search/give-me-list-of-blogs-to-under-AmFweIhUReueCgqTcn_Z1A?1=r

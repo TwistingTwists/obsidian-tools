@@ -160,10 +160,7 @@ https://www.youtube.com/playlist?list=PLQVvvaa0QuDdeMyHEYc0gxFpYwHY2Qfdh
 4. similarity search 
 	1. text to embeddings 
 	2. data model - embeddings, image_path, text
-5. 
 
-
- 
  
 
 ### Image to text 

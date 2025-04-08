@@ -41,20 +41,6 @@ https://www.viget.com/articles/understanding-futures-in-rust-part-1/
 
 https://rust-unofficial.github.io/patterns/idioms/coercion-arguments.html
 
-
-### elixir stuff in rust
-https://github.com/brndnmtthws/genserver/blob/main/src/lib.rs
-https://github.com/bastion-rs/bastion
-
-
-###  rust starter projects to look at n make notes
-https://practice.rs/elegant-code-base.html
-
-https://github.com/hrkfdn/ncspot
-https://github.com/kyclark/command-line-rust
-https://github.com/tokio-rs/mini-redis
-
-
 ## Async rust
 https://hegdenu.net/posts/understanding-async-await-1/
 https://jmmv.dev/2023/06/iii-iv-task-queue.html
