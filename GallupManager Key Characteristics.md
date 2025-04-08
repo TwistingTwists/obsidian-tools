@@ -14,6 +14,16 @@ Okay, here is the summary in the requested Markdown table format:
 | **8. Develop Stars**                | Focus on identifying and nurturing future leaders and talent within the team.       | Ask: "Who has potential, and what stretch assignment or coaching can I provide them?"            | Sees growth opportunities; feels invested in their long-term development.              | Number of internal promotions from the team; clear succession candidates identified for key roles.                 |
 
 
+---
+
+https://rework.withgoogle.com/en/guides/managers-empower-your-team#introduction
+https://rework.withgoogle.com/en/guides/understanding-team-effectiveness#foster-effective-team-behaviors
+https://rework.withgoogle.com/en/guides/managers-identify-what-makes-a-great-manager
+https://rework.withgoogle.com/en/guides/hiring-use-structured-interviewing
+
+
+---
+
 
 This summer we sat down with the 2019 Manager of the Year finalists and asked them how they lead, how they navigate change in the workplace and how they developed successful teams. Here are some of the highlights from that roundtable discussion:
 
