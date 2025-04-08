@@ -37,3 +37,12 @@ source: [Eugene](https://eugeneyan.com/writing/system-design-for-discovery/)
 - **Scoring**: Predict user’s *stream time* for each item  
 - **Ordering**: Arrange a set of shelves that trade off between predicted relevance and *matching the genre distribution* of the user’s previous consumption  
 
+
+
+• Retrieval vs. Ranking: [https://eugeneyan.com/writing/system-design-for-discovery/…](https://t.co/OEbm0tB34i) 
+• Real-time retrieval: [https://eugeneyan.com/writing/real-time-recommendations/…](https://t.co/I0rpFGHYdu) 
+• Personalization: [https://eugeneyan.com/writing/patterns-for-personalization/…](https://t.co/8KTdjCEZVp) 
+• Bandits: [https://eugeneyan.com/writing/bandits/…](https://t.co/KCk44Soy8r) 
+• Reinforcement learning: [https://eugeneyan.com/writing/reinforcement-learning-for-recsys-and-search/…](https://t.co/Uo4suIxOg5) 
+• Query Matching: [https://eugeneyan.com/writing/search-query-matching/…](https://t.co/juMlzIrQj5) 
+• RecSys × LLMs: [https://eugeneyan.com/writing/recsys-llm/](https://t.co/SSy1wzej8J)

@@ -20,13 +20,15 @@ sliding window pattern is a good candidate for any problem that involves searchi
 | 283     | e   | move zeroes                      | one pointer for zero, one for non-zero position                        |
 | 75      | m   | sort colors                      | sorting with limited number of elements in array                       |
 | 42      | h   | [[trapping rainwater]]           | two variables for 'previous' state of pointer +  two pointers for L, R |
+|         |     | container with most water        |                                                                        |
 | 238     | m   | [[product of array except self]] | optimal solution can skip creating two new arrays                      |
+| 295     |     | median from data stream          | min + max heap together                                                |
 
 ----
 
 # SLIDING WINDOW
 
-> [!info] template
+> [!info]- template
 
 ```python
 def variable_length_sliding_window(nums):
@@ -58,7 +60,14 @@ def variable_length_sliding_window(nums):
   return max_
 ```
 
-
+ 
+[https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)  
+[https://leetcode.com/problems/find-k-th-smallest-pair-distance/](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)  
+[https://leetcode.com/problems/moving-stones-until-consecutive-ii/](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)  
+[https://leetcode.com/problems/count-pairs-of-nodes/](https://leetcode.com/problems/count-pairs-of-nodes/)  
+[https://leetcode.com/problems/count-binary-substrings/](https://leetcode.com/problems/count-binary-substrings/)  
+[https://leetcode.com/problems/k-diff-pairs-in-an-array/](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
+ 
 
 |     |     |
 | --- | --- |
@@ -202,7 +211,6 @@ https://www.youtube.com/watch?v=EgG3jsGoPvQ&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81P
 | DP    | 746 | Min cost climbing stairs              |                                                                                                                                       |
 | Array | 15  | 3sum                                  | sort array -> loop over it and use two pointers (L, R) to see if the values sum upto 0 -> increment L until it doesn't repeat itself. |
 | Array | 167 | Two Sum II                            | L, R pointers and keep checking the condition to adjust L and R                                                                       |
-| Array | 11  | container with most water             |                                                                                                                                       |
 | DP    | 198 | [[House Robber]]                      |                                                                                                                                       |
 |       |     | [[121 - Best time to buy sell stock]] |                                                                                                                                       |
 |       |     |                                       |                                                                                                                                       |
