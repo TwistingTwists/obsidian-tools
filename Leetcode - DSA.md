@@ -20,7 +20,9 @@ sliding window pattern is a good candidate for any problem that involves searchi
 | 283     | e   | move zeroes                      | one pointer for zero, one for non-zero position                        |
 | 75      | m   | sort colors                      | sorting with limited number of elements in array                       |
 | 42      | h   | [[trapping rainwater]]           | two variables for 'previous' state of pointer +  two pointers for L, R |
-| 238     | m   | [[product of array except self]] |                                                                        |
+| 238     | m   | [[product of array except self]] | optimal solution can skip creating two new arrays                      |
+|         |     |                                  |                                                                        |
+|         |     |                                  |                                                                        |
 
 
 ----
