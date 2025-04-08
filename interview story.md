@@ -2,6 +2,44 @@
 tags:
   - interview
 ---
+
+### 🔹 4. **Behavioral & Leadership Interviews ("Googliness")**
+
+This round assesses leadership, ownership, collaboration, and how you fit Google's culture.
+
+#### Focus Areas:
+
+- Project ownership: initiative, leading efforts
+    
+- Mentoring juniors or cross-functional collaboration
+    
+- Conflict resolution
+    
+- Dealing with ambiguity
+    
+- Balancing quality vs speed
+    
+- Learning from failures
+    
+
+#### Framework:
+
+Use **STAR (Situation, Task, Action, Result)** to structure answers.
+
+Prepare stories for:
+
+- Leading a project end-to-end
+    
+- Overcoming a challenging technical problem
+    
+- Disagreeing with a teammate or PM
+    
+- Making a decision with incomplete data
+    
+- Mentoring or unblocking someone
+
+
+
 ### Management 
 
 | question                                 | breakdown                                                                           | story 1                                                                                                                                                                                                                                                                                                                                                    | story 2 |
@@ -12,3 +50,5 @@ tags:
 
 
 [[invideo]]
+
+[[behavioural template]]
