@@ -21,9 +21,48 @@ sliding window pattern is a good candidate for any problem that involves searchi
 | 75      | m   | sort colors                      | sorting with limited number of elements in array                       |
 | 42      | h   | [[trapping rainwater]]           | two variables for 'previous' state of pointer +  two pointers for L, R |
 | 238     | m   | [[product of array except self]] | optimal solution can skip creating two new arrays                      |
-|         |     |                                  |                                                                        |
-|         |     |                                  |                                                                        |
 
+----
+
+# SLIDING WINDOW
+
+> [!info] template
+
+```python
+def variable_length_sliding_window(nums):
+
+  state = # choose appropriate data structure
+
+  start = 0
+
+  max_ = 0
+
+  for end in range(len(nums)):
+
+    # extend window
+
+    # add nums[end] to state in O(1) in time
+
+    while state is not valid:
+
+      # repeatedly contract window until it is valid again
+
+      # remove nums[start] from state in O(1) in time
+
+      start += 1
+
+    # INVARIANT: state of current window is valid here.
+
+    max_ = max(max_, end - start + 1)
+
+  return max_
+```
+
+
+
+|     |     |
+| --- | --- |
+|     |     |
 
 ----
 # TREES 
