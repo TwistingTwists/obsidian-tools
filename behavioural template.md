@@ -11,15 +11,10 @@ Here’s a **detailed plan tailored to L5 behavioral expectations** — with pro
 Google expects **L5s to lead technical initiatives, unblock teams, mentor others, and work well cross-functionally**. Your answers should showcase:
 
 - **Ownership** of complex projects
-    
 - **Leadership** without authority
-    
 - **Technical depth** in real-world projects
-    
 - **Collaboration** and **Googliness** (humility, bias for action, learning mindset)
-    
 - **Growth mindset** – how you learn from failure
-    
 
 ---
 
@@ -60,26 +55,16 @@ Use the **STAR+LE** framework:
 
 1. **Pick themes from this list and match them to your experiences:**
     
-    - Leading a project end-to-end
-        
+    - [[Leading a project end-to-end]]
     - Driving alignment across teams
-        
     - Mentoring or unblocking someone
-        
     - Making trade-offs under pressure
-        
     - Learning from failure
-        
     - Dealing with ambiguity
-        
     - Pushing back on bad ideas
-        
     - Influencing without authority
-        
     - Fixing cultural or communication issues
-        
     - Handling underperforming teammate
-        
 2. **Write down at least 1 story for each.**  
     Use STAR+LE. Keep each story to ~5 minutes when spoken.
     
