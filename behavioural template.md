@@ -283,3 +283,5 @@ Gallup finds that great managers have the following talents:
 - They create a culture of clear **accountability**.
 - They build **relationships** that create trust, open dialogue, and full transparency.
 - They **make decisions** based on productivity, not politics.
+
+[[GallupManager Key Characteristics]]
