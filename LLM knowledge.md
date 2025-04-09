@@ -73,8 +73,28 @@ fav books?
 fav authors?
 - hamel 
 - eugene yan - rec sys 
-- 
+fav products?
+- kapa.ai - retrieval is super solid 
+- ai news- swyx
 
+
+## LLM as judge 
+
+Tips: 
+write critiques - let it reason
+diverse examples -- features, scenarios, personas
+error analysis = errors across scenarios - further breakdown into ErroType => mark as percentage - tackle the most occuring error first
+
+| Title | Authors/Organization | Type | Key Insights | Citation |
+|-------|----------------------|------|--------------|----------|
+| From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge | Papers With Code | Survey Paper | Introduces taxonomy for LLM-as-a-judge across three dimensions (what/how/where), emphasizes need for domain-specific benchmarks, and identifies challenges like bias mitigation and hallucination control. | [1] |
+| Best Practices For Creating Your LLM-as-a-Judge | Galileo AI | Blog Post | Advocates for discrete evaluation scales (e.g., boolean/categorical) over continuous scores, stresses importance of structured output formats (e.g., JSON), and recommends hybrid human-AI review systems. | [2] |
+| LLM-as-a-judge: A Complete Guide to Using LLMs for Evaluations | Evidently AI | Technical Guide | Demonstrates 80% agreement between GPT-4 and human evaluators in pairwise comparisons, highlights cost savings over crowdsourcing, and proposes iterative prompt refinement for evaluation criteria. | [3] |
+| The Definitive LLM-as-a-Judge Guide for Scalable LLM Evaluation | Confident-ai | Blog Post | Categorizes evaluation methods into single-output scoring (with/without references) and pairwise comparisons, warns against flaky judgments due to non-determinism, and introduces deterministic metrics via frameworks like DeepEval. | [4] |
+| Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena | Zheng et al. | Research Paper | Reveals GPT-4 achieves >80% alignment with human preferences, identifies position/verbosity biases in LLM judges, and validates MT-Bench as a multi-turn evaluation benchmark. | [5] |
+| What is LLM as a Judge? How to Use LLMs for Evaluation | Encord | Blog Post | Proposes LLM judges reduce evaluation costs by 70% compared to human reviewers, discusses AI alignment challenges in judicial contexts, and emphasizes data quality improvements via tools like Encord. | [6] |
+| Humans or LLMs as the Judge? A Study on Judgement Bias | Chen et al. | Conference Paper | Exposes vulnerabilities to misinformation/gender/authority biases in both human and LLM judges (e.g., 35% error rate under adversarial attacks), questions reliability of current evaluation paradigms. | [7] |
+| LLM-as-a-Judge Evaluation for GenAI Use-Cases | Arize AI | Blog Post | Links LLM judges to business metrics (e.g., purchase rates), advocates for synthetic benchmark generation, and addresses scalability gaps in human feedback collection. | [8] |
 
 
 ## MCP 
