@@ -37,8 +37,8 @@ https://github.com/0xpayne/gpt-migrate/blob/main/gpt_migrate/prompts/p4_output_f
 #### L4
 
 1. Transformers
-  Chunks -- deleted words predict.
-  Masked language model
+Chunks -- deleted words predict.
+Masked language model
 
 2.Going from a model taht can predict the next word to a model that can classfiy ?
 
