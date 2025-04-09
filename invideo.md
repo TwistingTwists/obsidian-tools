@@ -3,6 +3,20 @@ tags:
   - interview
   - self-awareness
 ---
+Why join us? 
+
+- align with org values 
+- align with org mission - same bets as the org + believe in the mission 
+- your passion - highlited by the nuances like - knowledge of history of the subject , appreciation of the technical strengths , 
+- your dream of future lies with the org
+
+
+
+Elixir superpowers
+- where elsewhere you need a full stack, here you need only elixir -- erlang stack photoo
+- long running, reliable , observable jobs - erlang process can run for years. 
+- let it crash 
+- 
 
 What problems are you solving now? 
 6 months ? 1 year ? 
