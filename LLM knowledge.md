@@ -3,11 +3,26 @@ tags:
   - llms
   - interview
 ---
+Tell me about yourself:
+
+- did a  startup in past. ProjectIAS 
+- full stack roles across languages - elixir, nodejs , rust (current)
+- Tech experience - backend api (elixir), kafka, distributed elixir, 
+- past 1 year
+	- consulted with some companies for AI gigs - python observability for SF startup
+	- made a RAG over legal documents - not performed as well I would like it to. early days
+	- image -> question -> analysis 
+- ai side projects
+	- forever vm - firecracker based vm 
+
+
+What does the next carrer trajectory look like?
+
 
 todo:
 
 1. JasonLiu stuff 
-2. recommendation systems - eugene yan 
+2. [recommendation systems - eugene yan ](obsidian://open?vault=learnings&file=recommendation%20system%20at%20scale)
 3. structured outputs - curator 
 	1. llm chaining 
 	2. PEG grammars for structured outputs - sglang + llama.cpp (context-free grammars) = Constrained generation
@@ -24,7 +39,7 @@ $$
 	6. SFT / RL 
 5. Other basics
 	1. retrieval vs ranking
-	2. 
+
 6. RAG
 	1. prompting = CoT / PoT / ToT
 	2. evals
