@@ -54,6 +54,7 @@ fav authors?
 
 
 
+## Constrained Generation 
 ### PEG for json
 
 ```lark
@@ -77,3 +78,21 @@ pair   : ESCAPED_STRING ":" value
 
 %ignore WS
 ```
+
+### PEG / CFG / Recursive descent parsers
+
+A **PEG** is like a _refined_, deterministic version of a CFG that is designed to be directly **parsed using recursive descent**.
+
+> **Recursive descent is a _natural fit_ for PEGs.**
+
+Why?
+
+- PEGs define exactly **one way** to parse a string — the first rule that matches wins.
+    
+- This removes ambiguity, making recursive descent simple and predictable.
+
+|Concept|Purpose|Fits with...|
+|---|---|---|
+|**CFG**|Theoretical model of syntax|Can be used with various parsers|
+|**PEG**|Deterministic grammar for implementation|Maps cleanly to recursive descent|
+|**Recursive Descent**|A parser technique (top-down)|Can implement PEGs or LL CFGs|
