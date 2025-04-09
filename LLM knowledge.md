@@ -31,6 +31,8 @@ agent design , write a JD,
 
 high leverage work , analytics report , 
 
+strong held 
+
 
 
 
