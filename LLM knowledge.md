@@ -8,18 +8,23 @@ Tell me about yourself:
 - did a  startup in past. ProjectIAS 
 - full stack roles across languages - elixir, nodejs , rust (current)
 - Tech experience - backend api (elixir), kafka, distributed elixir, 
+- team lead at tinymesh
+- Mathocrat --  udemy like VOD
+
 - past 1 year
-	- consulted with some companies for AI gigs - python observability for SF startup
+	- basics - coursera course on ml
 	- made a RAG over legal documents - not performed as well I would like it to. early days
 	- image -> question -> analysis 
 - ai side projects
-	- forever vm - firecracker based vm 
+	- evals = 
+	- forever vm - runsc gvisor based vm for isolating workloads
+	- project manager cli 
 
 
 What does the next carrer trajectory look like?
 
 
-todo:
+Todo:
 
 1. JasonLiu stuff 
 2. [recommendation systems - eugene yan ](obsidian://open?vault=learnings&file=recommendation%20system%20at%20scale)
@@ -54,6 +59,9 @@ $$
 9. Fine tuning
 	1. when to do LoRA vs Full Fine Tuning?
 10. MCP
+	1. good for tools, need resource reference in MCP
+		1. So that entire trasncript  / audio etc is not sent over the wire etc.
+	2. 
 11. Agents
 	1. When to build an agent? ANthropic
 
@@ -73,10 +81,23 @@ fav books?
 fav authors?
 - hamel 
 - eugene yan - rec sys 
+- guest lectures organised on blog of jason liu - glean
 fav products?
 - kapa.ai - retrieval is super solid 
 - ai news- swyx
 
+
+## RAG 
+
+[[Embeddings]]
+##### Query Pattern Recognition[¶](https://jxnl.co/writing/2025/03/06/fine-tuning-embedding-models-for-enterprise-rag-lessons-from-glean/#query-pattern-recognition "Permanent link") 
+
+An important aspect of embedding fine-tuning involves recognizing different query patterns. As mentioned during the discussion, queries often fall into categories like:
+
+- **Factoid questions**: Seeking specific pieces of information
+- **Enumeration queries**: Requesting lists of items (e.g., "What are all the projects in the finance department?")
+- **Inventory queries**: Looking for assets like meetings, presentations, etc.
+- **Navigational queries**: Trying to find specific documents
 
 ## LLM as judge 
 
