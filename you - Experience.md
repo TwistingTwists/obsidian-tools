@@ -42,8 +42,4 @@ NodeJS experience basics
 | Basics     | https://www.youtube.com/watch?v=g98XlFOiXz0&list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&index=16 |
 
 
-
-Docker
-| Experience     | Topics |
-|----------------|--------|
-| docker compose |        |
+ 

@@ -24,6 +24,7 @@ tags:
 
 - OS event loop - in rust?? epoll to listen fd 
 - writing multi threaded - redis
+- [[dealing with cache]]
 - [[connection pool ]]
 
  <details>
