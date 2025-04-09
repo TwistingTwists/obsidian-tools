@@ -14,9 +14,14 @@ todo:
 	3. prompt management via jinja templates
 4. Hands on LLM book 
 	1. tokenizer
-	2. temprature vs 
-	3. KV Cache, 
-	4. SFT / RL 
+	2. attention mechanism 
+$$
+\text{Attention}(Q, K, V) = \text{softmax}\left( \frac{QK^\top}{\sqrt{d_k}} \right) V
+$$
+	3. temprature vs 
+	4. KV Cache, 
+	5. [positional encoding](https://www.youtube.com/watch?v=T3OT8kqoqjc) - deterministic sine / cos wave functoins over 768 dimensions
+	6. SFT / RL 
 5. Other basics
 	1. retrieval vs ranking
 	2. 
