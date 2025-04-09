@@ -27,13 +27,14 @@ todo:
 	1. llm chaining 
 	2. PEG grammars for structured outputs - sglang + llama.cpp (context-free grammars) = Constrained generation
 	3. prompt management via jinja templates
+		1. prompt and curated dataset versioned together
 4. Hands on LLM book 
 	1. tokenizer
 	2. attention mechanism 
 $$
 \text{Attention}(Q, K, V) = \text{softmax}\left( \frac{QK^\top}{\sqrt{d_k}} \right) V
 $$
-	3. temprature vs 
+	3. temprature 
 	4. KV Cache, 
 	5. [positional encoding](https://www.youtube.com/watch?v=T3OT8kqoqjc) - deterministic sine / cos wave functoins over 768 dimensions
 	6. SFT / RL 
@@ -41,10 +42,9 @@ $$
 	1. retrieval vs ranking
 
 6. RAG
-	1. prompting = CoT / PoT / ToT
-	2. evals
+	1. evals
 7. Misc 
-	1. mitm - show me the prompt. doesn't work for cursor
+	2. mitm - show me the prompt. doesn't work for cursor
 8. New ideas you are excited about
 	1. Late interaction (omar khattab) - embed first, chunk later
 		1. colipali / Qwen VL
@@ -71,8 +71,18 @@ re-ranking deep dive
 favourite blogs you read?
 fav books?
 fav authors?
+- hamel 
+- eugene yan - rec sys 
+- 
 
 
+
+## MCP 
+MCP servers can provide three main types of capabilities:
+
+1. **Resources**: File-like data that can be read by clients (like API responses or file contents)
+2. **Tools**: Functions that can be called by the LLM (with user approval)
+3. **Prompts**: Pre-written templates that help users accomplish specific tasks
 
 ## Constrained Generation 
 ### PEG for json
