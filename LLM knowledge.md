@@ -8,6 +8,32 @@ engineer -> developer
 bankers -- capital flows 
 
 
+
+What has been your journey? how have you been making decisions? - get good. enjoy stuff.
+
+What are you r motivations for the role. from here on?
+
+
+IT services - IR 
+
+go on end client projects -- run discovery -- come back with proposals -- speed up delivery + quality up
+
+building tooling support for project + owning / acceleration 
+
+Generalist role == 
+Enterprise sales shit take
+
+playbook / runbooks == 
+
+tonaliy of a chatbot == role / skills 
+
+agent design , write a JD, 
+
+high leverage work , analytics report , 
+
+
+
+
 role 
 - sales - alignnig stakeholders
 - forward deployed 
