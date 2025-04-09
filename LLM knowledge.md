@@ -3,9 +3,15 @@ tags:
   - llms
   - interview
 ---
+
+engineer -> developer
+bankers -- capital flows 
+
+
 role 
 - sales - alignnig stakeholders
 - forward deployed 
+
 
 night and day -- llm by night 
 
@@ -21,7 +27,7 @@ Tell me about yourself:
 	- basics - coursera course on ml
 	- made a RAG over legal documents - not performed as well I would like it to. early days
 	- image -> question -> analysis 
-- ai side projects
+- AI side projects
 	- evals = 
 	- forever vm - runsc gvisor based vm for isolating workloads
 	- project manager cli 
