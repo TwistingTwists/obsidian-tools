@@ -10,7 +10,8 @@ todo:
 2. recommendation systems - eugene yan 
 3. structured outputs - curator 
 	1. llm chaining 
-	2. PEG grammars for structured outputs - sglang + llama.cpp (ABNF grammars)
+	2. PEG grammars for structured outputs - sglang + llama.cpp (context-free grammars) = Constrained generation
+	3. prompt management via jinja templates
 4. Hands on LLM book 
 	1. tokenizer
 	2. temprature vs 
@@ -33,7 +34,8 @@ todo:
 9. Fine tuning
 	1. when to do LoRA vs Full Fine Tuning?
 10. MCP
-	1. 
+11. Agents
+	1. When to build an agent? ANthropic
 
 
 System Design for Applied LLMs:
@@ -49,3 +51,29 @@ re-ranking deep dive
 favourite blogs you read?
 fav books?
 fav authors?
+
+
+
+### PEG for json
+
+```lark
+?start: value
+
+?value: object
+| array
+| ESCAPED_STRING
+| SIGNED_NUMBER      -> number
+| "true"             -> true
+| "false"            -> false
+| "null"             -> null
+
+array  : "[" [value ("," value)*] "]"
+object : "{" [pair ("," pair)*] "}"
+pair   : ESCAPED_STRING ":" value
+
+%import common.ESCAPED_STRING
+%import common.SIGNED_NUMBER
+%import common.WS
+
+%ignore WS
+```
