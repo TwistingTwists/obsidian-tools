@@ -3,6 +3,12 @@ tags:
   - llms
   - interview
 ---
+role 
+- sales - alignnig stakeholders
+- forward deployed 
+
+night and day -- llm by night 
+
 Tell me about yourself:
 
 - did a  startup in past. ProjectIAS 
@@ -26,14 +32,14 @@ What does the next carrer trajectory look like?
 
 Todo:
 
-1. JasonLiu stuff 
-2. [recommendation systems - eugene yan ](obsidian://open?vault=learnings&file=recommendation%20system%20at%20scale)
-3. structured outputs - curator 
+
+1. [recommendation systems - eugene yan ](obsidian://open?vault=learnings&file=recommendation%20system%20at%20scale)
+2. structured outputs - curator 
 	1. llm chaining 
 	2. PEG grammars for structured outputs - sglang + llama.cpp (context-free grammars) = Constrained generation
 	3. prompt management via jinja templates
 		1. prompt and curated dataset versioned together
-4. Hands on LLM book 
+3. Hands on LLM book 
 	1. tokenizer
 	2. attention mechanism 
 $$
@@ -43,26 +49,26 @@ $$
 	4. KV Cache, 
 	5. [positional encoding](https://www.youtube.com/watch?v=T3OT8kqoqjc) - deterministic sine / cos wave functoins over 768 dimensions
 	6. SFT / RL 
-5. Other basics
+4. Other basics
 	1. retrieval vs ranking
 
-6. RAG
+5. RAG
 	1. evals
-7. Misc 
+6. Misc 
 	2. mitm - show me the prompt. doesn't work for cursor
-8. New ideas you are excited about
+7. New ideas you are excited about
 	1. Late interaction (omar khattab) - embed first, chunk later
 		1. colipali / Qwen VL
 	2. Curator - synthetic data generation from LLMs -- reasoning datasets
 	3. fine tuning (see below)
 	4. 
-9. Fine tuning
+8. Fine tuning
 	1. when to do LoRA vs Full Fine Tuning?
-10. MCP
+9. MCP
 	1. good for tools, need resource reference in MCP
 		1. So that entire trasncript  / audio etc is not sent over the wire etc.
 	2. 
-11. Agents
+10. Agents
 	1. When to build an agent? ANthropic
 
 
