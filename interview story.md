@@ -2,6 +2,9 @@
 tags:
   - interview
 ---
+You have to show that you love the craft!!! 
+
+
 
 ### 🔹 4. **Behavioral & Leadership Interviews ("Googliness")**
 
