@@ -23,6 +23,7 @@ sliding window pattern is a good candidate for any problem that involves searchi
 |         |     | container with most water        |                                                                        |
 | 238     | m   | [[product of array except self]] | optimal solution can skip creating two new arrays                      |
 | 295     |     | median from data stream          | min + max heap together                                                |
+|         |     |                                  |                                                                        |
 
 ----
 
@@ -69,9 +70,14 @@ def variable_length_sliding_window(nums):
 [https://leetcode.com/problems/k-diff-pairs-in-an-array/](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
  
 
-|     |     |
-| --- | --- |
-|     |     |
+
+
+| problem |     | sheet         | concept                 |     |
+| ------- | --- | ------------- | ----------------------- | --- |
+| 403     | h   | [[frog jump]] | `HashMap<Int, Hashset>` |     |
+|         |     |               |                         |     |
+
+
 
 ----
 # TREES 
@@ -163,6 +169,13 @@ Combined Algorithm:
 [https://leetcode.com/list/55aj8s16](https://leetcode.com/list/55aj8s16) - (merging intervals)  
 [https://leetcode.com/list/55afh7m7](https://leetcode.com/list/55afh7m7) - (DP on strings)  
 [https://leetcode.com/list/55af7bu7](https://leetcode.com/list/55af7bu7) - (decision making)
+
+
+
+
+|     |     |
+| --- | --- |
+|     |     |
 
 
 ----
