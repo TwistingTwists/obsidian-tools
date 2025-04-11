@@ -4,13 +4,6 @@
 
 founder - only a year old 
 
-
-vercel for blockchain
-
-Open souce madara -- stack 
-- Recent innovations in blockchain ? tech
-
-
 |                       | source                                                      |
 | --------------------- | ----------------------------------------------------------- |
 | client for substrate  | https://github.com/madara-alliance/madara                   |
