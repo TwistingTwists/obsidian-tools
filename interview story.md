@@ -42,12 +42,46 @@ wide scope  + one week + scope and plan / collab + design for 10x +
 LE = learning and enablement 
 
 Learning 
-- new joinee - less context , les
+- new joinee - less context , speed up to the pace , 
+	- talk to the person -- 
+		- delegate the task which is fit for the person
+		- talk to manager, assign on a different team
+		- understand motivation and align with team + values + ambition
+	- Why this project? = project groomed to be a better leader -- human errors handling, due to external factors
 
-FuckUp:
-- 
+- bring to the speed + org cutture + team ambition working style 
+	- observe = async (PR review all)  + sync (load testing setup -- )
+	- small task - hands on 
+	- buddy assign - ask freely questions around the process - async communication -- helped us evaluate him -- 
+		- set you up for success =  do well with us in next 6 months
 
-### 
+
+
+Enablement: 
+
+### situation where you felt like a professional failture.
+
+react + learn + improve 
+
+
+##### Steps:
+realise that it is a failure
+feedback
+
+What has happened?
+- Technical failure 
+- Team failure - lost my position as an expert , loss of trust with other teammates, 
+- Grateful - ( Not blame culture ) 
+	- team helped me with feedback / 
+		- generate actionable insights for me 
+		- for the team as well -- incident playbook for that specific scenario
+			- commitment to daily / weekly action
+			- commitment to measurabe metric 
+
+react = growth mindset + actionable insights + clear commitmment to action with the team (trust building)
+
+
+### Technical professional failure
 
 
 
