@@ -83,6 +83,25 @@ react = growth mindset + actionable insights + clear commitmment to action with 
 
 ### Technical professional failure
 
+> High standards - codebase should be left in a position better than we found it
+
+Slack - We openly communicate to commitment to standards that we uphold - teams, individuals. Company.
+
+Team: 
+- codebase better. 
+- maker checker = review is must. (infra teams) -- translated to high ownership -- infra outage => rollback by those two folks
+
+
+
+soft 
+- Planning time reduce + oversight => logging infra + tech debt => oncall  
+- Remedy -- quick fix the logging library 
+
+soft 2
+- Devlogs left in prod => cleanup not done properly => datadog bill apna shoot 
+
+hard 
+- Deleted the db + thankfully it was staging
 
 
 
