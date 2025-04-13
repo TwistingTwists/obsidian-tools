@@ -3,6 +3,12 @@ tags:
   - interview
 ---
 
+- focus on " I "
+- engineering process tell 
+- my involvement -- lead , stakeholders, distribute , delegate 
+- dollar conversion + engineering time saved 
+
+
 ### Most challenging project you ever did
 
 - staff - cross team collab 
@@ -21,8 +27,8 @@ tags:
 	- payment / order async + features - delivery email / delivery ads 
 - People : team 3 - 10x  -- 
 	- MVP 3 ways -> load test 
-	- 
-- Staff - 
+ 
+- Staff 
 	- marketing team - growth projection => major airdrops -- traffic spike 
 	- figure out other features that can be built using same lib --- invest in this library
 	- Impact : 
@@ -31,6 +37,17 @@ tags:
 
 
 wide scope  + one week + scope and plan / collab + design for 10x + 
+
+
+LE = learning and enablement 
+
+Learning 
+- new joinee - less context , les
+
+FuckUp:
+- 
+
+### 
 
 
 
