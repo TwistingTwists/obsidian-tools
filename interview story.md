@@ -100,16 +100,25 @@ soft
 soft 2
 - Devlogs left in prod => cleanup not done properly => datadog bill apna shoot 
 
-hard 
+
+
+Hard 
+- Cache invalidation
+	- Subscriptions not deleted in cache, but expired from db
+- Read path - cache.  write path - CUD , subscription - expiry date (caching invalidate)
+- Find out about it? -- monthly subscriptions but kept increasing, renewable revenue is not increasing same about
+
+Pair it with some edge case. 
+
+
+hard 2
 - Deleted the db + thankfully it was staging
 
 
 
+### feedback to seniors 
 
-
-
-
-
+managers 
 
 
 
