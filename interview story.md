@@ -91,8 +91,6 @@ Team:
 - codebase better. 
 - maker checker = review is must. (infra teams) -- translated to high ownership -- infra outage => rollback by those two folks
 
-
-
 soft 
 - Planning time reduce + oversight => logging infra + tech debt => oncall  
 - Remedy -- quick fix the logging library 
@@ -119,12 +117,6 @@ hard 2
 ### feedback to seniors 
 
 managers 
-
-
-
-
-
-
 
 
 
