@@ -2,6 +2,72 @@
 tags:
   - interview
 ---
+
+### Most challenging project you ever did
+
+- staff - cross team collab 
+- SDE-3 - Deep Tech Challenge + little team collab
+- SDE-2 - library likha
+
+
+- WHAT - designing pubsub system with event bus in rust
+- WHY
+- STAR
+	- payment / order notification system
+	- notification -- notify other microservice / notify user
+	- A: MVP users projection 1yr + 10x spikes => 
+		- library + integration tests + load test
+	- integrated into our codebase
+	- payment / order async + features - delivery email / delivery ads 
+- People : team 3 - 10x  -- 
+	- MVP 3 ways -> load test 
+	- 
+- Staff - 
+	- marketing team - growth projection => major airdrops -- traffic spike 
+	- figure out other features that can be built using same lib --- invest in this library
+	- Impact : 
+		- TECH -- 10000 signup a day , same infra -- 10x 
+		- BUSINESS -- marketing team 1 aidrdops == 3 -- 100 => 10000 signups a day
+
+
+wide scope  + one week + scope and plan / collab + design for 10x + 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 You have to show that you love the craft!!! 
 
 
