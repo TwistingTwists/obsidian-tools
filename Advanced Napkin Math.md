@@ -18,7 +18,7 @@ SSD: $0.1 / GB / month
 Disk: $0.01 / GB / month
 Cloud-storage (S3): $0.02 / GB / month
 Network: $0.01 / GB / month
-<!--SR:!2025-03-24,3,250-->
+<!--SR:!2025-04-15,2,230-->
 
 
 ---
