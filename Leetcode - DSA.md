@@ -265,10 +265,23 @@ constraint: bag has fixed weight
 https://www.youtube.com/watch?v=w8vY2G5YFq4
 
 
+
+
+------
+
+
 # Binary Search 
 - codeforces -> Binary search : https://codeforces.com/blog/entry/110077
 - https://codeforces.com/edu/course/2/lesson/6/4
 
+
+Search : 
+1. Crystal ball problem - search in O(sqrt(N))
+2. Binary Search 
+3. Priority Queues
+
+
+------
 
 
 two pointers, 
