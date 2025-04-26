@@ -192,3 +192,10 @@ Prepare stories for:
 [[invideo]]
 
 [[behavioural template]]
+
+
+
+I have built state of the art whenever I have 
+- encrypted video 
+- upload upto 5GB resumable SOTA 
+- SOTA - resumable transfer connection 
