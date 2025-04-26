@@ -2,6 +2,19 @@
 tags:
   - advice
 ---
+
+2025-04-26 09:22:13
+
+
+| link                                                                                       | summary? |
+| ------------------------------------------------------------------------------------------ | -------- |
+| https://home.ubalt.edu/ntygfit/ai_05_mapping_directions/ai_05_see/ad_total_eclipse.htm     |          |
+| https://archive.nytimes.com/www.nytimes.com/books/99/03/28/specials/dillard-drop.html?_r=1 |          |
+| https://thesublimeblog.org/2020/01/11/the-present-by-annie-dillard/                        |          |
+| https://research.swtch.com/diffcover                                                       |          |
+
+
+
 [Source : ](https://www.julian.com/guide/write/ideas)
 
 A novel idea is one that's not just new to the reader, but also significant and not easily intuited. Think of it as new and _worthwhile_. I've identified five categories:
