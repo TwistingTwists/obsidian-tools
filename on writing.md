@@ -12,6 +12,7 @@ tags:
 | https://archive.nytimes.com/www.nytimes.com/books/99/03/28/specials/dillard-drop.html?_r=1 |          |
 | https://thesublimeblog.org/2020/01/11/the-present-by-annie-dillard/                        |          |
 | https://research.swtch.com/diffcover                                                       |          |
+| https://www.youtube.com/watch?v=E-gXcRh4HVk                                                |          |
 
 
 
