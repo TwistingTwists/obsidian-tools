@@ -5,6 +5,13 @@ tags:
 ---
 https://www.educative.io/courses/grokking-the-low-level-design-interview-using-ood-principles
 
+
+--- 
+
+Design Connectoin pool 
+
+---
+
 ### **Question 1: Design a Parking Lot System**
 
 Imagine you need to design a system to manage a **parking lot**. The system should handle the following requirements:
