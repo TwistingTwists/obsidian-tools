@@ -11,3 +11,8 @@
 
 
 [[Claude's extended thinking on query cache]]
+
+
+Other smaller topics 
+
+- HyperLogLog-based cardinality estimation in Flow Engine
