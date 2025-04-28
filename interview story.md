@@ -150,18 +150,11 @@ This round assesses leadership, ownership, collaboration, and how you fit Google
 #### Focus Areas:
 
 - Project ownership: initiative, leading efforts
-    
 - Mentoring juniors or cross-functional collaboration
-    
 - Conflict resolution
-    
 - Dealing with ambiguity
-    
 - Balancing quality vs speed
-    
 - Learning from failures
-    
-
 #### Framework:
 
 Use **STAR (Situation, Task, Action, Result)** to structure answers.
