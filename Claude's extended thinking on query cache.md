@@ -2,6 +2,10 @@
 
 This analysis examines query cache implementations in four major log observability systems, focusing on their architectures, performance characteristics, and optimization strategies for time-series and high-cardinality data.
 
+
+[[filter context elasticsearch]]
+
+
 ## 1. Elasticsearch Query Cache
 
 ### Architecture of Query Cache Implementation
