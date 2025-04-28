@@ -3,6 +3,7 @@
 [[Claude's extended thinking on query cache]]
 [[Chatgpt on query cache]]
 [[query_cache_perplexity]]
+[chatgpt o3 research on query cache](https://docs.google.com/document/d/1lZgGiP7eDBBicWDt51joZWy5qvIn9m6jMkpeoHMrgPA/edit?usp=sharing)
 
 [gemini - google doc on query cache](https://docs.google.com/document/d/1yERPOR9OGc5bYEM7wT5yRKofSrniVqFa-jS4ZabyX0k/edit?usp=sharing)
 [gemini - google doc 2 on query cache](https://docs.google.com/document/d/1guojblxg7ffbygAgYK9v031wDRiqSjAx7WBfL0UB4bk/edit?usp=sharing)
