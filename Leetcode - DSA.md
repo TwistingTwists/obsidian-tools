@@ -12,6 +12,8 @@ I love you ...❤️
 
 patterns: https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problems-in-100-days
 
+[[two pointers summary claude]] [[two_pointers_summary]]
+
 sliding window pattern is a good candidate for any problem that involves searching for a continuous subsequence
 
 | problem |     | sheet                            | concept                                                                |

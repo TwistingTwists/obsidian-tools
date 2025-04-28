@@ -38,3 +38,6 @@ For each dimension where you want to grow, you might create goals like:
 - Develop systems to track progress in important areas
 
 Would you like to focus on any particular dimension of the PERMA model that resonates most with you? Or would you prefer to explore how to create balanced goals across all five areas?​​​​​​​​​​​​​​​​
+
+
+[[Personal Values]]
