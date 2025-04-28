@@ -24,3 +24,5 @@ query cache in openobserve -- how to design the storage for that?
 
 
 [[Query Cache Deep Dive]]
+
+Books for observability ??
