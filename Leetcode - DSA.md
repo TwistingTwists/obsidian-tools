@@ -12,7 +12,9 @@ I love you ...❤️
 
 patterns: https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problems-in-100-days
 
-[[two pointers summary claude]] [[two_pointers_summary]]
+[[two pointers summary claude]] 
+[[two_pointers_summary]]
+
 
 sliding window pattern is a good candidate for any problem that involves searching for a continuous subsequence
 
@@ -30,6 +32,9 @@ sliding window pattern is a good candidate for any problem that involves searchi
 ----
 
 # SLIDING WINDOW
+
+[[sliding_window claude deep dive]]
+
 
 > [!info]- template
 
@@ -275,6 +280,8 @@ https://www.youtube.com/watch?v=w8vY2G5YFq4
 # Binary Search 
 - codeforces -> Binary search : https://codeforces.com/blog/entry/110077
 - https://codeforces.com/edu/course/2/lesson/6/4
+
+[[BinarySearch Patterns DeepDive]]
 
 
 Search : 
