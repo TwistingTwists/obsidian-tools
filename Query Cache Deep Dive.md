@@ -14,6 +14,10 @@ Other smaller topics
 
 - [ ] HyperLogLog-based cardinality estimation in Flow Engine [[hyperloglog-chatgpt-research]]
 - [ ] Liquid-cache repository for datafusion -[Github](https://github.com/XiangpengHao/liquid-cache)
+- [ ] Query Cache of Quickwit [with examples](https://www.perplexity.ai/search/however-quickwits-caches-of-in-auIKQJudSM6dUHx1AlbUZA)
+- [ ] [materialized view vs influxdb last value cache (LVC) ](https://www.perplexity.ai/search/https-www-influxdata-com-blog-1N61Sus3QkWV8u.kARhogA)
+- [ ] [high cardinality and caching in elasticsearch](https://www.perplexity.ai/search/high-cardinality-filters-like-KyDFdBNPTBmxMt68Xlw9oQ)
+- [ ] 
 
 
 Other intersting links 

@@ -16,7 +16,10 @@ Here is a **comprehensive code walkthrough** of **binary search variations** usi
 > Given a rotated sorted array (sorted but rotated at an unknown pivot), find the index of a target value.
 
 ## ✅ Key Idea:
-At each step, determine which half is sorted and check if the target lies within that half.
+At each step, 
+1. determine which half is sorted 
+2. check if the target lies within that half.
+
 
 ```python
 def search(nums, target):
@@ -50,8 +53,59 @@ def search(nums, target):
 - The rotation breaks full monotonicity.
 - We compare `nums[mid]` with `nums[left]` to detect the sorted half.
 - In the presence of duplicates, we shrink the bounds (`left += 1`, `right -= 1`) to avoid ambiguity.
+Great! Let's do a dry run of the updated function that handles duplicates.
+
+```
+Array: [2, 5, 6, 0, 0, 1, 2]
+Target: 0
+
+low = 0, high = 6
+mid = (0 + 6) // 2 = 3 → nums[3] = 0
+
+ nums[mid] == target → return 3
+ Target found immediately at index 3
+
+ Now let's try a slightly trickier case where we don't hit the target immediately
+
+```
+
+
 
 ---
+```
+
+Array: [2, 5, 6, 0, 0, 1, 2]
+
+Target: 3
+
+low = 0, high = 6
+mid = 3 → nums[3] = 0
+
+Left side is not sorted (2 > 0), so check right side.
+Right side [0, 1, 2] → target 3 not in [0,2] → search left.
+
+Set high = mid - 1 = 2
+
+low = 0, high = 2
+mid = 1 → nums[1] = 5
+
+Left side [2, 5] is sorted. Is 3 in [2,5]? → Yes → search left
+
+Set high = mid - 1 = 0
+
+low = 0, high = 0
+mid = 0 → nums[0] = 2
+
+3 not equal to 2 → target not found
+
+→ Finally: return -1
+
+Result: -1 (target not found)
+
+```
+
+---
+
 
 # 🎯 2. **Finding Peak Element**
 ### 📌 Problem: [LeetCode #162 - Find Peak Element](https://leetcode.com/problems/find-peak-element/)
