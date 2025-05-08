@@ -31,9 +31,7 @@ Distributed systems
 | query cache               |                                                                                         |
 | service discovery issues? | network partition + GFS + data consistency<br><br>constant work principle - amazon blog |
 |                           |                                                                                         |
-|                           |                                                                                         |
-|                           |                                                                                         |
-|                           |                                                                                         |
+
 
 
 Companies don't want coders. They want folks who can build systems that scale and are well built. 
