@@ -4,13 +4,14 @@ tags:
 ---
 
 
-|                                       |                                              |
-| ------------------------------------- | -------------------------------------------- |
-| security                              | mTLS (certificate based), JWT (token based), |
-| how to rotate tokens / keys for IoT ? |                                              |
-| web dev security - 12 factor app      | JWT / SQL / XSS / CSRF /                     |
-|                                       |                                              |
-|                                       |                                              |
+|                                       |                                              |                                                                                      |
+| ------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [[security for IoT devices]]          | mTLS (certificate based), JWT (token based), | 4 levels <br><br>hardware <br><br>software<br><br>network <br><br>data on device<br> |
+| how to rotate tokens / keys for IoT ? |                                              |                                                                                      |
+| web dev security - 12 factor app      | JWT / SQL / XSS / CSRF /                     |                                                                                      |
+|                                       |                                              |                                                                                      |
+|                                       |                                              |                                                                                      |
+|                                       |                                              |                                                                                      |
 
 
 Databases
