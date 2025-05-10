@@ -9,6 +9,11 @@ tags:
 - dollar conversion + engineering time saved 
 
 
+Fcous on spikes in your time in organisation. Navigate org complexity and have impact
+
+Focus on ingestion speed by 10x. — batching, streaming records , connection pool
+
+
 ### Most challenging project you ever did
 
 - staff - cross team collab 
