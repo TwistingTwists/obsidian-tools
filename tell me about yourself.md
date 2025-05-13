@@ -2,6 +2,9 @@
 tags:
   - interview
 ---
+
+
+
 I am Abhishek. I grew up with computers. From trying to design concurrent access databases at 13, I've had a fascinating ride. 
 
 2012 - entered college. bought laptop - installed unix. The journey began there. Used to solve cs assignments for fun with my cs room mate. participated and came in top 5 in robotics at that time. 
@@ -35,4 +38,9 @@ Norway - India partnership -- embedded systems + real-time dashboards.
 - 
 
 writing blogs - 
+- visualising database isolation 
+	- mvcc transactions ?
+- tokio internals
+
+
 
