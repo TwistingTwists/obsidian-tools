@@ -3,6 +3,14 @@ tags:
   - study
 due: 2024-05-31
 ---
+
+---
+How to learn dist-sys - Murat's blog 
+https://cse.buffalo.edu/~demirbas/course.pdf
+https://muratbuffalo.blogspot.com/2017/11/the-youtube-clips-i-show-in-my.html
+
+--- 
+
 Here is the plan: 
 
 1. Revise DDIA 
@@ -66,4 +74,3 @@ https://github.com/aphyr/distsys-class?tab=readme-ov-file
 | https://courses.cs.vt.edu/cs5204/fall11-butt/lectures/perculator.pdf |     |
 | https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Peng.pdf |     |
 | https://tikv.org/deep-dive/distributed-transaction/percolator/       |     |
-
