@@ -32,3 +32,11 @@ v1 release:
 
 
 
+
+
+----
+
+Recommendation engine for theme based analysis of upsc 
+
+- [ ] upsc pyq table 
+- [ ] 
