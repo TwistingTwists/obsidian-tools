@@ -23,3 +23,9 @@ INFO estate_fe::logging: gzip = false , response_bytes_or_string : {"data":{"boo
 2025-07-01T04:11:03Z app[d8d9ee6f123458] bom [info]  2025-07-01T04:11:03.197613Z ERROR estate_fe::ssr_booking::booking_handler: Booking failed: Hotel service book_room failed: ProviderError(ProviderErrorDetails { provider_name: LiteApi, api_error: JsonParseFailed("path: data.cancellationPolicies.hotelRemarks - inner: invalid type: sequence, expected a string at line 1 column 869 "), error_step: HotelBookRoom })
 
 ```
+
+
+Next steps
+- experience with stable diffusion - hands on way to experiment
+- challenges you are facing -- can hlep alleviate this 
+- veo - pub sub / api / load balancing / query expansion 
