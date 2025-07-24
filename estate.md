@@ -29,3 +29,12 @@ Next steps
 - experience with stable diffusion - hands on way to experiment
 - challenges you are facing -- can hlep alleviate this 
 - veo - pub sub / api / load balancing / query expansion 
+
+2025-07-24
+
+cannot get the `get_booking_by_id` from bakend 
+
+1. try to deploy on estate staging - and see if you can get data there?
+	- [ ] dockerfile setup for staging
+	- [ ] setup github actions?? 
+	- [ ] on production, setup canister_ids.json properly?? in the ci 
