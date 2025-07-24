@@ -35,6 +35,9 @@ Next steps
 cannot get the `get_booking_by_id` from bakend 
 
 1. try to deploy on estate staging - and see if you can get data there?
-	- [ ] dockerfile setup for staging
+	- [x] dockerfile setup for staging
 	- [ ] setup github actions?? 
 	- [ ] on production, setup canister_ids.json properly?? in the ci 
+
+2. use the sns canister in prod
+	- [ ] 
