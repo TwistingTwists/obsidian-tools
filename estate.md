@@ -40,4 +40,7 @@ cannot get the `get_booking_by_id` from bakend
 	- [ ] on production, setup canister_ids.json properly?? in the ci 
 
 2. use the sns canister in prod
+	- [ ] find the principal of the controller in prod and staging 
+	- [ ] add that to the backend and raise a proposal 
+	- [ ] see if that passes and you can then store data in canister
 	- [ ] 
