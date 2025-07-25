@@ -45,4 +45,6 @@ cannot get the `get_booking_by_id` from bakend
 	- [ ] raise a proposal 
 	- [ ] test on local first - remvoe anon and test
 	- [ ] see if that passes and you can then store data in canister
+
+3. email is missing form backend booking details -- it is not working in prod. 
 	- [ ] 
