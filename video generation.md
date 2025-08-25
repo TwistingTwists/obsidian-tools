@@ -18,13 +18,3 @@ build ads which look like AB,
 | sam2 - track  + inpaint product (medium motion) |                  |                                                                              |                                                                                                                         |                                                                 |
 |                                                 |                  |                                                                              |                                                                                                                         |                                                                 |
 |                                                 |                  |                                                                              |                                                                                                                         |                                                                 |
-
-
-Linkedin-scraper :
-- Profile + connection search + server setup + Whatsapp mcp  ? + notion mcp ? 
-- Email setup 
-- 
-
-
-Issues: 
-- If the product does not move, text garbled? 
