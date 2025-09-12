@@ -10,5 +10,10 @@ video - 001
 |                 |                                                      |
 
 
+## short notes from cs231N 
+
+video - 11 distributed training
+
+
 ## Misc
 [[morsel driven parallelism paper]]
