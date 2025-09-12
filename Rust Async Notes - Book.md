@@ -4,6 +4,7 @@ tags:
   - long_term
   - plans
 ---
+[[async cancellation safety - notes]]
 ## Pingora
 ### Thread local vs Arc Mutex
 timer.rs in pingora 
