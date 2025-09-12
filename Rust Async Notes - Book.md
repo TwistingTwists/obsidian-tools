@@ -3,6 +3,7 @@ tags:
   - rust
   - long_term
   - plans
+created: 2025-09-12
 ---
 [[async cancellation safety - notes]]
 ## Pingora

@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+  - type: table
+    name: lastweek
+    filters:
+      and:
+        - file.ctime >= "2025-07-01"
+  - type: table
+    name: touched-last-week
+    filters:
+      and:
+        - file.mtime >= "2025-08-15"

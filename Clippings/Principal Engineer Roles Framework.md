@@ -7,8 +7,8 @@ published: 2024-12-19
 created: 2024-12-21
 description: I have worked on Amazon S3 for ~12 years and if there is one thing that I have learned, it is that when you run complex systems at scale, you must think deeply about how teams work. It’s not enough to be get into the details about what you build.
 tags:
-  - clippings
   - interview
+  - roles
 ---
 I have worked on Amazon S3 for ~12 years and if there is one thing that I have learned, it is that when you run complex systems at scale, you must think deeply about how teams work. It’s not enough to be get into the details about what you build. You have to spend lots of time engineering, iterating, and improving how you and your team operate. 
 
