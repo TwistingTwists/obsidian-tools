@@ -1,26 +1,19 @@
 
-* What is the difference between `change` and `manual` while dealing with changesets in ash? 
-* How to do bulk udpates? 
-* Manage nested relationships ? 
 
-Pyro + ashpyro can help make me ship ideas faster. 
-What ideas make money? 
-Minimalist Entrepreneur says what about it ?
+project to do using ash framework ?
 
 
-How to decide A is worth doing? => is it important to you ? 
+## 001 - telegram quit botter 
 
+Should we do quizzing framework for data json files - pdf -> parse to json -> run quiz in telegram fast ?? want to do that for shivani - fast - ashframework -> loads json for questions / users and quiz response
 
-What improves life quality? 
-* alertness in actions 
-* awareness in thoughts
+ AshS3extension to have a few fields / files ->  upload to the db (key,  bucket, provider)
 
+---
 
-What is important to me ?
-* wife  - improving life quality. 
+## 002 - ash teams template ?
 
---- 
-
+Teams with ash = how to build teams features — users / orgs etc? Template where we can start from?
 
 
 

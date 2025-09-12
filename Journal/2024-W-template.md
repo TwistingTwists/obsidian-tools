@@ -5,9 +5,16 @@ tags:
   - logs
 aliases:
   - weekly plan
-aim: 
-advice:
 ---
+
+| day of the week | progress on this day |
+| --------------- | -------------------- |
+| Monday          |                      |
+| tuesday         |                      |
+| wed             |                      |
+| thurs           |                      |
+| fri             |                      |
+| sat             |                      |
 
 
 ### Focus Goal 
@@ -18,10 +25,4 @@ advice:
 
 #### Not Urgent Not Important
 
-
-#### Reading list 
-
-
-| Book | Status |
-| ---- | ------ |
-|      |        |
+ 

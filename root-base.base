@@ -11,3 +11,8 @@ views:
     filters:
       and:
         - file.mtime >= "2025-08-15"
+  - type: table
+    name: weekly
+    filters:
+      and:
+        - file.name.startsWith("2025")
