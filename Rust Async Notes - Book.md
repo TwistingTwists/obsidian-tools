@@ -6,6 +6,8 @@ tags:
 created: 2025-09-12
 ---
 [[async cancellation safety - notes]]
+[[memory ordering - rust]]
+
 ## Pingora
 ### Thread local vs Arc Mutex
 timer.rs in pingora 

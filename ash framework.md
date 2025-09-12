@@ -16,4 +16,6 @@ Should we do quizzing framework for data json files - pdf -> parse to json -> ru
 Teams with ash = how to build teams features — users / orgs etc? Template where we can start from?
 
 
+003 - cco - schema design using ash 
+
 
