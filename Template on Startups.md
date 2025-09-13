@@ -2,7 +2,7 @@
 tags:
   - interview
 ---
- 
+  
 ### a. SWOT Analysis
 
 For each idea, evaluate:
