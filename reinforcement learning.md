@@ -13,7 +13,7 @@ created: 2025-09-12
 | 2023 | [CS 330 Deep Multi-Task and Meta Learning](https://cs330.stanford.edu/)                                    | multi task DL <br>+ variantional autoencoders caught my eye<br>                                            |
 | 2025 | [hands on RL by Vizura](https://www.youtube.com/playlist?list=PLPTV0NXA_ZSgf2mDUJaTC3wVHHcoIgk12)          | [[Notes on hands on RL by VizuraAI]]                                                                       |
 
-## ideas on implementing RL projects 
+## Ideas on implementing RL projects 
 
 | name                    | short desc                                                                                                                                                                                                                                                                                                                                   |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -22,6 +22,10 @@ created: 2025-09-12
 | RL code agent           | - automatic RL agent on your codebase - and claude traces -- think reflect of mistakes<br><br>	- after a chat is finished =>  trigger the RL on claude traces => it asks claude to generate the dataset , reflection, mistakes and then encodes them into the codebase? md files so that  claude does not make those mistakes again <br><br> |
 |                         |                                                                                                                                                                                                                                                                                                                                              |
 
+## Content around RL 
+
+- Your own voice notes on RL - start complex. from real world intuition. and then think backwards, simplifying things one at a time. 
+- 
 
 ## Recommended reading lists 
 
