@@ -1,3 +1,8 @@
+---
+tags:
+  - hormozi
+---
+
 To create an offer here are three things to think about. 
 
 1. target audience 
