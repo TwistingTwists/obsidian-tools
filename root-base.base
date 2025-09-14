@@ -11,6 +11,10 @@ views:
     filters:
       and:
         - file.mtime >= "2025-08-15"
+        - file.tags.contains("startups")
+    order:
+      - file.name
+      - tags
   - type: table
     name: weekly
     filters:
