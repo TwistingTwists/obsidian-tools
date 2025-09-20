@@ -2,6 +2,14 @@
 tags:
   - interview
 ---
+2025-09-20
+
+|                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Why such an unconventional career path? | I believe in Agency. Big Believer. <br><br>Whatever I wanted - elixir, rust, work from home and rust -> I made it happen. <br><br>I wanted to learn OS : joined a group<br>wanted to try consulting: joined Vertexcover as a partner.<br>wanted to give other skills a shot - content, sales, people -> vertexcover is my best shot at it. <br><br>But like all other skills - this all rests on the base of the pyramid : technical skills.  It does come with experience. I have experience in problems I found interesting while learning elixir / rust. <br> |
+|                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+
+
 
 - focus on " I "
 - engineering process tell 
