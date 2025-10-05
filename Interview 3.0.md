@@ -6,6 +6,18 @@ tags:
 libraries: 
 topic: interview
 ---
+Section 001 - past experience.
+
+
+| role                                   | did | major challenge | solve? | learning |
+| -------------------------------------- | --- | --------------- | ------ | -------- |
+| full stack at tinymesh                 |     |                 |        |          |
+| Elixir consultant with Optimum / Xplor |     |                 |        |          |
+| Rust at Yral                           |     |                 |        |          |
+|                                        |     |                 |        |          |
+
+
+
 -----
 
 
@@ -20,8 +32,6 @@ Databricks - what do they hire for?
 
 
 ----
-
-
 
 ## Top level links to other files 
 
