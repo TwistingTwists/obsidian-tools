@@ -28,3 +28,9 @@ Consider two users trying to book the last available seat on a flight at the sam
 
 This is typically achieved through mechanisms such as ***locks.*** A thread can acquire a lock on a shared resource, preventing other threads from accessing it until the lock is released. This serialization of access ensures that concurrent operations do not interfere with each other, thus maintaining the consistency of the shared data. Simple serialization is a straightforward way to achieve this, though it can limit concurrency.
 
+
+
+### Uses of atomicity 
+- abstraction design - higher level does not have to know the details of the lower level. can rely on all-or-nothing semantics
+- fault tolerance 
+- database - transactions
