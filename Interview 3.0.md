@@ -9,12 +9,13 @@ topic: interview
 Section 001 - past experience.
 
 
-| role                                   | did | major challenge | solve? | learning |
-| -------------------------------------- | --- | --------------- | ------ | -------- |
-| full stack at tinymesh                 |     |                 |        |          |
-| Elixir consultant with Optimum / Xplor |     |                 |        |          |
-| Rust at Yral                           |     |                 |        |          |
-|                                        |     |                 |        |          |
+| Role                         | Did                                                                                                                                  | Major challenge                                                                                                                | Solve?                            | learning                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | ---------------------------------------------------------------------------------- |
+| Full stack at tinymesh       |                                                                                                                                      |                                                                                                                                |                                   |                                                                                    |
+| Elixir consultant with Xplor | - graphql optimsations<br>- platform scaling for new region deployment                                                               | - scaling for double the capacity, at 20% additional infra                                                                     | - caching, graphql query tuning,  | - connectoin pooling for the outgoing requests<br>- reverse proxy dns caching<br>- |
+| Rust at Yral                 | - Yral - scaled from 500 to 5000 users<br><br>- nofeebooking - architected the entire platform<br><br>- ai video generation platform | - managing team of three folks to deliver the zero-to-one product<br><br>- feature shipping zero-to-one leveraging AI<br><br>- | - management + software architect | -                                                                                  |
+| pumpumpum                    | admin dashboards                                                                                                                     | RBAC / JWT                                                                                                                     |                                   | lots of nodejs code                                                                |
+|                              |                                                                                                                                      |                                                                                                                                |                                   |                                                                                    |
 
 
 
