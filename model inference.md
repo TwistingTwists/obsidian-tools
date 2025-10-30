@@ -7,6 +7,24 @@ tags:
 - [Life of an inference request (vLLM V1): How LLMs are served efficiently at scale](https://www.ubicloud.com/blog/life-of-an-inference-request-vllm-v1)
 
 
+## learning plan 
+### Step-by-Step Learning Plan
+
+Let's break this down into a structured learning plan.
+
+This is a really cool and important topic! Our learning plan will cover:
+
+1. **The Big Picture:** Understanding the difference between model training and inference.
+    
+2. **The Serverless GPU Challenge:** Diving into the "cold start" problem.
+    
+3. **The GPU Snapshotting Solution:** Learning how this new technology solves the challenge.
+    
+4. **Putting it all together:** Seeing how this impacts real-world applications.
+
+
+
+
 ### The KV Cache Bottleneck
 
 In a transformer-based LLM, the core of the self-attention mechanism is the computation of **Query (Q), Key (K), and Value (V)** vectors for each token in the input sequence. For an autoregressive model to generate the next token, it needs to attend to all the previous tokens. Without any optimizations, this would mean recomputing the Q, K, and V vectors for the _entire_ sequence every time a new token is generated. This leads to a quadratic computational complexity, O(N2), where N is the sequence length. This is computationally prohibitive for long sequences.
