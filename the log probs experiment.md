@@ -9,3 +9,6 @@ if you can logprobs, there are a few experiemnts you can run.
 I want fame, hence I am ineterested in this a little more. 
 
 so, implement the log probs + as the tokens are streamed, atkea a running sum / average of the log probs and stop at 84%. sort of running window.s 
+
+
+[[Shannon Entropy]]
