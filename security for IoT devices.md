@@ -1,3 +1,9 @@
+---
+tags:
+  - interview
+---
+[[chatgpt guide on security of IoT Devices]]
+
 Securing IoT devices deployed on the edge is a multi-faceted challenge requiring a defense-in-depth strategy. Here's a breakdown of how to approach it and confirm device identity:
 
 ## Securing IoT Devices on the Edge:
