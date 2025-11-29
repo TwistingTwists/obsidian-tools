@@ -1,4 +1,46 @@
-Short version: Fly.io’s biggest usage-based billing headaches are **complex metering, confusing invoices (especially bandwidth), free-tier expectations, and migrating pricing models without breaking trust**. I’ll lay those out, then turn them into concrete projects you can do.
+✅ Option A – Direct copy from prod to local (no files)
+
+This is usually the cleanest if you already have both connections in DBeaver.
+
+1. Make sure both DBs are connected
+
+In DBeaver’s Database Navigator, you should see:
+
+Prod connection
+
+Local connection
+
+2. Ensure the table exists in local
+
+In Prod, right-click the table → Generate SQL → DDL.
+
+Run that DDL on your Local connection to create the exact same table structure (if it doesn’t already exist).
+
+3. Use Data Transfer (table → table)
+
+In Prod, right-click the table you want:
+
+Export Data… (or Data Transfer… depending on version).
+
+In the Data Transfer Wizard:
+
+For Source, it will show your prod table.
+
+For Target, choose Database (or Database Table).
+
+Choose your Local connection and the target table (same name or whatever you want).
+
+Click Next:
+
+You can add a WHERE clause or LIMIT 100 if you only want ~100 rows.
+
+Example SQL filter: LIMIT 100 (Postgres/MySQL) or FETCH FIRST 100 ROWS ONLY (Oracle).
+
+Map columns (DBeaver usually does this automatically).
+
+Click Finish to run.
+
+That’s it – the 100 rows from prod are copied directly into your local table.Short version: Fly.io’s biggest usage-based billing headaches are **complex metering, confusing invoices (especially bandwidth), free-tier expectations, and migrating pricing models without breaking trust**. I’ll lay those out, then turn them into concrete projects you can do.
 
 ---
 
