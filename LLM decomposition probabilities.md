@@ -2,6 +2,8 @@
 
 [Summary from kimi](https://www.notion.so/Summary-from-kimi-2adf62ce42418025a0a7d6f50d300993?pvs=21)
 
+[[kimi summary]]
+
 ---
 
 # Understanding How Task Decomposition Affects Voting-Based Reliability: A Detailed Summary
