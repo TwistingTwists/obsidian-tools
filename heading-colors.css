@@ -1,0 +1,26 @@
+/* Global Heading Colors (Base: Light Mode) */
+body {
+    --h1-color: #E74C3C; /* Red */
+    --h2-color: #F39C12; /* Orange */
+    --h3-color: #2ECC71; /* Green */
+    --h4-color: #3498DB; /* Blue */
+}
+
+/* Dark Mode Overrides */
+.theme-dark {
+    --h1-color: #FF6B6B; /* Lighter Red-Orange */
+    --h2-color: #FFC35C; /* Lighter Yellow-Orange */
+    --h3-color: #7ED957; /* Lighter Green */
+    --h4-color: #66B3FF; /* Lighter Blue */
+}
+
+/* Fallback for themes that don't use the variables (Recommended) */
+.theme-light h1, .theme-light .cm-header-1 { color: var(--h1-color); }
+.theme-light h2, .theme-light .cm-header-2 { color: var(--h2-color); }
+.theme-light h3, .theme-light .cm-header-3 { color: var(--h3-color); }
+.theme-light h4, .theme-light .cm-header-4 { color: var(--h4-color); }
+
+.theme-dark h1, .theme-dark .cm-header-1 { color: var(--h1-color); }
+.theme-dark h2, .theme-dark .cm-header-2 { color: var(--h2-color); }
+.theme-dark h3, .theme-dark .cm-header-3 { color: var(--h3-color); }
+.theme-dark h4, .theme-dark .cm-header-4 { color: var(--h4-color); }
