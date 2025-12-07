@@ -8,8 +8,3 @@
 	- attach the visible work with invisibile work.
 		- if you wrote deployment docs -> make deployment => then show that to the team so that they have the impreesion that 'things got done'. also, increases the reliabiltity on the doc. your 'stature' as someone who produces mature docs / well tested stuff increases. quality of docs goes up 
 - atomic habits - master showing up first - make it easy to show up (1-2 min activity)
-- 3 slots of 30 min
-	- automated tempalting system for notch - high level idea => create template autoamtically 
-	- vishal - scrapfiy - UI make 
-	- vishal - law discovery framework - agentic system - care about it enough so that vishal has no problem paying
-	- 
