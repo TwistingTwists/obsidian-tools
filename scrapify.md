@@ -1,0 +1,1 @@
+bun create better-t-stack@latest my-better-t-app --frontend tanstack-router --backend none --runtime none --api none --auth none --payments none --database none --orm none --db-setup none --package-manager bun --git --web-deploy none --server-deploy none --install --addons biome oxlint turborepo --examples none
