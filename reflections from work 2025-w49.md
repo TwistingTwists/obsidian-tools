@@ -1,0 +1,15 @@
+- I remember invideo CPTO told me 
+	- solve some hard problems for the folks. this 'OWNERSHIP mindset' is missing. Treat work like this is the OPPORTUNITY that will help you grow. this is what learders / experienced folks can see through in one go. 
+	- this is what is my focus for w50,w51, w52 of this year 
+- HORMOZI-PRINCIPLE = one who cares about 'something' more than the other parties wins. you have to care more. not with your life. just measure the care and care more (show more care)
+- engg-advice = when doing invisible work , attach that to visible work to transition from just coder => to someone who codes and helps the team.
+	- coder = only visible work
+	- invisible work = docs / onboarding new folks etc 
+	- attach the visible work with invisibile work.
+		- if you wrote deployment docs -> make deployment => then show that to the team so that they have the impreesion that 'things got done'. also, increases the reliabiltity on the doc. your 'stature' as someone who produces mature docs / well tested stuff increases. quality of docs goes up 
+- atomic habits - master showing up first - make it easy to show up (1-2 min activity)
+- 3 slots of 30 min
+	- automated tempalting system for notch - high level idea => create template autoamtically 
+	- vishal - scrapfiy - UI make 
+	- vishal - law discovery framework - agentic system - care about it enough so that vishal has no problem paying
+	- 
