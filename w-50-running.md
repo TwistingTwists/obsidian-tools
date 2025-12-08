@@ -1,19 +1,18 @@
-How I think about
-1.  templates 
-2. Testing  more concepts 
-In one picture is
-
-Templates = a way to make 'specific' kind of video. One concept. For example, jump-cuts-4-scene-template 
-
-Testing more concepts =  on a given creative (or a product)
-
+## Now
+- [ ] 30 min - read this [notion by vinay](https://www.notion.so/madmenai/UGC-Video-templates-2c27cc5cdc6880bbb9c3d981a5787300) and make priority list
+	- [ ] custom avatar - in prod
+- [ ] avatar - clothing / pillow category - make one template
+- [ ] avatar using product (voli bottle being used) - make one template
+	- [ ] text less on the product surface
+- [ ] [[elevenlabs - voice change flow]]
+- [ ] 
 ---
-
+## Master list
 
 - [ ] ugc dashboard - product b roll in templates - ability for user to upload 
 - [ ] ugc dashboard -  elevenlabs audio and lipsync - testing to be done + put in prod 
 - [ ] templating - prompt tuning for the dialogue - ritesh reported some dialogue issue 
-- [ ] ugc dashboard - sceneflow cuts -- make cuts better 
+- [ ] ugc dashboard - sceneflow cuts -- make cuts better
 - [ ] templating -  arcads and creatify top 5 templates copy 
 - [ ] think - template variations - understand more 
 - [ ] Canva track 
@@ -44,6 +43,13 @@ Keep on hearing these things
 
 ---
 
-- [ ] integrate tracing in rust sqlite_storage 
-- [ ] frontend - crud implementation 
-- [ ] 
+## Done
+
+How I think about
+1.  templates 
+2. Testing  more concepts 
+In one picture is
+
+Templates = a way to make 'specific' kind of video. One concept. For example, jump-cuts-4-scene-template 
+
+Testing more concepts =  on a given creative (or a product)
