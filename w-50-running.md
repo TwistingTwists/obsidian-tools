@@ -10,9 +10,15 @@
 - [ ] ugc dashboard - duration for the scene - 4,6,8 
 
 
+
+- [ ] bugs - 
+	- [ ] showing loading in first frame generation 
+
+#### Cleanup for the branch
 - [ ] json pointer system - remove those files , demo_001 , demo_002 files 
 - [ ] remove simple ugc system 
-- [ ] 
+
+
 @ritesh
 - [ ] Testing with mobile app template
 - [ ] top 5 templates from arcads / creatify 
