@@ -109,11 +109,10 @@ That’s the core first-principles argument for caching.
 
 4. Derive this yourself:  
     If at step (t) you process (t) tokens (recomputing everything), and you go from (t=1) to (T), show why total work is proportional to (T^2).
-    
+
 5. Now imagine we **cache** (K) and (V) for previous tokens, and at each step we only compute (K_t, V_t, Q_t) for the new token.
-    
     - Roughly, what does the time complexity become in terms of (T)?
-        
+    
 6. Why can we safely assume that old (K_i, V_i) don’t need to be recomputed at each step during pure decoding?
     
 
@@ -483,9 +482,9 @@ Observation:
 Technique:
 
 - Cache keys/values only for a **subset** of layers (e.g., top half).
-    
+
 - For the rest, recompute on the fly.
-    
+
 
 **Tradeoff:**  
 Saves memory  

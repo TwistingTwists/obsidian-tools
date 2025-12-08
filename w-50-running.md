@@ -29,7 +29,7 @@
 - VideoScene only?
 - karan - story board feature 
 - if user picks up UGC template -> 
-- on dahsboard -how to add a default thumnail preview part of it 
+- on dashboard -how to add a default thumbnail preview part of it 
 
 ---
 ## Master list
