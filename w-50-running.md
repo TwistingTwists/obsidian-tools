@@ -13,6 +13,7 @@
 
 - [ ] bugs - 
 	- [ ] showing loading in first frame generation 
+	- [ ] dialogue system prompt -- not INCLUDE in the scene - boolean flag
 
 #### Cleanup for the branch
 - [ ] json pointer system - remove those files , demo_001 , demo_002 files 
