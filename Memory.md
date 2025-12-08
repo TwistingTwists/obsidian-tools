@@ -6,5 +6,9 @@
 
 ## Classification
 - based on access patterns - short term and long term 
-	- in reflexion paper - short term (trajectory of the agentic calls) + long term (Evalautor's high level idea)
+	- in reflexion paper - short term (trajectory of the agentic calls) + long term (Evalautor's high level idea - called EXPERIENCE)
+	- EXPERIENCE = self-reflection to distill long, failed trajectories into relevant experiences that can are used as "self-hints" in the future. = compaction of the short term memory (trajectory) into experience
+	- 
 - based on granularity of information - hierarchical memory 
+
+
