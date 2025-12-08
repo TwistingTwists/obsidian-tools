@@ -1,17 +1,24 @@
 ## Now
 - [ ] 30 min - read this [notion by vinay](https://www.notion.so/madmenai/UGC-Video-templates-2c27cc5cdc6880bbb9c3d981a5787300) and make priority list
 	- [ ] custom avatar - in prod
-- [ ] avatar - clothing / pillow category - make one template 
+- [ ] ugc dashboard - [[elevenlabs - voice change flow]]
+- [ ] ugc dashboard - product image support -- select the image and test 
+- [ ] templating - avatar - clothing / pillow category - make one template - ideally creatify replicated
 	- [ ] scene - clothing  wearing and saying something and SPEAKING
-	- [ ] scene - avatar B-Roll - where avatar is doing something  but not SPEAKING
+	- [ ] scene - avatar B-Roll - where avatar is wearing   but not SPEAKING
 	- [ ] scene - avatar SHOWING the product to the camera, (speaking / not speaking)
-- [ ] avatar using product (voli bottle being used) - make one template
-	- [ ] text less on the product surface
-- [ ] [[elevenlabs - voice change flow]]
-- [ ] product image support -- select the image and test 
+- [ ] ugc dashboard - duration for the scene - 4,6,8 
+
+
+@ritesh
+- [ ] Testing with mobile app template
+- [ ] top 5 templates from arcads / creatify 
+
+
 ---
 ## Master list
 
+- [ ] templating - frequent cut style - in a SINGLE scene - using veo 3.1 
 - [ ] ugc dashboard - product b roll in templates - ability for user to upload 
 - [ ] templating - prompt tuning for the dialogue - ritesh reported some dialogue issue 
 	- [ ] elevenlabs voice id -> enhance dialogue => generate 11labs audio
@@ -20,6 +27,8 @@
 - [ ] think - template variations - understand more 
 - [ ] Canva track 
 - [ ] 
+- [ ] avatar using product (voli bottle being used) - make one template
+	- [ ] text less on the product surface
 - [ ] fix - re-generate one video 
 - [ ] fix - re-generate one first frame -- with user prompt if needed 
 - [ ] think - mosaic feature track 
