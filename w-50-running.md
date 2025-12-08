@@ -1,6 +1,6 @@
 ## Now
-- [ ] 30 min - read this [notion by vinay](https://www.notion.so/madmenai/UGC-Video-templates-2c27cc5cdc6880bbb9c3d981a5787300) and make priority list
-	- [ ] custom avatar - in prod
+- [x] 30 min - read this [notion by vinay](https://www.notion.so/madmenai/UGC-Video-templates-2c27cc5cdc6880bbb9c3d981a5787300) and make priority list
+	- [x] custom avatar - in prod
 - [ ] ugc dashboard - [[elevenlabs - voice change flow]]
 - [ ] ugc dashboard - product image support -- select the image and test 
 - [ ] templating - avatar - clothing / pillow category - make one template - ideally creatify replicated
