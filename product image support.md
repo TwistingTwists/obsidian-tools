@@ -1,6 +1,18 @@
 - bugs / corner cuts  
 	- avatar image and background image have special handling on the hydrate template page 
 	- upload assets for a product -- save the against product_id so that they can be fetched later. 
+	- ```
+	  **Workflow:** 1) Hydrate Template (first frames + ElevenLabs audio) → 2) Generate Scene Videos (Veo3 clips) → 3) Cut & Combine (final video) 
+	  
+	  update this 
+	  ```
+- hydrate button disabled untilt he product iamge is uploaded 
+- regenerate first frame -- fix that to regenerate with the PRODUCT IMAGE 
+- if hydration fails for one image --  collect that error and return back as a part of api response
+- 
+
+
+
 
 
 ```
