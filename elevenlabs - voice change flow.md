@@ -3,6 +3,9 @@
 3.  For podcast -> we will repeat this for each generated scene
 4. If multiple speakers in the scene -> we will have to break down scene into smaller parts using speaker diarization and repeat the same proces -> but can be done later
 
+
+---
+
 2025-12-09
 ### ways of getting voice id: 
 
@@ -19,6 +22,9 @@ Method: veo3 video in -- video out
 
 [Instant Voice Cloning \| ElevenLabs Documentation](https://elevenlabs.io/docs/creative-platform/voices/voice-cloning/instant-voice-cloning?nis=6&ch=1)
 [Design a voice \| ElevenLabs Documentation](https://elevenlabs.io/docs/api-reference/text-to-voice/design)
+
+
+429 - fal, replicate 
 
 
 --- 
