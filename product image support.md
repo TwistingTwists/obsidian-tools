@@ -9,7 +9,7 @@
 - hydrate button disabled untilt he product iamge is uploaded 
 - regenerate first frame -- fix that to regenerate with the PRODUCT IMAGE 
 - if hydration fails for one image --  collect that error and return back as a part of api response
-- 
+- coin comparison asset possible? -- for the sizing issue in the template
 
 
 
