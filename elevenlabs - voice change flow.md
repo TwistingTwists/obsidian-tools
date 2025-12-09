@@ -3,6 +3,13 @@
 3.  For podcast -> we will repeat this for each generated scene
 4. If multiple speakers in the scene -> we will have to break down scene into smaller parts using speaker diarization and repeat the same proces -> but can be done later
 
+
+three ways of getting voice id: 
+
+- manual 
+- clone the voice => get  a new voice id 
+- generate the voice based  on text descriptoin (prompt / avatar description)
+
 --- 
 future - two speaker tempalte support 
 - find out speaker  one, speaker two segments for speaker diarization 
