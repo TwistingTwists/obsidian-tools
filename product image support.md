@@ -138,3 +138,9 @@
 
 >  go ahead and do t
 ```
+
+
+
+```
+[{"max": 1, "min": 1, "type": "product_image", "asset_key": "product_1"}]
+```
