@@ -1,0 +1,3 @@
+- bugs / corner cuts  
+	- avatar image and background image have special handling on the hydrate template page 
+	- upload assets for a product -- save the against product_id so that they can be fetched later. 
