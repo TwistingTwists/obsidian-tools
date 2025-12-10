@@ -1,4 +1,6 @@
 ## Now
+- [ ] elevenlabs speaking voice thing 
+- [ ] aman - check if background music is removed
 - [x] 30 min - read this [notion by vinay](https://www.notion.so/madmenai/UGC-Video-templates-2c27cc5cdc6880bbb9c3d981a5787300) and make priority list
 	- [x] custom avatar - in prod
 - [x] ugc dashboard - [[elevenlabs - voice change flow]]
