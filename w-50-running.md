@@ -75,6 +75,12 @@ Keep on hearing these things
 - wow / average / bad -- in next two weeks
 
 
+### Learnt this week - soft skills 
+- Ritesh - we should try new model , it has XYZ benefits, but the RISK is this can alter our product timelines 
+	= but align with larger goal -- showed benefits and Highlighted risks
+
+
+
 ---
 
 ## Done
