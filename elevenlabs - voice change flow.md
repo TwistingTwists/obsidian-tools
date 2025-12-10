@@ -32,6 +32,26 @@ Method: veo3 video in -- video out
 
 ---
 
+```
+
+Here is a concise **Voice Profile** for the character:
+
+**Demographics:** Male, Late 40s to Early 50s.
+
+**Core Characteristics:**
+*   **Pitch:** **Low Baritone.** Deep and resonant, vibrating from the chest.
+*   **Texture:** **Warm Grit.** Smooth, but with a noticeable rasp or "gravel" at the edges. It should sound "weathered" and "lived-in," matching his salt-and-pepper look.
+*   **Pacing:** **Slow and Deliberate.** He speaks unhurriedly, utilizing pauses to convey satisfaction and relaxation.
+
+**Emotional Vibe:**
+*   **Nostalgic & Content:** The voice of someone who has seen the world and is enjoying a quiet moment of peace. It should feel intimate and trustworthy, not "salesy."
+
+**Celebrity References (for tone match):**
+*   **George Clooney:** Smooth, charismatic, darker tone.
+*   **Jeff Bridges:** Relaxed, scratchy, and comforting.
+*   **Jon Hamm:** Deep, masculine, and authoritative but soft.
+```
+
 A slow, subtle push-in shot begins on Alex, a 45-year-old Caucasian man with salt-and-pepper hair, wearing a grey button-down shirt with rolled-up sleeves. He stands alone on a minimalist balcony with a glass railing, overlooking a vast city skyline during the golden hour. The setting sun paints the sky in hues of orange and purple, and city lights begin to glitter below. The atmosphere is calm and contemplative, with the gentle, ambient hum of the distant city being the only sound. Alex leans against the railing, his expression weary and thoughtful as he gazes outward. His internal monologue, spoken in a soft, calm, mid-pitch male voice, reflects his day. Alex says: \"The emails, the deadlines, the endless noise. Some days just feel like a constant rush from one thing to another.
 
 [Fetching Title#ljtx](https://cco-public.s3.amazonaws.com/cmi2v6i8e015sg9uerkdfdz9u/6de2aec7-859f-4248-a41c-80bb57274e2e/7a78d4d9-7de9-4b84-9e95-4363df22f16e/video/hook.mp4)
