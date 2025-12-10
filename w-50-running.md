@@ -1,8 +1,8 @@
 ## Now
 - [x] 30 min - read this [notion by vinay](https://www.notion.so/madmenai/UGC-Video-templates-2c27cc5cdc6880bbb9c3d981a5787300) and make priority list
 	- [x] custom avatar - in prod
-- [ ] ugc dashboard - [[elevenlabs - voice change flow]]
-- [ ] ugc dashboard - [[product image support]] -- select the image and test 
+- [x] ugc dashboard - [[elevenlabs - voice change flow]]
+- [x] ugc dashboard - [[product image support]] -- select the image and test 
 - [ ] templating - avatar - clothing / pillow category - make one template - ideally creatify replicated
 	- [ ] scene - clothing  wearing and saying something and SPEAKING
 	- [ ] scene - avatar B-Roll - where avatar is wearing   but not SPEAKING
@@ -18,14 +18,8 @@
 	- [ ] dialogue system prompt -- not INCLUDE in the scene - boolean flag
 
 #### Cleanup for the branch
-- [ ] json pointer system - remove those files , demo_001 , demo_002 files 
-- [ ] remove simple ugc system 
-
-
-@ritesh
-- [ ] Testing with mobile app template
-- [ ] top 5 templates from arcads / creatify 
-
+- [x] json pointer system - remove those files , demo_001 , demo_002 files 
+- [x] remove simple ugc system 
 
 ## integrating with story board part - karan
 - VideoScene only?
@@ -33,10 +27,11 @@
 - if user picks up UGC template -> 
 - on dashboard -how to add a default thumbnail preview part of it 
 
+
 ---
 ## Master list
 
-- [ ] templating - frequent cut style - in a SINGLE scene - using veo 3.1 
+- [x] templating - frequent cut style - in a SINGLE scene - using veo 3.1 
 - [ ] ugc dashboard - product b roll in templates - ability for user to upload 
 - [ ] templating - prompt tuning for the dialogue - ritesh reported some dialogue issue 
 	- [ ] elevenlabs voice id -> enhance dialogue => generate 11labs audio
@@ -44,7 +39,6 @@
 - [ ] templating -  arcads and creatify top 5 templates copy 
 - [ ] think - template variations - understand more 
 - [ ] Canva track 
-- [ ] 
 - [ ] avatar using product (voli bottle being used) - make one template
 	- [ ] text less on the product surface
 - [ ] fix - re-generate one video 

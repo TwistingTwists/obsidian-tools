@@ -1,18 +1,24 @@
+- if hydration fails for one image 
+	- [ ] collect that error and return back as a part of api response
+	- [ ] retry for the hydrate part 
+- [ ] hydrate button disabled untilt he product image is uploaded 
+
+
 - bugs / corner cuts  
 	- avatar image and background image have special handling on the hydrate template page 
 	- upload assets for a product -- save the against product_id so that they can be fetched later. 
+	- [x] update correct docs for workflow
+		
 	- ```
 	  **Workflow:** 1) Hydrate Template (first frames + ElevenLabs audio) → 2) Generate Scene Videos (Veo3 clips) → 3) Cut & Combine (final video) 
 	  
 	  update this 
 	  ```
-- hydrate button disabled untilt he product image is uploaded 
+
 - regenerate first frame -- fix that to regenerate with the PRODUCT IMAGE 
-- if hydration fails for one image 
-	- [ ]  collect that error and return back as a part of api response
-	- [ ] retry for the hydrate part 
+
 - coin comparison asset possible? -- for the sizing issue in the template
-- 
+
 - does hydrate part and the 'generate first frame' share same method implemented???
 - [x] why is the model gemini 2.5 pro being used on prod?? -- we are using constant , so should not be happening
 - [ ] new experiemtns 
@@ -21,11 +27,10 @@
 		- [ ] ugc_dashboard integration 
 	- [ ] kling 2.6 - video generation model 
 		- [ ] api integration fal 
-- [ ] SCENE DEPENDENCY DIAGRAMS
+- [ ] SCENE DEPENDENCY list definition
 	- [ ] for first frame generation -- choose the model from the dropdown -- and pass that to the 
 - [ ] scene system prompt -- remove dialogue part that user is speaking-- for the user not speaking and background tasks. 
- - [ ] sceneflow update to 0.2.4 
- - [ ] 
+ - [x] sceneflow update to 0.2.4 
 
 ----
 
