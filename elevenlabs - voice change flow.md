@@ -29,6 +29,10 @@ Method: veo3 video in -- video out
 - add music
 
 
+[Fetching Title#p60h](https://cco-public.s3.us-west-1.amazonaws.com/cmi2v6i8e015sg9uerkdfdz9u/6de2aec7-859f-4248-a41c-80bb57274e2e/4bdbfd36-dcfd-4284-b086-f6a4d1038fa8/video/hook.mp4)
+
+
+
 --- 
 future - two speaker tempalte support 
 - find out speaker  one, speaker two segments for speaker diarization 
