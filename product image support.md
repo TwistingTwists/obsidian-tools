@@ -15,6 +15,7 @@
 - does hydrate part and the 'generate first frame' share same method implemented???
 - [x] why is the model gemini 2.5 pro being used on prod?? -- we are using constant , so should not be happening
 - [ ] kling o1 -- for first frame generation -- choose the model from the dropdown -- and pass that to the 
+- [ ] scene system prompt -- remove dialogue part that user is speaking
 
 
 
