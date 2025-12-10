@@ -10,9 +10,20 @@
 - regenerate first frame -- fix that to regenerate with the PRODUCT IMAGE 
 - if hydration fails for one image --  collect that error and return back as a part of api response
 - coin comparison asset possible? -- for the sizing issue in the template
+- Regenerate frame disable 
+- retry for the hydrate part 
+- does hydrate part and the 'generate first frame' share same method implemented???
+- why is the model gemini 2.5 pro being used on prod??
 
 
 
+----
+
+MORE CUSTOMISATIONS:
+1. first frame and last frame support -- in the config -- via the scene dependency system -
+	1. to generate consistent end and first frames 
+	2. to use the same first frame from scene 1 and change camera angles.
+2. Existing remotion templates -- use those to 
 
 
 ```
