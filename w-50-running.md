@@ -11,7 +11,7 @@
 	- [ ] scene - avatar SHOWING the product to the camera, (speaking / not speaking)
 - [ ] ugc dashboard - duration for the scene - 4,6,8 
 
-[[remove lipsync logic?]]
+[[remove lipsync logic]]
 
 [[outputs for the lipsync]]
 

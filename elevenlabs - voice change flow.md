@@ -24,7 +24,9 @@ Method: veo3 video in -- video out
 [Design a voice \| ElevenLabs Documentation](https://elevenlabs.io/docs/api-reference/text-to-voice/design)
 
 
-429 - fal, replicate 
+- elevenlabs voice 
+- remove bg 
+- add music
 
 
 --- 
