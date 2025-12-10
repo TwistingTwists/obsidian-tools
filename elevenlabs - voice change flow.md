@@ -32,6 +32,9 @@ Method: veo3 video in -- video out
 
 ---
 
+- prompt_strength vs base64 audio reference experiment - can you take the voice and create new voice?
+- 
+
 ```
 
 Here is a concise **Voice Profile** for the character:
