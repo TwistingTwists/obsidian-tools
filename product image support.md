@@ -6,18 +6,26 @@
 	  
 	  update this 
 	  ```
-- hydrate button disabled untilt he product iamge is uploaded 
+- hydrate button disabled untilt he product image is uploaded 
 - regenerate first frame -- fix that to regenerate with the PRODUCT IMAGE 
-- if hydration fails for one image --  collect that error and return back as a part of api response
+- if hydration fails for one image 
+	- [ ]  collect that error and return back as a part of api response
+	- [ ] retry for the hydrate part 
 - coin comparison asset possible? -- for the sizing issue in the template
-- Regenerate frame disable 
-- retry for the hydrate part 
+- 
 - does hydrate part and the 'generate first frame' share same method implemented???
 - [x] why is the model gemini 2.5 pro being used on prod?? -- we are using constant , so should not be happening
-- [ ] kling o1 -- for first frame generation -- choose the model from the dropdown -- and pass that to the 
-- [ ] scene system prompt -- remove dialogue part that user is speaking
-
-
+- [ ] new experiemtns 
+	- [ ] kling o1 - image edit -  first frame gen model 
+		- [ ] api integration fal 
+		- [ ] ugc_dashboard integration 
+	- [ ] kling 2.6 - video generation model 
+		- [ ] api integration fal 
+- [ ] SCENE DEPENDENCY DIAGRAMS
+	- [ ] for first frame generation -- choose the model from the dropdown -- and pass that to the 
+- [ ] scene system prompt -- remove dialogue part that user is speaking-- for the user not speaking and background tasks. 
+ - [ ] sceneflow update to 0.2.4 
+ - [ ] 
 
 ----
 
