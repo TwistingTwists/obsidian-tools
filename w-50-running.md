@@ -76,6 +76,7 @@ Keep on hearing these things
 	= but align with larger goal -- showed benefits and Highlighted risks
 
 
+[[open-source repo reading agent]]
 
 ---
 
