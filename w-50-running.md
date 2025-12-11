@@ -76,6 +76,9 @@ Keep on hearing these things
 	= but align with larger goal -- showed benefits and Highlighted risks
 
 
+### Other things picked up this week 
+[[skills-repository-marketplace_of_abeeshake]]
+
 [[open-source repo reading agent]]
 
 ---
