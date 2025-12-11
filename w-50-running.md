@@ -1,5 +1,8 @@
 ## Now
+
 - [ ] elevenlabs speaking voice thing 
+	- [ ] pricing - [Discord](https://discord.com/channels/1066739690436313158/1066745035703455804/1448550678862499921) 
+	- [ ] 
 - [ ] aman - check if background music is removed
 - [x] 30 min - read this [notion by vinay](https://www.notion.so/madmenai/UGC-Video-templates-2c27cc5cdc6880bbb9c3d981a5787300) and make priority list
 	- [x] custom avatar - in prod
