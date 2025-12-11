@@ -3,6 +3,9 @@
 - [ ] elevenlabs speaking voice thing 
 	- [ ] pricing - [Discord](https://discord.com/channels/1066739690436313158/1066745035703455804/1448550678862499921) 
 	- [ ] audio integration 
+		- [ ] feature: fix audio in thsi video 
+			- [ ] extract character if not present - the prompting 
+			- [ ] fix audio (report yes or  no in the UI )
 		- [ ] 
 	- [ ] music - 
 		- [ ] remotion integration to be done with karan - 
