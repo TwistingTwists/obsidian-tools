@@ -2,7 +2,8 @@
 
 - [ ] elevenlabs speaking voice thing 
 	- [ ] pricing - [Discord](https://discord.com/channels/1066739690436313158/1066745035703455804/1448550678862499921) 
-	- [ ] 
+	- [ ] audio integration 
+		- [ ] 
 	- [ ] music - 
 		- [ ] remotion integration to be done with karan - 
 		- [ ] audio volumne in background to 50% 
