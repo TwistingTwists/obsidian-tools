@@ -75,9 +75,13 @@ Keep on hearing these things
 - Ritesh - we should try new model , it has XYZ benefits, but the RISK is this can alter our product timelines 
 	= but align with larger goal -- showed benefits and Highlighted risks
 
+- finished projects are important. FINISH pe focus kro.
 
 ### Other things picked up this week 
-[[skills-repository-marketplace_of_abeeshake]]
+- systems in place for churning features faster 
+	- boilerplates - better-t-stack + ash-boilerplate
+	- managing learning in AI agents - [[skills-repository-marketplace_of_abeeshake]]
+
 
 [[open-source repo reading agent]]
 
