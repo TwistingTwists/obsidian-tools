@@ -7,8 +7,9 @@
 			- [ ] extract character if not present - the prompting 
 			- [ ] fix audio (report yes or  no in the UI )
 		- [ ] ensure prod mei it works
-			- [ ] 2 speakers -- the audio should not be detected
-	- [ ] music - 
+			- [x] 2 speakers -- the audio should not be detected
+			- [ ] list similar voices do that 
+	- [ ] music
 		- [ ] remotion integration to be done with karan - 
 		- [ ] audio volumne in background to 50% 
 - [ ] aman - check if background music is removed
