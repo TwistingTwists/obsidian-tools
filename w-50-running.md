@@ -6,9 +6,17 @@
 		- [ ] feature: fix audio in thsi video 
 			- [ ] extract character if not present - the prompting 
 			- [ ] fix audio (report yes or  no in the UI )
+		- [ ] background voices
+			- [ ] audio isolation api 
 		- [ ] ensure prod mei it works
 			- [x] 2 speakers -- the audio should not be detected
 			- [ ] list similar voices do that 
+		- [ ] Test 4 cases
+			- [ ] two people in two scenes 
+			- [ ] two people in one scene 
+			- [ ] one people in two scene - change
+			- [ ] one people in one scene
+
 	- [ ] music
 		- [ ] remotion integration to be done with karan - 
 		- [ ] audio volumne in background to 50% 
