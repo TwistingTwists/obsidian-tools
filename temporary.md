@@ -5,7 +5,9 @@ aliases:
 
 
 
+two people in scene - alex and romi - alex talking  to romi about how to organise 
 
+second scene - both people visible - romi replying back - hey this bag is awesome - use tihis and other benefits of sling bag 
 
 
 
