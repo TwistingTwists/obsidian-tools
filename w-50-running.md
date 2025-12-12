@@ -13,11 +13,8 @@
 			- [x] list similar voices do that
 			- [x] delete voice once done
 			- [ ] save the voice_id in the database
-		- [ ] Test 4 cases
-			- [ ] two people in two scenes 
-			- [ ] two people in one scene 
-			- [ ] one people in two scene - change
-			- [ ] one people in one scene
+		- [ ] [[Test 4 for audio consistency - cases - temporary]]
+			
 
 	- [ ] music
 		- [ ] remotion integration to be done with karan - 
