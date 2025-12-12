@@ -8,9 +8,9 @@
 			- [ ] fix audio (report yes or  no in the UI )
 		- [ ] background voices
 			- [ ] audio isolation api 
-		- [ ] ensure prod mei it works
+		- [ ] productionise the voice api code
 			- [x] 2 speakers -- the audio should not be detected
-			- [ ] list similar voices do that 
+			- [ ] list similar voices do that - and delete voice once done. save the voice_id in the database.
 		- [ ] Test 4 cases
 			- [ ] two people in two scenes 
 			- [ ] two people in one scene 
