@@ -12,8 +12,8 @@
 			- [x] 2 speakers -- the audio should not be detected
 			- [x] list similar voices do that
 			- [x] delete voice once done
-			- [ ] trace for 'searching voice id'
-			- [ ] if one person is speaking - and you should not change the voice
+			- [x] trace for 'searching voice id'
+			- [x] if one person is speaking in one scene - and you should not change the voice
 			- [ ] save the voice_id in the database
 		- [ ] [[Test 4 for audio consistency - cases - temporary]]
 			
