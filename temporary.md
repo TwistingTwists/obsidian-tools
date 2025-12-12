@@ -9,7 +9,7 @@ two people in scene - alex and romi - alex talking  to romi about how to organis
 
 second scene - both people visible - romi replying back - hey this bag is awesome - use tihis and other benefits of sling bag 
 
-
+make sure that in scene 1 alex is speaking and in scene 2 romi is replying. this is important
 
 ```json
 {"scene_type": "SPEAKING", "dialogue_prompt": "Hook line introducing the product", "lipsync_enabled": false, "duration_seconds": 6.0, "regenerate_first_frame": true}
