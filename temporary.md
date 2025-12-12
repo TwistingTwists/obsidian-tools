@@ -1,3 +1,19 @@
+---
+aliases:
+---
+
+
+---
+## debugging  who is speaking 
+
+
+```json 
+{"summary": null, "scene_order": 0, "template_id": null, "scene_prompt": "The scene opens on a continuous, cinematic shot in a luxurious hotel restaurant. The ambient sound is a low murmur of conversation and the gentle clinking of cutlery. Eleanor, a sophisticated woman in her mid-30s with dark hair styled in a low bun and wearing a cream silk blouse, sits alone at a beautifully set table. Soft, warm light illuminates her and the Madeline 21 in Canvas Chocolate bag resting on the table next to her hand. The camera slowly pushes in on her as she gazes thoughtfully into the distance, her expression calm and contemplative. Her fingers gently trace the outline of the bag. The atmosphere is serene and elegant. Eleanor says in a soft, reflective internal monologue: \"I’ve learned that true elegance isn’t about having more, it’s about choosing what truly elevates you.\"", "custom_config": {"usp": null, "dialogue": "I’ve learned that true elegance isn’t about having more, it’s about choosing what truly elevates you.", "settings": null, "characters": [{"is_speaking": true, "voice_profile": "A soft, reflective female voice, approximately 35 years old, with a clear, standard American accent. Her tone is calm and contemplative, with a medium pitch and a thoughtful, measured pace. The voice is smooth and elegant.", "character_name": "Eleanor"}], "scene_description": "A sophisticated woman in her mid-30s with dark hair in a low bun, wearing a cream silk blouse, sits at a table in a fancy hotel restaurant. She is holding the Madeline 21 in Canvas Chocolate bag, which rests on the table beside her. Medium shot. The restaurant has a luxurious ambiance with soft, ambient lighting, creating an elegant and intimate atmosphere. Cinematic, production-grade photo with subtle depth of field. Exclusions: no text, no UI, no packaging.", "first_frame_s3_key": "cmj2po1sv00d1ry93379ig8ff/ed4104dd-b72a-4e05-b65f-604ef5670cdb/8296b1ec-af56-4771-bd0a-5beb0396cf4e/hook_first_frame/6797.png", "reference_image_url": null, "first_frame_s3_bucket": "cco-public"}, "moderation_details": null, "customisation_suggestions": null}
+```
+
+---
+
+
 ```json
 {"s3_key": "cmirs9amy0000lnq5njqv1lb2/e7894efc-bfc7-4de7-b4f6-3b9f3550fb6d/b6edbce7-4e08-46ba-9242-18450239c14a/video/voice_change_8ec4f386.mp4", "s3_bucket": "cco-public", "exported_at": null, "has_watermark": null, "thumbnail_s3_key": null, "last_frame_s3_key": null, "thumbnail_s3_bucket": null, "last_frame_s3_bucket": null}
 ```
