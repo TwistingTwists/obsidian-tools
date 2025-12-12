@@ -6,3 +6,12 @@
 - [ ] two people in one scene - same as above , first scene
 - [ ] one people in two scene - change - http://localhost:3000/v2/video-ads/preview?videoId=69ca673d-e3e8-4015-9bc1-ac2b43f72c98&workspaceId=cmirs9amy0000lnq5njqv1lb2
 - [ ] one people in one scene
+
+
+---
+
+
+test for background noise removal 
+
+- [ ] two scene - two different people speaking - remove background should trigger?
+	- [ ] http://localhost:3000/v2/video-ads/configure?workspaceId=cmirs9amy0000lnq5njqv1lb2&step=hookPersonalize&videoId=cd1c41ab-37f2-4b24-97c0-66bfdaf13d58
