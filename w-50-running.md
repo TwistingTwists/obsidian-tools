@@ -1,7 +1,7 @@
 ## Now
 
 - [ ] elevenlabs speaking voice thing 
-	- [ ] pricing - [Discord](https://discord.com/channels/1066739690436313158/1066745035703455804/1448550678862499921) 
+	- [ ] pricing - [Discord](https://discord.com/channels/1066739690436313158/1066745035703455804/1448550678862499921) , [per second pricing can be done](https://discord.com/channels/1066739690436313158/1066745035703455804/1448601241520439447)
 	- [ ] audio integration
 		- [ ] feature: fix audio in thsi video 
 			- [ ] extract character if not present - the prompting 
