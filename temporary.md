@@ -3,6 +3,16 @@ aliases:
 ---
 
 ```
+
+yeti is walking outside and notices water pipe broken. - he talks about importance of good heating.
+
+goes inside home - talks to alex that they should call experts and get it fixed. because they don't have furs like he does.
+
+yeti is speaking in both scenes.
+
+```
+
+```
 two people alex and rahul are there 
 
 first scene - alex speaks about his unorganised way of life . rahul is attentively listening
