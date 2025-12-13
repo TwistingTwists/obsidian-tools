@@ -3,7 +3,13 @@ aliases:
 ---
 
 
+```
+scene - 1 - person alex is speaking aobut problems of not finding items 
+He is speaking to romi. romi is listening.
 
+scene - 2 - romi is speaking to alex. alex is listening about benefits of the sling bag
+
+```
 
 two people in scene - alex and romi - alex talking  to romi about how to organise 
 
