@@ -2,6 +2,14 @@
 aliases:
 ---
 
+```
+two people alex and rahul are there 
+
+first scene - alex speaks about his unorganised way of life . rahul is attentively listening
+
+scene scene - rahul speaks about sling bag as  solution . alex is smiling and listening. 
+```
+
 
 ```
 scene - 1 - person alex is speaking aobut problems of not finding items 
