@@ -2,6 +2,7 @@
 aliases:
 ---
 
+
 ```
 
 yeti is walking outside and notices water pipe broken. - he talks about importance of good heating.

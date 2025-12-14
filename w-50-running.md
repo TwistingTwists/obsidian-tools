@@ -1,3 +1,4 @@
+[[dramaitq-dependent-tasks-ad-insights-report]]
 ## Now
 
 - [ ] elevenlabs speaking voice thing 
@@ -15,7 +16,7 @@
 			- [x] trace for 'searching voice id'
 			- [x] if one person is speaking in one scene - and you should not change the voice
 			- [ ] save the voice_id in the database
-		- [ ] [[Test 4 for audio consistency - cases - temporary]]
+		- [x] [[Test 4 for audio consistency - cases - temporary]]
 
 	- [ ] music
 		- [ ] remotion integration to be done with karan
