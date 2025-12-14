@@ -7,7 +7,7 @@
 			- [ ] extract character if not present - the prompting 
 			- [ ] fix audio (report yes or  no in the UI )
 		- [ ] background voices
-			- [ ] audio isolation api 
+			- [x] audio isolation api 
 		- [ ] productionise the voice api code
 			- [x] 2 speakers -- the audio should not be detected
 			- [x] list similar voices do that
@@ -16,10 +16,9 @@
 			- [x] if one person is speaking in one scene - and you should not change the voice
 			- [ ] save the voice_id in the database
 		- [ ] [[Test 4 for audio consistency - cases - temporary]]
-			
 
 	- [ ] music
-		- [ ] remotion integration to be done with karan - 
+		- [ ] remotion integration to be done with karan
 		- [ ] audio volumne in background to 50% 
 - [ ] aman - check if background music is removed
 - [x] 30 min - read this [notion by vinay](https://www.notion.so/madmenai/UGC-Video-templates-2c27cc5cdc6880bbb9c3d981a5787300) and make priority list
