@@ -7,8 +7,7 @@ Reinforcement learning
 
 
 
-- [ ] todo - bugs and enhancements
-- [ ] no db matching calls - why ? 
-- [ ] Langfuse integration 
-- [ ] 20 seconds for the background music stuff 
-- [ ] 
+- [x] todo - bugs and enhancements
+- [x] no db matching calls - why ? 
+- [x] Langfuse integration 
+- [x] 20 seconds for the background music stuff 
