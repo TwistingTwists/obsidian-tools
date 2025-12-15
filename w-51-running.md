@@ -9,6 +9,13 @@
 	- [ ] voice change
 - [ ] # todo: abhi-bg-music: make this method async.
 
+
+
+### ideation 
+- generation of good story 
+	- data driven 
+	- other commercial driven
+
 ### Zen Mode - QIP (quality improvement programme)
 
 
