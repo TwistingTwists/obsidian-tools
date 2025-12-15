@@ -152,3 +152,8 @@ without remove background noise
 
 
 ```
+
+
+### What do we want? - nifty scraper 
+- producer binary - which can poll the nifty api -> publish to iggy stream -> consumer picks up the data points and inserts them into the db
+- 
