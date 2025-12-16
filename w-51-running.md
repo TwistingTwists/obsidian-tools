@@ -8,6 +8,8 @@
 		- [ ] person - on white background -- AVATAR ❌
 		- [ ] person in lifestyle settings -> use as a FIRST_FRAME ✅
 	- [ ] How to get a good asset?
+		- [ ] Start with the product ? 
+		- [ ] woman -> search for it - list top 10
 		- [ ] 
 	- [ ] Aim: find good first frame for both scenes
 - [ ] after good asset
