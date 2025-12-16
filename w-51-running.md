@@ -1,6 +1,9 @@
 2025-12-15
 
 ## BG AUDIO 
+
+REGENRATION
+
 - [ ] single scene change 
 	- [ ] bg music
 	- [ ] voice change
@@ -8,7 +11,8 @@
 	- [ ] bg music 
 	- [ ] voice change
 - [ ] Do not delete voice anymore
-- [ ] # todo: abhi-bg-music: make this method async.
+- [ ] store voice_id and use that for regeneration
+- [ ] # todo: abhi-bg-music: make this method async
 
 - [ ] sync the background music on cco  - sync with semyon on frontend
 	- [ ] make sure backend video scene is created BEFORE api call returns the scenes from backend - video generation prototype task 
@@ -17,6 +21,7 @@
 	- [x] get from db 
 	- [ ] if elevenlabs fails -> get from db whatever is the best match - do similarity testing to 0.3 and then try
 
+- [ ] background music tracing langfuse 
 
 ### ideation 
 - generation of good story 
