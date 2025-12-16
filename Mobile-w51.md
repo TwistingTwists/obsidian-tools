@@ -14,3 +14,12 @@ Reinforcement learning
 
 - [ ] do error handling on 
 - [ ] semyon out on calendar a time 
+- [ ] idea + asset to storyboard --
+	- [ ] idea generation - two more -- 
+	- [ ] first frame of first scene will be generated -- 
+	- [ ] select assets - 
+		- [ ] filter assets - search embedding in assets - search by men / women / ranking etc - top 10 
+			- [ ] man men girl boy 
+			- [ ] tag=support imagery 
+		- [ ] 
+		- [ ] and ask llm to filter from 10 images -- 2 good images. 

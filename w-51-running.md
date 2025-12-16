@@ -22,7 +22,7 @@ dialgoue change, scene change
 - [ ] testing of voice change 
 	- [x] get from elevenlabs 
 	- [x] get from db 
-	- [ ] if elevenlabs fails -> get from db whatever is the best match - do similarity testing to 0.3 and then try
+	- [ ] if elevenl1abs fails -> get from db whatever is the best match - do similarity testing to 0.3 and then try
 
 - [ ] background music tracing langfuse 
 - [ ] generate_complete_video_ad - wait for entire video 
