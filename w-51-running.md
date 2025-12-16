@@ -7,7 +7,9 @@
 - [ ] video regeneration
 	- [ ] bg music 
 	- [ ] voice change
+- [ ] Do not delete voice anymore
 - [ ] # todo: abhi-bg-music: make this method async.
+
 - [ ] sync the background music on cco  - sync with semyon on frontend
 	- [ ] make sure backend video scene is created BEFORE api call returns the scenes from backend - video generation prototype task 
 - [ ] testing of voice change 
