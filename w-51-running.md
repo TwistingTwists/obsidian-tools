@@ -22,9 +22,9 @@ dialgoue change, scene change
 - [ ] testing of voice change 
 	- [x] get from elevenlabs 
 	- [x] get from db 
-	- [ ] if elevenl1abs fails -> get from db whatever is the best match - do similarity testing to 0.3 and then try
+	- [x] if elevenl1abs fails -> get from db whatever is the best match - do similarity testing to 0.3 and then try
 
-- [ ] background music tracing langfuse 
+- [x] background music tracing langfuse 
 - [ ] generate_complete_video_ad - wait for entire video 
 	- [ ] generating 
 	- [ ] generated 
@@ -33,7 +33,7 @@ dialgoue change, scene change
 
 
 - [x] elevenlabs - required in config.py 
-- [ ] logger -- extra key for dumping json fields 
+- [x] logger -- extra key for dumping json fields 
 
 
 - [ ] dialogue change -> use audio of original scene 
