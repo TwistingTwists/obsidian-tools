@@ -54,3 +54,5 @@ How to run experiments? - market validation + pick from domain areas
 Team mode -- 2-3 people  on a project
 Writing mode -- accountability statement - public board of improvement 
 
+Capabilities showcase - 
+Prs merged in litellm, e2b 
