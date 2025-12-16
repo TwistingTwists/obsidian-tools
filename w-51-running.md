@@ -1,5 +1,17 @@
 2025-12-15
 
+
+## Asset selection - person inspired flow
+
+- [ ] 
+
+
+
+
+
+
+
+
 ## BG AUDIO 
 
 REGENRATION
