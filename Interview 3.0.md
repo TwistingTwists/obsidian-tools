@@ -6,6 +6,13 @@ tags:
 libraries: 
 topic: interview
 ---
+Looking for staff engineer: (capabilities)
+- Who has built platforms and can define a way so taht things are done that way in a project. 
+- platform level - logging / observability setup etc 
+
+--- platform person needed
+
+
 Section 001 - past experience.
 
 
