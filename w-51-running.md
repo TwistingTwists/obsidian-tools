@@ -3,7 +3,8 @@
 ## BG AUDIO 
 
 REGENRATION
-
+### handle these cases for voice generation 
+dialgoue change, scene change
 - [ ] store voice_id and use that for regeneration
 - [ ] single scene change 
 	- [ ] bg music - ❌
@@ -11,6 +12,8 @@ REGENRATION
 - [ ] dialgoue change
 	- [ ] bg music - ❌
 	- [ ] voice change - with scene.config.AIHookConfig.voice_id - ✅
+
+
 - [ ] Do not delete voice anymore
 - [ ] # todo: abhi-bg-music: make this method async
 
@@ -36,15 +39,11 @@ REGENRATION
 - [ ] dialogue change -> use audio of original scene 
 	- [ ] voice generation should happen 
 	- [ ] voice selection can be skipped - use voice_id added to db 
-- [ ] scene change -> 
 
-if video  has mutliple scnees and you change ONE scene. 
+If video  has mutliple scenes and you change ONE scene. 
 
 
-### handle these cases for voice generation 
-dialgoue change, scene change
-
-#### ignore for now
+#### ignore for now - Discuss with Aman
 - [ ] edge cases - if the speaker2 is not speaking -> use 
 - [ ] retry generation of the scene to be handled
 
@@ -60,6 +59,13 @@ dialgoue change, scene change
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- |
 | [Discord](https://discord.com/channels/945373173015265300/1397998114258026656/1449435614163238922) | exception": "[{'loc': ['body', 'image_url'], 'msg': 'The aspect ratio of the image should be between 0.4 and 2.5.' |      |
 |                                                                                                    |                                                                                                                    |      |
+|                                                                                                    |                                                                                                                    |      |
+
+### canva template (editability) fields 
+
+- data fields 
+- layout fields as data 
+- 
 
 ## Bugs in hydrate template - ai ugc dashboard 
 
