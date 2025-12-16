@@ -14,7 +14,7 @@ dialgoue change, scene change
 	- [ ] voice change - with scene.config.AIHookConfig.voice_id - ✅
 
 
-- [ ] Do not delete voice anymore
+- [x] Do not delete voice anymore
 - [ ] # todo: abhi-bg-music: make this method async
 
 - [ ] sync the background music on cco  - sync with semyon on frontend
