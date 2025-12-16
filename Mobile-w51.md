@@ -22,4 +22,35 @@ Reinforcement learning
 			- [ ] man men girl boy 
 			- [ ] tag=support imagery 
 		- [ ] 
-		- [ ] and ask llm to filter from 10 images -- 2 good images. 
+		- [ ] and ask llm to filter from 10 images -- 2 good images
+
+
+
+
+- [ ] capability buliding in team ?  - what is the long term goal 
+- [ ] share understanding in team 
+	- [ ] one projects with hydra heads 
+	- [ ] 
+- [ ] quarterly plan - goals for the company - as machine 
+- [ ] how can you be confident that I will be at staff in one year ? 
+- [ ] what are we bad at ? What we need from improve this ? 
+- [ ] start with end in mind -- for projects -- 
+	- [ ] hypothesis - ML ops, inference etc
+	- [ ] experiments
+	- [ ] capabilities 
+	- [ ] ai video editing --- does the website show that???? 
+	- [ ] ai scraping, are we displaying on website? 
+
+
+What would be a great job???? For projects--- ideal state ? 
+
+Running sheets of experiments 
+Goal for the project--- and people should hold me accountable for
+
+How to run experiments? - market validation + pick from domain areas 
+
+
+
+Team mode -- 2-3 people  on a project
+Writing mode -- accountability statement - public board of improvement 
+
