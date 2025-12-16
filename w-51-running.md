@@ -8,10 +8,12 @@
 		- [ ] person - on white background -- AVATAR ❌
 		- [ ] person in lifestyle settings -> use as a FIRST_FRAME ✅
 	- [ ] How to get a good asset?
+		- [ ] 
 	- [ ] Aim: find good first frame for both scenes
 - [ ] after good asset
-	- [ ] use the AVATAR -> generate idea ->  gen storyboard -> frames
-	- [ ] use the avatar (in a lifestsyle setting) AS THE FIRST FRAME
+	- [ ] use the AVATAR -> generate idea ->  gen storyboard -> frames ❌
+	- [ ] use the avatar (in a lifestsyle setting) AS THE FIRST_FRAME
+		- [ ] 
 
 
 
