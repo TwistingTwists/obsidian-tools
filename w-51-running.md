@@ -22,6 +22,16 @@ REGENRATION
 	- [ ] if elevenlabs fails -> get from db whatever is the best match - do similarity testing to 0.3 and then try
 
 - [ ] background music tracing langfuse 
+- [ ] generate_complete_video_ad - wait for entire video 
+	- [ ] generating 
+	- [ ] generated 
+	- [ ] failure = on job - on failure - set job generatedAdVideo 
+	- [ ] frontend logic to use the 
+
+
+- [ ] elevenlabs - required in config.py 
+- [ ] logger -- extra key for dumping json fields 
+
 
 ### ideation 
 - generation of good story 
