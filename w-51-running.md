@@ -4,14 +4,14 @@
 
 REGENRATION
 
-- [ ] single scene change 
-	- [ ] bg music
-	- [ ] voice change
-- [ ] video regeneration
-	- [ ] bg music 
-	- [ ] voice change
-- [ ] Do not delete voice anymore
 - [ ] store voice_id and use that for regeneration
+- [ ] single scene change 
+	- [ ] bg music - ❌
+	- [ ] voice change - with scene.config.AIHookConfig.voice_id - ✅
+- [ ] dialgoue change
+	- [ ] bg music - ❌
+	- [ ] voice change - with scene.config.AIHookConfig.voice_id - ✅
+- [ ] Do not delete voice anymore
 - [ ] # todo: abhi-bg-music: make this method async
 
 - [ ] sync the background music on cco  - sync with semyon on frontend
@@ -29,17 +29,32 @@ REGENRATION
 	- [ ] frontend logic to use the 
 
 
-- [ ] elevenlabs - required in config.py 
+- [x] elevenlabs - required in config.py 
 - [ ] logger -- extra key for dumping json fields 
+
+
+- [ ] dialogue change -> use audio of original scene 
+	- [ ] voice generation should happen 
+	- [ ] voice selection can be skipped - use voice_id added to db 
+- [ ] scene change -> 
+
+if video  has mutliple scnees and you change ONE scene. 
+
+
+### handle these cases for voice generation 
+dialgoue change, scene change
+
+#### ignore for now
+- [ ] edge cases - if the speaker2 is not speaking -> use 
+- [ ] retry generation of the scene to be handled
 
 
 ### ideation 
 - generation of good story 
 	- data driven 
-	- other commercial driven
+	- other commercials driven
 
 ### Zen Mode - QIP (quality improvement programme)
-
 
 | discord msg                                                                                        | failure                                                                                                            | fix? |
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- |
