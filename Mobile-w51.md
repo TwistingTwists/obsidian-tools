@@ -11,3 +11,6 @@ Reinforcement learning
 - [x] no db matching calls - why ? 
 - [x] Langfuse integration 
 - [x] 20 seconds for the background music stuff 
+
+- [ ] do error handling on 
+- [ ] semyon out on calendar a time 
