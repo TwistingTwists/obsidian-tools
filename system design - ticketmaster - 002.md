@@ -15,6 +15,11 @@ finished: 2025-12-18
 	- 5000 users booking same seat, at same time?
 	- what if user B takes the row before A can pay?
 
+### Solving "Thundering Herd" (The Taylor Swift Problem)
+
+#### L5 
+
+#### L7 
 
 
 | functional                                                                                                                                                | my answer |
