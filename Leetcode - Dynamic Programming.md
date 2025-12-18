@@ -5,6 +5,15 @@
 list - [Problem List - LeetCode](https://leetcode.com/problem-list/50vif4uc/)
 
 
+```python
+
+def knapsack( wt, val, capacity, n):
+	for i in range(n):
+		if wt[i] <= capacity:
+			val
+	
+```
+
 
 Dynamic Programming Patterns  
 [https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns](https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns)
