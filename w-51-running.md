@@ -1,5 +1,14 @@
 2025-12-15
 
+### bugs- backgrdoun music failed - UI fix 
+```
+## update on the nano-banan-pro for resizing 
+1. integrated with the resize card -> [example from staging](https://staging.usemadmen.ai/v2/ad-concepts/review?idea=cmjb5e0qz0002hb3qr9kfma1g&workspaceId=cmghpdqgz0002u5xvrx7vc9u1)
+
+2. testing end card -- added end card -> [got resized using nano banana pro](https://staging.usemadmen.ai/v2/video-ads/preview?videoId=0fcdbbf6-7f4b-44f3-8f89-926e8fecdc2d&workspaceId=cmayb5crn0000ghpt9ni6fa7o)  
+```
+
+
 ## end-card 
 - [ ] test the UI integration 
 - [ ] UI - remove the overlay cards
