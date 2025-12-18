@@ -1,5 +1,10 @@
 
 
+### Knapsack variations
+
+list - [Problem List - LeetCode](https://leetcode.com/problem-list/50vif4uc/)
+
+
 
 Dynamic Programming Patterns  
 [https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns](https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns)
