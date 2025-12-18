@@ -1,5 +1,9 @@
 2025-12-15
 
+
+[Notch](https://app.usenotch.ai/v2/video-ads/preview?videoId=c5903974-22c4-4888-af78-13de15699567&workspaceId=cm1l4oy2x019dkquee9xztrfn)
+why so many scenes in this? two background music??
+
 ### bugs- backgrdoun music failed - UI fix 
 ```
 ## update on the nano-banan-pro for resizing 
