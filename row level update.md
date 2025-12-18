@@ -6,7 +6,7 @@ Here is the breakdown of your proposed approach, the SQL involved, and where it 
 
 ---
 
-### 1. The Approach: "Database-Only Optimistic Locking" apporach
+### 1.  Approach - "Database-Only Optimistic Locking"
 This is the approach you described. We rely on the database's row-level locking capabilities.
 
 **The Query (The "Golden" Write):**

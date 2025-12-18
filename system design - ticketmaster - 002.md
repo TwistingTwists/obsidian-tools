@@ -11,22 +11,18 @@ finished: 2025-12-18
 	- contention at scale
 #### L7 
 
-- [[row level update#1. The Approach "Database-Only Optimistic Locking" | Optimistic DB Locks]] with Cron cleanups
+- [[row level update#1. Approach - "Database-Only Optimistic Locking"]] with Cron cleanups
 	- 5000 users booking same seat, at same time?
 	- what if user B takes the row before A can pay?
 - [[row level update#To Cron job or NOT | Cron Alternative]]
 
-<summary>
-cron - perfect Answer
+> [!summary]- Cron - perfect ans
+> 
+> ### The "Perfect" Interview Response
+> "While a Cron job is a good safety net, it introduces 'Inventory Drag' where seats are unavailable but not sold.
+> For the primary mechanism, I would implement a **Delayed Task Queue** (like SQS/RabbitMQ). When a seat is held, we push a message with a 10-minute delay. When the worker receives it, it performs an idempotent check against the database to release the seat if it's still 'HELD'. This gives us near-real-time inventory recovery without the massive database load of scanning the entire table every minute."
 
-<detail>
-### The "Perfect" Interview Response
-"While a Cron job is a good safety net, it introduces 'Inventory Drag' where seats are unavailable but not sold.
-
-For the primary mechanism, I would implement a **Delayed Task Queue** (like SQS/RabbitMQ). When a seat is held, we push a message with a 10-minute delay. When the worker receives it, it performs an idempotent check against the database to release the seat if it's still 'HELD'. This gives us near-real-time inventory recovery without the massive database load of scanning the entire table every minute."
-</detail>
-</summary>
-
+ [[Other exploration - framework for choosing the queue]]
 ### Solving "Thundering Herd" (The Taylor Swift Problem)
 
 #### L5 
