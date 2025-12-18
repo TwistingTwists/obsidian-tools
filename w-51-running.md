@@ -16,7 +16,6 @@
 
 
 ## nano banana pro image
-[Page not found · GitHub · GitHub](https://github.com/SesameLabs/ad-insights-data-analysis/actions/workflows/deploy-staging.yml)
 
 - create variant trigger -> resize (see zen table)
 - on the end card ()
