@@ -20,3 +20,4 @@ event has a venue
 seat has a booking  
 
 
+[[pg advisory locks]]
