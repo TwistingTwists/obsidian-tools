@@ -1,6 +1,20 @@
 ---
 finished: 2025-12-18
 ---
+### Solving "Seat Reservation & Concurrency"
+
+#### L5 
+
+- redis for locking with TTL, postgres for transactions 
+	- postgres is a south of truth 
+- postgres FOR UPDATE (row level locks)
+	- contention at scale
+#### L7 
+
+- [[row level update#1. The Approach "Database-Only Optimistic Locking" | Optimistic DB Locks]]
+	- 5000 users booking same seat, at same time?
+	- what if user B takes the row before A can pay?
+
 
 
 | functional                                                                                                                                                | my answer |
