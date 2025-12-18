@@ -8,10 +8,15 @@ list - [Problem List - LeetCode](https://leetcode.com/problem-list/50vif4uc/)
 ```python
 
 def knapsack( wt, val, capacity, n):
-	for i in range(n):
-		if wt[i] <= capacity:
-			val
-	
+	if capacity == 0 or n == 0:
+		return 0
+	index = n - 1
+	if wt[index] <= capacity:
+		profit = max (val[index] + knapsack(wt,val, capacity - wt[index],index), knapsack(wt,val,capacity,index))
+	else:
+		profit = knapsack(wt, val, capacity, index)
+	return profit 
+
 ```
 
 
