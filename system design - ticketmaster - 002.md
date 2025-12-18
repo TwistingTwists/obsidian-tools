@@ -19,5 +19,5 @@ Entities
 event has a venue
 seat has a booking  
 
-
+[[ai-chat-001-ticketmaster]]
 [[pg advisory locks]]
