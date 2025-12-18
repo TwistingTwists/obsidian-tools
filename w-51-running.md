@@ -1,6 +1,13 @@
 2025-12-15
 
 
+
+## nano banana pro imag e
+- create variant trigger -> resize 
+- on the end card 
+
+
+
 ## Asset selection - person inspired flow
 
 - [ ] find good assets related to the product
