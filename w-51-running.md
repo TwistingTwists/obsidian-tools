@@ -2,10 +2,16 @@
 
 
 
-## nano banana pro imag e
-- create variant trigger -> resize 
-- on the end card 
+## nano banana pro image
+- create variant trigger -> resize (see zen table)
+- on the end card ()
 
+
+
+
+### Python design questions 
+- how to pass the kwargs from higher level methods to the lower level methods? 
+	- resize_image -> asnyc_image_eidt -> gemini api 
 
 
 ## Asset selection - person inspired flow
@@ -86,11 +92,11 @@ If video  has mutliple scenes and you change ONE scene.
 
 ### Zen Mode - QIP (quality improvement programme)
 
-| discord msg                                                                                        | failure                                                                                                            | fix? |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- |
-| [Discord](https://discord.com/channels/945373173015265300/1397998114258026656/1449435614163238922) | exception": "[{'loc': ['body', 'image_url'], 'msg': 'The aspect ratio of the image should be between 0.4 and 2.5.' |      |
-|                                                                                                    |                                                                                                                    |      |
-|                                                                                                    |                                                                                                                    |      |
+| discord msg                                                                                        | failure                                                                                                            | fix?                 |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| [Discord](https://discord.com/channels/945373173015265300/1397998114258026656/1449435614163238922) | exception": "[{'loc': ['body', 'image_url'], 'msg': 'The aspect ratio of the image should be between 0.4 and 2.5.' |                      |
+| size variant in the card                                                                           | frontend -> do not generate a new prompt for that and -- method is already replaced                                | frontend needs a fix |
+|                                                                                                    |                                                                                                                    |                      |
 
 ### canva template (editability) fields 
 
