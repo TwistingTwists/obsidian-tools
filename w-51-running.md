@@ -1,19 +1,17 @@
 2025-12-15
 
+## end-card 
+- [ ] test the UI integration 
+- [ ] UI - remove the overlay cards
+- [ ] generate simplified ad idea as fallback
 
 
 ## nano banana pro image
+[Page not found · GitHub · GitHub](https://github.com/SesameLabs/ad-insights-data-analysis/actions/workflows/deploy-staging.yml)
+
 - create variant trigger -> resize (see zen table)
 - on the end card ()
-
-
-
-
-### Python design questions 
-- how to pass the kwargs from higher level methods to the lower level methods? 
-	- resize_image -> asnyc_image_eidt -> gemini api 
-
-
+ 
 ## Asset selection - person inspired flow
 
 - [ ] find good assets related to the product
@@ -32,6 +30,12 @@
 
 
 
+
+
+
+### Python design questions 
+- how to pass the kwargs from higher level methods to the lower level methods? 
+	- resize_image -> asnyc_image_eidt -> gemini api 
 
 
 
@@ -90,6 +94,8 @@ If video  has mutliple scenes and you change ONE scene.
 	- data driven 
 	- other commercials driven
 
+
+
 ### Zen Mode - QIP (quality improvement programme)
 
 | discord msg                                                                                        | failure                                                                                                            | fix?                 |
@@ -102,7 +108,6 @@ If video  has mutliple scenes and you change ONE scene.
 
 - data fields 
 - layout fields as data 
-- 
 
 ## Bugs in hydrate template - ai ugc dashboard 
 
