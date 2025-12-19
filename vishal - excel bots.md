@@ -10,8 +10,7 @@ hdd
 - 
 
 ## playbook - do it asap - volunteer
-- 
-  
+
 
 ## broad level idea  - boxes and circles
 
@@ -47,18 +46,29 @@ Journal        Payment
 56 - P5
 
 
-Hard part is Breaking down P2 into P2A, P2B:
-- natural language - P2 has two types of relationship - 1. legal and 2. chai 
-- P2 = 10-
+Journal entry has info - P2A (legal) or P2B (chai), but corresponding payments do NOT have this info. So, payment belongs to P2. Find out whether payment is of P2A or P2B. 
+
+Hard part is Breaking down P2 into P2A, P2B: (70% possible)
+- natural language - P2 has two types of relationship - 1. legal and 2. chai
+	- can be known automatically from Journal Entries (interactive mapping)
+- P2 = 100 => P2A(legal) = 53 , P2B (chai) = rest of the entries
+- Mapping payment to journal categories (P2A and P2B )
+	- Resolution methods: 
+		- priority based => P2A > P2B = map all payment to P2A, then whatever is left ,map to P2B
+		- 1-1 (1-N or N-1) mapping => do that with P2A / P2B (interactive mapping)
+			- 50,30,20 = payment |  P2A: 80 | P2B: 50 -- show two cases - let user pick one.
+		- manual assign to P2A and P2B for left payments which have no information
 
 
 Simple Algorithm for long running balance: 
 1. assumption: P1, P2 -> have a single relation with me 
 2. reconcile ledgers of  individual parties (P1, P2 ... ) => excess (subset sum match with parties having non zero ledger balances)
 
+
 Complex Algorithm: (can be simplifed to above, if P2 becomes P2A , P2B)
 1. assumption: P1A, P1B, P2A, P2B -> have two relations with me 
 2. P2 = reconciled and ZERO (because P2A = +2 , P2B = -2 )
+
 
 ------
 #### parties reconclied 
