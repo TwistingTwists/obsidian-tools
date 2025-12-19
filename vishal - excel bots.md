@@ -26,13 +26,39 @@ hdd
 
 ----
 
+5 kaam , procedures - 1.2.3.4.5 
 
+
+## Long running balance
+
+- balance = Journal - payment
+
+| Example:<br>      |
+| ----------------- |
+| **CIRP Bank A/c** |
+| **Capital A/c**   |
+
+## Balance sheet as on 31-Mar-2022
+
+tags: simple
+
+- Steps to make balance sheet
 
 ## Ledger of a legal expenses 
+
+tags: intermediate-complexity
+
+legal expense = (this is a type of expense = may have set of parties)
+
+OTHER EXAMPLES: 
+- ledge of bank account 
+- ledger of party 
+
+
 - expenses =  Journal
 - Smart Reconciliation = matching journal <> payments
 - keyword legal
-	- hint (show hint to user - should we include?) - anthing similar to legal 
+	- Hint (show hint to user - should we include?) - anthing similar to legal
 - Match relevant Journal < - > Payment
 	- Journal -> Intent 
 	- Payment -> Execution
@@ -41,12 +67,14 @@ hdd
 journal (WHY of payment) -> legal 
 payment (vendor name only, WHY of payment is not there) -> chai 
 
+
 **Filtering**: 
 1. Find all legal entries (journal)
 2. Find the aadmi under that legal entry in 1. 
 	1. Sreenita GhoshDastidar( S G Law Office)
 3. Use that aadmi name -> find payments 
 4. Then apply matching algo 
+
 
 **MATCHING ALGO:**
 Scene 2: match aggregate (subset sum WITH PENDING AMOUNT)
