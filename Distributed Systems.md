@@ -9,6 +9,8 @@ How to learn dist-sys - Murat's blog
 https://cse.buffalo.edu/~demirbas/course.pdf
 https://muratbuffalo.blogspot.com/2017/11/the-youtube-clips-i-show-in-my.html
 
+[Distributed Systems \| Ethan Blanton](https://cse.buffalo.edu/~eblanton/course/cse586/)
+
 --- 
 
 Here is the plan: 
