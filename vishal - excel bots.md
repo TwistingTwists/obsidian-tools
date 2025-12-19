@@ -31,10 +31,10 @@ hdd
 
 ----
 
-11 
+11 (capital account)
 
 Journal        Payment
-111               - 100 
+111                100 
 
 9 - P1          1 - P3
 2 - P2          1 - P3
@@ -42,15 +42,40 @@ Journal        Payment
 3 - P1          2 - P3 
 8 - P3
 
+
 33 - P4
 56 - P5
 
 
+Hard part is Breaking down P2 into P2A, P2B:
+- natural language - P2 has two types of relationship - 1. legal and 2. chai 
+- P2 = 10-
+
+
+Simple Algorithm for long running balance: 
+1. assumption: P1, P2 -> have a single relation with me 
+2. reconcile ledgers of  individual parties (P1, P2 ... ) => excess (subset sum match with parties having non zero ledger balances)
+
+Complex Algorithm: (can be simplifed to above, if P2 becomes P2A , P2B)
+1. assumption: P1A, P1B, P2A, P2B -> have two relations with me 
+2. P2 = reconciled and ZERO (because P2A = +2 , P2B = -2 )
+
 ------
-P1 - reconciled? 
-P2 - reconciled? - if yes,
-P3 - reconciled? 
-P4 - reconciled? 
+#### parties reconclied 
+
+P1 - reconciled? - ( + / - / 0)
+P2 - reconciled? - ( + / - / 0)
+P3 - reconciled?  - ( + / - / 0)
+P4 - reconciled?  - ( + / - / 0)
+
+
+
+
+RECONCILIATION = tracked all the JOURNAL + PAYMENT entries for P1
+- net journal - payment = postivie or negative
+
+#### one more case -- chai + legal with same party
+
 
 -----
 
