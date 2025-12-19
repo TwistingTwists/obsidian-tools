@@ -1,6 +1,6 @@
 2025-12-15
 
-
+### bugs
 [Notch](https://app.usenotch.ai/v2/video-ads/preview?videoId=c5903974-22c4-4888-af78-13de15699567&workspaceId=cm1l4oy2x019dkquee9xztrfn)
 why so many scenes in this? two background music??
 
@@ -13,11 +13,16 @@ why so many scenes in this? two background music??
 ```
 
 
-## end-card 
-- [ ] test the UI integration 
-- [ ] UI - remove the overlay cards
-- [ ] generate simplified ad idea as fallback
+### end-card 
+- [x] test the UI integration 
+- [x] UI - remove the overlay cards
+- [x] generate simplified ad idea as fallback
 
+
+### things to explore for location constraint on the voice -- basiaclly, we want to have the realisitic voice 
+1. try v3 
+2. emailed 11labs for clarficiation on voice_settings -> to see what kind of control can we have. they have sparse docs no this. 
+context: [Discord](https://discord.com/channels/945373173015265300/1444935031222177812/1451486909703520369)  [notch-link](https://app.usemadmen.ai/v2/video-ads/preview?videoId=26c4805b-00ec-4e44-b9e8-558de6ed1c1b&workspaceId=cmjcbzf5200ykh4f5ri2f9ulz "https://app.usemadmen.ai/v2/video-ads/preview?videoId=26c4805b-00ec-4e44-b9e8-558de6ed1c1b&workspaceId=cmjcbzf5200ykh4f5ri2f9ulz")
 
 ## nano banana pro image
 
