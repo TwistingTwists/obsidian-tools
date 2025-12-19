@@ -50,9 +50,6 @@ Distributed systems courses here -- MIT dist sys course
 https://github.com/prakhar1989/awesome-courses?tab=readme-ov-file#programming-languages--compilers
 
 
-https://pdos.csail.mit.edu/6.824/schedule.html
-
-
 Jepsen's class 
 https://github.com/aphyr/distsys-class?tab=readme-ov-file
 

@@ -1,0 +1,4 @@
+
+multipart/form-data — 100-word gist
+
+multipart/form-data is an HTTP request format used to send files and fields together. The body is split into multiple parts separated by a boundary declared in the Content-Type header. Each part has its own headers (e.g., Content-Disposition, optional Content-Type). It is preferred over JSON when uploading binary data because it sends raw bytes efficiently (no base64 overhead). Use it for APIs that accept file uploads (audio, images, video) plus parameters. Clients (FormData, curl -F, Python requests) automatically handle boundaries. Do not manually set Content-Type when using browser FormData.
