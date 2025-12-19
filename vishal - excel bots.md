@@ -25,6 +25,29 @@ hdd
 		- common mistake - An AI should "know" that to give a complete picture of an expense, it must cross-reference the Vendor ledger. Simply listing debits without corresponding credits (payments) makes the ledger useless for reconciliation.
 
 ----
+
+
+
+## Ledger of a legal expenses.
+- keyword legal
+	- hint (show hint to user - should we include?) - anthing similar to legal 
+- Match relevant Journal < - > Payment
+	- Journal -> Intent 
+	- Payment -> Execution
+- 
+
+
+journal (WHY of payment) -> legal 
+payment (vendor name only, WHY of payment is not there) -> chai 
+
+Scene 2: match aggregate (subset sum WITH PENDING AMOUNT)
+> payment = journal  (1-1 match) - match by EXACT bill amount 
+> payment < journal  (subset sum match  with pending amount)
+> payment > journal 
+
+----
+
+
 ### vishal logs 
 I asked 2 questions.
 
