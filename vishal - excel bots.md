@@ -29,14 +29,47 @@ hdd
 5 kaam , procedures - 1.2.3.4.5 
 
 
+----
+
+11 
+
+Journal        Payment
+111               - 100 
+
+9 - P1          1 - P3
+2 - P2          1 - P3
+		   1 - P3
+3 - P1          2 - P3 
+8 - P3
+
+33 - P4
+56 - P5
+
+
+------
+P1 - reconciled? 
+P2 - reconciled? - if yes,
+P3 - reconciled? 
+P4 - reconciled? 
+
+-----
+
+
 ## Long running balance
 
-- balance = Journal - payment
+- balance = Journal - paymentt
 
 | Example:<br>      |
 | ----------------- |
 | **CIRP Bank A/c** |
 | **Capital A/c**   |
+Let's say today : 
+- Today closing balance, capital account = 13,000 but the 3045 is never offset 
+	- What is the break up of this 13,000 = 3045 + ... 
+- Which are the long running balances in last 3 years - traditional software fails. 
+	- 1-1 matching solves this
+	- subset sum matching 
+
 
 ## Balance sheet as on 31-Mar-2022
 
