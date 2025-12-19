@@ -28,22 +28,50 @@ hdd
 
 
 
-## Ledger of a legal expenses.
+## Ledger of a legal expenses 
+- expenses =  Journal
+- Smart Reconciliation = matching journal <> payments
 - keyword legal
 	- hint (show hint to user - should we include?) - anthing similar to legal 
 - Match relevant Journal < - > Payment
 	- Journal -> Intent 
 	- Payment -> Execution
-- 
 
 
 journal (WHY of payment) -> legal 
 payment (vendor name only, WHY of payment is not there) -> chai 
 
+**Filtering**: 
+1. Find all legal entries (journal)
+2. Find the aadmi under that legal entry in 1. 
+	1. Sreenita GhoshDastidar( S G Law Office)
+3. Use that aadmi name -> find payments 
+4. Then apply matching algo 
+
+**MATCHING ALGO:**
 Scene 2: match aggregate (subset sum WITH PENDING AMOUNT)
 > payment = journal  (1-1 match) - match by EXACT bill amount 
 > payment < journal  (subset sum match  with pending amount)
 > payment > journal 
+
+
+**more problems:**
+- journal (with WHY of payment) + payment (w/o WHY of payment) -> for chai to sreenitha
+> 	solvable if payment = journal (1-1) match
+- journal entries for Legal to the same aadmi should not include journal entries for ANY OTHER PURPOSE THAN LEGAL
+	- same goes for payment
+
+
+
+
+
+OUTPUT 
+
+
+payment = 4545
+journal = 445 
+1-1 = 5 
+everything else - 4 
 
 ----
 
@@ -125,3 +153,9 @@ Here are two versions of the System Instruction/Prompt designed to fix the speci
 **Tone:** Detached, precise, auditable. No conversational filler.
 
 ***
+
+
+
+
+**Compliance**: 
+- 
