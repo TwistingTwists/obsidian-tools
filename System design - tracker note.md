@@ -47,7 +47,7 @@ How did the last week go?
 	- week of rest ahead. So, pushing hard was there. 
 
 Mommy 
-- 
+- air 
 
 First thing you are fighting in the day is relevance. 
 Second thing 4 hr block is for work 
