@@ -3,6 +3,8 @@
 - delegated types in rails (recording, recordables)
 - recordings -- mutable, recordable -> immutable
 - recordings are organised in a tree - parent-child
+- events -> reference to a recording -> references recordable
+- 
 
 document can have comments 
 
