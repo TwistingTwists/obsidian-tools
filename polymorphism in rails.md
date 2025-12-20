@@ -6,7 +6,20 @@
 - events -> reference to a recording -> references recordable
 - 
 
-document can have comments 
+document (recordable) can have comments (recordable)
+
+### query patterns:
+#### filter on type of recordable
+- recording.recordable
+- recordings.messages -> recordings that have a type of message 
+- recordings.messages.comments -> recordings that have a type of message -> comments
+
+
+Bucket is a delegated type -> the actual (delegated) type is Bucketable
+Recording is delegated type -> the actual type is Recordable
+
+Bucket = concept - container of recordings
+
 
 
 recordings have children
