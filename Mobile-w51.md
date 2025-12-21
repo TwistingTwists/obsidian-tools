@@ -65,6 +65,12 @@ Writing mode -- accountability statement - public board of improvement
 Capabilities showcase - 
 Prs merged in litellm, e2b 
 
+
+## remote rust job is the only thing I can do now. 
+- Database stuff
+- 
+
+
 ## education and learning 
 - open source repo -> read the PR coments, read the linked issue + comments, read the diff 
 - and output a doc with focus on two things 
