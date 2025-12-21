@@ -4,6 +4,14 @@ Reinforcement learning
 - do all actions have rewards ? 
 - how to calculate rewards ? - verifiable reward / invariants of the system ?? 
 
+What do we finish on 2025-12-21?
+- [ ] recording, recordables -- phase 1,4 for the copy-checker
+- [ ] tensorzero - routing infra - should we self host that? 
+	- [ ] observability + datasets
+- [ ] knapsack - subset sum  + 1 more problem  
+- [ ] shivani teaching - NCERT - finish one more chapter for her. (1 hr)
+
+
 
 
 
@@ -56,3 +64,11 @@ Writing mode -- accountability statement - public board of improvement
 
 Capabilities showcase - 
 Prs merged in litellm, e2b 
+
+## agent orchestrator cli -- to use free tier very well 
+- [ ] agent runner 
+	- [ ] Picks a task from the beads cli -> runs amp on certain task / given folders -> write those in docs/work in certain format -> marks update in beads cli
+	- [ ] runs hourly -- to ensure max free tokens can be used and the concept can be refined enough.
+	- [ ] uses more than one cli to properly manage the auth and credentials ?
+- [ ] links 
+	- [ ] [GitHub - Mirrowel/LLM-API-Key-Proxy: Universal LLM Gateway: One API, every LLM. OpenAI-compatible endpoints with multi-provider translation and intelligent load-balancing.](https://github.com/Mirrowel/LLM-API-Key-Proxy)
