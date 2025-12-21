@@ -65,6 +65,16 @@ Writing mode -- accountability statement - public board of improvement
 Capabilities showcase - 
 Prs merged in litellm, e2b 
 
+## education and learning 
+- open source repo -> read the PR coments, read the linked issue + comments, read the diff 
+- and output a doc with focus on two things 
+	- background knowledge needed for the task
+	- codebase awareness - the files / paths / patterns needed 
+	- and a detailed implementation guide for a junior dev so that he can read the doc, and go step by step and do those changes to create this PR himself. (idea is to make him learn by doing, while highlighting as much contetxt as possible)
+	- if there is something that requires lot of context 
+		- (for examples, probability basics / compiler basics / database query engine etc -> write a prompt for him so that he can go and study that part himself)
+
+
 ## agent orchestrator cli -- to use free tier very well 
 - [ ] agent runner 
 	- [ ] Picks a task from the beads cli -> runs amp on certain task / given folders -> write those in docs/work in certain format -> marks update in beads cli
