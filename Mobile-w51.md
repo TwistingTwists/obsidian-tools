@@ -29,8 +29,14 @@ profit = (income - expense)
 Asset = Liability + capital + (income - expense)
 
 A + E = L + C + I  for all transactions
-for a transaction: 
-- 
+
+(A - L)  - (C + I - E ) = 0 
+
+For a transaction: 
+- balance sheet equation is always maintained 
+	- examples
+		- if L inc , C / I dec => RHS remains the same 
+		- one Assset may inc, other may dec
 
 
 ### mapping vendor to asset / liability 
