@@ -5,7 +5,7 @@ Reinforcement learning
 - how to calculate rewards ? - verifiable reward / invariants of the system ?? 
 
 What do we finish on 2025-12-21?
-- [ ] recording, recordables -- phase 1,4 for the copy-checker
+- [x] recording, recordables -- phase 1,4 for the copy-checker
 - [ ] tensorzero - routing infra - should we self host that? 
 	- [ ] observability + datasets
 - [ ] knapsack - subset sum  + 1 more problem  
@@ -13,6 +13,9 @@ What do we finish on 2025-12-21?
 
 
 
+
+Taking interest in what other people do. 
+Level up and ask questions to their level. 
 
 
 - [x] todo - bugs and enhancements
