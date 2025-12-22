@@ -50,4 +50,5 @@ What’s an example of a time when you were fully living into this value?
  - What does it feel like when you’re living into your values?
 	 - tick mark -- finish stuff - break down problem into small parts and then go conquer them 
  - How can you check yourself?
-	 - 
+	 - get on mat? get in strength training?
+	 - bank balance growing? -- will it continue to grow?
