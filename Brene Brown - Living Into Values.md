@@ -32,29 +32,22 @@ What’s an example of a time when you were fully living into this value?
 - Wealth - switched jobs
 
 - Recognition -
+ 
+ 
+ 1. Who is someone who knows your values and supports your efforts to live into them?
+ - wife, parents
+ 
+ 1. What does support from this person look like?
+	 -  caling out - patterns of unhelathy work periods
 
-What are one or two behaviors that support your value?
-- Health - take frequent breaks. 20 min window mei work
-- Wealth - 
-
-- Recognition
-
-
-- Health - 
-- Wealth - 
-
-- Recognition
-
-
-- Health - 
-- Wealth - 
-
-- Recognition
-
-
-- Health - 
-- Wealth - 
-
-- Recognition
-
-
+ - What can you do as an act of self-compassion to support yourself in the hard work of living into your values?
+	 - health pe focus more. 
+	 - work on the mindset -- to create value. and polish skills - because that creates weatlh
+ - What are the early warning indicators or signs that you’re living outside your values?
+	 - late night working hours - not giving time to family 
+	 - not realising that excellent work -- working for recognition is a means to create value
+	 - not finishing tasks daily, not having a weekly / monthly plan around this -- this is still grind phase? 
+ - What does it feel like when you’re living into your values?
+	 - tick mark -- finish stuff - break down problem into small parts and then go conquer them 
+ - How can you check yourself?
+	 - 
