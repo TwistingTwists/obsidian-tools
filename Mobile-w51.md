@@ -13,6 +13,45 @@ What do we finish on 2025-12-21?
 
 
 
+### journal of entries 
+
+> JoE -> CoP -> Ledger of Asset / Liability -> Balance Sheet 
+
+JoE : day book
+
+CoP : per Journal E - asset / liability classification
+
+
+### Asset / Liability heads 
+
+Assets -> subgrouping 
+profit = (income - expense)
+Asset = Liability + capital + (income - expense)
+
+A + E = L + C + I  for all transactions
+for a transaction: 
+- 
+
+
+### mapping vendor to asset / liability 
+
+---
+
+journal    - expense + alok kaushik (liability)
+payment - cash_reduced + alok kaushik set off 
+
+expense  => cash_reduced
+
+---
+
+payment - cash_reduced + alok kaushik (asset)
+journal    - expense + alok_kaushik_set_off  (What if this entry is outside the date when balance sheet is aked -> need to classify asset /liability correclty there?)
+
+expense => cash_reduced
+
+---
+
+
 
 Taking interest in what other people do. 
 Level up and ask questions to their level. 
