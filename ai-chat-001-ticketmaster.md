@@ -88,12 +88,12 @@ Here is how to answer the design challenges for Ticketmaster, broken down by lev
 
 ### Summary Checklist: What makes a "Good" Answer?
 
-| Component | **L5 (Senior)** | **L6 (Staff)** | **L7 (Principal)** |
-| :--- | :--- | :--- | :--- |
-| **Scope** | Focuses on a working component (API, DB, Cache). | Focuses on the intersection of components and failure domains. | Focuses on entire ecosystem, costs, and business constraints. |
-| **Database** | "I'll use Postgres." | "I'll use Postgres with sharding strategies and separation of Read/Write paths (CQRS)." | "Do we need a relational DB for the high-throughput ingestion? Maybe an append-only log first." |
-| **Trade-offs** | Mentions CAP theorem broadly. | Specifically identifies "Consistency > Availability" for booking, but "Availability > Consistency" for search. | Discusses the cost implications of Strong Consistency and proposes cheaper alternatives. |
-| **Pitfalls** | Uses generic terms ("It's scalable"). | Identifies bottlenecks (DB connections, Network I/O). | Identifies organizational bottlenecks (Operational complexity, maintenance). |
+| Component      | **L5 (Senior)**                                  | **L6 (Staff)**                                                                                                 | **L7 (Principal)**                                                                              |
+| :------------- | :----------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------- |
+| **Scope**      | Focuses on a working component (API, DB, Cache). | Focuses on the intersection of components and failure domains.                                                 | Focuses on entire ecosystem, costs, and business constraints.                                   |
+| **Database**   | "I'll use Postgres."                             | "I'll use Postgres with sharding strategies and separation of Read/Write paths (CQRS)."                        | "Do we need a relational DB for the high-throughput ingestion? Maybe an append-only log first." |
+| **Trade-offs** | Mentions CAP theorem broadly.                    | Specifically identifies "Consistency > Availability" for booking, but "Availability > Consistency" for search. | Discusses the cost implications of Strong Consistency and proposes cheaper alternatives.        |
+| **Pitfalls**   | Uses generic terms ("It's scalable").            | Identifies bottlenecks (DB connections, Network I/O).                                                          | Identifies organizational bottlenecks (Operational complexity, maintenance).                    |
 
 ### What NOT to include (Red Flags)
 1.  **Magic Scaling:** "AWS automatically scales it." (This shows you don't understand cold-start times).

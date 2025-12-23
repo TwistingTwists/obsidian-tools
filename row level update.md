@@ -193,6 +193,7 @@ This is an **L7 (Principal)** optimization used for ultra-low latency systems (l
 | **Cron Job**            | Low (1-min lag) | High                    | Low        | **Safe Fallback.** Always have this as a safety net.                       |
 | **Delayed Queue (SQS)** | High            | **Very High**           | Medium     | **The Winner.** Use this for the interview. It is robust and scalable.     |
 | **Redis Notifications** | Instant         | Low (Messages get lost) | Medium     | **Avoid** as a primary mechanism unless you explain the reliability risks. |
+|                         |                 |                         |            |                                                                            |
 
 ### The "Perfect" Interview Response
 "While a Cron job is a good safety net, it introduces 'Inventory Drag' where seats are unavailable but not sold.
