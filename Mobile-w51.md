@@ -20,6 +20,8 @@ What do we finish on 2025-12-21?
 	- classify topic 
 	- series of questions + answers - sqlite + drizzle + better T stack 
 - [ ] vishal 
+	- [x] pb sheet - latest updated data 
+	- [ ] binary on phone 
 	- [ ] look at problem statement 
 - [ ] mine 
 	- [ ] do questions on the 0/1 knapsack questions 
