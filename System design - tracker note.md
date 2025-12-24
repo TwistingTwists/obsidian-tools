@@ -29,6 +29,13 @@ Usearch repo
 - [ ] aman - rust proxy decision -- let's do that ? 
 
 
+----
+
+
+Connection pool design in rust : 
+Bb8 , etc design choices 
+
+
 
 ----
 Commit graph - timing and length of lines added (cloc) -> determine peak productivity hours ?
