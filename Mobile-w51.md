@@ -13,6 +13,19 @@ What do we finish on 2025-12-21?
 
 
 
+2025-12-24
+
+- [ ] shivani 
+	- ingestion from any pdf 
+	- classify topic 
+	- series of questions + answers - sqlite + drizzle + better T stack 
+- [ ] vishal 
+	- [ ] look at problem statement 
+- [ ] mine 
+	- [ ] do questions on the 0/1 knapsack questions 
+	- [ ] hello interview  - ticketmaster + dropbox
+- [ ] 
+
 ### journal of entries 
 
 > JoE -> CoP -> Ledger of Asset / Liability -> Balance Sheet 
