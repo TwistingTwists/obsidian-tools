@@ -12,6 +12,21 @@ What do we finish on 2025-12-21?
 - [ ] shivani teaching - NCERT - finish one more chapter for her. (1 hr)
 
 
+---- 
+
+2025-12-26 10:06:24
+### Shivani 
+- un-necessary items - do not buy
+- low quality items - do not buy
+- if you think you can sit and do the raaj on my money -- that is not going to happen. you will have to earn this. 
+- Are you upgrading yourself to do someting?
+	- you will always remain a housewife whose mindset is ONLY to do raj on pati money. Doesn't have aspriations. doesn't want to do anything. that will get you stuff. but won't earn anything. Earning  requires competence and doing good things with your time -- that is not what I see happening. you have one month to improve. 
+- Improve what next? -- timing -- wake up and sleep on time. 
+	- Do 50 questions daily
+- Main padha doonga - but aadat mat banao usko -- use chatgpt to learn , use gemini to learn more. sit for 1 hr daily. 
+- 
+
+----
 
 2025-12-24
 
