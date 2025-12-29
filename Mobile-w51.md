@@ -166,3 +166,54 @@ Prs merged in litellm, e2b
 	- [ ] uses more than one cli to properly manage the auth and credentials ?
 - [ ] links 
 	- [ ] [GitHub - Mirrowel/LLM-API-Key-Proxy: Universal LLM Gateway: One API, every LLM. OpenAI-compatible endpoints with multi-provider translation and intelligent load-balancing.](https://github.com/Mirrowel/LLM-API-Key-Proxy)
+
+
+-----
+
+2025-12-27 
+
+Sohana 
+Meditation and Mangal kamma for love. 
+
+
+Activate your inner devta - sit quietly and Activate it. Nourish it and nurturing it. 
+Listen to your truth 
+
+
+
+
+
+
+----
+
+- [ ] jogni waterfalls
+- [ ] bizli mahadev 
+- [ ] Anjani Mahadev 
+- [ ] sethan valley = 4x4 , firefly hostel 
+- [ ] Vashisht 
+- [ ] hidimba Temple
+- [ ] atal tunnel 
+
+Alag and sath mei - kaise krenge, kis din. 
+
+Momos shop  - Shambas cafe - snowfall during cafe - bakery hot coffee etc 
+
+Rockies cafe. 
+Hash brownie --- rockies in afternoon evening -- try krni ho to - 1/4 khaake Dekho 
+
+
+
+-----
+
+2025-12-27
+
+* Chai 
+3089 - petrol 
+610 - morning breakfast 
+
+
+
+
+
+
+

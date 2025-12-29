@@ -60,3 +60,7 @@ First thing you are fighting in the day is relevance.
 Second thing 4 hr block is for work 
 Third 4 hr block is for delivery 
 
+----
+
+Read copy update 
+https://docs.google.com/document/u/0/d/1X0lThx8OK0ZgLMqVoXiR4ZrGURHrXK6NyLRbeXe3Xac/mobilebasic
