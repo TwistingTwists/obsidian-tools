@@ -180,10 +180,6 @@ Activate your inner devta - sit quietly and Activate it. Nourish it and nurturin
 Listen to your truth 
 
 
-
-
-
-
 ----
 
 - [ ] jogni waterfalls
@@ -207,13 +203,58 @@ Hash brownie --- rockies in afternoon evening -- try krni ho to - 1/4 khaake Dek
 
 2025-12-27
 
-* Chai 
-3089 - petrol 
-610 - morning breakfast 
+Himanshu marry to vadodra - akela and family - min relationship? Will he be far from. Family !! 
+
+
+---
+
+2025-12-28
+
+What is the bone to pick with shivani? 
+- kid who has not achieved things yet. Needs to step up. Goofing around will not help. Real help needs work. It needs work. 
+- 
+
+Usual complaints : 
+- she feels ignored when harikesh and Riya are around. She wants to participate too. 
+- 'agar mujhe km pyar kroge' to accha ni hoga 
+- bluff game - not noticing her bluffs. But noticing bluffs of riya and harikesh 
+- 
+
+
+Is she an interesting person? 
+- 
+
+Am I taking her for granted? 
+
+
+---- 
+
+Why I am stuck! 
+- I avoid discomfort wala situations and conversation 
+- convenience first mindset. 
+- do the growth mindset questionnaire by chatgpt 
 
 
 
+----
 
+How do you know you are doing good work? 
+- it should feel awesome. That is a criteria. The most important one . Feel of the topic lelo. 
+
+-----
+
+What is the keemat? 
+- feel the work. Whatever you do - as a worship. And let it shine you via hanuman ji ka grace. 
+- jajbati hoke haar jayenge , but chalaki ni krenge. 
+-
+
+
+More courage to do things. And let people help. 
+Courage is from diaphagm 
+
+Inner devta - Jo socha/ chaha man se - wo hi gaya. 
+This is a state of being. With your own truth. 
+Focus on morning with alignment. Stretch + some physical work => meditation. => Alignment comes. 
 
 
 
