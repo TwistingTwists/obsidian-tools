@@ -258,3 +258,9 @@ Focus on morning with alignment. Stretch + some physical work => meditation. => 
 
 
 
+
+Dastane in gadi
+Vaseline gadi 
+Khtm khoya 
+
+
