@@ -264,3 +264,22 @@ Vaseline gadi
 Khtm khoya 
 
 
+
+2025-12-31
+
+Commitment do
+Wow factor work do 
+
+14-day journal of  imperfections and achievements  for 2026 
+
+One thing to improve per month 
+
+Empowering ourselves to empower others. This is about the other. 
+
+
+[[Personal LLM-os]]
+
+[[Communication - mindset]]
+
+Review atlan handbook 
+What is the negative thought you had in last 24 hours. 
