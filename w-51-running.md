@@ -6,7 +6,8 @@ Things I did last week (and todo)
 - [x] first day of oncall summary in notion + [Discord](https://discord.com/channels/945373173015265300/1454425740467507293)
 - [ ] 
 
-- [ ] Analyse the cloudwatch logs automatically for the period using claude code? 
+- [ ] video id - 028fa75e-d691-40be-b64c-03ac8c8e7484 - failing first frame generation because of image saftey
+	- [ ] how can I make a list of these videos in last 10 days?
 - [ ] 
 
 
