@@ -1,0 +1,2 @@
+:: 1. Remove lines that contain ONLY spaces/tabs (The "Strong Pointers" artifact)
+"^[ \t]+$"->"EMPTY"x

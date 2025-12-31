@@ -1,0 +1,5 @@
+:: 1. Remove lines that contain ONLY spaces/tabs (The "Strong Pointers" artifact)
+"^[ \t]+$"->"EMPTY"x
+
+:: 2. Tighten Lists: If there are multiple newlines before a bullet (•), crush them to one.
+"\n+(?=[ \t]*•)"->"\n"

@@ -1,0 +1,11 @@
+:: 1. Change the dot bullet to standard markdown dash
+"^•\s*"->"- "
+
+:: 2. Remove lines that contain only whitespace (cleans up the gaps)
+"^\s*\n"->"EMPTY"x
+
+:: 3. Bold the Key terms (matches text between the dash and the first colon)
+"^-\s*(.+?):"->"- **$1:**"
+
+:: 4. Ensure there is a blank line before the very first list item (for header separation)
+"(?<!\n)\n- "->"\n\n- "

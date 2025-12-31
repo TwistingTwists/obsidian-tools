@@ -1,0 +1,2 @@
+:: 2. If there are 2 or more newlines, replace them with one.
+"\n{2,}"->"\n"

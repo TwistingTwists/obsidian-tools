@@ -1,2 +1,10 @@
 remove-multiple-newlines
 clean-empty-lines
+gemini_given_md_cleaning_ruleset
+gemini_ruleset_2
+gemini_ruleset_3
+gemini_ruleset_4
+gemini_ruleset_5_1
+gemini_ruleset_5_2
+gemini_ruleset_5_3
+gemini_ruleset_5_4

@@ -1,0 +1,2 @@
+:: 2. If there are 3 or more newlines, replace them with one.
+"\n{3,}"->"\n"

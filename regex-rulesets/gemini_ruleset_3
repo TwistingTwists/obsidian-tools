@@ -1,0 +1,5 @@
+:: 1. Remove lines that are just whitespace (spaces/tabs)
+"^[ \t]+$"->"EMPTY"x
+
+:: 2. Normalize vertical spacing: Turn 3+ newlines into 2 (Standard paragraph spacing)
+"\n{3,}"->"\n\n"
