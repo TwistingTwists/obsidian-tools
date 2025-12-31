@@ -1,0 +1,2 @@
+:: Collapse 3+ consecutive newlines into a single blank line
+"\n{3,}"->"\n\n"

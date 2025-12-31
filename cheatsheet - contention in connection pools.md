@@ -268,6 +268,8 @@ If you remember _only one thing_, remember that.
 
 # Avoiding thundering herd in the connectoin pools 
 
+[[thundering-herd python script]]
+
 ## What “`in_flight > pending`” actually means
 
 - **`in_flight`**  

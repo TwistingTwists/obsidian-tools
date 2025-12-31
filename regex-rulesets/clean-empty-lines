@@ -1,0 +1,5 @@
+:: 1) Turn whitespace-only lines into truly empty lines (so they count as blank)
+"(?m)^[ \t]+$"->"REMOVE"x
+
+:: 2) Collapse 3+ consecutive newlines to a single blank line (i.e., two \n)
+"\n{3,}"->"\n\n"
