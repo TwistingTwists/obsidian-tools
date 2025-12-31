@@ -3,7 +3,10 @@ Things I did last week (and todo)
 - [ ] analysis of generated videos (read vinay docs on this?) - [Discord](https://discord.com/channels/945373173015265300/997567596054462495/1455072735179964458)
 - [ ] elevenlabs api credits issue and PR for fixing the VideoScene Status 
 - [ ] end cards issue mentioned by Rtiesh - [Discord](https://discord.com/channels/945373173015265300/997567596054462495/1455080874705162355)
-- [ ] first day of oncall summary in notion + [Discord](https://discord.com/channels/945373173015265300/1454425740467507293)
+- [x] first day of oncall summary in notion + [Discord](https://discord.com/channels/945373173015265300/1454425740467507293)
+- [ ] 
+
+- [ ] Analyse the cloudwatch logs automatically for the period using claude code? 
 - [ ] 
 
 
