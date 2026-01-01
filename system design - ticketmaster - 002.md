@@ -6,7 +6,7 @@ finished: 2025-12-18
 #### L5 
 
 - redis for locking with TTL, postgres for transactions 
-	- postgres is a south of truth 
+	- postgres is a source of truth 
 - postgres FOR UPDATE (row level locks)
 	- contention at scale
 #### L7 
