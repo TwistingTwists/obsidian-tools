@@ -1,0 +1,8 @@
+:: 1. Delete lines that contain only spaces/tabs (must be first)
+"^[ \t]+$"->"EMPTY"x
+
+:: 2. Tighten Lists: If 2 or more newlines exist before a bullet, replace with 1 newline.
+"\n{2,}(?=[ \t]*•)"->"\n"
+
+:: 3. General Cleanup: If 3 or more newlines exist anywhere else, replace with 1 newline.
+"\n{3,}"->"\n"

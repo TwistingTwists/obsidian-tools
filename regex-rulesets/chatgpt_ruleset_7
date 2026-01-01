@@ -1,0 +1,20 @@
+:: 0) Normalize Windows CRLF to LF (kills hidden \r)
+"\r\n"->"\n"
+
+:: 1) Convert non-breaking spaces to normal spaces (VERY common in web/ChatGPT copies)
+"\u00A0"gu->" "
+
+:: 2) Remove trailing spaces (prevents “blank” lines that aren’t blank)
+"(?m)[ \t]+$"->"TRIM"x
+
+:: 3) Delete whitespace-only lines (lines that look blank but contain spaces)
+"(?m)^[ \t]+$"->"EMPTY"x
+
+:: 4) Convert bullet symbol • into real Markdown list bullets, preserving indentation
+"(?m)^([ \t]*)•[ \t]+"gmu->"$1- "
+
+:: 5) Remove blank lines *between* list items (makes lists compact/nice)
+"(?m)^([ \t]*- .+)\n\n(?=[ \t]*- )"gmu->"$1\n"
+
+:: 6) Finally, collapse any remaining 2+ blank lines to a single blank line
+"\n{3,}"->"\n\n"

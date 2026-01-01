@@ -13,9 +13,7 @@ Let's start with the first principle of `Arc` (Atomic Reference Counted). An `Ar
 Imagine you are building a **Parent-Child** relationship model.
 
 - A **Parent** has a list of Children.
-    
 - A **Child** needs to know who its Parent is.
-    
 
 If you use `Arc` for both directions, you create a deadly logic trap.
 
@@ -163,11 +161,11 @@ fn main() {
 
 ### Summary
 
-|**Action**|**Rust Method**|**Effect on Ref Count**|**Analogy**|
-|---|---|---|---|
-|**Create Strong**|`Arc::clone`|Increases Strong Count (+1)|Holding hands tight.|
-|**Make Weak**|`Arc::downgrade`|Increases Weak Count (does not stop deletion)|Looking at them from a distance.|
-|**Use Weak**|`Weak::upgrade`|Temporarily creates Strong `Arc` (if alive)|Walking over to check if they are still there.|
+| **Action**        | **Rust Method**  | **Effect on Ref Count**                       | **Analogy**                                    |
+| ----------------- | ---------------- | --------------------------------------------- | ---------------------------------------------- |
+| **Create Strong** | `Arc::clone`     | Increases Strong Count (+1)                   | Holding hands tight.                           |
+| **Make Weak**     | `Arc::downgrade` | Increases Weak Count (does not stop deletion) | Looking at them from a distance.               |
+| **Use Weak**      | `Weak::upgrade`  | Temporarily creates Strong `Arc` (if alive)   | Walking over to check if they are still there. |
 
 **Would you like me to explain how `RefCell` fits into this picture, as it often appears alongside `Arc` and `Weak` in these structures?**
 

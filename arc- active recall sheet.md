@@ -35,25 +35,3 @@ The `upgrade()` Check:
 • Returns `None`: The object was dropped. Do not access.
 
   
-
-## 4. Key Patterns & Use Cases
-
-## 5. Mental Model: The Radio Station
-
-• DJ (`Arc`): Keeps the station on air.
-
-  
-
-• Listener (`Weak`): Has the phone number.
-
-  
-
-• Calling (`upgrade`): You dial the number.
-
-  
-
-  • Someone answers (`Some`) -> Station is live.
-
-  
-
-  • Dead air (`None`) -> Station is gone.
