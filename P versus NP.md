@@ -1,6 +1,17 @@
+---
+
+---
+
+
+---
+## Short notes: 
+
 P = solvable in polynomial time 
-NP = non-deterministic polynomial => must be a decision problem (yes/ no) =>  can guess yes or no via algo. if at least one yes, then yes else no. 
-- s
+NP = non-deterministic polynomial => must be a **decision problem** (yes/ no) =>  can guess yes or no via algo. if at least one yes, then yes else no. 
+- so NO gives a lot of info, but YES gives partial info.
+
+----
+
 
 Here is an intuitive explanation of what "Complete" means in this context.
 
