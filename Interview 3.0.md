@@ -26,6 +26,40 @@ Section 001 - past experience.
 
 
 
+2026-01-01
+
+- consulting, why now? Why ai? 
+- big tech -- not doing enough AI ? In India ? 
+- atlassian - rovo cli, jira and data platform, 
+- View on agents / data platform --- list of interesting challenges in data platform 
+	- compute on demand
+	- sandboxed environments
+	- on-demand storage
+	- disaggregation of storage from compute 
+	- durable streams / durable processing/ exactly once semantics 
+
+- abhi tk startup mei tha. Ab big tech mei kaam Krna hai 
+
+
+What do you want to show? 
+- high agency ? 
+	- meaning high impact hona chaiye.
+	- persistence in face of adversity  (overcome obstacles)
+	- learn from challenges
+- High integrity ? 
+- todo - 7 habits from Stephen covey read  - circle of concern 
+
+Where do you want to go?
+1. IR team, google bangalore, swe-2, 
+	- IR basics + LinkedIn profile from screenshots 
+	- https://github.com/unum-cloud/USearch
+	- 
+2. Atlassian data platform team 
+	- ddia acche se - partitioning, replication, transactions, LSM vs B-tree
+- find some interesting profiles from uber 
+- 
+
+
 -----
 
 

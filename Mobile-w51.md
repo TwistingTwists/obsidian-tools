@@ -283,3 +283,20 @@ Empowering ourselves to empower others. This is about the other.
 
 Review atlan handbook 
 What is the negative thought you had in last 24 hours. 
+
+
+2026-01-02
+
+What to do?  - 20-30 min mei can you think ? 
+
+- be more present and think. Learn how smartest people think - be with them, sit with them ? 
+- shreyas Doshi podcast / tweets learn 
+
+- [ ] Uchi uchi diwari song 
+
+
+
+
+- [ ] Bob cards call 
+- [ ] rbi ombudsman complaint 
+- [ ] enquiry ? Credit cRds? 
