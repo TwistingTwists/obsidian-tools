@@ -1,3 +1,7 @@
+P = solvable in polynomial time 
+NP = non-deterministic polynomial => must be a decision problem (yes/ no) =>  can guess yes or no via algo. if at least one yes, then yes else no. 
+- s
+
 Here is an intuitive explanation of what "Complete" means in this context.
 
 In the phrase NP-Complete, the word **"Complete"** essentially means **"The Ultimate Version"** or **"The Master Problem."**
