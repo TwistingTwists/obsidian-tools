@@ -252,3 +252,6 @@ However, since Axum is built on Hyper, the Extractor approach above is vastly su
     ```
     
 1. **Focus on Extractors**: In the Rust web ecosystem, typed Extractors are preferred over "middleware that injects into untyped extensions."
+
+
+[[chat-on-implementation-details]]
