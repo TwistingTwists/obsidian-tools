@@ -8,7 +8,7 @@ What do we finish on 2025-12-21?
 - [x] recording, recordables -- phase 1,4 for the copy-checker
 - [ ] tensorzero - routing infra - should we self host that? 
 	- [ ] observability + datasets
-- [ ] knapsack - subset sum  + 1 more problem  
+- [x] knapsack - subset sum  + 1 more problem  
 - [ ] shivani teaching - NCERT - finish one more chapter for her. (1 hr)
 
 
@@ -36,10 +36,10 @@ What do we finish on 2025-12-21?
 	- series of questions + answers - sqlite + drizzle + better T stack 
 - [ ] vishal 
 	- [x] pb sheet - latest updated data 
-	- [ ] binary on phone 
+	- [x] binary on phone 
 	- [ ] look at problem statement 
 - [ ] mine 
-	- [ ] do questions on the 0/1 knapsack questions 
+	- [x] do questions on the 0/1 knapsack questions 
 	- [ ] hello interview  - ticketmaster + dropbox
 - [ ] 
 

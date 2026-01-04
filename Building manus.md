@@ -12,6 +12,7 @@ was maintaining changes to our internal agent framework while also writing produ
 
 
 ---
+
 Getting productive in a new language comes down to a few things: read the code before you try to write it, seek feedback constantly, and be wrong fast.
 
 -----
