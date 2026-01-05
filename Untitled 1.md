@@ -1,0 +1,9 @@
+- [ ] all the data -- showing good recommendation 
+- [ ] user selects recommendation image / past ad / social media posts -- shuold generated story board
+- [ ] AI UGC ENGINE
+	- [ ] pdouct shots 
+	- [ ] b roll = uiser generated / generated
+	- [ ] split screen possible 
+	- [ ] prepare a list of things that are pending --- and time estimate on that. 
+- [ ] focus on engine part - should have more capability -- list of features from vinay 
+- [ ] 
