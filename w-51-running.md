@@ -8,7 +8,7 @@ Things I did last week (and todo)
 
 - [ ] video id - 028fa75e-d691-40be-b64c-03ac8c8e7484 - failing first frame generation because of image saftey
 	- [ ] how can I make a list of these videos in last 10 days?
-- [ ] 
+- [ ] [[2025-01-05]]
 
 
 2025-12-15
