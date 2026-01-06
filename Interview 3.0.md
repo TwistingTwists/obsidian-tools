@@ -6,6 +6,11 @@ tags:
 libraries: 
 topic: interview
 ---
+crafting compelling career story 
+[Founder Mode, done right \| Shreyas Doshi (ex-Stripe, Twitter, Google, Yahoo)](https://theskip.substack.com/p/founder-mode-done-right-shreyas-doshi-a47)
+
+---
+
 Looking for staff engineer: (capabilities)
 - Who has built platforms and can define a way so taht things are done that way in a project. 
 - platform level - logging / observability setup etc 
