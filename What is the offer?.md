@@ -3,7 +3,22 @@ tags:
   - claude-code
 ---
 - 10x productivity boost
+- Coding + PR Review + parallel work (more experiments, ship more, get insights more) 
+	- debugging workflows - MCP + reduce time to insight  (veloctiy flows)
+	- remove the slog work and shift to -> product thinking, culture of shipping, culture of writing
+		- Dealing with ambiguities - Framework for that 
+			- four levels of framework for dealing with ambiguities
+				- facts (RAM vs disk) / questions / procedural (on-call playbook) / system-level (what moving parts are and how they compose)
+		- 
+- [how companies measure AI productivity](https://newsletter.pragmaticengineer.com/p/how-tech-companies-measure-the-impact-of-ai) - setup process for this 
+	- closed PRs (open to close time)
+	- change / PRs leading to production down 
+	- 
 - customised to your workflow, your org
 - other topics
-	- learning paths with claude
+	- team-upskilling: 
+		- learning paths with claude (setup the path with our senior engineers and have accountability)
+		-  Read engineering blogs and case studies of system designs
+		- reading open source repositories - assisted with AI to ensure that the learnings are taken from the battle tested software
+		- [[T shaped Engineer]]
 	- 
