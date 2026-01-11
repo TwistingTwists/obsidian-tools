@@ -10,6 +10,16 @@ crafting compelling career story
 [Founder Mode, done right \| Shreyas Doshi (ex-Stripe, Twitter, Google, Yahoo)](https://theskip.substack.com/p/founder-mode-done-right-shreyas-doshi-a47)
 
 ---
+Achievements recently :
+- UGC engine - for supporting all kinds of variety. Json pointer based referencing system 
+- 
+- recharged api credits while on-call 
+- monitoring hotjar / mixpanel for launch day to track the failures and fix them fast
+- postgres mcp setup -> SQL query to Google sheets (Langfuse+ AWS cliudlwatch direct logs) to enable stakeholders make decisions 
+- 
+
+------
+
 
 Looking for staff engineer: (capabilities)
 - Who has built platforms and can define a way so taht things are done that way in a project. 
