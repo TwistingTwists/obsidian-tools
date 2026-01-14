@@ -9,6 +9,17 @@ topic: interview
 crafting compelling career story 
 [Founder Mode, done right \| Shreyas Doshi (ex-Stripe, Twitter, Google, Yahoo)](https://theskip.substack.com/p/founder-mode-done-right-shreyas-doshi-a47)
 
+----
+
+List of topics :
+- [ ] jwt working 
+- [ ] bloom filters 
+- [ ] api versions
+- [ ] fronend system design? 
+- [ ] parquet parser ? In rust ? 
+- [ ] 
+
+
 ---
 Achievements recently :
 - UGC engine - for supporting all kinds of variety. Json pointer based referencing system 
