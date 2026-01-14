@@ -31,16 +31,31 @@ class Ticket(BaseModel):
 	id: uuid7
 	vehicle: Vehicle
 	parked_location: ParkingSpot
+	payment: Option[Payment]
 	parket_at: utc
 	unparked_at: utc 
 
 class Payments(BaseModel):
-	ticket: Ticket
-	
 	amount_paid: int
 	currency: str # INR, USD
 	denominations: str # INR -> rupees, paise. USD -> dollars , cents
 	paid_at: utc
 	payment_status: str # SUCCESS / FAIL 
+
+
+class ParkingLot(BaseModel):
+	parking_spots: List[ParkingSpots]
+	empty_spots: HashMap
+
+def park_vehicle(vehicle) -> Ticket:
+	pass
+
+def unpark_vehicle(ticket) -> Vehicle:
+	pass
+
+def make_payment(ticket, amount) -> Ticket:
+	pass 
+
+
 	
 ```
