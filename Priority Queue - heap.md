@@ -1,4 +1,7 @@
 
+[[Intuition for slot fitting]]
+
+
 
 Common Leetcode Problems on Priority Queue
 

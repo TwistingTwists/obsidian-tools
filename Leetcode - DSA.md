@@ -314,4 +314,4 @@ graphs and trees
 
 
 ---- 
-[[Priority Queue]]
+[[Priority Queue - heap]]
