@@ -1,6 +1,47 @@
 
 [[Intuition for slot fitting]]
 
+```python
+
+from collections import Counter, deque
+import heapq
+from typing import List
+
+
+class Solution:
+    def leastInterval(self, tasks: List[str], n: int) -> int:
+        # Frequency of tasks
+        freq = Counter(tasks)
+
+        # Max-heap of available tasks by remaining count
+        # heapq is a min-heap, so store negative counts
+        max_heap = [-c for c in freq.values()]
+        heapq.heapify(max_heap)
+
+        # Queue for tasks in cooldown: (ready_time, remaining_count_neg)
+        cooldown = deque()
+
+        time = 0
+        while max_heap or cooldown:
+            # Release tasks whose cooldown finished
+            while cooldown and cooldown[0][0] <= time:
+                _, cnt_neg = cooldown.popleft()
+                heapq.heappush(max_heap, cnt_neg)
+
+            if max_heap:
+                cnt_neg = heapq.heappop(max_heap)
+                cnt_neg += 1  # used one instance (e.g., -3 -> -2). Toward zero.
+
+                # If still remaining, put into cooldown
+                if cnt_neg < 0:
+                    cooldown.append((time + n + 1, cnt_neg))
+            # else: idle
+
+            time += 1
+
+        return time
+```
+
 
 
 Common Leetcode Problems on Priority Queue
