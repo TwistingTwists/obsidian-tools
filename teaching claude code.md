@@ -1,6 +1,6 @@
 
-[[What are people teaching?]]
+[[What are people teaching]]
 
-[[What is the offer?]]
+[[What is the offer]]
 
-[[Why claude code? why now?]]
+[[Why claude code - why now]]
