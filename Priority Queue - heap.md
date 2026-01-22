@@ -1,6 +1,9 @@
 
 [[Intuition for slot fitting]]
 
+[[Task scheduler variations ]]
+
+
 ```python
 
 from collections import Counter, deque
