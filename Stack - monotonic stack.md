@@ -12,9 +12,6 @@ A **monotonic stack** is a stack where elements are always in monotonically incr
 - Helps find: **previous/next smaller elements**
 
 **2. Monotonic Decreasing Stack**
-- Elements from bottom to top are in decreasing order  
-- When a new element comes, pop all elements smaller than it
-- Helps find: **previous/next greater elements**
 
 ### Why Is This Powerful?
 
