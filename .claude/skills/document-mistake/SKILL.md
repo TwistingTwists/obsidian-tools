@@ -9,10 +9,17 @@ description: Document a coding mistake with structured analysis | Use after iden
 
 ### 1. Gather Info
 - [ ] Problem ID or topic name
-- [ ] What went wrong (1-2 line summary)
-- [ ] Type: implementation | logic | conceptual | edge-case
+- [ ] Buggy code + explanation (extract from context)
+- [ ] ⚠️ DO NOT ask for type—auto-detect from code
 
-### 2. Analyze
+### 2. Auto-Detect Type
+Analyze the mistake and classify:
+- **Logic**: Algorithm flaw, wrong condition, incorrect sequence
+- **Implementation**: Variable mismatch, wrong reference, state management
+- **Edge-case**: Boundary condition, null handling, off-by-one
+- **Conceptual**: Misunderstanding of data structure/algorithm behavior
+
+### 3. Analyze
 - [ ] Extract the buggy code snippet
 - [ ] Identify root cause (not just symptom)
 - [ ] Write corrected code
@@ -33,9 +40,13 @@ description: Document a coding mistake with structured analysis | Use after iden
 - Tables for comparisons
 - Bullets > prose
 - Target length: ~150 words
-- File: `[ID]_[name].md` or `[topic].md`
+- **Folder**: `mistakes/` directory
+- **File**: `[ID]_[name].md` or `[topic].md`
+- **Check existing**: Append to file if topic already documented
 
 ### 5. Checklist Before Save
+- [ ] Check if `mistakes/[topic].md` exists (append, don't overwrite)
+- [ ] Type auto-detected correctly (logic|implementation|edge-case|conceptual)
 - [ ] Frontmatter includes relevant tags
 - [ ] Code examples are complete & runnable
 - [ ] Root cause explained (not just "forgot X")
@@ -71,6 +82,15 @@ When recursion doesn't explicitly return, Python returns None. This breaks logic
 ## Key Lesson
 Base cases must return appropriate value OR structure must not depend on return value.
 ```
+
+## Type Detection Guide
+
+| Type | Indicators | Example |
+|------|-----------|---------|
+| **Logic** | Wrong condition, incorrect sequence, algorithm flow breaks | `if x > 5` when should be `if x < 5` |
+| **Implementation** | Variable mismatch, wrong reference, state not updated | `node = stack.pop()` then using `current.right` |
+| **Edge-case** | Boundary missed, null/empty not handled, off-by-one | `while i < len` should be `while i <= len` |
+| **Conceptual** | Misunderstands data structure, algorithm behavior, property | Appending recursive return values instead of modifying shared list |
 
 ## Tags Reference
 ```yaml
