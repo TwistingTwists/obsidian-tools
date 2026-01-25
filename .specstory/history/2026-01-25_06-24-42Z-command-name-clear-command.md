@@ -1237,3 +1237,462 @@ Good question. Here are my tracking options:
 Which would you prefer? Or mix of above?
 
 Also: Do you want to start fresh from Day 1, or are you already partway through certain problems?
+
+---
+
+_**User (2026-01-25T06:26:12.632Z)**_
+
+task list -> and since this is obsidian -> create reference for the origina file
+
+---
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:17.516Z)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants me to:
+1. Create a task list to track the 27-day graph mastery plan
+2. Create a reference in Obsidian for the original file
+
+Looking at the user's environment:
+- Working in: /home/abhishek/Downloads/experiments/learnings
+- Has Obsidian setup (evidenced by .obsidian/workspace.json in git status)
+- The original file is: /home/abhishek/Downloads/experiments/learnings/Graph Mastery - Question Path.md
+
+So I should:
+1. Create tasks for the 27-day curriculum
+2. Create a tracking file in Obsidian that links to the original
+3. Make it easy for the user to follow the curriculum
+
+Let me create:
+1. An Obsidian index/tracker file that links to the original and shows progress
+2. Task list for the phases (or maybe the 4 main phases with subtasks)
+
+Actually, let me think about the best approach:
+- Task list: Can break down into phases or days. Since there are 27 days, maybe break into the 4 phases?
+- Or create daily tasks? That's a lot.
+- Better: Create tasks for each phase, with the first problem of each as entry point
+
+Or actually, let me create:
+1. A progress tracking markdown file in Obsidian
+2. Task list for each phase (4 major tasks)
+
+Let me start with the task creation for the 4 phases, and create a progress file that references the original.
+</details></think>
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:19.358Z)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="TaskCreate"><details>
+<summary>Tool use: **TaskCreate**</summary>
+Master graph representation, DFS, BFS, and grid traversal
+- Day 1: Graph construction (LC 1971)
+- Day 2: DFS mastery (LC 797, 547, 695)
+- Day 3: BFS mastery (LC 1091, 542, 1162)
+- Day 4: Multi-source BFS (LC 994, 286, 1765)
+- Day 5: Grid as graph (LC 200, 463, 1254)
+- Day 6: Clone problems (LC 133, 138)
+- Day 7: Review & practice
+
+See: [[Graph Mastery - Question Path#Phase 1: Foundations (Days 1-7)]]
+```
+Task #1 created successfully: Phase 1: Graph Foundations (Days 1-7)
+```
+</details></tool-use>
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:20.534Z)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="TaskCreate"><details>
+<summary>Tool use: **TaskCreate**</summary>
+Detect cycles, master topological sorting, understand bipartite graphs
+- Day 8: Undirected cycle detection (LC 684, 261)
+- Day 9: Directed cycle detection (LC 207, 802)
+- Day 10-11: Topological sort - DFS & Kahn's (LC 210, 310, 2050)
+- Day 12: Build graphs from constraints (LC 269)
+- Day 13: Bipartite graphs (LC 785, 886)
+- Day 14: Review & mixed practice
+
+See: [[Graph Mastery - Question Path#Phase 2: Cycles & Ordering (Days 8-14)]]
+```
+Task #2 created successfully: Phase 2: Cycles & Topological Sort (Days 8-14)
+```
+</details></tool-use>
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:21.909Z)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="TaskCreate"><details>
+<summary>Tool use: **TaskCreate**</summary>
+Master Union-Find, Dijkstra, and other shortest path algorithms
+- Day 15-17: Union-Find applications (LC 323, 684, 721, 990, 1579)
+- Day 18-20: Dijkstra & variants (LC 743, 787, 1631, 1514)
+- Day 20: Bellman-Ford & Floyd-Warshall (LC 1334)
+- Day 21: Speed practice & timed problems
+
+See: [[Graph Mastery - Question Path#Phase 3: Union-Find & Shortest Paths (Days 15-21)]]
+```
+Task #3 created successfully: Phase 3: Union-Find & Shortest Paths (Days 15-21)
+```
+</details></tool-use>
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:23.686Z)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="TaskCreate"><details>
+<summary>Tool use: **TaskCreate**</summary>
+Backtracking, Trie integration, advanced grids, MST, mock interviews
+- Day 22: Backtracking on graphs (LC 79, 980)
+- Day 23: Trie + Graph (LC 212, 1233)
+- Day 24: Complex grid patterns (LC 130, 417, 1559, 1905)
+- Day 25: Transformation graphs (LC 127, 433, 752)
+- Day 26: Minimum spanning tree (LC 1584, 1135)
+- Day 27: Advanced patterns (LC 332)
+- Days 28-30: Mock interviews & random selection
+
+See: [[Graph Mastery - Question Path#Phase 4: Advanced Patterns (Days 22-27)]]
+```
+Task #4 created successfully: Phase 4: Advanced Patterns (Days 22-27 + mock)
+```
+</details></tool-use>
+
+---
+
+_**User (2026-01-25T06:26:25.316Z)**_
+
+[Request interrupted by user]
+
+_**User (2026-01-25T06:26:30.285Z)**_
+
+not this. progress markdown file please. 
+
+---
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:36.824Z)**_
+
+<think><details><summary>Thought Process</summary>
+User wants a progress markdown file instead of the task list approach. They want me to create a progress tracking file for the Graph Mastery curriculum. I should create a markdown file that tracks completion status for all 59 problems across the 4 phases.
+
+Let me create a markdown file that:
+1. Maps to the original file structure
+2. Has checkboxes for tracking progress
+3. Is organized by week/day
+4. Is in Obsidian format (can reference the original file)
+5. Is human-readable and easy to update
+
+I should write this to a file in the learnings directory, something like "Graph Mastery - Progress.md"
+</details></think>
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:51.759Z)**_
+
+<tool-use data-tool-type="write" data-tool-name="Write"><details>
+<summary>Tool use: **Write**</summary>
+
+```md
+# Graph Mastery Progress
+
+**Master document:** [[Graph Mastery - Question Path]]
+
+---
+
+## Phase 1: Foundations (Days 1-7)
+
+### Day 1 | Graph Representation
+- [ ] LC 1971 - Find if Path Exists in Graph
+
+### Day 2 | DFS Mastery
+- [ ] LC 797 - All Paths From Source to Target ⭐📍
+- [ ] LC 547 - Number of Provinces ⭐🔑
+- [ ] LC 695 - Max Area of Island ⭐
+
+### Day 3 | BFS Mastery
+- [ ] LC 1091 - Shortest Path in Binary Matrix ⭐⭐📍
+- [ ] LC 542 - 01 Matrix ⭐⭐
+- [ ] LC 1162 - As Far from Land as Possible
+
+### Day 4 | Multi-source BFS
+- [ ] LC 994 - Rotting Oranges ⭐⭐⭐🔑
+- [ ] LC 286 - Walls and Gates 💎
+- [ ] LC 1765 - Map of Highest Peak
+
+### Day 5 | Grid as Graph
+- [ ] LC 200 - Number of Islands ⭐⭐⭐⭐⭐📍
+- [ ] LC 463 - Island Perimeter
+- [ ] LC 1254 - Number of Closed Islands
+- [ ] LC 1020 - Number of Enclaves
+
+### Day 6 | Clone Problems
+- [ ] LC 133 - Clone Graph ⭐⭐⭐⭐⭐🔑
+- [ ] LC 138 - Copy List with Random Pointer
+
+### Day 7 | Review
+- [ ] Redo hardest from Days 1-6
+
+**Phase 1 Status:** ⏳ Not started
+
+---
+
+## Phase 2: Cycles & Ordering (Days 8-14)
+
+### Day 8 | Cycle Detection - Undirected
+- [ ] LC 684 - Redundant Connection ⭐⭐⭐⭐📍
+- [ ] LC 261 - Graph Valid Tree ⭐⭐⭐⭐💎
+
+### Day 9 | Cycle Detection - Directed
+- [ ] LC 207 - Course Schedule ⭐⭐⭐⭐⭐📍🔑
+- [ ] LC 802 - Find Eventual Safe States
+
+### Day 10 | Topological Sort - DFS
+- [ ] LC 210 - Course Schedule II ⭐⭐⭐⭐⭐📍
+
+### Day 11 | Topological Sort - Kahn's
+- [ ] LC 210 - Course Schedule II (Kahn's approach) ⭐⭐⭐⭐⭐
+- [ ] LC 1462 - Course Schedule IV
+- [ ] LC 310 - Minimum Height Trees 🔑
+- [ ] LC 2050 - Parallel Courses III
+- [ ] LC 1136 - Parallel Courses 💎
+
+### Day 12 | Build Graph from Constraints
+- [ ] LC 269 - Alien Dictionary ⭐⭐⭐⭐🔑💎
+
+### Day 13 | Bipartite Graphs
+- [ ] LC 785 - Is Graph Bipartite? ⭐⭐⭐📍
+- [ ] LC 886 - Possible Bipartition
+
+### Day 14 | Review
+- [ ] Mixed practice from Phase 2
+
+**Phase 2 Status:** ⏳ Not started
+
+---
+
+## Phase 3: Union-Find & Shortest Paths (Days 15-21)
+
+### Day 15 | Union-Find Basics
+- [ ] Implement Union-Find template with path compression
+
+### Day 16 | Union-Find Applications
+- [ ] LC 323 - Number of Connected Components ⭐⭐⭐⭐📍💎
+- [ ] LC 684 - Redundant Connection (UF approach) ⭐⭐⭐⭐
+- [ ] LC 547 - Number of Provinces (UF approach) ⭐⭐⭐
+
+### Day 17 | Advanced Union-Find
+- [ ] LC 1319 - Number of Operations to Make Network Connected
+- [ ] LC 721 - Accounts Merge ⭐⭐⭐🔑
+- [ ] LC 990 - Satisfiability of Equality Equations
+- [ ] LC 1579 - Remove Max Number of Edges to Keep Graph Fully Traversable
+
+### Day 18 | Dijkstra Theory
+- [ ] Implement Dijkstra template with min-heap
+
+### Day 19 | Dijkstra Applications
+- [ ] LC 743 - Network Delay Time ⭐⭐⭐⭐📍
+- [ ] LC 787 - Cheapest Flights Within K Stops ⭐⭐⭐🔑
+- [ ] LC 1631 - Path With Minimum Effort ⭐⭐⭐
+- [ ] LC 1514 - Path with Maximum Probability
+
+### Day 20 | Bellman-Ford & Floyd-Warshall
+- [ ] LC 787 - Cheapest Flights (Bellman-Ford approach)
+- [ ] LC 1334 - Find the City With Smallest Number of Neighbors 💎
+
+### Day 21 | Speed Practice
+- [ ] Timed problems from Phase 3
+
+**Phase 3 Status:** ⏳ Not started
+
+---
+
+## Phase 4: Advanced Patterns (Days 22-27 + Mock)
+
+### Day 22 | Backtracking on Graphs
+- [ ] LC 79 - Word Search ⭐⭐⭐⭐📍
+- [ ] LC 980 - Unique Paths III ⭐⭐⭐
+- [ ] LC 1066 - Campus Bikes II 💎
+
+### Day 23 | Trie + Graph
+- [ ] LC 212 - Word Search II ⭐⭐⭐⭐🔑
+- [ ] LC 1233 - Remove Sub-Folders from the Filesystem
+
+### Day 24 | Advanced Grid Problems
+- [ ] LC 130 - Surrounded Regions ⭐⭐⭐⭐📍
+- [ ] LC 417 - Pacific Atlantic Water Flow ⭐⭐⭐⭐🔑
+- [ ] LC 1559 - Detect Cycles in 2D Grid
+- [ ] LC 1905 - Count Sub Islands
+
+### Day 25 | Transformation Graphs
+- [ ] LC 127 - Word Ladder ⭐⭐⭐⭐📍
+- [ ] LC 126 - Word Ladder II
+- [ ] LC 433 - Minimum Genetic Mutation
+- [ ] LC 752 - Open the Lock
+
+### Day 26 | Minimum Spanning Tree
+- [ ] LC 1584 - Min Cost to Connect All Points ⭐⭐⭐📍
+- [ ] LC 1135 - Connecting Cities With Minimum Cost 💎
+
+### Day 27 | Advanced Graph Patterns
+- [ ] LC 332 - Reconstruct Itinerary 🔑
+- [ ] LC 1436 - Destination City
+
+### Days 28-30 | Mock Interviews
+- [ ] Random selection from curriculum
+
+**Phase 4 Status:** ⏳ Not started
+
+---
+
+## Summary
+
+| Phase | Days | Problems | Status |
+|-------|------|----------|--------|
+| 1: Foundations | 1-7 | 13 | ⏳ |
+| 2: Cycles & Ordering | 8-14 | 16 | ⏳ |
+| 3: Union-Find & Shortest Paths | 15-21 | 16 | ⏳ |
+| 4: Advanced Patterns | 22-27+ | 14+ | ⏳ |
+| **Total** | **27+** | **59** | **⏳** |
+
+---
+
+## Success Metrics Checklist
+
+- [ ] Can recognize pattern in <30 seconds
+- [ ] Can code DFS template without reference
+- [ ] Can code BFS template without reference
+- [ ] Can code Union-Find without reference
+- [ ] Can code Dijkstra without reference
+- [ ] Can code Topo Sort (both) without reference
+- [ ] Can explain time/space complexity for each
+- [ ] Can handle follow-up variations
+- [ ] Complete 50+ problems
+
+---
+
+**Last updated:** 2026-01-25
+
+```
+```
+File created successfully at: /home/abhishek/Downloads/experiments/learnings/Graph Mastery - Progress.md
+```
+</details></tool-use>
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:55.635Z)**_
+
+<think><details><summary>Thought Process</summary>
+The user sent a /rename command. Let me check what that means in the context of Claude Code. It seems like they might want to rename a file or something. But looking at the context, they just told me to create a progress markdown file, which I did. The /rename command might be a skill or command they're trying to use.
+
+Actually, looking back at the system reminders, I see that /rename is not in the list of skills provided. The available skills are listed in the Skill tool description. Let me check... I don't see /rename in there.
+
+The user might be trying to use a command that doesn't exist, or they might be trying to do something else. Since they said "not this. progress markdown file please" and I just created the progress markdown file, maybe they're acknowledging that it's done and the /rename was a separate command?
+
+Let me just acknowledge what I've done and ask for clarification if needed.
+</details></think>
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:26:56.710Z)**_
+
+Done. Created **Graph Mastery - Progress.md** with:
+- All 59 problems organized by day/phase
+- Checkbox tracking for each problem
+- Wiki-links back to the original file
+- Summary table & success metrics
+
+Just check off problems as you complete them. I can read this file next session and know exactly where you are.
+
+Ready to start Day 1?
+
+---
+
+_**User (2026-01-25T06:28:22.772Z)**_
+
+yes. day 1
+
+---
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:28:33.624Z)**_
+
+<think><details><summary>Thought Process</summary>
+User wants to start Day 1 of the graph mastery curriculum. Looking at the progress file and the original document:
+
+Day 1 is:
+- LC 1971 - Find if Path Exists in Graph 📍
+- Goal: Build any graph from scratch
+- Pattern: Graph construction + basic traversal
+
+Let me first understand what they need:
+1. The problem details from the curriculum
+2. A place to solve it (either guide them or help them code)
+
+From the original document, here's the guidance for this problem:
+
+```
+### Q1: LC 1971 - Find if Path Exists in Graph 📍
+| Difficulty | Acceptance | Premium |
+|------------|------------|---------|
+| Easy | 51.80% | No |
+
+**Pattern:** Graph construction + basic traversal
+**Before solving:**
+- Can you build adjacency list from edge list?
+- What's the difference between directed vs undirected representation?
+
+```python
+# Template: Build adjacency list
+def build_graph(n, edges, directed=False):
+    adj = [[] for _ in range(n)]
+    for u, v in edges:
+        adj[u].append(v)
+        if not directed:
+            adj[v].append(u)
+    return adj
+```
+
+**Checkpoint:** Solve this in <5 mins including graph construction.
+```
+
+I should:
+1. Present the problem clearly
+2. Guide them through the template
+3. Have them attempt it
+4. Review their solution
+
+Actually, I should ask if they want me to guide them through solving it, or if they want to attempt it first, or if they need me to explain the problem details from LeetCode.
+
+Let me be practical - they want to start. I should:
+1. Show them what LC 1971 is about (based on the curriculum)
+2. Give them the template
+3. Ask if they want to attempt it first or want guidance as they code
+
+Actually, looking at my instructions and the user's tone - they're ready to go. 
+
+I'll present the problem context and template directly, then ask them to give it a shot so I can review their approach.
+</details></think>
+
+_**Agent (claude-haiku-4-5-20251001 2026-01-25T06:28:34.849Z)**_
+
+**Day 1: LC 1971 - Find if Path Exists in Graph** 📍
+
+**The pattern:** Graph construction + basic traversal
+
+**Before you code — answer these:**
+1. Can you build an adjacency list from an edge list?
+2. What's the difference between directed vs undirected graphs?
+
+**The template:**
+```python
+def build_graph(n, edges, directed=False):
+    adj = [[] for _ in range(n)]
+    for u, v in edges:
+        adj[u].append(v)
+        if not directed:
+            adj[v].append(u)
+    return adj
+```
+
+**Problem context** (from curriculum):
+- Build a graph from edges
+- Check if a path exists from source to destination
+- Directed graph (one-way edges)
+- Easy difficulty | 51.80% acceptance
+
+**Checkpoint:** Solve in <5 mins including graph construction
+
+---
+
+**Two options:**
+1. **Attempt first** — Try it, then show me your solution
+2. **Guided walk-through** — I explain the approach step-by-step as you code
+
+Which do you prefer?
