@@ -5,12 +5,6 @@ tags:
 
 pattern master list --- https://algo.monster/problems/stats
 
-binary patterns - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
-
-tree patterns - https://leetcode.com/discuss/study-guide/1337373/tree-question-pattern-2021-placement
-
-
-
 https://www.educative.io/courses/grokking-coding-interview
 
 
@@ -22,69 +16,27 @@ https://www.interviewbit.com/practice/ | Coding Practice | Coding Challenges - I
 https://www.interviewbit.com/courses/system-design/ | System-design - Interviewbit
 https://www.interviewbit.com/courses/system-design/storage-scalability/ | Storage Scalability - InterviewBit
 
-
-------
-
-# HEAP 
-
-patterns: https://leetcode.com/discuss/general-discussion/1127238/master-heap-by-solving-23-questions-in-4-patterns-category
-
-
 ----
 
-# BINARY search
-
-patterns: https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
-
-
-
-# [[Leetcode - Dynamic Programming ]]
-  
-
-
-DSA Patterns Sheet:
-
-  
 
 Here is a 10-line template that can solve most 'substring' problems  
 [https://leetcode.com/problems/minimum-window-substring/solutions/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems/](https://leetcode.com/problems/minimum-window-substring/solutions/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems/)
 
-  
 
 C++ Maximum Sliding Window Cheatsheet Template
 
 [https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/C++-Maximum-Sliding-Window-Cheatsheet-Template/](https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/C++-Maximum-Sliding-Window-Cheatsheet-Template/)
 
 
-Backtracking Pattern  
-[https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26](https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26)
 
-  
-  
+- [[Tree - leetcode]]
+- [[Graph - leetcode]]
+- [[Leetcode - Dynamic Programming ]]
+- [[Priority Queue - heap - leetcode]]
+- [[binary search]]
+- [[backtracking]] 
 
-Powerful Ultimate Binary Search Template
 
-[https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems](https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
-
-  
-
-A general approach to backtracking questions
-
-[https://leetcode.com/problems/permutations/solutions/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)/](https://leetcode.com/problems/permutations/solutions/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)/)
-
-  
-
-Binary Tree Traversal & Views
-
-[https://leetcode.com/discuss/study-guide/937307/Iterative-or-Recursive-or-DFS-and-BFS-Tree-Traversal-or-In-Pre-Post-and-LevelOrder-or-Views](https://leetcode.com/discuss/study-guide/937307/Iterative-or-Recursive-or-DFS-and-BFS-Tree-Traversal-or-In-Pre-Post-and-LevelOrder-or-Views)
-
-  
-
-Graph For Beginners [Problems | Pattern | Sample Solutions]
-
-[https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions](https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
-
-  
 
 A comprehensive guide and template for monotonic stack based problems
 
@@ -102,21 +54,12 @@ Collections of Important String questions Pattern
 [https://leetcode.com/discuss/study-guide/2001789/Collections-of-Important-String-questions-Pattern](https://leetcode.com/discuss/study-guide/2001789/Collections-of-Important-String-questions-Pattern)
 
   
-Leetcode Pattern 1 | BFS + DFS == 25% of the problems
 
-[https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353](https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353)
-
-  
 
 14 Patterns to Ace Any Coding Interview Question
 
 [https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
-  
-  
-  
-  
-  
   
   
   

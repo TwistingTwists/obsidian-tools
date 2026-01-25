@@ -314,4 +314,4 @@ graphs and trees
 
 
 ---- 
-[[Priority Queue - heap]]
+[[Priority Queue - heap - leetcode]]
