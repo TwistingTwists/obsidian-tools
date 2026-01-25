@@ -5,6 +5,8 @@ description: Document a coding mistake with structured analysis | Use after iden
 
 # Document Mistake Skill
 
+**📁 Note:** Mistakes are stored in the project root `mistakes/` folder, not in the skill directory.
+
 ## Workflow
 
 ### 1. Gather Info
@@ -40,12 +42,12 @@ Analyze the mistake and classify:
 - Tables for comparisons
 - Bullets > prose
 - Target length: ~150 words
-- **Folder**: `mistakes/` directory
+- **Folder**: `../mistakes/` (project root)
 - **File**: `[ID]_[name].md` or `[topic].md`
 - **Check existing**: Append to file if topic already documented
 
 ### 5. Checklist Before Save
-- [ ] Check if `mistakes/[topic].md` exists (append, don't overwrite)
+- [ ] Check if `../mistakes/[topic].md` exists (append, don't overwrite)
 - [ ] Type auto-detected correctly (logic|implementation|edge-case|conceptual)
 - [ ] Frontmatter includes relevant tags
 - [ ] Code examples are complete & runnable
