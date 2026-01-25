@@ -1,4 +1,9 @@
 
+---
+tags:
+  - leetcode
+---
+
 Graph For Beginners [Problems | Pattern | Sample Solutions](https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
 
 ---
