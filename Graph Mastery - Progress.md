@@ -7,7 +7,7 @@
 ## Phase 1: Foundations (Days 1-7)
 
 ### Day 1 | Graph Representation
-- [ ] LC 1971 - Find if Path Exists in Graph
+- [x] LC 1971 - Find if Path Exists in Graph ✅ (DFS template mastered, documented 3 mistakes)
 
 ### Day 2 | DFS Mastery
 - [ ] LC 797 - All Paths From Source to Target ⭐📍
