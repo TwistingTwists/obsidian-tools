@@ -24,6 +24,7 @@ This spec translates that into a Rust-first, ractor-based architecture with a **
 - **Proactive intelligence** that surfaces relevant insights without being noisy
 - **Resilience by default** (graceful degradation, circuit breakers, fallbacks)
 - **Fast evolution** with minimal rewrites: clear boundaries and versioned interfaces
+- **Quick pilot**: deliver one high-value integration fast to validate end-to-end flow
 
 ### Non-goals (for first phases)
 - Full offline local LLM reasoning
@@ -59,12 +60,14 @@ This spec translates that into a Rust-first, ractor-based architecture with a **
 ## 4) Personas & key scenarios
 - **Primary**: Household owner (admin). Wants reliable voice assistant and integration control.
 - **Secondary**: Family members (spouse/kids). Need friendly, safe, context-aware experience.
+- **Pilot user**: Mom. Wants a simple, reliable diet tracker that works by voice.
 
 Key scenarios:
 1) “What’s Levi doing this weekend?” (memory + calendar)
 2) “Order paper towels” (permissioned commerce workflow)
 3) Proactive reminder that calendar and weather conflict
 4) “Remember this” → knowledge stored and usable later
+5) “I ate two rotis and dal for lunch” → calorie estimate logged with daily totals
 
 ---
 
@@ -135,6 +138,9 @@ Contracts are **stable** and unit-tested. Each adapter implements a trait; all b
 ### Tool invocation log
 - `tool_id`, `params`, `result`, `status`, `latency_ms`
 
+### Nutrition log entity (pilot)
+- `id`, `user_id`, `meal_time`, `items`, `estimated_calories`, `confidence`, `source`, `created_at`
+
 ---
 
 ## 7) Voice experience spec (MVP)
@@ -184,6 +190,7 @@ Contracts are **stable** and unit-tested. Each adapter implements a trait; all b
 - Send email: confirm
 - Unlock door: confirm
 - Delete memory: confirm
+- Nutrition logging: autonomous (user-only), with edit/undo
 
 ---
 
@@ -257,14 +264,15 @@ Examples: calendar scout, weather scout, email scout
 
 **Exit criteria**: Service boots on Linux and exposes health + logs with config loaded.
 
-### Phase 1 — Core runtime + Memory MVP
+### Phase 1 — Core runtime + Memory + One Integration (Diet Planner)
 - Conversation orchestration loop (text-only first)
 - Postgres + pgvector memory store with encryption at rest
 - Bootstrap context pipeline + hybrid retrieval
 - Pluggable LLM interface with one provider implementation
+- Diet planner integration: parse meals, estimate calories, store in Postgres
 - Admin CLI for debugging and seed data
 
-**Exit criteria**: Text request → LLM → response; memory persists and retrieves with bootstrap.
+**Exit criteria**: Text request → LLM → response; meal entries logged and queryable by day.
 
 ### Phase 2 — Voice MVP + Permissions
 - Cloud STT/TTS adapters (Azure, Groq options)
@@ -273,7 +281,7 @@ Examples: calendar scout, weather scout, email scout
 - Multi-user identity + policy enforcement (kids vs adults)
 - Explicit forbidden actions enforced
 
-**Exit criteria**: Voice loop works end-to-end; permissions enforced; forbidden actions blocked.
+**Exit criteria**: Voice loop works end-to-end; diet logging works by voice.
 
 ### Phase 3 — Tooling + Household Integrations
 - Calendar + reminders (read/write with gating)
@@ -281,7 +289,7 @@ Examples: calendar scout, weather scout, email scout
 - Email summaries and smart filtering
 - gRPC/HTTP APIs ready for future clients
 
-**Exit criteria**: Core household workflows supported with policy enforcement.
+**Exit criteria**: Additional household workflows supported with policy enforcement.
 
 ### Phase 4 — Scouts + Proactive Intelligence
 - Scout scheduler + relevance scoring + escalation logic
