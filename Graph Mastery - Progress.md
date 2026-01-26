@@ -11,7 +11,7 @@
 
 ### Day 2 | DFS Mastery
 - [x] LC 797 - All Paths From Source to Target ⭐📍 ✅
-- [ ] LC 547 - Number of Provinces ⭐🔑
+- [x] LC 547 - Number of Provinces ⭐🔑 ✅
 - [ ] LC 695 - Max Area of Island ⭐
 
 ### Day 3 | BFS Mastery

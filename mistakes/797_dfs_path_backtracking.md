@@ -131,3 +131,41 @@ Mental model test:
 - "Will the same node appear in different valid paths?" → No `visited` set needed
 - "Do I save the state?" → Always copy, never reference
 - "When do I restore?" → After exploring all children, not just in base case
+
+---
+
+## Universal Backtracking Template
+
+**Memorize this structure for ANY backtracking problem:**
+
+```python
+def backtrack(state):
+    if is_solution(state):
+        save_solution(state)
+        return
+
+    for choice in get_choices(state):
+        make_choice(choice)      # Add/modify state
+        backtrack(new_state)     # Explore deeper
+        undo_choice(choice)      # Remove/restore (backtrack)
+```
+
+**Applied to LC 797:**
+```python
+def backtrack(node):
+    current_path.append(node)           # make_choice: Add node
+
+    if node == target:
+        all_paths.append(current_path.copy())  # save_solution: Copy!
+    else:
+        for neighbor in graph[node]:
+            backtrack(neighbor)         # Explore
+
+    current_path.pop()                  # undo_choice: Restore state
+```
+
+**Pattern checklist:**
+- ✓ Add state → Explore → Remove state (symmetric)
+- ✓ Save happens INSIDE the function, restore happens OUTSIDE
+- ✓ Always copy collections before saving
+- ✓ Backtrack AFTER the loop/all children explored
