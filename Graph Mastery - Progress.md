@@ -10,7 +10,7 @@
 - [x] LC 1971 - Find if Path Exists in Graph ✅ (DFS template mastered, documented 3 mistakes)
 
 ### Day 2 | DFS Mastery
-- [ ] LC 797 - All Paths From Source to Target ⭐📍
+- [x] LC 797 - All Paths From Source to Target ⭐📍 ✅
 - [ ] LC 547 - Number of Provinces ⭐🔑
 - [ ] LC 695 - Max Area of Island ⭐
 
