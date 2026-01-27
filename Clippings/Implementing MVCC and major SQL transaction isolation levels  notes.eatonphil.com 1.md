@@ -1,12 +1,13 @@
 ---
-title: "Implementing MVCC and major SQL transaction isolation levels | notes.eatonphil.com"
-source: "https://notes.eatonphil.com/2024-05-16-mvcc.html"
+title: Implementing MVCC and major SQL transaction isolation levels | notes.eatonphil.com
+source: https://notes.eatonphil.com/2024-05-16-mvcc.html
 author:
 published:
 created: 2026-01-27
-description: "Implementing MVCC and major SQL transaction isolation levels"
+description: Implementing MVCC and major SQL transaction isolation levels
 tags:
-  - "clippings"
+  - clippings
+  - turbopuffer
 ---
 In this post we'll build a database in 400 lines of code with basic support for five standard SQL transaction levels: Read Uncommitted, Read Committed, Repeatable Read, Snapshot Isolation and Serializable. We'll use multi-version concurrency control (MVCC) and optimistic concurrency control (OCC) to accomplish this. The goal isn't to be perfect but to explain the basics in a minimal way.
 

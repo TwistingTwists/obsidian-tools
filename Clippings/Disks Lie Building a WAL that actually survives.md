@@ -9,6 +9,7 @@ description: A write-ahead log (WAL) is one of those database concepts that soun
 tags:
   - clippings
   - database
+  - turbopuffer
 ---
 A write-ahead log (WAL) is one of those database concepts that sounds deceptively simple. You write a record to disk before applying it to your in-memory state. If you crash, you replay the log and recover. Done.
 
