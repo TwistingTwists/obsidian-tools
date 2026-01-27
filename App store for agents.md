@@ -1,3 +1,8 @@
+---
+tags:
+  - startups
+---
+
 Agent does what? 
 - immaterial. Like an app. 
 
