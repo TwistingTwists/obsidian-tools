@@ -1,6 +1,9 @@
 views:
   - type: table
     name: Table
+    sort:
+      - property: file.name
+        direction: ASC
   - type: table
     name: lastweek
     filters:
@@ -29,5 +32,14 @@ views:
     sort:
       - property: file.name
         direction: DESC
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: sync-engines
+    filters:
+      or:
+        - file.hasTag("sync-engine")
+        - file.hasTag("sync-engines")
+    sort:
       - property: file.mtime
         direction: DESC
