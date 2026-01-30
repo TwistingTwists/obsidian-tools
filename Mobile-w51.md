@@ -1,3 +1,8 @@
+---
+tags:
+  - ai-infra
+---
+
 Reinforcement learning 
 - what is policy and how is it different from replay buffer ? 
 - value estimation? - mean value expectation + bellman equation 

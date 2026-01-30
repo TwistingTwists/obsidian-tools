@@ -1,3 +1,8 @@
+---
+tags:
+  - ai-infra
+---
+
 https://x.com/steveruizok/status/2014454765887868999
 
 
