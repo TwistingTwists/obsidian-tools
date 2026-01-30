@@ -1,15 +1,15 @@
 ---
-title: "Testing sync at Dropbox"
-source: "https://dropbox.tech/infrastructure/-testing-our-new-sync-engine"
+title: Testing sync at Dropbox
+source: https://dropbox.tech/infrastructure/-testing-our-new-sync-engine
 author:
   - "[[Isaac Goldberg]]"
 published: 2020-04-21
 created: 2025-12-19
 description:
 tags:
-  - "clippings"
+  - clippings
+  - sync-engine
 ---
-![](https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/infrastructure/infra-testing-nucleus/DBX_TechBlog_Guidelines_Mobile_375x150_Light.png) ![](https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/infrastructure/infra-testing-nucleus/DBX_TechBlog_Guidelines_Mobile_375x150_Dark.png)
 
 // By Isaac Goldberg • Apr 20, 2020
 
@@ -253,7 +253,3 @@ Special thanks to Ben Blum and Sujay Jayakar for contributions and to Geoff Song
 - [Infrastructure](https://dropbox.tech/infrastructure)
 - [Testing](https://dropbox.tech/tag-results.testing)
 - [Sync](https://dropbox.tech/tag-results.sync)
-
-// Copy link  
-
-- [![Share on Linkedin](https://dropbox.tech/cms/etc.clientlibs/settings/wcm/designs/dropbox-tech-blog/clientlib-article-content/resources/linkedin.svg)](https://www.linkedin.com/shareArticle?mini=true&url=https://dropbox.tech/infrastructure/-testing-our-new-sync-engine&title=%20Testing%20sync%20at%20Dropbox&source=https://dropbox.tech/infrastructure/-testing-our-new-sync-engine)

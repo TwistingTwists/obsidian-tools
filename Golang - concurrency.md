@@ -1,9 +1,11 @@
 
+[[golang concurrency - basics]]
 [[Primitives - blocking queue]]
 
 [[Channels]]
 
+[[Queue - insertion blocking, pop not blocking]]
 
+[[Worker pools toy]]
 
-https://claude.ai/share/cc600d9d-0c0c-45b4-9dde-95b236e0103a
 

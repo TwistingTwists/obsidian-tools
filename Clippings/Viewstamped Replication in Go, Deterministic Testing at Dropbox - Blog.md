@@ -9,6 +9,7 @@ description: Viewstamped Replication makes a comeback, and I dig into distribute
 tags:
   - clippings
   - blog
+  - sync-engines
 ---
 ### Viewstamped Replication makes a comeback; I dig into distributed simulation testing with Dropbox, FoundationDB, and Tigerbeetle.
 
